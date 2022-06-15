@@ -1,0 +1,27 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "transient-tag-editor",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a localhost -p 8003"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "transient",
+    "matterport"
+  ],
+  "author": "michaelaffare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rmauldin/matterport/issues"
+  },
+  "homepage": "https://github.com/Rmauldin/matterport/tree/master#readme",
+  "devDependencies": {
+    "http-server": "^14.1.0"
+  }
+}
