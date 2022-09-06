@@ -20,10 +20,12 @@ Michael Affare is a Master of Information Systems Management graduate student at
 ## Recent Work
 
 ### Classwork
-[Task 1: King County Demo page](classroom/kingcounty.md)
+- Task 1: [King County Demo page](classroom/kingcounty.md)
 
 ### Assignments
+...
 
 ### Projects
+...
 
 [back](../index.html)
