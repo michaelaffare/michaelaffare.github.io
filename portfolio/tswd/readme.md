@@ -19,7 +19,7 @@ Michael Affare is a Master of Information Systems Management graduate student at
 - [ ]  Simplification of visualizations
 [read more. . .](blog/what-i-wish-to-learn.md)
 
-## Recent Work
+## <span style="color:#E04343">Portfolio</span> Recent Work
 
 ### Classwork
 - [x]  Task 1: [King County Demo page](classroom/kingcounty.md)
