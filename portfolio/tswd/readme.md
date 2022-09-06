@@ -2,7 +2,7 @@
 ## Portfolio
 
 
-
+<html>
 	  	<!-- ==========================
         HEADER SECTION 
         =========================== -->
@@ -57,19 +57,20 @@
               </div>
             </div>
           </section>
-		  <!-- Header Image End -->
         </header>
-		<!-- ==========================
-        HEADER SECTION END  
-        =========================== -->
-		
-		      <br/><br/>
+		<br/><br/>
         <div class="row">
           <div class="col-md-12">
             <h1 class="arrow">What I hope to learn</h1>s</h1>
           </div>
         </div>
         <div class="row">
+ </html>
+
+        1. Simplifying presentations
+        2. Effective use of colour
+        3. Ability to select the right visualisation style for any dataset
+        4. Effective interactive design
 
   
 
