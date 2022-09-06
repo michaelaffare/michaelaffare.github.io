@@ -1,5 +1,5 @@
 # Portfolio  
-## 94870 C1 (Telling Stories with Data)
+## <span style="color:#E04343">94870 C1 (Telling Stories with Data)</span>
 
 ### About the course
 This course shares insights on how to effectively communicate through visualization.
