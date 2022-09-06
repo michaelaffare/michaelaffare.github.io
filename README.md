@@ -1,5 +1,4 @@
-# JohnDoe
-A Responsive Free One Page Portfolio Website template
+## Michael Affare's personal website
 
 
 
