@@ -1,4 +1,3 @@
-
 # What I wish to learn
 ## Telling Stories with Data
 This course shares insights on how to effectively communicate through visualization.
@@ -21,3 +20,5 @@ Along this course I wish to because more adept at finding the right visualizatio
 ### Simplification of visualizations
 Sometimes keeping things simple can be very hard, especially when you wish to convey a lot in one visualization.
 This course will make me better at desing choices that will help me remove noise from my communication and do a better job with visualisation.
+
+[back](../readme.md)
