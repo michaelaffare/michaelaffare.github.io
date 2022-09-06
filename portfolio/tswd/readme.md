@@ -13,9 +13,9 @@ Michael Affare is a Master of Information Systems Management graduate student at
 
 
 ### [What I wish to learn](blog/what-i-wish-to-learn.md)
-- [x]  Use of colour :smiley:
-- [x]  Interactive Design :star_struck:
-- [ ]  Choosing the right visualization for a given data :thinking:
+- [x]  Use of colour 😃 
+- [x]  Interactive Design 🤩
+- [ ]  Choosing the right visualization for a given data 🤔
 - [ ]  Simplification of visualizations
 [read more. . .](blog/what-i-wish-to-learn.md)
 
