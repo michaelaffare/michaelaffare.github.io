@@ -8,21 +8,23 @@ In the long run it seeks to make learners more efficient with in communicating t
 
 ### [About me](../../index.html#about)
 Michael Affare is a Master of Information Systems Management graduate student at Carnegie Mellon University. I have 4 years work experience as a Solutions Architect at AirtelTigo Telecommunications Company. I worked briefly in Australia as an Application Support Analyst at Freshtrack Systems and interned at Hubble.sh as a Data Scientist.
-[learn more](https://linkedin.com/in/michaelaffare)
+[more from linkedin . . ](https://linkedin.com/in/michaelaffare)
 
 
-### Things I wish to learn
+### [What I wish to learn](blog/what-i-wish-to-learn.md)
 - [x]  Use of colour
 - [x]  Interactive Design
 - [ ]  Choosing the right visualization for a given data
 - [ ]  Simplification of visualizations
+[read more. . .](blog/what-i-wish-to-learn.md)
 
 ## Recent Work
 
 ### Classwork
-- Task 1: [King County Demo page](classroom/kingcounty.md)
+- [x]  Task 1: [King County Demo page](classroom/kingcounty.md)
 
 ### Assignments
+- [x] Assignment 1: Critique of 2 
 ...
 
 ### Projects
