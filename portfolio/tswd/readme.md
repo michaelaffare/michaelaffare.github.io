@@ -1,4 +1,4 @@
-# Michael Affare Portfolio  
+# Portfolio  
 ## 94870 C1 (Telling Stories with Data)
 
 ### About the course
