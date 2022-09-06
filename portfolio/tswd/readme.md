@@ -25,11 +25,12 @@ Michael Affare is a Master of Information Systems Management graduate student at
 - [x]  Task 1: [King County Demo page](classroom/kingcounty.md)
 
 ### Assignments
-Week 1
+> Week 1
 - [x] Assignment 1: "Assignment: Data visualization critique #1"
 - [x] Assignment 1b: ["Assignment: Setting up your online portfolio"](../../index.html)
 - [x] Discussion 1: [Controlling Color - Week One (Discussion/Workbook)](https://canvas.cmu.edu/courses/29786/discussion_topics/432587?module_item_id=5170516)
-Week 2
+
+> Week 2
 - [ ] Assignment 2: "Assignment: Visualizing government debt"
 - [ ] Discussion 2: [Crafting for Clarity - Week Two (Discussion/Workbook)](https://canvas.cmu.edu/courses/29786/discussion_topics/432588?module_item_id=5170547)
 ...
