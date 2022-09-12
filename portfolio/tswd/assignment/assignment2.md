@@ -31,6 +31,7 @@ UK data was not present so Great Britain data was used as a representative of th
 <div class="flourish-embed flourish-chart" data-src="visualisation/11162273"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 #### Design choises
+- This original dataset was filtered for the G7 data and transposed to fit the Flourish platform table structure required for the Line Chart race.
 - This visualization was choisen because it factors in interactive design principles; the race from 1995 shows the gradual change both in rank and cost of the various G7 nations.
 - The use of grey to blur into the background the other 5 countries allows the viewer to focus on the two main focus countries (Japan and Canada).
 - Red was chosen for Japan to symbolize the alert (alarming nature) of it's rise in government debt, whiles cool blue was chosen to depict positivity in the drop of the debt-to-GDP ratio of Canada.
