@@ -14,7 +14,7 @@ This data generally suggests a rise in the Debt-to-GDP for most countries repres
 <div class="flourish-embed flourish-chart" data-src="visualisation/11161753"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 
-## The Government Debt of G7 Countries 1995-2020: The fall of Japan and the Rise of Canada
+## The Government Debt of G7 Countries 1995-2020: 
 ### The rise of Japan's Debt-to-GDP ratio versus Canada's impressive management of government debt
 #### By Michael Affare
 This Line Chart race visualization uses data from The Organization for Economic Co-operation and Development (OECD) to view the Government debt of the G7 [(Group of Seven)](https://en.wikipedia.org/wiki/G7) nations from 1995 to 2020.
