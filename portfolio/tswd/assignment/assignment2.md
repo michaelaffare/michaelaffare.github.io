@@ -31,11 +31,11 @@ UK data was not present so Great Britain data was used as a representative of th
 <div class="flourish-embed flourish-chart" data-src="visualisation/11162273"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 #### Design choises
-- [ ] This visualization was choisen because it factors in interactive design principles; the race from 1995 shows the gradual change both in rank and cost of the various G7 nations.
-- [ ] The use of grey to blur into the background the other 5 countries allows the viewer to focus on the two main focus countries (Japan and Canada).
-- [ ] Red was chosen for Japan to symbolize the alert (alarming nature) of it's rise in government debt, whiles cool blue was chosen to depict positivity in the drop of the debt-to-GDP ratio of Canada.
+- This visualization was choisen because it factors in interactive design principles; the race from 1995 shows the gradual change both in rank and cost of the various G7 nations.
+- The use of grey to blur into the background the other 5 countries allows the viewer to focus on the two main focus countries (Japan and Canada).
+- Red was chosen for Japan to symbolize the alert (alarming nature) of it's rise in government debt, whiles cool blue was chosen to depict positivity in the drop of the debt-to-GDP ratio of Canada.
 > For simplicity:
-- [ ] The country abbreviations were maintained (i.e. JPN, ITA, USA, GBR, FRA, CAN and DEU) since given the context of G7 nations, those abbreviations can intuitively be recognised by the reader without the clutter of spelling them in full.
-- [ ] Also the axis are purposely not labeled as the y-axis can intutively be recognized as the debt-to-GDP ration and the x-axis as the years from 1995 to 2020 (the interactive race gives a hint)
+- The country abbreviations were maintained (i.e. JPN, ITA, USA, GBR, FRA, CAN and DEU) since given the context of G7 nations, those abbreviations can intuitively be recognised by the reader without the clutter of spelling them in full.
+- Also the axis are purposely not labeled as the y-axis can intutively be recognized as the debt-to-GDP ration and the x-axis as the years from 1995 to 2020 (the interactive race gives a hint)
 
 
