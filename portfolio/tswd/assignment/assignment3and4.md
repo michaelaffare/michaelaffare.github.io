@@ -41,7 +41,7 @@ The below designs were proposed as Solutions
 ![2_sol1](../../../img/assignmet/3n4/2_sol1.png)
 
 - [] Solution 2 - Tree Maps
-![2_sol2](../../../img/assignmet/3n4/2_sol2.png)
+![2_sol2](../../../img/assignmet/3n4/3_sol2.png)
 
 
 [link to solution testing - feedback](https://docs.google.com/forms/d/19SKseS_ksZhfiW71MLcn495kR6TKzsdJsj6n60cgaVU/viewanalytics)
