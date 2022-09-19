@@ -1,39 +1,69 @@
 # Assignment: Critique of CNBC's Marvel heroes propelled Disney to the top of the 2021 domestic box office
 
 
-## Critiquing 
-CNBS's arcticle on Jan 7, 2022 on [Marvel heroes propelled Disney to the top of the 2021 domestic box office](https://www.cnbc.com/2022/01/07/disney-topped-the-2021-domestic-box-office.html)
+## Step 1: find a data visualization (with data you can use)!
+The <a href="https://www.cnbc.com/2022/01/07/disney-topped-the-2021-domestic-box-office.html" target="_blank">CNBC article on "Marvel Heroes propelled Disney to Top 2021's Domestic Box Office"</a> contains the below visualisations that seek to communicate how Marvel movies helped Disney become the leading studio in 2021 in terms of Box office earnings.
+
+I chose this visualization because I covered an interesting topic on who big Marvel movies are as a business opportunity.
+
+#### Step 1b: getting the data
+The visualisation sited Camscore as the data source however there was no link directly to the data to be used. 
+I found a comparable data source from Box Office Mojo; the CNBC visualization figures were consistent with that source:
+It required scraping the table on the Box Office Mojo website, cleaning up the data and aggregatting some studios under their parent companies.
+Eventually arriving at comparable figures.
 
 
-## Marvel Heroes propelled Disney to Top 2021's Domestic Box Office (solution 1)
-First proposed solution - Treemap graph
+## Step 2: critique the visualization
+Summary: <br/>
+These 5 CNBC visualizations used 5 simplified and intuitive graphs:
+- 1 “segmented bar graph”, 
+- 3 “bar graphs” and a 
+- 1 “3-column table” (with a small bar graph visualization in the 3rd column) 
+<br/>
+![cnbc_vizualisations](../../../img/assignmet/3n4/1_cnbc_viz.png)
+Source: <a href="https://www.cnbc.com/2022/01/07/disney-topped-the-2021-domestic-box-office.html" target="_blank">CNBC Entertainment</a>
+<br/>
+These visuals were used to convey the message "Marvel Heroes propelled Disney to Top 2021's Domestic Box Office". 
+The visuals focused on the North American domestic Box Office and used numbers that are focused on that audience.
+Although these 5 visualizations are individually clear and contain true facts, they do not effectively highlight the main point (i.e., Marvel movies helped Disney top the box office). 
+The viewer is required to mentally piece together the visualisations and draw a conclusion that is not obvious in the visualizations. 
+The Marvel movies were not highlighted so it is assumed that every reader already knows which movies are Marvel movies. This assumption may cause readers who are not subject matter experts to miss the point of the visualisations.
+The average entertainment segment reader of CNBC articles may appreviate one or two simple visual that already provides direct visual comparisons. They would also appreciate some level of intereactive design that allows them to explore the data.   
+In summary, the 5 visuals are aesthetically simple and clean but are not directly addressing the point. 
+They are useful, true, and intuitive but may need some improvement to make them collectively useful to the reader and perceptible (convey the point of the article more directly).
+<br/>
+Scores
+- Usefulness: (6/10)
+- Completeness: (7/10)
+- Perceptibility: (7/10)
+- Truthfulness: (6/10)
+- Intuitiveness: (7/10)
+- Aesthetics: (7/10)
+- Engagement: (5/10)
+
+
+## Step 3: wireframe a solution
+Based on the critique, I assessed the data and realized that this kindly of information could be better represented with 
+-  Segmented bar graph
+-  Tree Maps
+
+#### Solution 1: Segmented Bar Graph
+The first idea was to capture the marvel and non-marvel movie segments within the same bar graph so it is obvious how each segment impacted the general performance. 
+The bar graphs were then ordered in descening order from the top ranked studio to the least ranked to make it obvious that Disney was the leading studio.<br/>
+<div class="flourish-embed flourish-hierarchy" data-src="visualisation/11217477"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+#### Solution 2: Treemap graph
+A treemap reveals the proportions of the various segmets and directly shows how much of an impact Marvel movies had on Disney studio's performance. 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/11216182"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 
-## Marvel Heroes propelled Disney to Top 2021's Domestic Box Office (Solution 2)
-Second proposed solution - Bar graph
-<div class="flourish-embed flourish-hierarchy" data-src="visualisation/11217477"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+## Sept 4: test the solution (get feedback)
 
-# Solution Story
 
-## Step 1 - Identify the graph and the Story
-### Visulations from CNBC Story
-The <a href="https://www.cnbc.com/2022/01/07/disney-topped-the-2021-domestic-box-office.html" target="_blank">CNBC article on Marvel Heroes propelled Disney to Top 2021's Domestic Box Office</a> contains the below visualisations that seek to communicate how Marvel movies helped Disney become the leading studio in 2021 in terms of Box office earnings.
 
-![cnbc_vizualisations](../../../img/assignmet/3n4/1_cnbc_viz.png)
 
-## Step 2 - Critique the solution 
-Summary:
-These 5 CNBC visualizations on the topic “Marvel heroes propelled Disney to the top of the 2021 domestic box office” adopted 5 simple and intuitive “segmented bar graph”, “bar graphs” and a “3-column table” (with a small bar graph visualization in the 3rd column) to communicate information that could support the case. Although these 5 visualizations are individually clear and true facts, they do not effectively provide a consolidated visual that highlights the main point of Disney doing better because of Marvel movies as compared to other distributors/studios. The viewer will need to give it some extra though or come up with a small mental sketch to derive the conclusion being made by the 5 visuals. The entertainment segment reader of CNBC articles may want a simple visual that already provides direct visual comparisons (not just for individual movies) but of the studios; The author also assumed the reader can identify which movie is a Marvel movie and which one is not (as there were no highlights in any of the graphs to display the distinction between Marvel movies and other movies). 3 out of 5 of the visualizations also did not clarify that the gross amounts mentioned were considering only North America, which is an important clarification for viewers and data credibility standpoint (to avoid viewers questioning some of the numbers or underestimate the total earning). Generally, the 5 graphs are aesthetically simple and clean but not very engaging. They are useful, true, and intuitive but may need some improvement to make them collectively useful to the reader and perceptible (convey the point of the article more directly).
 
-Scores
-- [] Usefulness: (6/10)
-- [] Completeness: (7/10)
-- [] Perceptibility: (7/10)
-- [] Truthfulness: (6/10)
-- [] Intuitiveness: (7/10)
-- [] Aesthetics: (7/10)
-- [] Engagement: (5/10)
+
 
 ## Step 3 - Redesign and testing solution (feedback)
 The below designs were proposed as Solutions
