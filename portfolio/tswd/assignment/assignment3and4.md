@@ -15,7 +15,7 @@ Eventually arriving at comparable figures.
 
 ## Step 2: critique the visualization
 Summary: <br/>
-These 5 CNBC visualizations used 5 simplified and intuitive graphs:
+CNBC used 5 simplified and intuitive graphs:
 - 1 “segmented bar graph”, 
 - 3 “bar graphs” and a 
 - 1 “3-column table” (with a small bar graph visualization in the 3rd column) 
