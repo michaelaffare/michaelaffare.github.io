@@ -76,7 +76,7 @@ Solution 1: review 2
 ![5_sol1_improved2](../../../img/assignmet/3n4/5_sol1_improved2.jpg)
 
 Solutions 2: review 1
-![6_sol1_improved1](../../../img/assignmet/3n4/6_sol2_improved1.jpg)
+![6_sol2_improved1](../../../img/assignmet/3n4/6_sol2_improved1.jpg)
 
 The raw data contains a lot of information that could be hidden behind these designs and reviewed through interactive design tools avialable in flourish. This simplifies the overview of the visualisation for viewers who just want a gist and gives curious viewers the opportunity to drill down to discover movies of interest.
 
@@ -101,4 +101,4 @@ By Michael Affare
 
 
 
-continued. . . .
+work in progress. . . .
