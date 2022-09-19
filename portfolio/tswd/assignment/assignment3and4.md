@@ -47,9 +47,33 @@ Based on the critique, I assessed the data and realized that this kindly of info
 -  Segmented bar graph
 -  Tree Maps
 
-#### Solution 1: Segmented Bar Graph
+#### Solution 1: Segmented Bar
 The first idea was to capture the marvel and non-marvel movie segments within the same bar graph so it is obvious how each segment impacted the general performance. 
 The bar graphs were then ordered in descening order from the top ranked studio to the least ranked to make it obvious that Disney was the leading studio.<br/>
+![2_sol1](../../../img/assignmet/3n4/2_sol1.png)
+
+
+#### Solution 2: Treemap
+A treemap tries to capture everything in proportions.
+![2_sol2](../../../img/assignmet/3n4/3_sol2.png)
+
+
+
+## Sept 4: test the solution (get feedback)
+People from different backgrounds were interviewed including an architect, social worker, data analyst, human resource person etc. This was to help see the visualisations from a different viewpoint.
+
+Some people found the treemap concept confusing whiles others (like the architect) found that visualization very intuitive. But the general idea was that both proposed solutions made it easier to get the idea being conveyed by the title. Some improvements were suggested concerning the use of colour and the orientation of the bar graphs.
+
+A report of the interviews is summarized below:
+[link to solution testing - feedback](https://docs.google.com/forms/d/19SKseS_ksZhfiW71MLcn495kR6TKzsdJsj6n60cgaVU/viewanalytics)
+
+
+## Step 5: build your Solutions
+
+#### Solution 1: Segmented bar graph
+The final solutions allowed the viewer to engage with the designs and uncover more information if needed:
+
+This is the bar graph that shows how Marvel movies pushed Disney to the top
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/11217477"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 #### Solution 2: Treemap graph
@@ -57,23 +81,12 @@ A treemap reveals the proportions of the various segmets and directly shows how 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/11216182"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 
-## Sept 4: test the solution (get feedback)
+Conclusion:
+The design process was iterative and getting feedback from friends and peers really helped me see the visualization in a different light.
+I can understand that the original design was probably done within a shorter period which did not allow for such elaborate considerations in design. I hope that my redesign adds value to the insightful message captured by the author in this CNBC article.
+
+By Michael Affare
 
 
-
-
-
-
-
-## Step 3 - Redesign and testing solution (feedback)
-The below designs were proposed as Solutions
-- [] Solution 1 - Bar graphs
-![2_sol1](../../../img/assignmet/3n4/2_sol1.png)
-
-- [] Solution 2 - Tree Maps
-![2_sol2](../../../img/assignmet/3n4/3_sol2.png)
-
-
-[link to solution testing - feedback](https://docs.google.com/forms/d/19SKseS_ksZhfiW71MLcn495kR6TKzsdJsj6n60cgaVU/viewanalytics)
 
 continued. . . .
