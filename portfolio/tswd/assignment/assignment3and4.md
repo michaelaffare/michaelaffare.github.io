@@ -101,9 +101,12 @@ The solution was shared with a group of 4 colleagues and the following suggestio
 - Percentages to 2 decimal places is an unneccesary detail
 - Colour scheme should reflect more of a MARVEL theme (matte red and white could be more relateable)
 
-> Final visualization 
+> Final visualization: Solution 1 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/11235444"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
+
+> Final visualization: Solution 2
+<div class="flourish-embed flourish-hierarchy" data-src="visualisation/11236455"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 Conclusion:
 The design process was iterative and getting feedback from friends and peers really helped me see the visualization in a different light.
