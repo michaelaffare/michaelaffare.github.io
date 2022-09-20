@@ -4,13 +4,13 @@
 ## Step 1: find a data visualisation (with data you can use)!
 The <a href="https://www.cnbc.com/2022/01/07/disney-topped-the-2021-domestic-box-office.html" target="_blank">CNBC article on "Marvel Heroes propelled Disney to Top 2021's Domestic Box Office"</a> contains the below visualisations aimed at communicating how Marvel movies helped Disney to become the leading studio in 2021 in terms of Box office earnings.
 
-I chose this visualisation because I covered an exciting topic on who big Marvel movies are as a business opportunity.
+I chose this visualisation because I covered an exciting topic on how Marvel movies significantly impact the movie industry.
 
-#### Step 1b: getting the data
-The visualisation cited Comscore as the data source; however, there was no link directly to the data to be used. 
+#### Step 1b: Getting the data
+Although CNBC cited Comscore as the data source, there were no direct links to the data. 
 I found a comparable data source from Box Office Mojo; the CNBC visualisation figures were consistent with that source:
-It required scraping the table on the Box Office Mojo website, cleaning up the data and aggregating some studios under their parent companies.
-It was eventually arriving at comparable figures.
+It required scraping the table on the Box Office Mojo website, cleaning up the data and aggregating some smaller studios under their parent companies.
+It was eventually arriving at comparable figures. NB: Numbers in the original article do not precisely match the numbers from the source I used, but it is reasonably close due to some small studios that are not aggregated or estimated in the original visualisation.
 
 
 ## Step 2: critique the visualisation
@@ -23,7 +23,8 @@ CNBC used five simplified and intuitive graphs:
 ![cnbc_vizualisations](../../../img/assignmet/3n4/1_cnbc_viz.png)
 Source: <a href="https://www.cnbc.com/2022/01/07/disney-topped-the-2021-domestic-box-office.html" target="_blank">CNBC Entertainment</a>
 <br/>
-These visuals conveyed the message, "Marvel Heroes propelled Disney to Top 2021's Domestic Box Office". 
+
+These visuals conveyed the message, "Marvel Heroes propelled Disney to Top 2021's Domestic Box Office", but not very effectively.
 The visuals focused on the North American domestic Box Office and used numbers to concentrate on that audience.
 Although these five visualisations are individually clear and contain facts, they do not effectively highlight the main point (i.e., Marvel movies helped Disney top the box office). 
 The viewer must mentally piece together the visualisations and draw a conclusion that is not obvious in the visualisations. 
@@ -31,7 +32,7 @@ The Marvel movies were not highlighted, so it is assumed that every reader alrea
 The average entertainment segment reader of CNBC articles may appreciate one or two simple visualisations that already provide direct visual comparisons. They would also enjoy some interactive design that allows them to explore the data.   
 In summary, the five visuals are aesthetically simple and clean but are not directly addressing the point. 
 They are useful, true, and intuitive but may need some improvement to make them collectively useful to the reader and perceptible (convey the article's point more directly).
-<br/>
+
 Scores
 - Usefulness: (6/10)
 - Completeness: (7/10)
