@@ -102,6 +102,7 @@ The solution was shared with a group of 4 colleagues, and the following suggesti
 - Percentages to 2 decimal places is an unnecessary detail
 - Colour scheme should reflect more of a MARVEL theme (matte red and white could be more relateable)
 - Improve the title: Include Sony as a direct comparison to Disney
+- No need for different shades of gray for studios that are not in focus
 
 > Final visualization: Solution 1 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/11235444"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
