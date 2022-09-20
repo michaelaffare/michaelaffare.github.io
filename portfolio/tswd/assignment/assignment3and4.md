@@ -28,7 +28,7 @@ The visuals focused on the North American domestic Box Office and used numbers t
 Although these 5 visualizations are individually clear and contain true facts, they do not effectively highlight the main point (i.e., Marvel movies helped Disney top the box office). 
 The viewer is required to mentally piece together the visualisations and draw a conclusion that is not obvious in the visualizations. 
 The Marvel movies were not highlighted so it is assumed that every reader already knows which movies are Marvel movies. This assumption may cause readers who are not subject matter experts to miss the point of the visualisations.
-The average entertainment segment reader of CNBC articles may appreviate one or two simple visual that already provides direct visual comparisons. They would also appreciate some level of intereactive design that allows them to explore the data.   
+The average entertainment segment reader of CNBC articles may appreciate one or two simple visual that already provides direct visual comparisons. They would also appreciate some level of intereactive design that allows them to explore the data.   
 In summary, the 5 visuals are aesthetically simple and clean but are not directly addressing the point. 
 They are useful, true, and intuitive but may need some improvement to make them collectively useful to the reader and perceptible (convey the point of the article more directly).
 <br/>
@@ -91,6 +91,17 @@ This is the bar graph that shows how Marvel movies pushed Disney to the top
 #### Solution 2: Treemap graph
 A treemap reveals the proportions of the various segmets and directly shows how much of an impact Marvel movies had on Disney studio's performance. 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/11216182"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+
+
+## Final classroom review
+The solution was shared with a group of 4 colleagues and the following suggestions were made
+- The colour is too faint;  hard to read the labels/text
+- the use of colour for the "Other Marvel Movies" and "Other Disney Movies" should be consistent
+- Percentages to 2 decimal places is an unneccesary detail
+
+> Reviewed solution 
+<div class="flourish-embed flourish-hierarchy" data-src="visualisation/11235444"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 
 Conclusion:
