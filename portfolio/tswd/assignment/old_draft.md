@@ -2,7 +2,7 @@
 
 
 ## Step 1: find a data visualization (with data you can use)!
-The <a href="https://www.cnbc.com/2022/01/07/disney-topped-the-2021-domestic-box-office.html" target="_blank">CNBC article on "Marvel Heroes propelled Disney to Top 2021's Domestic Box Office"</a> contains the below visualisations that seek to communicate how Marvel movies helped Disney become the leading studio in 2021 in terms of Box office earnings.
+The <a href="https://www.cnbc.com/2022/01/07/disney-topped-the-2021-domestic-box-office.html" target="_blank">CNBC article on "Marvel Heroes propelled Disney to Top 2021's Domestic Box Office"</a> contains the below visualisations aimed at communicating how Marvel movies helped Disney to become the leading studio in 2021 in terms of Box office earnings.
 
 I chose this visualization because I covered an interesting topic on who big Marvel movies are as a business opportunity.
 
@@ -117,4 +117,4 @@ By Michael Affare
 
 
 
-work in progress. . . .
+[Back](../../tswd/readme.md)

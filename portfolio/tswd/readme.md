@@ -37,7 +37,7 @@ Michael Affare is a Master of Information Systems Management graduate student at
 - [ ] Discussion 2: [Crafting for Clarity - Week Two (Discussion/Workbook)](https://canvas.cmu.edu/courses/29786/discussion_topics/432588?module_item_id=5170547)
 
 > Week 3
-- [ ] Assignment 3: ["Assignment: Critique of CNBC's Marvel heroes propelled Disney to the top of the 2021 domestic box offic"](assignment/assignment3and4.md)
+- [ ] Assignment 3: ["Assignment: Critique of CNBC's Marvel heroes propelled Disney to overtake Sony to the top of the 2021 domestic box office"](assignment/assignment3and4.md)
 
 ...
 
