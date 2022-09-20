@@ -99,8 +99,9 @@ The solution was shared with a group of 4 colleagues and the following suggestio
 - The colour is too faint;  hard to read the labels/text
 - the use of colour for the "Other Marvel Movies" and "Other Disney Movies" should be consistent
 - Percentages to 2 decimal places is an unneccesary detail
+- Colour scheme should reflect more of a MARVEL theme (matte red and white could be more relateable)
 
-> Reviewed solution 
+> Final visualization 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/11235444"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 
