@@ -1,5 +1,5 @@
-# Carnegie Mellon University's Master of Information Systems Management (MISM) employment history and salaries
-## a report on the previous trends and expectations
+# A CMU (Carnegie Mellon Univesrity) MSIM (Master of Information Systems Management) degree in the US job market
+## A handy summary of which companies offer what jobs for with what salary (to CMU MISM students)
 
 [Home](readme.md)
 
