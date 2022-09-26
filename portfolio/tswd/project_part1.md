@@ -88,9 +88,9 @@ With the help of <a href="https://tabula.technology/" target="_blank"> Tabula (P
 At this point the data sets to be used are available, public and accessible; however there is a lot of outstanding work to extract/scrape, clean, aggregate and generate summary statistics to support this story.
 
 > Resulting data sets
+[X] <a href="https://www.heinz.cmu.edu/current-students/career-services/employment-information-salary-statistics" target="_blank"> Raw PDF data on CMU website</a>
+[X]  Matriculation/enrollment counts: The Heinz Admissions Office provided some matriculation counts over email correspondence.
 [ ] <a href="https://docs.google.com/spreadsheets/d/1tBsIfc-lboYxNFbu3CW3X2cO1hVZPUelgzTBsIz3ZP8/edit?usp=sharing" target="_blank"> Cleaned data</a>
-[ ] <a href="https://www.heinz.cmu.edu/current-students/career-services/employment-information-salary-statistics" target="_blank"> Raw PDF data on CMU website</a>
-[ ]  Program completion rate: Email correspondence with Admissions offers provided some Matriculation numbers to help compare the count of students who get an offer and the counts of students who complete the CMU program.
 
 > Data aggregation:
 Because there are several data points and years, it is essential to aggregate the data so too much information is not presented at a time. The classification of data into years, job role categories, geographical sections and program tracks help to summarize the data even more and provides an opportunity for interactive design.
