@@ -18,7 +18,7 @@ Being able to tell this story over the years will equip the MISM student with ha
 
 The project's scope has been limited to the MISM program, so a clear and detailed story can be told.
 
-The primary consideration will be to develop an option or conclusion from the data to answer questions like
+The primary consideration will be to develop an opinion or conclusion from the data to answer questions like
 - Is the CMU MISM program worth the money? 
 - Is a student likely to complete the program and get an offer?
 - Are companies paying more for MSISM students over the years?
@@ -26,7 +26,23 @@ The primary consideration will be to develop an option or conclusion from the da
 - What career path is likely to get a job in MISM?
 - What are the go-to companies during job hunts?
 
+#### Audience
+This story is intended for 
+1. Carnegie Mellon University MISM students
+2. Prospective CMU MISM students
+3. Faculty 
+4. Staff (Career Services, Admissions Office etc)
+5. General readers
+
 #### Story arc 
+The "Rags to Riches" story arc has the plot of students who pursue a demanding degree in the hope of landing a good-paying tech jobs through the help of CMU and the MISM program.
+It will highlight the dilemma of job search and the information overload of career fairs, events and handshake posts.
+
+> A CMU MSIM degree in the US job Market
+!["Story Arc: Rags to Riches"](../../img/project/storyArc.jpg)
+
+
+The narrative should subtly answer the below questions for the reader:
 1. How many students apply for MSISM and complete the program?
 2. What has been the employment rate of students who graduate from the MISM program?
 3. What are the categories of job roles that are frequently seeking MISM graduates? (Do you have the skills?)
@@ -72,8 +88,8 @@ With the help of <a href="https://tabula.technology/" target="_blank"> Tabula (P
 
 > Resulting data sets
 - [ ] <a href="https://docs.google.com/spreadsheets/d/1tBsIfc-lboYxNFbu3CW3X2cO1hVZPUelgzTBsIz3ZP8/edit?usp=sharing" target="_blank"> Cleaned data</a>
-- [ ] <a href="https://www.heinz.cmu.edu/current-students/career-services/employment-information-salary-statistics" target="_blank">Raw PDF data on CMU website</a>
-- [ ] Program completion rate: Email correspondence with Admissions offers provided some Matriculation numbers to help compare the count of students who get an offer and the counts of students who complete the CMU program.
+- [ ] <a href="https://www.heinz.cmu.edu/current-students/career-services/employment-information-salary-statistics" target="_blank"> Raw PDF data on CMU website</a>
+- [ ]  Program completion rate: Email correspondence with Admissions offers provided some Matriculation numbers to help compare the count of students who get an offer and the counts of students who complete the CMU program.
 
 > Data aggregation:
 Because there are several data points and years, it is essential to aggregate the data so too much information is not presented at a time. The classification of data into years, job role categories, geographical sections and program tracks help to summarize the data even more and provides an opportunity for interactive design.
@@ -95,9 +111,6 @@ The strategy to complete the project is outlined below:
 > Develop an option/story based on the insights from the project
 
 > Create a shorthand story
-
-> Improve story arc: using Rags to Riches story arc 
-The "Rags to Riches" story arc has the plot of students who pursue a demanding degree and land good-paying tech jobs through the help of CMU and the MISM program
 
 > Test the shorthand story arc with reviewers and make improvements.
 
