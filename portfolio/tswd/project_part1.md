@@ -67,7 +67,7 @@ Although this has a poor design layout, it gives a preliminary view of the data 
 > Popular locations for CMU MISM program jobs
 !["Popular locations offered"](../../img/project/OffersAndLocations.png)
 
-> Popular job roles for MSISM graduates
+> Popular job roles for MSISM graduates (Need to group jobs into categories to make it less busy)
 !["Job roles represented"](../../img/project/JobRolesRepresented.png)
 
 #### Flourish visualizations
