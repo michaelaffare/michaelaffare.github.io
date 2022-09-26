@@ -67,7 +67,7 @@ Although this has a poor design layout, it gives a preliminary view of the data 
 > Popular locations for CMU MISM program jobs
 !["Popular locations offered"](../../img/project/OffersAndLocations.png)
 
-> Popular job roles for MSISM graduates (Need to group jobs into categories to make it less busy)
+> Popular job roles for MSISM graduates (disclaimer: Need to group jobs into categories to make it less busy)
 !["Job roles represented"](../../img/project/JobRolesRepresented.png)
 
 #### Flourish visualizations
@@ -88,9 +88,9 @@ With the help of <a href="https://tabula.technology/" target="_blank"> Tabula (P
 At this point the data sets to be used are available, public and accessible; however there is a lot of outstanding work to extract/scrape, clean, aggregate and generate summary statistics to support this story.
 
 > Resulting data sets
-[X] <a href="https://www.heinz.cmu.edu/current-students/career-services/employment-information-salary-statistics" target="_blank"> Raw PDF data on CMU website</a>
-[X]  Matriculation/enrollment counts: The Heinz Admissions Office provided some matriculation counts over email correspondence.
-[ ] <a href="https://docs.google.com/spreadsheets/d/1tBsIfc-lboYxNFbu3CW3X2cO1hVZPUelgzTBsIz3ZP8/edit?usp=sharing" target="_blank"> Cleaned data</a>
+- [X] <a href="https://www.heinz.cmu.edu/current-students/career-services/employment-information-salary-statistics" target="_blank"> Raw PDF data on CMU website</a>
+- [X]  Matriculation/enrollment counts: The Heinz Admissions Office provided some matriculation counts over email correspondence.
+- [ ] <a href="https://docs.google.com/spreadsheets/d/1tBsIfc-lboYxNFbu3CW3X2cO1hVZPUelgzTBsIz3ZP8/edit?usp=sharing" target="_blank"> Cleaned data</a>
 
 > Data aggregation:
 Because there are several data points and years, it is essential to aggregate the data so too much information is not presented at a time. The classification of data into years, job role categories, geographical sections and program tracks help to summarize the data even more and provides an opportunity for interactive design.
