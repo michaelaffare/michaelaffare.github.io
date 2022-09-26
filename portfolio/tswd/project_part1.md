@@ -63,13 +63,15 @@ Although this has a poor design layout, it gives a preliminary view of the data 
 <!--!["Salary Range over Time"](../../img/project/SalaryRangesOverTime.png)-->
 
 > Count of Companies that gave offers each year
-!["Count of Companies that offer jobs"](../../img/project/NumberOfEmployersPerYear.png)
+<div class="flourish-embed" data-src="visualisation/11291041"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<!--!["Count of Companies that offer jobs"](../../img/project/NumberOfEmployersPerYear.png)-->
 
 > Popular locations for CMU MISM program jobs
 !["Popular locations offered"](../../img/project/OffersAndLocations.png)
 
 > Popular job roles for MSISM graduates 
-!["Job roles represented"](../../img/project/jobRolesRepresentedBar.png)
+<div class="flourish-embed" data-src="visualisation/11291097"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<!--["Job roles represented"](../../img/project/jobRolesRepresentedBar.png)-->
 
 #### Flourish visualizations
 After importing the data into Flourish, more advanced and cleaner visualizations were tested using the concepts developed from the initial data exploration in excel.
