@@ -59,7 +59,8 @@ Very basic visualizations were tested within excel to have a fair idea of what s
 Although this has a poor design layout, it gives a preliminary view of the data and provides a blueprint for sketching and prototyping visualizations within other tools.
 
 > Salary Ranges Over Time
-!["Salary Range over Time"](../../img/project/SalaryRangesOverTime.png)
+<div class="flourish-embed flourish-chart" data-src="visualisation/11290923"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<!--!["Salary Range over Time"](../../img/project/SalaryRangesOverTime.png)-->
 
 > Count of Companies that gave offers each year
 !["Count of Companies that offer jobs"](../../img/project/NumberOfEmployersPerYear.png)
