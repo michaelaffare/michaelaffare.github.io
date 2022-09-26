@@ -79,12 +79,13 @@ More advanced visualizations that answer questions like
 
 ### Data
 
-Most of the data may be found at <a href="" target="_blank">heinz.cmu.edu Employment Information Salary Statistics</a> as PDFs organized by program.
+Most of the data may be found at <a href="https://www.heinz.cmu.edu/current-students/career-services/employment-information-salary-statistics" target="_blank">heinz.cmu.edu Employment Information Salary Statistics</a> as PDFs organized by program.
 
 > A sample PDF data
 !["Sample PDF data"](../../img/project/sampleDataPdf.png)
 
 With the help of <a href="https://tabula.technology/" target="_blank"> Tabula (PDF data extraction tool)</a> the data was extracted into an excel sheet so insights can be drawn from the structured data.
+At this point the data sets to be used are available, public and accessible; however there is a lot of outstanding work to extract/scrape, clean, aggregate and generate summary statistics to support this story.
 
 > Resulting data sets
 - [ ] <a href="https://docs.google.com/spreadsheets/d/1tBsIfc-lboYxNFbu3CW3X2cO1hVZPUelgzTBsIz3ZP8/edit?usp=sharing" target="_blank"> Cleaned data</a>
