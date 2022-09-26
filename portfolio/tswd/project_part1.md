@@ -1,7 +1,7 @@
 # Carnegie Mellon University's Master of Information Systems Management (MISM) employment history and salaries
 ## a report on the previous trends and expectations
 
-["Back"](readme.md)
+[Home](readme.md)
 
 ### Outline
 As a final year Master of Information Systems Management (MISM) student at Carnegie Mellon University, one primary task is job hunting. However, with all the career fairs, handshake postings, seminars and expectations, it may be difficult for a MISM student to have a clear mental picture of the options available, results from previous years and even the salary expectations. 
@@ -98,21 +98,41 @@ Because there are several data points and years, it is essential to aggregate th
 #### Method and medium
 The strategy to complete the project is outlined below:
 > Complete data extraction and accuracy check:
+With the aid of Tabula, all the PDF files for MSISM will be converted to Excel relational tables.
+This scopes 32 PDF files that include all MISM (i.e Global 21 month track, BIDA, 16 month track, 12 month track) data from 2015 to date.
 
 > Aggregate data into meaningful categories:
+The extracted data will need further processing to introduce new columns that improve the data visualisation:
+Some of the aggregation tasks may include
+-  Years
+-  Job role categories (e.g. software developers)
+-  Employeer 
+-  Introduce decimals to identify graduation months (for time series graphs to show distinctions between graduation batches data)
 
 > create summary statistics from the data:
+Some general statistics will require grouping the categorized data and calculating the counts, averages etc.
+This will also help to rank the results and focus on the top categories whiles blurring other smaller categories.
 
 > Load data into Flourish and Tableau (visualization tools)
+The data (both detailed and summary statistics) will be loaded into Flourish and Tableau and properly formatted so visualizations can be generated.
 
 > Explore visualization options:
+This is where a lot of experimentation will be required to come up with the ideal visualisation styles that effectively communicate the story. 
 
 > Get feedback for the visualizations and iteratively improve the visualizations
+Visualization ideas will be saved and shared with friends for feedback and improvement.
 
-> Develop an option/story based on the insights from the project
+> Develop an opinion/story based on the insights from the project
+Based on the numbers and visuals a story conclusion can be derived; this will inform the perspective and tone of the story being told. As at now the story perspective is not clear however the questions to be answered are the goal and that will guide the process of this story telling.
 
-> Create a shorthand story
+> Create a shorthand story.
+A shorthand story will be created to capture the project findings and story. This will be published publicly.
+Images to be used will be from the CMU website or images that have personally been taken during the job search; these are not expected to have any trademark violations or copyright restrictions.
 
 > Test the shorthand story arc with reviewers and make improvements.
+Test the story with friends and family and use construction critique feedback to improve the story arc, content and visualizations.
+
+
+[Back](readme.md)
 
 
