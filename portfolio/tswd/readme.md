@@ -42,7 +42,7 @@ Michael Affare is a Master of Information Systems Management graduate student at
 ...
 
 ### Projects
-
+- [ ] Part 1: ["Project (Part 1): Carnegie Mellon University's Master of Information Systems Management (MISM) employment history and salaries"](project_part1.md)
 
 ...
 
