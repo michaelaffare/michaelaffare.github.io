@@ -74,6 +74,10 @@ Although this has a poor design layout, it gives a preliminary view of the data 
 <div class="flourish-embed" data-src="visualisation/11291097"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 <!--["Job roles represented"](../../img/project/jobRolesRepresentedBar.png)-->
 
+Student Job offer statistics
+> (Added after classroom review)
+<div class="flourish-embed flourish-chart" data-src="visualisation/11305762"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
 #### Flourish visualizations
 After importing the data into Flourish, more advanced and cleaner visualizations were tested using the concepts developed from the initial data exploration in excel.
 More advanced visualizations that answer questions like
@@ -143,6 +147,30 @@ The call to action would be for MISM students
 2. Price themselves appropriately looking at trends and averages
 3. Check other job roles within the category of roles and search for those jobs during job search
 4. Sign-up for career fairs for companies that frequently offer roles of interest.
+
+
+### Classroom review
+After a group discussion of the topic and points
+> What worked?
+- The relevance of the topic to the target audience is high
+- The value extracted and visualised from the data is significant (visuals will really transform this data)
+> What didn't work?
+- Colour scheme needs to be improved.
+- Categories of data need to be clearly outlined
+> What questions came up?
+- Is this project going to be extended to other programs? Ans: The scope was limited to MISM due to time constraints and to keep the original story concise, however the concept and methodology can be applied to all other programs
+> What new inspiration arose?
+- Share the story from the perspective of a student
+
+#### todo list from class review
+> Low effort with high value
+- [X] Include filters (for program types)
+- [X] Include the line/data representing students who don't get offers: new visualization created to capture offers given and students without offers
+>  High effort with high value
+- [ ] Indicate the return on investment for students (is it worth pursuing a CMU degree)
+
+
+
 
 [Back](readme.md)
 
