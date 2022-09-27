@@ -78,6 +78,10 @@ Student Job offer statistics
 > (Added after classroom review)
 <div class="flourish-embed flourish-chart" data-src="visualisation/11305762"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
+Jobs types offered by companies
+> (Added after classroom review)
+<div class="flourish-embed flourish-hierarchy" data-src="visualisation/11305963"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
 #### Flourish visualizations
 After importing the data into Flourish, more advanced and cleaner visualizations were tested using the concepts developed from the initial data exploration in excel.
 More advanced visualizations that answer questions like
