@@ -137,6 +137,13 @@ Images to be used will be from the CMU website or images that have personally be
 Test the story with friends and family and use construction critique feedback to improve the story arc, content and visualizations.
 
 
+#### Call to action
+The call to action would be for MISM students
+1. To be aware and have the mental picture discussed in mind during job search
+2. Price themselves appropriately looking at trends and averages
+3. Check other job roles within the category of roles and search for those jobs during job search
+4. Sign-up for career fairs for companies that frequently offer roles of interest.
+
 [Back](readme.md)
 
 
