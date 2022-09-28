@@ -6,13 +6,13 @@
 ### Outline
 The average Heinz College student is somehow convinced that many top companies value a CMU Master of Information Systems Management degree. (I am one of them).
 The job hunting season eventually arrives as a MISM student is about to graduate.
-This season is overloaded with information overload and unanswered questions.
+This season is overloaded with information and unanswered questions.
 
 - What job roles should I be looking at?
 - What companies should I interview with during career fairs?
 - Apart from Google, Amazon, Facebook and Microsoft, what other companies are interested in my skills?
 - What salary expectation is reasonable?
-- Which state (where) will I likely work in/from?
+- Which state will I likely work in/from?
 - Is this even worth it? Will I get a return on my investment in this degree?
 - Am I likely to complete this program or get an offer when I search for jobs?
 
