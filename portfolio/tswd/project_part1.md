@@ -78,9 +78,10 @@ Flourish, excel and hand sketches were used to develop the first few ideas; thes
 
 ###### Count of Companies that gave offers each year
 This visualization will aid students in knowing the companies who know about MISM students, may have alums working there and are likely to give job offers to MISM students
-> initial excel draft
+> initial excel visualisation/draft
 !["Count of Companies that offer jobs"](../../img/project/NumberOfEmployersPerYear.png)
-> improved visualization in Flourish
+
+> improved visualization in Flourish 
 <div class="flourish-embed" data-src="visualisation/11291041"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 ######  Popular locations for CMU MISM program jobs
