@@ -1,5 +1,5 @@
 # The worth of a CMU MISM degree in the US job market... 
-### A visualization of value and demand placed on the Carnegie Mellon University's Master of Information Systems Management degree in the US
+### A visualization of the value and demand associated with the Carnegie Mellon University's Master of Information Systems Management degree in the US job market 
 
 [Home](readme.md)
 
