@@ -102,6 +102,7 @@ This visual will help the MISM student become familiar with other popular option
 > initial draft 
 ["Job roles represented"](../../img/project/jobRolesRepresentedBar.png)
 
+
 > Design in Flourish
 <div class="flourish-embed" data-src="visualisation/11291097"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
@@ -119,7 +120,7 @@ This visualization style with a filter allows the viewer to see which companies 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/11305963"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 #### Flourish visualizations
-After importing the data into Flourish, more advanced and cleaner visualizations 
+After importing the data into Flourish, some visualisation options to explore are below:
 - [X] Tree map: The roles frequently offered by each company 
 - [X] Segmented bar graph: Job role categories and the percentages they represent in the total offers within each year
 
@@ -215,7 +216,14 @@ After a group discussion of the topic and points
 >  High effort with high value
 - [ ] Indicate the return on investment for students (is it worth pursuing a CMU MISM degree?)
 
+### Conclusion
+The process of choosing the topic, finding the relevant data and developing the story arc has been interesting and intense.
+My major takeaway was that sometimes golden information is trapped witihin a format that is not easy to extract and visualize. However if that hurdle is surmounted, then readers and viewers of the visualisation can benefit immensely from the extracted data.
 
+Also deciding on the visualisation type to use requires some creativity and following of design standards/expectations.
+Fiddling with tools like Flourish helped to get a fair idea what visualisations may be used for this project. 
+
+Classroom critique gave an edge and also offered some new insights on what to include and things that were not clear. Constructive crititisms always add value and I am getting much better at taking feedback.
 
 [Back](readme.md)
 
