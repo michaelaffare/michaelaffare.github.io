@@ -1,46 +1,54 @@
-# A CMU (Carnegie Mellon Univesrity) MSIM (Master of Information Systems Management) degree in the US job market
-## A handy summary of which companies offer what jobs for with what salary (to CMU MISM students)
+# The worth of a CMU MISM degree in the US job market . . 
+### A visualisation of value and demand placed on the Carnegie Mellon University's Master of Information Systems Management degree in US
 
 [Home](readme.md)
 
 ### Outline
-As a final year Master of Information Systems Management (MISM) student at Carnegie Mellon University, one primary task is job hunting. However, with all the career fairs, handshake postings, seminars and expectations, it may be difficult for a MISM student to have a clear mental picture of the options available, results from previous years and even the salary expectations. 
+The average Hienz College student is somehow convinced that a CMU Master of Information Systems Management degree is valued by many top companies. (I am one of them).
+The job hunting season eventually arrives as a MISM student is about to graduate.
+This season is innundated with information overload and unanswered questions.
 
-This project seeks to create a clear image in the minds of MISM students concerning the job application process. 
-This project will arm the student with:
+- What job roles should I be looking at?
+- What companies should I interview with during career fairs?
+- Apart from Google, Amazon, Facebook and Microsoft, what other companies are interested in my skills?
+- What salary expectation is reasonable?
+- Which state will I likely work in?
+- Is this even worth it? Will I get a return on my investment in this degree?
+- Am I even likely to complete this program or get an offer when I search for jobs?
+
+These questions constantly plague the student and the person who has a clearer mental picture is able to make more effective decisions during their career search process.
+
+##### The project Objective:
+###### "The worth of a CMU MISM degree in the US job market"
+This project seeks to tell the story of the MISM program to the primary audience (the MISM student looking for a job).
+After reading this project the MISM student should have a clear mental image of the MISM program and how it has historically performed in the US job market.
+
+Hopefully this will equip the MISM student with answers to the questions above and make informed decision on the key points below:
 - Salary expectations
 - Options with Job roles
 - The companies that frequently offer jobs
 - Same likely locations of the jobs offered
 - General idea of employment rates (the rate at which students get offers)
 
-Being able to tell this story over the years will equip the MISM student with handy information on where to start the job search, what roles to focus on and what salary expectations are reasonable.
+The career searvices team and admissions team will also be provided a quick read that they can give to current or prospective students to showcase the value of the MISM program and how the program has interacted with the US Job industry over the years.
 
-The project's scope has been limited to the MISM program, so a clear and detailed story can be told.
+#### Scope:
+The project's scope has been limited to the MISM program and the years 2015 to 2022 so as to have a clear and focused topic that can be explored in different ways. Also the data extraction process is time consuming (only MISM program required data extraction from 32 PDF) hence limiting the story to MISM program allowed for more time to develop the story and explore various ways to analyze the data and extract insights from it.
 
-The primary consideration will be to develop an opinion or conclusion from the data to answer questions like
-- Is the CMU MISM program worth the money? 
-- Is a student likely to complete the program and get an offer?
-- Are companies paying more for MSISM students over the years?
-- Is it easy to find jobs in the US for MSISM students?
-- What career path is likely to get a job in MISM?
-- What are the go-to companies during job hunts?
 
 #### Audience
-This story is intended for 
+This story is intended for:
 1. Carnegie Mellon University MISM students
 2. Prospective CMU MISM students
 3. Faculty 
 4. Staff (Career Services, Admissions Office etc)
-5. General readers
+5. General public and readers
 
 #### Story arc 
-The "Rags to Riches" story arc has the plot of students who pursue a demanding degree in the hope of landing a good-paying tech jobs through the help of CMU and the MISM program.
-It will highlight the dilemma of job search and the information overload of career fairs, events and handshake posts.
+The "Rags to Riches" story arc will adopt the plot of students who is pursuing a demanding CMU MISM degree in the hope of landing a good-paying tech jobs. It will highlight the dilemma of job search and the information overload that happens during career fairs, events and handshake posts. This story will then serve as a tool to help the student answer some key questions that will enhance his/her/their job search.
 
 > A CMU MSIM degree in the US job Market
 !["Story Arc: Rags to Riches"](../../img/project/storyArc.jpg)
-
 
 The narrative should subtly answer the below questions for the reader:
 1. How many students apply for MSISM and complete the program?
@@ -54,58 +62,89 @@ The narrative should subtly answer the below questions for the reader:
 
 ### Sketches
 
-##### Excel graphs
-Very basic visualizations were tested within excel to have a fair idea of what story is being told by the data.
-Although this has a poor design layout, it gives a preliminary view of the data and provides a blueprint for sketching and prototyping visualizations within other tools.
+#### Charts and visualizations
+Initial visualizations were explored using the extracted data.
+This was to get an initial idea of what information is being conveyed by the data.
+It also provided an opportunity to explore visualisation tools and options available to aid this story.
+Flourish, excel and hand sketches were used to develop the first few ideas; these will be improved upon in part II of the project.
 
-> Salary Ranges Over Time
+
+###### Salary Ranges Over Time
+ (the recorded highest, lowest and mean salaries offered to students per year are captured in this visualisation)
+- this will help the students mention reasonable salary expectations during interviews and know if the program is being valued at a higher price or lower. 
+
+> initial excel draft
+!["Salary Range over Time"](../../img/project/SalaryRangesOverTime.png)
+> Further development in Flourish
 <div class="flourish-embed flourish-chart" data-src="visualisation/11296909"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-<!--!["Salary Range over Time"](../../img/project/SalaryRangesOverTime.png)-->
 
-> Count of Companies that gave offers each year
+
+###### Count of Companies that gave offers each year
+This vidsualization will aid students to know the companies who know about MISM students, may have alumni working there and are likely to give job offers to MISM students
+> initial excel draft
+!["Count of Companies that offer jobs"](../../img/project/NumberOfEmployersPerYear.png)
+> improved visualisation in Flourish
 <div class="flourish-embed" data-src="visualisation/11291041"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-<!--!["Count of Companies that offer jobs"](../../img/project/NumberOfEmployersPerYear.png)-->
 
-> Popular locations for CMU MISM program jobs
-<!--<div class="flourish-embed" data-src="visualisation/11291110"><script src="https://public.flourish.studio/resources/embed.js"></script></div>-->
+
+######  Popular locations for CMU MISM program jobs
+Jobs often require students to move to their office locations and this is an important information that students need to know so they would research those locations and be better prepared to relocate if required.
+
+> initial from excel
 !["Popular locations offered"](../../img/project/OffersAndLocations.png)
+> Flourish expirementation
+<div class="flourish-embed" data-src="visualisation/11291110"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-> Popular job roles for MSISM graduates 
+###### Popular job roles for MSISM graduates 
+Students are often limited with options when it comes to job roles that they might want to do; Most students resort to Software Developer or Engineer, Data Scientist or Consulting.
+This visual will help the MISM student become familiar with other popular options and explore the role to see if their career goals align with any of them. This broadens the horizon.
+
+> initial draft 
+["Job roles represented"](../../img/project/jobRolesRepresentedBar.png)
+
+> Design in Flourish
 <div class="flourish-embed" data-src="visualisation/11291097"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-<!--["Job roles represented"](../../img/project/jobRolesRepresentedBar.png)-->
 
-Student Job offer statistics
-> (Added after classroom review)
+
+###### Student Job offer statistics
+> This was suggested during the classroom critique. The visualization should be able to identify the proportions of students who got offers against those who didn't or those who chose to continue schooling etc.
+This graph could really calm the nerves of some students who may be anxious about getting a job.
+
 <div class="flourish-embed flourish-chart" data-src="visualisation/11305762"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-Jobs types offered by companies
-> (Added after classroom review)
+###### Jobs types offered by companies
+> This was also suggested in the class group critique:
+This visualization style with a filter allows the viewer to see which companies and the roles they have previously been intersted in filling with former CMU students.
+
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/11305963"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 #### Flourish visualizations
-After importing the data into Flourish, more advanced and cleaner visualizations were tested using the concepts developed from the initial data exploration in excel.
-More advanced visualizations that answer questions like
-1. Heat map: The roles frequently offered by each company 
-2. Segmented bar graph: Job role categories and the percentages they represent in the total offers within each year
+After importing the data into Flourish, more advanced and cleaner visualizations 
+- [X] Tree map: The roles frequently offered by each company 
+- [X] Segmented bar graph: Job role categories and the percentages they represent in the total offers within each year
 
 
 ### Data
+This topic required reliable data from CMU Hienz college admissions and career services.
+Thankfully all this information was publicly available on the Heinz Website:  <a href="https://www.heinz.cmu.edu/current-students/career-services/employment-information-salary-statistics" target="_blank">heinz.cmu.edu Employment Information Salary Statistics</a> as PDFs organized by program.
 
-Most of the data may be found at <a href="https://www.heinz.cmu.edu/current-students/career-services/employment-information-salary-statistics" target="_blank">heinz.cmu.edu Employment Information Salary Statistics</a> as PDFs organized by program.
+The information on MISM program was in detailed PDF documents realeased for each graduation period (May, August and December).
 
 > A sample PDF data
 !["Sample PDF data"](../../img/project/sampleDataPdf.png)
 
-With the help of <a href="https://tabula.technology/" target="_blank"> Tabula (PDF data extraction tool)</a> the data was extracted into an excel sheet so insights can be drawn from the structured data.
-At this point the data sets to be used are available, public and accessible; however there is a lot of outstanding work to extract/scrape, clean, aggregate and generate summary statistics to support this story.
+With the help of tools like <a href="https://tabula.technology/" target="_blank"> Tabula (PDF data extraction tool)</a> and <a href="https://www.ilovepdf.com/" target="_blank">ilovePDF</a>, the data was extracted into an excel sheet for analysis.
 
-> Resulting data sets
+Some derived statistical data was also calculated within the excel sheet to be able to better visualize the raw data. 
+
+> Resulting data sets:
 - [X] <a href="https://www.heinz.cmu.edu/current-students/career-services/employment-information-salary-statistics" target="_blank"> Raw PDF data on CMU website</a>
-- [X]  Matriculation/enrollment counts: The Heinz Admissions Office provided some matriculation counts over email correspondence.
-- [ ] <a href="https://docs.google.com/spreadsheets/d/1tBsIfc-lboYxNFbu3CW3X2cO1hVZPUelgzTBsIz3ZP8/edit?usp=sharing" target="_blank"> Cleaned data</a>
+- [X]  Matriculation/enrollment counts: The Heinz Admissions Office provided some matriculation counts over email correspondence. This is also found in each raw PDF file on the CMU website.
+- [ ] <a href="https://docs.google.com/spreadsheets/d/1tBsIfc-lboYxNFbu3CW3X2cO1hVZPUelgzTBsIz3ZP8/edit?usp=sharing" target="_blank"> Cleaned data in a GoogleSheets file.</a> This consolidates the data from the PDFs and adds calculated columns.
 
-> Data aggregation:
-Because there are several data points and years, it is essential to aggregate the data so too much information is not presented at a time. The classification of data into years, job role categories, geographical sections and program tracks help to summarize the data even more and provides an opportunity for interactive design.
+> Data aggregation and classification:
+Data classification has been done in of data into years, job role categories, geographical sections and program tracks. This helped to summarize the data even more and provides an opportunity for interactive design.
+
 
 #### Method and medium
 The strategy to complete the project is outlined below:
@@ -158,11 +197,14 @@ After a group discussion of the topic and points
 > What worked?
 - The relevance of the topic to the target audience is high
 - The value extracted and visualised from the data is significant (visuals will really transform this data)
+
 > What didn't work?
 - Colour scheme needs to be improved.
 - Categories of data need to be clearly outlined
+
 > What questions came up?
 - Is this project going to be extended to other programs? Ans: The scope was limited to MISM due to time constraints and to keep the original story concise, however the concept and methodology can be applied to all other programs
+
 > What new inspiration arose?
 - Share the story from the perspective of a student
 
@@ -171,8 +213,7 @@ After a group discussion of the topic and points
 - [X] Include filters (for program types)
 - [X] Include the line/data representing students who don't get offers: new visualization created to capture offers given and students without offers
 >  High effort with high value
-- [ ] Indicate the return on investment for students (is it worth pursuing a CMU degree)
-
+- [ ] Indicate the return on investment for students (is it worth pursuing a CMU MISM degree?)
 
 
 
