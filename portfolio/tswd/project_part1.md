@@ -6,7 +6,7 @@
 ### Outline
 The average Heinz College student is somehow convinced that many top companies value a CMU Master of Information Systems Management degree. (I am one of them).
 The job hunting season eventually arrives as a MISM student is about to graduate.
-This season is inundated with information overload and unanswered questions.
+This season is overloaded with information overload and unanswered questions.
 
 - What job roles should I be looking at?
 - What companies should I interview with during career fairs?
