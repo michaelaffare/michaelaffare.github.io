@@ -88,6 +88,7 @@ Jobs often require students to move to their office locations. Therefore this is
 
 > initial from excel
 !["Popular locations offered"](../../img/project/OffersAndLocations.png)
+
 > Flourish experimentation
 <div class="flourish-embed" data-src="visualisation/11291110"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
