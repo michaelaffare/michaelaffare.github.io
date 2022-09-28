@@ -206,6 +206,7 @@ After a group discussion of the topic and points
 - [X] Include the line/data representing students who don't get offers: new visualization created to capture offers given and students without offers
 >  High effort with high value
 - [ ] Indicate the return on investment for students (is it worth pursuing a CMU MISM degree?)
+- [ ] Improve color usage within visualisations.
 
 ### Conclusion
 The process of choosing the topic, finding the relevant data and developing the story arc has been exciting and intense.
