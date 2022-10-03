@@ -12,6 +12,16 @@
 ### Storyboard
 #### Mental Construction (design influences): From readings/research
 1. C-suite: key points to capture
+|Issues to avoid | the recommendations for this project |
+| ------------- | ---------------------|
+| Solution without a problem | State a clear problem faced by students |
+| Solution without an ROI | Describe the cler value to the students/reader |
+| Solution without interaction | make the visuals and story arc/data interactive |
+| Solution that doesn't allow for questions | Anticipate reader questions and nswer them |
+| Solution that fails to pay attention to details | Ensure the details of the visuals and data are accurate |
+
+
+
 
 2. Financial times: template (Charticle): moodboard/similar stories:
 
