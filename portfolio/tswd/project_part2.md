@@ -54,10 +54,10 @@ Samples reviewed from Financial times are below. . . .
 
 3. <a href="https://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks?referrer=playlist-how_to_make_a_great_presentation" target="_blank">Tedtalk: talk progressions</a>
 
- - [ ] Tell a story
- - [ ] Ups and downs between what is now and what could be 
- - [ ] Involve audience: applause, laughter (humour is effective for attention), marvel at some points (to guide the user/yoda style); touch on topics that resonnate with the audience
- - [ ] End on a high note (call to action, draw something out)
+ - Tell a story
+ - Ups and downs between what is now and what could be 
+ - Involve audience: applause, laughter (humour is effective for attention), marvel at some points (to guide the user/yoda style); touch on topics that resonnate with the audience
+ - End on a high note (call to action, draw something out)
 
 4. <a href="https://youtu.be/Mqrhn8khGLM" target="_blank">Explained | Racial Wealth Gap | FULL EPISODE | Netflix</a>
   - Consistent visualization/theme, 
