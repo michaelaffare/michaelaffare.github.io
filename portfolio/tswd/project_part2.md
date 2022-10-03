@@ -13,7 +13,7 @@
 #### Mental Construction (design influences): From readings/research
 1. C-suite: key points to capture
 |Issues to avoid | the recommendations for this project |
-| ------------- | ---------------------|
+| :------------- | :---------------------|
 | Solution without a problem | State a clear problem faced by students |
 | Solution without an ROI | Describe the cler value to the students/reader |
 | Solution without interaction | make the visuals and story arc/data interactive |
@@ -21,6 +21,32 @@
 | Solution that fails to pay attention to details | Ensure the details of the visuals and data are accurate |
 
 
+<table>
+  <tr>
+    <th>Issues to avoid </th>
+    <th>the recommendations for this project </th>
+  </tr>
+  <tr>
+    <td>Solution without a problem </td>
+    <td>State a clear problem faced by students </td>
+  </tr>
+  <tr>
+    <td>Solution without an ROI</td>
+    <td>Describe the cler value to the students/reader</td>
+  </tr>
+    <tr>
+    <td>Solution without interaction</td>
+    <td>make the visuals and story arc/data interactive</td>
+  </tr>
+    <tr>
+    <td>Solution that doesn't allow for questions</td>
+    <td>Anticipate reader questions and nswer them</td>
+  </tr>
+    <tr>
+    <td>Solution that fails to pay attention to details</td>
+    <td>Ensure the details of the visuals and data are accurate</td>
+  </tr>
+</table>
 
 
 2. Financial times: template (Charticle): moodboard/similar stories:
