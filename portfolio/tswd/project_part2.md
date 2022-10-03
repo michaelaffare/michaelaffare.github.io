@@ -11,15 +11,7 @@
 
 ### Storyboard
 #### Mental Construction (design influences): From readings/research
-1. C-suite: key points to capture
-|Issues to avoid | the recommendations for this project |
-| :------------- | :---------------------|
-| Solution without a problem | State a clear problem faced by students |
-| Solution without an ROI | Describe the cler value to the students/reader |
-| Solution without interaction | make the visuals and story arc/data interactive |
-| Solution that doesn't allow for questions | Anticipate reader questions and nswer them |
-| Solution that fails to pay attention to details | Ensure the details of the visuals and data are accurate |
-
+1. ["C-suite: key points to capture"](https://hbr.org/2018/10/how-to-blow-a-presentation-to-the-c-suite)
 
 <table>
   <tr>
@@ -49,13 +41,16 @@
 </table>
 
 
-2. Financial times: template (Charticle): moodboard/similar stories:
+2. ["Financial times: template:"](https://source.opennews.org/articles/story-templates-financial-times-reusable/) 
 
-Donald Trump’s claims of US-Mexico border crisis, in charts https://www.ft.com/content/7a2ce77c-56d1-11e9-91f9-b6515a54c5b1
-The huge disparities in US life expectancy in five charts https://www.ft.com/content/80a76f38-e3be-11e6-8405-9e5580d6e5fb
-The Asian century is set to begin https://www.ft.com/content/520cb6f6-2958-11e9-a5ab-ff8ef2b976c7
+I identified that my story should follow the "Charticle" template; where a story is interspersed with visualisations (mostly charts). These form the key visual communication components.
+Samples reviewed from Financial times are below. . . .
+- ["Donald Trump’s claims of US-Mexico border crisis, in charts"](https://www.ft.com/content/7a2ce77c-56d1-11e9-91f9-b6515a54c5b1)
+- ["The huge disparities in US life expectancy in five charts"](https://www.ft.com/content/80a76f38-e3be-11e6-8405-9e5580d6e5fb)
+- ["The Asian century is set to begin"](https://www.ft.com/content/520cb6f6-2958-11e9-a5ab-ff8ef2b976c7)
+ 
+3. ["Tedtalk: talk progressions"](https://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks?referrer=playlist-how_to_make_a_great_presentation):
 
-3. Tedtalk: talk progressions:
  - [ ] Tell a story
  - [ ] Ups and downs between what is now and what could be 
  - [ ] Involve audience: applause, laughter (humour is effective for attention), marvel at some points (to guide the user/yoda style); touch on topics that resonnate with the audience
