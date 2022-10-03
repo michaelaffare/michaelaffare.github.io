@@ -11,7 +11,8 @@
 
 ### Storyboard
 #### Mental Construction (design influences): From readings/research
-1. ["C-suite: key points to capture"](https://hbr.org/2018/10/how-to-blow-a-presentation-to-the-c-suite)
+
+1. <a href="https://hbr.org/2018/10/how-to-blow-a-presentation-to-the-c-suite" target="_blank">C-suite: key points to capture</a> 
 
 <table>
   <tr>
@@ -41,7 +42,7 @@
 </table>
 
 
-2. ["Financial times: template:"](https://source.opennews.org/articles/story-templates-financial-times-reusable/) 
+2. <a href="https://source.opennews.org/articles/story-templates-financial-times-reusable/" target="_blank"> Financial times: template:</a> 
 
 I identified that my story should follow the "Charticle" template; where a story is interspersed with visualisations (mostly charts). These form the key visual communication components.
 Samples reviewed from Financial times are below. . . .
@@ -49,23 +50,22 @@ Samples reviewed from Financial times are below. . . .
 - ["The huge disparities in US life expectancy in five charts"](https://www.ft.com/content/80a76f38-e3be-11e6-8405-9e5580d6e5fb)
 - ["The Asian century is set to begin"](https://www.ft.com/content/520cb6f6-2958-11e9-a5ab-ff8ef2b976c7)
  
-3. ["Tedtalk: talk progressions"](https://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks?referrer=playlist-how_to_make_a_great_presentation):
+
+
+3. <a href="https://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks?referrer=playlist-how_to_make_a_great_presentation" target="_blank">Tedtalk: talk progressions</a>
 
  - [ ] Tell a story
  - [ ] Ups and downs between what is now and what could be 
  - [ ] Involve audience: applause, laughter (humour is effective for attention), marvel at some points (to guide the user/yoda style); touch on topics that resonnate with the audience
  - [ ] End on a high note (call to action, draw something out)
 
-4. Explained videos: Consistent visualization/theme, use of effective images are backgrounds, and types of visuals including sketches, cartoons, pictures and charts.
-5. Story arc: rags to riches. . . from the perspective of a student.
-- Protagonist: CMU student, internationl, worked hard,
-- Challenge: Job search, many career fairs, running out of time, need an offer before graduation, desired job, major investment, insecurities(language barrier), workload
-- Overcome the challenge: 
-career services resources, article provides insights, structure thoughts and application process, security that there are jobs and companies looking for you
-companies inform of talents, and average costs, companies who have established trust with CMU
+4. <a href="https://youtu.be/Mqrhn8khGLM" target="_blank">Explained | Racial Wealth Gap | FULL EPISODE | Netflix</a>
+  - Consistent visualization/theme, 
+  - use of effective images are backgrounds, 
+  - Employing different types of visuals including sketches, cartoons, pictures and charts.
 
 
-## Persona 
+#### Persona 
 This story is intended for:
 1. Current Carnegie Mellon University MISM students
 - [ ] Identify with the situation
@@ -78,6 +78,13 @@ This story is intended for:
 4. Staff (Career Services, Admissions Office etc.)
 5. General public and readers
 
+
+#### Story arc: rags to riches. . . from the perspective of a student.
+- Protagonist: CMU student, internationl, worked hard,
+- Challenge: Job search, many career fairs, running out of time, need an offer before graduation, desired job, major investment, insecurities(language barrier), workload
+- Overcome the challenge: 
+career services resources, article provides insights, structure thoughts and application process, security that there are jobs and companies looking for you
+companies inform of talents, and average costs, companies who have established trust with CMU
 
 #### Storyboard overview (flowchart)
 
