@@ -84,41 +84,52 @@ This story is intended for:
     <th>CMU staff (Admissions/Career Services)</th>
     <th>Employer</th>
     <th>General public</th>
+    <th> Conclusion </th>
   </tr>
   <tr>
-    <td>Motivation: for reading the article </td>
+    <td>What are they looking for? </td>
     <td> To discover information to aid job search </td>
     <td> To discover informtaion to support job role. Use as resource for students </td>
     <td> Discover a talent market for specific roles </td>
     <td> Information about the CMU degree</td>
+    <td> A story approach with semi-formal language will suite the audience; and will be taken seriously.</td>
   </tr>
   <tr>
-    <td>Solution without a problem </td>
-    <td>State a clear problem faced by students </td>
-    <td>Solution without a problem </td>
-    <td>State a clear problem faced by students </td>
-    <td>State a clear problem faced by students </td>
+    <td>Demographic: Age  </td>
+    <td> Mean range: 23-28 </td>
+    <td> Mean range: 40 - 45 </td>
+    <td> Mean range: 40 - 45 </td>
+    <td> Mean range: 27 - 45 </td>
+    <td> General theme should be mature, simple colours and eligible for the more mature readers.</td>
   </tr>
     <tr>
-    <td>Solution without a problem </td>
-    <td>State a clear problem faced by students </td>
-    <td>Solution without a problem </td>
-    <td>State a clear problem faced by students </td>
-    <td>State a clear problem faced by students </td>
+    <td> Gender </td>
+    <td> about 50% male 48% female 2% other</td>
+    <td> about 50% male 48% female 2% other </td>
+    <td> about 50% male 48% female 2% other</td>
+    <td> about 50% male 48% female 2% other </td>
+    <td> Use female example as both women and men are interested in women; women narratives are more popular than that of men.</td>
   </tr>
     <tr>
-    <td>Solution without a problem </td>
-    <td>State a clear problem faced by students </td>
-    <td>Solution without a problem </td>
-    <td>State a clear problem faced by students </td>
-    <td>State a clear problem faced by students </td>
+    <td>What are their needs? </td>
+    <td> Clarity on information</td>
+    <td> A handy resource to walk students through </td>
+    <td> Visibility on talent competition and talent discovery</td>
+    <td> Tailor the article to meet these needs </td>
   </tr>
     <tr>
-    <td>Solution without a problem </td>
-    <td>State a clear problem faced by students </td>
-    <td>Solution without a problem </td>
-    <td>State a clear problem faced by students </td>
-    <td>State a clear problem faced by students </td>
+    <td>What are they looking to do? (desired action)</td>
+    <td> Make better job search decisions </td>
+    <td> Aid students more effectively in job search </td>
+    <td> Hire top talent at a good value for money </td>
+    <td> Give a clear call to action that advises on these actions </td>
+  </tr>
+    <tr>
+    <td>What are they looking for? (desire)</td>
+    <td> Clear information </td>
+    <td> Clear communication of MISM value </td>
+    <td> Proof of talent and value in MISM students (business case) </td>
+    <td> Ensure article outlines the value of MISM clearly </td>
   </tr>
 </table>
 
