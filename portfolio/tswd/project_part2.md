@@ -364,12 +364,15 @@ After a group discussion of the topic and points
  - The topic is good.
  - The theme (red, black, white) suggests an association with CMU.
  - High-value visualizations
+
 > What didn't work?
  - too many data points make charts look busy 
  It- Not intuitive that the visuals are interactive
  - Callout statistics counting too slow; try to speed it up; no one will wait
+
 > What questions came up?
  - Why do filter if it is only about MISM; indicate that there are different tracks of MISM students
+
 > What new inspiration arose?
  - Change one of the two similar tree maps for the jobs and companies visualization for diversity
  - convert the word cloud to an image to replace one of the scroll motion images
@@ -379,6 +382,7 @@ After a group discussion of the topic and points
 > Low effort with high value
 - [X] Switch chart type (for diversity)
 - [X] Change word cloud to image 
+
 >  High effort with high value
 - [ ] Categorise data further
 - [ ] Check colour options
