@@ -79,8 +79,6 @@ Below are some highlight keypoints picked from different resources provided; the
 
 #### Persona 
 This story is intended for:
-
-
 <table>
   <tr>
     <th>Metric </th>
@@ -140,14 +138,14 @@ This story is intended for:
   </tr>
 </table>
 
-#### Moodboard:
+#### Moodboard: To target the audience above
 1. Colour scheme will follow CMU website: Red, white and black dominant colours
 2. Borrow images from the main CMU site and general style of the CMU website; to create a mental association and some sense of being derived from the official source.
 3. Resorting to fewer words and more visuals; to engage the student audience and employer base. Leveraging the visualistions to communicate the main point.
 
 
-### Storyboard: 
 
+### Storyboard: 
 
 #### Story arc: 
 > This story is "A rags to riches" themed: 
