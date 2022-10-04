@@ -191,33 +191,36 @@ Sometimes even doubting their abilities or limitations.
 Thankfully CMU provides helpful resources to guide students through the job appliction process.
 An application called "Handshake" has helpful training and interview prep resources and is the hub for companies seeking out CMU students to employ.
 The Heinz website also has helpful information on previous salaries and employment statistics that students can reference as a guide.
-Thankfully all this information was publicly available on the Heinz Website:  <a href="https://www.heinz.cmu.edu/current-students/career-services/employment-information-salary-statistics" target="_blank">heinz.cmu.edu Employment Information Salary Statistics</a> as PDFs organized by program.
+Thankfully all this information was publicly available on the Heinz Website:  
+<a href="https://www.heinz.cmu.edu/current-students/career-services/employment-information-salary-statistics" target="_blank">heinz.cmu.edu Employment Information Salary Statistics</a> as PDFs organized by program.</a>
+
 !["Sample PDF data"](../../img/project/sampleDataPdf.png)
 
 ##### 4: Insights into previous Employment & Salaries trends
 
-1. How many students apply for MSISM and complete the program?
+1 . How many students apply for MSISM and complete the program?
 
-2. What has been the employment rate of students who graduate from the MISM program?
+2 . What has been the employment rate of students who graduate from the MISM program?
 <div class="flourish-embed flourish-chart" data-src="visualisation/11305762"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-3. What are the categories of job roles that are frequently seeking MISM graduates? (Do you have the skills?)
+
+3 . What are the categories of job roles that are frequently seeking MISM graduates? (Do you have the skills?)
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/11305963"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
-<div class="flourish-embed" data-src="visualisation/11291097"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
-4. Job hunt: What companies should you consider for the roles mentioned?
-<div class="flourish-embed" data-src="visualisation/11291041"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/11367710"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-5. Salaries: What is a reasonable salary expectation for an MSISM student?
+<div class="flourish-embed" data-src="visualisation/11291097"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+4 . Job hunt: What companies should you consider for the roles mentioned?
+<div class="flourish-embed" data-src="visualisation/11291041"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+5 . Salaries: What is a reasonable salary expectation for an MSISM student?
 <div class="flourish-embed flourish-chart" data-src="visualisation/11296909"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-6. What locations could you end up in when offered a job? And where are you likely to find alums working?
+6 . What locations could you end up in when offered a job? And where are you likely to find alums working?
 <div class="flourish-embed" data-src="visualisation/11291110"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-7. Conclusion 1: Summary; the value of a CMU MISM degree
-8. Conclusion 2: Call to action: See career services, identify your skills and matching roles, and target the companies listed that offer those roles.
+7 . Conclusion 1: Summary; the value of a CMU MISM degree
+8 . Conclusion 2: Call to action: See career services, identify your skills and matching roles, and target the companies listed that offer those roles.
 
 
 ##### 5: Call to action
