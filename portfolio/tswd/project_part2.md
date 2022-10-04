@@ -134,17 +134,6 @@ This story is intended for:
 </table>
 
 
-1. Current Carnegie Mellon University MISM students
-- Identify with the situation
-- Interested in the findings
-- Would appreciate the call to action
-
-
-2. Prospective CMU MISM students
-3. Faculty 
-4. Staff (Career Services, Admissions Office etc.)
-5. General public and readers
-
 
 #### Story arc: rags to riches. . . from the perspective of a student.
 - Protagonist: CMU student, internationl, worked hard,
