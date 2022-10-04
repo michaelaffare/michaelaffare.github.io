@@ -153,7 +153,7 @@ This story is intended for:
 - Overcome the challenge: 
 Given the resources available, basic data science concepts and the learnings from "Telling stories with data", information is organized from career services resources to answer the student's questions concerning the application process and the Job market concerning the MISM program.
 
-#### Storyboard & flow:
+#### Storyboard & Wireframes:
 The storyboard is previewed on Shorthand (link below)
 
 Critical considerations in the story are from the inspirations listed above
