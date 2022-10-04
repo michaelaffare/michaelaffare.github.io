@@ -318,7 +318,7 @@ To career services / Admissions
     <th>Alumni</th>
     <th>MISM Student</th>
     <th>General Public</th>
-     <th>Things to Note</th>
+     <th>Things to Note and improve</th>
   </tr>
   <tr>
     <td>How do you feel about the topic?</td>
@@ -371,6 +371,8 @@ To career services / Admissions
   </tr>
 </table>
 
+
+
 #### Classroom review
 After a group discussion of the topic and points
 > What worked?
@@ -403,8 +405,7 @@ After a group discussion of the topic and points
 
 
 
-#### Pending actions
-- [ ] Improve map visualization
+
 
 ### Conclusion
 There are several design considerations
