@@ -31,7 +31,7 @@ Below are some highlighted key points from different resources provided; these l
   </tr>
   <tr>
     <td>Solution without an ROI</td>
-    <td>Describe the cler value to the students/reader</td>
+    <td>Describe the clear value to the students/reader</td>
   </tr>
     <tr>
     <td>Solution without interaction</td>
@@ -209,7 +209,7 @@ States how jobs are typically found in CMU (direct student search and Career ser
 2 . What has been the employment rate of students who graduate from the MISM program?
 <div class="flourish-embed flourish-chart" data-src="visualisation/11305762"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-<div class="flourish-embed" data-src="visualisation/11291097"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-hierarchy" data-src="visualisation/11370017"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 Salaries: What is a reasonable salary expectation for an MSISM student?
 <div class="flourish-embed flourish-chart" data-src="visualisation/11296909"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
