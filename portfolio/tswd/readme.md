@@ -42,8 +42,8 @@ Michael Affare is a Master of Information Systems Management graduate student at
 ...
 
 ### Projects
-- [ ] Part 1: ["Project (Part 1):  A CMU (Carnegie Mellon Univesrity) MSIM (Master of Information Systems Management) degree in the US job market"](project_part1.md)
-
+- [Project Part 1 - The worth of a CMU MISM degree in the US job market](project_part1.md)
+- [Project Part 2 - The worth of a CMU MISM degree in the US job market](project_part2.md)
 ...
 
 [back](../index.html)
