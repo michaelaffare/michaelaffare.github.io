@@ -122,6 +122,7 @@ This story is intended for:
     <td> Make better job search decisions </td>
     <td> Aid students more effectively in job search </td>
     <td> Hire top talent at a good value for money </td>
+    <td> Learn something new </td>
     <td> Give a clear call to action that advises on these actions </td>
   </tr>
     <tr>
@@ -129,6 +130,7 @@ This story is intended for:
     <td> Clear information </td>
     <td> Clear communication of MISM value </td>
     <td> Proof of talent and value in MISM students (business case) </td>
+    <td> Informative read </td>
     <td> Ensure article outlines the value of MISM clearly </td>
   </tr>
 </table>
