@@ -160,23 +160,21 @@ Given the resources available, basic data science concepts and the learnings fro
 > Callout statistics
 The MISM program over the period of 8 years (2015-2018) only has reported
 
-
-
 <table>
   <tr>
     <th>callout statistic</th>
   </tr>
   <tr>
-    <td><div class="flourish-embed" data-src="visualisation/11367262"><script src="https://public.flourish.studio/resources/embed.js"></script></div> jobs </td>
+    <td>jobs reported <div class="flourish-embed" data-src="visualisation/11367262"><script src="https://public.flourish.studio/resources/embed.js"></script></div> </td>
   </tr>
   <tr>
-    <td>611 employers</td>
+    <td>Employers <div class="flourish-embed" data-src="visualisation/11367350"><script src="https://public.flourish.studio/resources/embed.js"></script></div></td>
   </tr>
     <tr>
-    <td>49 locations</td>
+    <td>Job locations <div class="flourish-embed" data-src="visualisation/11367359"><script src="https://public.flourish.studio/resources/embed.js"></script></div></td>
   </tr>
     <tr>
-    <td>28 job categories</td>
+    <td>Job categories <div class="flourish-embed" data-src="visualisation/11367364"><script src="https://public.flourish.studio/resources/embed.js"></script></div></td>
   </tr>
 </table>
 
@@ -220,12 +218,22 @@ Thankfully all this information was publicly available on the Heinz Website:  <a
 8. Conclusion 2: Call to action: See career services, identify your skills and matching roles, and target the companies listed that offer those roles.
 
 
-#### Call to action
+#### 5: Call to action
 The call to action would be for MISM students
 1. To be aware and have the mental picture discussed in mind during the job search
 2. Price appropriately looking at trends and averages
 3. Check other job roles within the category of roles and search for those jobs during the job search
 4. Sign-up for career fairs for companies that frequently offer roles of interest.
+
+To Employers:
+1. Contact career services to find top talent to be able to compete with the top companies 
+
+To career services / Admissions
+1. share with students and public who might benefit from knowing the value of a CMU degree over the years.
+
+### interview: critique and feedback
+
+
 
 ### Classroom review
 After a group discussion of the topic and points
@@ -240,21 +248,12 @@ After a group discussion of the topic and points
 #### todo list from class review
 > Low effort with high value
 - [X] Include key interview results in the design and storyboard.
-- [X] Include the line/data representing students who don't get offers: new visualization created to capture offers given and students without offers
 >  High effort with high value
 - [ ] Indicate the return on investment for students (is it worth pursuing a CMU MISM degree?)
 - [ ] Improve color usage within visualisations.
 
 ### Conclusion
-The process of choosing the topic, finding the relevant data and developing the story arc has been exciting and intense.
-My primary takeaway was that sometimes golden information is trapped within a format that is not easy to extract and visualize. However, if that hurdle is surmounted, then readers and viewers of the visualization can benefit immensely from the extracted data.
-
-Also, deciding on the visualization type requires creativity and following design standards/expectations.
-Fiddling with tools like Flourish helped to get a fair idea of what visualizations may be used for this project. 
-
-Classroom critique gave an edge and offered new insights on what to include and things that were not clear. Constructive criticism always adds value, and I am getting better at taking feedback.
-
-I am excited about the project and look forward to the next steps.
+There are several design considerations
 
 [Back](readme.md)
 
