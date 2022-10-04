@@ -137,19 +137,42 @@ This story is intended for:
 
 
 
-#### Story arc: rags to riches. . . from the perspective of a student.
-- Protagonist: CMU student, internationl, worked hard,
-- Challenge: Job search, many career fairs, running out of time, need an offer before graduation, desired job, major investment, insecurities(language barrier), workload
+#### Story arc: 
+> This story is "A rags to riches" themed: 
+- Protagonist: A typical international CMU student, smart and skilled, worked hard to find a good paying US job before graduation.
+- Challenge: The hectic job search: Many career fairs, running out of time, need an offer before graduation. Added pressure causes some insecurities to surface and workload from school competes for attention.
 - Overcome the challenge: 
-career services resources, article provides insights, structure thoughts and application process, security that there are jobs and companies looking for you
-companies inform of talents, and average costs, companies who have established trust with CMU
+Given the resources available, basic data science concepts and the learnings from "Telling stories with data", information is organized from career services resources to answer the questions that the student has concerning the application process and Job market with respect to MISM program.
 
-#### Storyboard overview (flowchart)
+
+#### Storyboard overview 
 
 ##### 1
--- Zone in on student: Malory Xin Ying, international, smart from young age, family support to travel for higher education, hope to work for a tech company in US. 
-Finished first semester of MISM program, going into final semester and seeking jobs in Fall.
-Optimistic that she will become the breadwinner of the family and also create mazing things in her career.
+ Every year, there are hundreds of brilliant MISM student like Eva, who have travelled from halfway across the world to study at CMU. 
+ Her hope, and that of her family paying over $80,000, is that she will hone her skills and become one of the leading talents in the technology and Information Systems industry in the United States. 
+ Her grades, talents and previous experiences all point to the fact that this is possible.
+ Her CMU studies have progressed steadily and she is now a semester or two away from graduating.
+ 
+> Callout statistics
+The MISM program over the period of 8 years (2015-2018) only has reported
+<table>
+  <tr>
+    <th>callout statistic</th>
+  </tr>
+  <tr>
+    <td> 1583 jobs </td>
+  </tr>
+  <tr>
+    <td>611 employers</td>
+  </tr>
+    <tr>
+    <td>49 locations</td>
+  </tr>
+    <tr>
+    <td>28 job categories</td>
+  </tr>
+</table>
+
 
 #### 2
 -- CMU workload
@@ -189,24 +212,6 @@ Answering questions through visualisations
 
 
 
-
-
-
-
-
-#### Audience
-This story is intended for:
-1. Carnegie Mellon University MISM students
-2. Prospective CMU MISM students
-3. Faculty 
-4. Staff (Career Services, Admissions Office etc.)
-5. General public and readers
-
-#### Story arc 
-The "Rags to Riches" story arc will adopt the plot of students pursuing a demanding CMU MISM degree in the hope of landing a good-paying tech job. It will highlight the job search dilemma and the information overload during career fairs, events and handshake posts. This story will then serve as a tool to help the student answer key questions that will enhance his/her/their job search.
-
-> A CMU MSIM degree in the US job market
-!["Story Arc: Rags to Riches"](../../img/project/storyArc.jpg)
 
 The narrative should subtly answer the below questions for the reader:
 1. How many students apply for MSISM and complete the program?
