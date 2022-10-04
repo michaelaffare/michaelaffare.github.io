@@ -1,15 +1,19 @@
 # The worth of a CMU MISM degree in the US job market [Project - Part 2]
-### Visualising the Master of Information Systems Management program's value and demand 
+## Visualising the Master of Information Systems Management program's value and demand 
 
 [Home](readme.md)
 
-### Presentation: things to build on from (Outstanding from part1)
+### Introduction
+This section of the project focuses on how everything comes together.
+- I sought inspiration from design content and class resources
+- Identified the target audience and general theme
+- Created a draft story map (to show how the story flows and which visuals support the story)
+- Did some user research (critique, interviews and opinions)
+- Class review
+- Modifications and improvements
 
-- Opportunities and needs
-- Key findings
-- Candidates for final solution
+### Presentation
 
-### Storyboard
 #### Design influences/inspiration:
 The resources for this week's class greatly influence my approach to designing project II.
 Below are some highlight keypoints picked from different resources provided; these lessons reflect in the Project 2 results/draft.
@@ -142,6 +146,9 @@ This story is intended for:
 3. Resorting to fewer words and more visuals; to engage the student audience and employer base. Leveraging the visualistions to communicate the main point.
 
 
+### Storyboard: 
+
+
 #### Story arc: 
 > This story is "A rags to riches" themed: 
 - Protagonist: A typical international CMU student, smart and skilled, worked hard to find a good paying US job before graduation.
@@ -149,8 +156,7 @@ This story is intended for:
 - Overcome the challenge: 
 Given the resources available, basic data science concepts and the learnings from "Telling stories with data", information is organized from career services resources to answer the questions that the student has concerning the application process and Job market with respect to MISM program.
 
-
-#### Storyboard overview 
+#### Storyboard & flow:
 
 ##### 1: MISM & The MISM student 
  Every year, there are hundreds of brilliant MISM student like Eva, who have travelled from halfway across the world to study at CMU. 
@@ -174,7 +180,7 @@ Given the resources available, basic data science concepts and the learnings fro
   </tr>
 </table>
 
-#### 2: The job search hustle
+##### 2: The job search hustle
 The search for jobs often is intense.
 There are several emails, job postings to browse, career fairs, and interviews.
 The resume reviews, cover letters, and alumni events to attend are also many.
@@ -183,14 +189,14 @@ All this alongside the CMU course workload.
 When after a month or two there has not be any major job offers or leads, students begin to panic.
 Sometimes even doubting their abilities or limitations.
 
-### 3: The resources and support CMU career services provides
+##### 3: The resources and support CMU career services provides
 Thankfully CMU provides helpful resources to guide students through the job appliction process.
 An application called "Handshake" has helpful training and interview prep resources and is the hub for companies seeking out CMU students to employ.
 The Heinz website also has helpful information on previous salaries and employment statistics that students can reference as a guide.
 Thankfully all this information was publicly available on the Heinz Website:  <a href="https://www.heinz.cmu.edu/current-students/career-services/employment-information-salary-statistics" target="_blank">heinz.cmu.edu Employment Information Salary Statistics</a> as PDFs organized by program.
 !["Sample PDF data"](../../img/project/sampleDataPdf.png)
 
-### 4: Insights into previous Employment & Salaries trends
+##### 4: Insights into previous Employment & Salaries trends
 
 1. How many students apply for MSISM and complete the program?
 
@@ -216,7 +222,7 @@ Thankfully all this information was publicly available on the Heinz Website:  <a
 8. Conclusion 2: Call to action: See career services, identify your skills and matching roles, and target the companies listed that offer those roles.
 
 
-#### 5: Call to action
+##### 5: Call to action
 The call to action would be for MISM students
 1. To be aware and have the mental picture discussed in mind during the job search
 2. Price appropriately looking at trends and averages
@@ -231,7 +237,7 @@ To career services / Admissions
 
 ### User research
 
-### Approach to interviewee selection and Interview objective 
+#### Approach to interviewee selection and Interview objective 
 <table>
   <tr>
     <th>Interviewee Persona</th>
@@ -294,7 +300,7 @@ To career services / Admissions
 
 
 
-### Classroom review
+#### Classroom review
 After a group discussion of the topic and points
 > What worked?
 
@@ -310,6 +316,7 @@ After a group discussion of the topic and points
 >  High effort with high value
 - [ ] Indicate the return on investment for students (is it worth pursuing a CMU MISM degree?)
 - [ ] Improve color usage within visualisations.
+
 
 ### Conclusion
 There are several design considerations
