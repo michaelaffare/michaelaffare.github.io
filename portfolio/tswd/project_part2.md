@@ -1,4 +1,4 @@
-# The worth of a CMU MISM degree in the US job market [Porject - Part 2]
+# The worth of a CMU MISM degree in the US job market [Project - Part 2]
 ### Visualising the Master of Information Systems Management program's value and demand 
 
 [Home](readme.md)
