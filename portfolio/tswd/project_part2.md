@@ -1,5 +1,5 @@
-# The worth of a CMU MISM degree in the US job market... [part 2]
-### A visualization of the value and demand associated with the Carnegie Mellon University's Master of Information Systems Management degree in the US job market 
+# The worth of a CMU MISM degree in the US job market [Porject - Part 2]
+### Visualising the Master of Information Systems Management program's value and demand 
 
 [Home](readme.md)
 
@@ -158,11 +158,9 @@ Given the resources available, basic data science concepts and the learnings fro
  Her CMU studies have progressed steadily and she is now a semester or two away from graduating.
  
 > Callout statistics
-The MISM program over the period of 8 years (2015-2018) only has reported
-
 <table>
   <tr>
-    <th>callout statistic</th>
+    <th>MISM program's 8 yeasrs (2015-2018) statistics</th>
   </tr>
   <tr>
     <td>jobs reported <div class="flourish-embed" data-src="visualisation/11367262"><script src="https://public.flourish.studio/resources/embed.js"></script></div> </td>
