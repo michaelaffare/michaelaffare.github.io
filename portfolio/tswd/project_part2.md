@@ -35,7 +35,7 @@ Below are some highlighted key points from different resources provided; these l
   </tr>
     <tr>
     <td>Solution without interaction</td>
-    <td>make the visuals and story arc/data interactive</td>
+    <td>Make the visuals and story arc/data interactive</td>
   </tr>
     <tr>
     <td>Solution that doesn't allow for questions</td>
