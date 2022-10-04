@@ -147,7 +147,7 @@ Given the resources available, basic data science concepts and the learnings fro
 
 #### Storyboard overview 
 
-##### 1
+##### 1: MISM & The MISM student 
  Every year, there are hundreds of brilliant MISM student like Eva, who have travelled from halfway across the world to study at CMU. 
  Her hope, and that of her family paying over $80,000, is that she will hone her skills and become one of the leading talents in the technology and Information Systems industry in the United States. 
  Her grades, talents and previous experiences all point to the fact that this is possible.
@@ -155,12 +155,15 @@ Given the resources available, basic data science concepts and the learnings fro
  
 > Callout statistics
 The MISM program over the period of 8 years (2015-2018) only has reported
+
+
+
 <table>
   <tr>
     <th>callout statistic</th>
   </tr>
   <tr>
-    <td> 1583 jobs </td>
+    <td><div class="flourish-embed" data-src="visualisation/11367262"><script src="https://public.flourish.studio/resources/embed.js"></script></div> jobs </td>
   </tr>
   <tr>
     <td>611 employers</td>
@@ -173,26 +176,21 @@ The MISM program over the period of 8 years (2015-2018) only has reported
   </tr>
 </table>
 
+#### 2 - The job search hustle
+The search for jobs often is intense.
+There are several emails, job postings to browse, career fairs, and interviews.
+The resume reviews, cover letters, and alumni events to attend are also many.
+All this alongside the CMU course workload.
 
-#### 2
--- CMU workload
--- Handshake flooding emails (Job postings and notifications)
--- Missed first career fair due to projects
->> Callout statistics: mean score 
--- Hasn't had any leads since she interviewed with some companies
--- Sent out a few applications and not hearing backgrounds
--- Reviewed her CV and seen car 
--- getting anxious, questioning
+When after a month or two there has not be any major job offers or leads, students begin to panic.
+Sometimes even doubting their abilities or limitations.
 
-### 3 
--- The point of the MISM program is to glean insights in information and manage it effectively
--- she decides to organize the information vialable 
--- She makes a list of her top questions
--- heinz.cmu.edu (Salaries and years)
--- Extracts, loads and analyses
--- Sees how the data can answer these questions.
+### 3: The resources and support CMU career services provides
+Thankfully CMU provides helpful resources to guide students through the job appliction process.
+An application called "Handshake" has helpful training and interview prep resources and is the hub for companies seeking out CMU students to employ.
+The Heinz website also has helpful information on previous salaries and employment statistics that students can reference as a guide.
 
-### 4
+### 4: Insights into previous Employment & Salaries trends
 Answering questions through visualisations
 -- EMPLOYMENT RATE: Will I get a job in this mess? Yes. (most likely)
 > Percentage of grads that got jobs each year
@@ -208,18 +206,19 @@ Answering questions through visualisations
 > Where are the most jobs
 
 
-
-
-
-
-
-The narrative should subtly answer the below questions for the reader:
 1. How many students apply for MSISM and complete the program?
+
 2. What has been the employment rate of students who graduate from the MISM program?
+
 3. What are the categories of job roles that are frequently seeking MISM graduates? (Do you have the skills?)
+
 4. Job hunt: What companies should you consider for the roles mentioned?
+
 5. Salaries: What is a reasonable salary expectation for an MSISM student?
+<div class="flourish-embed flourish-chart" data-src="visualisation/11296909"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
 6. What locations could you end up in when offered a job? And where are you likely to find alums working?
+
 7. Conclusion 1: Summary; the value of a CMU MISM degree
 8. Conclusion 2: Call to action: See career services, identify your skills and matching roles, and target the companies listed that offer those roles.
 
@@ -238,7 +237,6 @@ Flourish, excel and hand sketches were used to develop the first few ideas; thes
 > initial excel draft
 !["Salary Range over Time"](../../img/project/SalaryRangesOverTime.png)
 > Further development in Flourish
-<div class="flourish-embed flourish-chart" data-src="visualisation/11296909"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 ###### Count of Companies that gave offers each year
 This visualization will aid students in knowing the companies who know about MISM students, may have alums working there and are likely to give job offers to MISM students
