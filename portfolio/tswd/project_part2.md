@@ -2,6 +2,7 @@
 ## Visualizing the Master of Information Systems Management program's value and demand [Project - Part 2]
 
 [Home](readme.md)
+<a href="https://preview.shorthand.com/43RPijMCwDAk7dS2" target="_blank">Shorthand Preview - Part II</a> 
 
 ### Introduction
 This part of the project focused on how everything comes together.
