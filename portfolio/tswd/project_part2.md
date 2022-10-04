@@ -5,9 +5,9 @@
 
 ### Presentation: things to build on from (Outstanding from part1)
 
-- [ ] Opportunities and needs
-- [ ] Key findings
-- [ ] Candidates for final solution
+- Opportunities and needs
+- Key findings
+- Candidates for final solution
 
 ### Storyboard
 #### Design influences/inspiration:
@@ -46,9 +46,10 @@ Below are some highlight keypoints picked from different resources provided; the
 2 . <a href="https://source.opennews.org/articles/story-templates-financial-times-reusable/" target="_blank"> Financial times: Story Templates:</a> 
 
 > My story would follow the "Charticle" template; a narrative with charts. Sample articles that follow this style are listed below:
-- ["Donald Trump’s claims of US-Mexico border crisis, in charts"](https://www.ft.com/content/7a2ce77c-56d1-11e9-91f9-b6515a54c5b1)
-- ["The huge disparities in US life expectancy in five charts"](https://www.ft.com/content/80a76f38-e3be-11e6-8405-9e5580d6e5fb)
-- ["The Asian century is set to begin"](https://www.ft.com/content/520cb6f6-2958-11e9-a5ab-ff8ef2b976c7)
+- <a href="https://www.ft.com/content/7a2ce77c-56d1-11e9-91f9-b6515a54c5b1" target="_blank">Donald Trump’s claims of US-Mexico border crisis, in charts</a> 
+- <a href="https://www.ft.com/content/80a76f38-e3be-11e6-8405-9e5580d6e5fb" target="_blank">The huge disparities in US life expectancy in five charts</a> 
+- <a href="https://www.ft.com/content/520cb6f6-2958-11e9-a5ab-ff8ef2b976c7" target="_blank">The Asian century is set to begin</a> 
+
  
 
 3 . <a href="https://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks?referrer=playlist-how_to_make_a_great_presentation" target="_blank">Tedtalk: Secret structure of a great talk</a>
@@ -61,6 +62,11 @@ Below are some highlight keypoints picked from different resources provided; the
  - End on a high note (with a strong call to action, draw something out)
  These influenced a revision of my storyboard and story arc.
 
+> <a href="https://www.ted.com/talks/david_mccandless_the_beauty_of_data_visualization?referrer=playlist-how_to_make_a_great_presentation" target="_blank">David McCandless</a>
+  - Relative numbers chang the story (look at relative figures as well)
+  - Bring the data alive
+  - Visualised data can change your mindset or approach to the same information; reduces the burden of information overload.
+
 4 . <a href="https://youtu.be/Mqrhn8khGLM" target="_blank">Explained | Racial Wealth Gap | FULL EPISODE | Netflix</a>
   - Consistent visualization/theme
   - Effective use of images and highlights 
@@ -69,11 +75,59 @@ Below are some highlight keypoints picked from different resources provided; the
 
 #### Persona 
 This story is intended for:
+
+
+table>
+  <tr>
+    <th>Metric </th>
+    <th>MISM Student (current/prospective)</th>
+    <th>CMU staff (Admissions/Career Services)</th>
+    <th>Employer</th>
+    <th>General public</th>
+  </tr>
+  <tr>
+    <td>Solution without a problem </td>
+    <td>State a clear problem faced by students </td>
+    <td>Solution without a problem </td>
+    <td>State a clear problem faced by students </td>
+    <td>State a clear problem faced by students </td>
+  </tr>
+  <tr>
+    <td>Solution without a problem </td>
+    <td>State a clear problem faced by students </td>
+    <td>Solution without a problem </td>
+    <td>State a clear problem faced by students </td>
+    <td>State a clear problem faced by students </td>
+  </tr>
+    <tr>
+    <td>Solution without a problem </td>
+    <td>State a clear problem faced by students </td>
+    <td>Solution without a problem </td>
+    <td>State a clear problem faced by students </td>
+    <td>State a clear problem faced by students </td>
+  </tr>
+    <tr>
+    <td>Solution without a problem </td>
+    <td>State a clear problem faced by students </td>
+    <td>Solution without a problem </td>
+    <td>State a clear problem faced by students </td>
+    <td>State a clear problem faced by students </td>
+  </tr>
+    <tr>
+    <td>Solution without a problem </td>
+    <td>State a clear problem faced by students </td>
+    <td>Solution without a problem </td>
+    <td>State a clear problem faced by students </td>
+    <td>State a clear problem faced by students </td>
+  </tr>
+</table>
+
+
 1. Current Carnegie Mellon University MISM students
-- [ ] Identify with the situation
-- [ ] Interested in the findings
-- [ ] Would appreciate the call to action
-- [ ] 
+- Identify with the situation
+- Interested in the findings
+- Would appreciate the call to action
+
 
 2. Prospective CMU MISM students
 3. Faculty 
