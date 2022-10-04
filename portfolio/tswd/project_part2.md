@@ -343,10 +343,10 @@ To career services / Admissions
   </tr>
     <tr>
     <td>Do you have any unanswered questions after reading this (any confusion on unaddressed interests)?</td>
-    <td>Paragraphs are disjoint; was distracting</td>
+    <td>1. Paragraphs are disjoint; was distracting </br> 2. Location background is pixelated. You could use a real map of US </td>
     <td>Repeating job titles, these could be aggregated</td>
     <td>Wasn't sure what MISM-BIDA and MISM-GLOBAL in the filters meant</td>
-    <td>Clarify abbreviations in text or at the end of the page; hint that there are different program tracks</td>
+    <td>Clarify abbreviations in text or at the end of the page; hint that there are different program tracks </br> Use arcGIS Maps to generate a map</td>
   </tr>
   <tr>
     <td>What do you think you can do with this information? </td>
