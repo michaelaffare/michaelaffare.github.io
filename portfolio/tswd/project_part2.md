@@ -204,6 +204,8 @@ Thankfully all this information was publicly available on the Heinz Website:  <a
 4. Job hunt: What companies should you consider for the roles mentioned?
 <div class="flourish-embed" data-src="visualisation/11291041"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
+<div class="flourish-embed flourish-hierarchy" data-src="visualisation/11367710"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
 5. Salaries: What is a reasonable salary expectation for an MSISM student?
 <div class="flourish-embed flourish-chart" data-src="visualisation/11296909"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
