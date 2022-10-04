@@ -61,7 +61,7 @@ Below are some highlighted key points from different resources provided; these l
 
 > I learnt from Nancy Duarte to:
  - Talks/Articles are more effective as stories 
- - Frequently compare what is with what could be; to rail in the audience on the vision/objective.
+ - Frequently compare "what is" with "what could be"; to rail in the audience on the vision/objective.
  - Involve the audience: create avenues for applause, laughter or marvel at some points (Be a Yoda guiding the audience in the experience)
  - Touch on topics that resonate with the audience
  - End on a high note (with a solid call to action, draw something out)
@@ -70,7 +70,7 @@ Below are some highlighted key points from different resources provided; these l
 > <a href="https://www.ted.com/talks/david_mccandless_the_beauty_of_data_visualization?referrer=playlist-how_to_make_a_great_presentation" target="_blank">David McCandless</a>
   - Relative numbers change the story (look at relative figures as well)
   - Bring the data alive
-  - Visualized data can change your mindset or Approach to the same information; reduces the burden of information overload.
+  - Visualized data can change your mindset or approach to the same information; reduces the burden of information overload.
 
 4 . <a href="https://youtu.be/Mqrhn8khGLM" target="_blank">Explained | Racial Wealth Gap | FULL EPISODE | Netflix</a>
   - Consistent visualization/theme
@@ -148,14 +148,14 @@ This story is intended for:
 ### Storyboard: 
 
 #### Story arc: 
-> This story is "A rags to riches" themed: 
+> This story is "Rags to riches" themed: 
 - Protagonist: A typical international CMU student, intelligent and skilled, worked hard to find a well-paying US job before graduation.
 - Challenge: The hectic job search: Many career fairs, running out of time, need an offer before graduation. Added pressure causes some insecurities to surface, and the workload from school competes for attention.
 - Overcome the challenge: 
 Given the resources available, basic data science concepts and the learnings from "Telling stories with data", information is organized from career services resources to answer the student's questions concerning the application process and the Job market concerning the MISM program.
 
 #### Storyboard & Wireframes:
-The storyboard is previewed on Shorthand (link below)
+The storyboard is previewed on Shorthand
 
 Critical considerations in the story are from the inspirations listed above
 
@@ -171,6 +171,29 @@ States the job search problem.
 States how jobs are typically found in CMU (direct student search and Career services facilitated investigations)
 
 4 . Callout statistics for Career Services reported jobs found by CMU students (within the months leading to graduation)
+
+5 . Visualizing the statistics from Career Services to make a point of CMU MISM having value
+ - Employment statistics (2015 -2022)
+ - MISM job categories and their popularity
+ - Companies and the job roles they have employed MISM graduates for (2015-2022)
+ - Salaries reported for MISM job offers (2015 - 2022)
+ - Locations that MISM job offers require graduates to work from
+
+6 . Conclusion
+ Conclude that MISM has value; based on the stories told by the data through the salaries and demand.
+
+7 . Return on investment highlight
+
+8 . What is Next? (Call to action)
+ - MISM Student: visit career services and focus on job search
+ - Employer: Contact career services to be set up in handshake for high-value talent
+ - Prospective students/Public: Contact the Admissions Office
+
+9 . Link to visit and contact Heinz College Career Services.
+
+##### Wireframes: Some visualizations depicting the general theme of the storyboard:
+
+1 . Callout statistics
 <table>
   <tr>
     <th>jobs reported </th>
@@ -185,27 +208,6 @@ States how jobs are typically found in CMU (direct student search and Career ser
     <td> <div class="flourish-embed" data-src="visualisation/11367364"><script src="https://public.flourish.studio/resources/embed.js"></script></div></td>
   </tr>
 </table>
-
-4 . Visualizing the statistics from Career Services to make a point of CMU MISM having value
- - Employment statistics (2015 -2022)
- - MISM job categories and their popularity
- - Companies and the job roles they have employed MISM graduates for (2015-2022)
- - Salaries reported for MISM job offers (2015 - 2022)
- - Locations that MISM job offers require graduates to work from
-
- 5 . Conclusion
- Conclude that MISM has value; based on the stories told by the data through the salaries and demand.
-
- 6 . Return on investment highlight
-
- 7 . What is Next? (Call to action)
- - MISM Student: visit career services and focus on job search
- - Employer: Contact career services to be set up in handshake for high-value talent
- - Prospective students/Public: Contact the Admissions Office
-
- 8 . Link to visit and contact Heinz College Career Services.
-
-> Some visualizations depicting the general theme of the storyboard:
 
 2 . What has been the employment rate of students who graduate from the MISM program?
 <div class="flourish-embed flourish-chart" data-src="visualisation/11305762"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
