@@ -40,7 +40,7 @@ Below are some highlighted key points from different resources provided; these l
   </tr>
     <tr>
     <td>Solution that doesn't allow for questions</td>
-    <td>Anticipate reader questions and nswer them</td>
+    <td>Anticipate reader questions and answer them</td>
   </tr>
     <tr>
     <td>Solution that fails to pay attention to details</td>
