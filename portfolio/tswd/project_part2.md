@@ -115,6 +115,7 @@ This story is intended for:
     <td> Clarity on information</td>
     <td> A handy resource to walk students through </td>
     <td> Visibility on talent competition and talent discovery</td>
+    <td> Awareness of the value of a CMU MISM degree (options for consideration) </td>
     <td> Tailor the article to meet these needs </td>
   </tr>
     <tr>
@@ -176,7 +177,7 @@ Given the resources available, basic data science concepts and the learnings fro
   </tr>
 </table>
 
-#### 2 - The job search hustle
+#### 2: The job search hustle
 The search for jobs often is intense.
 There are several emails, job postings to browse, career fairs, and interviews.
 The resume reviews, cover letters, and alumni events to attend are also many.
@@ -229,7 +230,68 @@ To Employers:
 To career services / Admissions
 1. share with students and public who might benefit from knowing the value of a CMU degree over the years.
 
-### interview: critique and feedback
+### User research
+
+### Approach to interviewee selection and Interview objective 
+<table>
+  <tr>
+    <th>Interviewee Persona</th>
+    <th>Objective</th>
+  </tr>
+  <tr>
+    <td>CMU MISM student</td>
+    <td>Main target audience, viewpoint on the article will be critical</td>
+  </tr>
+  <tr>
+    <td>CMU Alumni</td>
+    <td>Might have practical questions from the real world and insights on information that might be relevant</td>
+  </tr>
+    <tr>
+    <td>Career Services</td>
+    <td>May have inputs on some key aspects that students frequently ask about or statistics to extract and display</td>
+  </tr>
+    <tr>
+    <td>Admissions Office</td>
+    <td>Might have an input on what to look for and how to evaluate it</td>
+  </tr>
+</table>
+
+#### Interview script (Question and Intent)
+
+<table>
+  <tr>
+    <th>Question</th>
+    <th>Intent</th>
+  </tr>
+  <tr>
+    <td>How do you feel about the topic?</td>
+    <td>Get the overview of the response/perception of the main audience to the topic.</td>
+  </tr>
+  <tr>
+    <td>Is the general information flow clear and smooth?</td>
+    <td>Evaluate the effectiveness of the communication</td>
+  </tr>
+    <tr>
+    <td>What information surprised you (stood out to you the most)?</td>
+    <td>Identify some focus areas in the story, to highlight or to check if interest is sustained or escalating long the story</td>
+  </tr>
+    <tr>
+    <td>Do you have any unanswered questions after reading this (any confusion on unaddressed interests)?</td>
+    <td>Discover areas of the story to build on and address interests that have not been accounted for in the story</td>
+  </tr>
+  <tr>
+    <td>What do you think you can do with this information? </td>
+    <td>Identify strong call to actions</td>
+  </tr>
+   <tr>
+    <td>Does the colour scheme and general design work for you (tell me why)?</td>
+    <td>Check if the moodboard and theme is working</td>
+  </tr>
+  <tr>
+    <td>What would you do differently?</td>
+    <td>Get new ideas/inspiration</td>
+  </tr>
+</table>
 
 
 
