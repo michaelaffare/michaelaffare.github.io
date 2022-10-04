@@ -240,14 +240,12 @@ To career services / Admissions
 
 
 
-### Shorthand storyboard (before user review/critique): 
-NB: 
-- Intermidiate state shown to users for feedback.  
-- This was kept unchanged to show the Before feedback and After Feedback effect
-> <a href="https://preview.shorthand.com/cVWczl9KJEQdnJax" target="_blank">Before user review/research/critique</a> 
+### Shorthand (before user review/critique): NB: There is a final Project 2 link at the end. This was initial draft (before review)
+<a href="https://preview.shorthand.com/cVWczl9KJEQdnJax" target="_blank">Before user review/research/critique</a> 
 
 
 ### User research
+
 #### Approach to interviewee selection and Interview objective 
 <table>
   <tr>
@@ -273,8 +271,6 @@ NB:
 </table>
 
 #### Interview script (Question and Intent)
-The interviews contained 7 broad questions as a template that had specific intents listed below:
-
 
 <table>
   <tr>
@@ -315,8 +311,6 @@ The interviews contained 7 broad questions as a template that had specific inten
 
 
 #### Interview Results (Question and Intent)
-It was free interaction with the interviewees so other discussions came up whiles using the template as a guide for the review.
-The table below captures the comments and the Things to Note and things ToDo
 
 <table>
   <tr>
