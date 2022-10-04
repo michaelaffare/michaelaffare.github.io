@@ -77,7 +77,7 @@ Below are some highlight keypoints picked from different resources provided; the
 This story is intended for:
 
 
-table>
+<table>
   <tr>
     <th>Metric </th>
     <th>MISM Student (current/prospective)</th>
@@ -86,11 +86,11 @@ table>
     <th>General public</th>
   </tr>
   <tr>
-    <td>Solution without a problem </td>
-    <td>State a clear problem faced by students </td>
-    <td>Solution without a problem </td>
-    <td>State a clear problem faced by students </td>
-    <td>State a clear problem faced by students </td>
+    <td>Motivation: for reading the article </td>
+    <td> To discover information to aid job search </td>
+    <td> To discover informtaion to support job role. Use as resource for students </td>
+    <td> Discover a talent market for specific roles </td>
+    <td> Information about the CMU degree</td>
   </tr>
   <tr>
     <td>Solution without a problem </td>
