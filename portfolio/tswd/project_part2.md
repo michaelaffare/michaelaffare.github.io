@@ -4,10 +4,10 @@
 [Home](readme.md)
 
 ### Introduction
-This section of the project focuses on how everything comes together.
+This part of the project focused on how everything comes together.
 - I sought inspiration from design content and class resources
 - Identified the target audience and general theme
-- Created a draft story map (to show how the story flows and which visuals support the story)
+- Created a draft storyboard (to show how the story flows and which visuals support the story)
 - Did some user research (critique, interviews and opinions)
 - Class review
 - Modifications and improvements
@@ -194,6 +194,7 @@ The Heinz website also has helpful information on previous salaries and employme
 Thankfully all this information was publicly available on the Heinz Website:  
 <a href="https://www.heinz.cmu.edu/current-students/career-services/employment-information-salary-statistics" target="_blank">heinz.cmu.edu Employment Information Salary Statistics</a> as PDFs organized by program.</a>
 
+
 !["Sample PDF data"](../../img/project/sampleDataPdf.png)
 
 ##### 4: Insights into previous Employment & Salaries trends
@@ -235,6 +236,13 @@ To Employers:
 
 To career services / Admissions
 1. share with students and public who might benefit from knowing the value of a CMU degree over the years.
+
+
+
+
+### Shorthand (before user review/critique): NB: There is a final Project 2 link at the end. This was initial draft (before review)
+<a href="https://preview.shorthand.com/cVWczl9KJEQdnJax" target="_blank">Before user review/research/critique</a> 
+
 
 ### User research
 
@@ -301,23 +309,102 @@ To career services / Admissions
 
 
 
+
+#### Interview Results (Question and Intent)
+
+<table>
+  <tr>
+    <th>Question</th>
+    <th>Alumni</th>
+    <th>MISM Student</th>
+    <th>General Public</th>
+     <th>Things to Note</th>
+  </tr>
+  <tr>
+    <td>How do you feel about the topic?</td>
+    <td>It's a relevant topic; wondering if the data was available already</td>
+    <td>It was interesting</td>
+    <td>Well done; insightful</td>
+    <td>Topic resonates with different audience</td>
+  </tr>
+  <tr>
+    <td>Is the general information flow clear and smooth?</td>
+    <td>The general idea is clear but it could be better articulated in a concise way</td>
+    <td>Story is relatable and it captured my attention</td>
+    <td>I skipped most of the text; I just spent most of the time playing with the visuals</td>
+    <td>Too many words at the beginning, need to trim it. Visuals work</td>
+  </tr>
+    <tr>
+    <td>What information surprised you (stood out to you the most)?</td>
+    <td>The salaries are rising for new graudates.</td>
+    <td>There a so many job roles and titles. Some top companies don't hire a lot from CMU</td>
+    <td>The program gets people a good salary and they get to work in top companies</td>
+    <td>Story highlights are the salary and the job/companies visuals; improve that segment and build up to that</td>
+  </tr>
+    <tr>
+    <td>Do you have any unanswered questions after reading this (any confusion on unaddressed interests)?</td>
+    <td>Paragraphs are disjoint; was distracting</td>
+    <td>Repeating job titles, these could be aggregated</td>
+    <td>Wasn't sure what MISM-BIDA and MISM-GLOBAL in the filters meant</td>
+    <td>Clarify abbreviations in text or at the end of the page; hint that there are different program tracks</td>
+  </tr>
+  <tr>
+    <td>What do you think you can do with this information? </td>
+    <td>Inform my recruitement team to scout for CMU students, we can afford at this mean price</td>
+    <td>Ask for more money in interviews</td>
+    <td>Just know; and encourage friends to do this course if they are interested in IT</td>
+    <td>People have different use cases for the insights; hence slightly different call to actions</td>
+  </tr>
+   <tr>
+    <td>Does the colour scheme and general design work for you (tell me why)?</td>
+    <td>Good</td>
+    <td>Nice, has CMU colours</td>
+    <td>Ok but can be more professional since it is for a university</td>
+    <td>Theme is good, design can be smoother</td>
+  </tr>
+  <tr>
+    <td>What would you do differently?</td>
+    <td>Better narrative</td>
+    <td>neater graphs (less busy)</td>
+    <td>More professional style</td>
+    <td>Improve overall design</td>
+  </tr>
+</table>
+
 #### Classroom review
 After a group discussion of the topic and points
 > What worked?
-
+ - The topic is good
+ - The theme brings an association with CMU
 > What didn't work?
-
+ - too many data points, makes charts look busy 
+ - Not intuitive that the visuals are interactive
+ - Callout statistics counting too slow; try to speed it up; noone will wait
 > What questions came up?
-
+ - Why filters if it is only about MISM; indicate that there are different tracks of MISM students
 > What new inspiration arose?
+ - Change one of the two similar tree maps for the jobs and companies visualization for diversity
+ - convert the word cloud to an image to replace one of the scrollmation images
+
 
 #### todo list from class review
 > Low effort with high value
-- [X] Include key interview results in the design and storyboard.
+- [X] Switch chart type (for diversity)
+- [X] Change word cloud to image 
 >  High effort with high value
-- [ ] Indicate the return on investment for students (is it worth pursuing a CMU MISM degree?)
-- [ ] Improve color usage within visualisations.
+- [ ] Categorise data further
+- [ ] Check colour options
+- [ ] Improve the narrative
 
+
+### Shorthand (AFTER user review/critique)
+<a href="https://preview.shorthand.com/43RPijMCwDAk7dS2" target="_blank">After user review/research/critique</a> 
+
+
+
+
+#### Pending actions
+- [ ] Improve map visualization
 
 ### Conclusion
 There are several design considerations
