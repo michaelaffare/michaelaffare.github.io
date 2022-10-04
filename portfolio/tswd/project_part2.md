@@ -10,13 +10,15 @@
 - [ ] Candidates for final solution
 
 ### Storyboard
-#### Mental Construction (design influences): From readings/research
+#### Design influences/inspiration:
+The resources for this week's class greatly influence my approach to designing project II.
+Below are some highlight keypoints picked from different resources provided; these lessons reflect in the Project 2 results/draft.
 
-1. <a href="https://hbr.org/2018/10/how-to-blow-a-presentation-to-the-c-suite" target="_blank">C-suite: key points to capture</a> 
+1 . <a href="https://hbr.org/2018/10/how-to-blow-a-presentation-to-the-c-suite" target="_blank">C-suite: key points to capture</a> 
 
 <table>
   <tr>
-    <th>Issues to avoid </th>
+    <th>Common presentation issues to avoid </th>
     <th>the recommendations for this project </th>
   </tr>
   <tr>
@@ -41,28 +43,28 @@
   </tr>
 </table>
 
+2 . <a href="https://source.opennews.org/articles/story-templates-financial-times-reusable/" target="_blank"> Financial times: Story Templates:</a> 
 
-2. <a href="https://source.opennews.org/articles/story-templates-financial-times-reusable/" target="_blank"> Financial times: template:</a> 
-
-I identified that my story should follow the "Charticle" template; where a story is interspersed with visualisations (mostly charts). These form the key visual communication components.
-Samples reviewed from Financial times are below. . . .
+> My story would follow the "Charticle" template; a narrative with charts. Sample articles that follow this style are listed below:
 - ["Donald Trump’s claims of US-Mexico border crisis, in charts"](https://www.ft.com/content/7a2ce77c-56d1-11e9-91f9-b6515a54c5b1)
 - ["The huge disparities in US life expectancy in five charts"](https://www.ft.com/content/80a76f38-e3be-11e6-8405-9e5580d6e5fb)
 - ["The Asian century is set to begin"](https://www.ft.com/content/520cb6f6-2958-11e9-a5ab-ff8ef2b976c7)
  
 
+3 . <a href="https://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks?referrer=playlist-how_to_make_a_great_presentation" target="_blank">Tedtalk: Secret structure of a great talk</a>
 
-3. <a href="https://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks?referrer=playlist-how_to_make_a_great_presentation" target="_blank">Tedtalk: talk progressions</a>
+> I learnt from Nancy Duarte to:
+ - Talks/Articles are more effective as stories 
+ - Frequently compare what is with what could be; to rail in the audience on the vision/objective.
+ - Involve the audience: create avenues for applause, laughter or marvel at some points (Be a Yoda guiding the audience in the experience)
+ - Touch on topics that resonate with the audience
+ - End on a high note (with a strong call to action, draw something out)
+ These influenced a revision of my storyboard and story arc.
 
- - Tell a story
- - Ups and downs between what is now and what could be 
- - Involve audience: applause, laughter (humour is effective for attention), marvel at some points (to guide the user/yoda style); touch on topics that resonnate with the audience
- - End on a high note (call to action, draw something out)
-
-4. <a href="https://youtu.be/Mqrhn8khGLM" target="_blank">Explained | Racial Wealth Gap | FULL EPISODE | Netflix</a>
-  - Consistent visualization/theme, 
-  - use of effective images are backgrounds, 
-  - Employing different types of visuals including sketches, cartoons, pictures and charts.
+4 . <a href="https://youtu.be/Mqrhn8khGLM" target="_blank">Explained | Racial Wealth Gap | FULL EPISODE | Netflix</a>
+  - Consistent visualization/theme
+  - Effective use of images and highlights 
+  - Employing different types of visuals elements ( sketches, cartoons, pictures and charts) to keep the audience interest and drive home the point.
 
 
 #### Persona 
