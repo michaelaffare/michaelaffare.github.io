@@ -405,6 +405,7 @@ Some changes were successfully made to the initial design
 - [X] Added footnotes to charts that are interactive (so users will know to interact with them)
 - [X] Varied some visualisations that looked too similar
 - [X] Added a closing page that had a link (indirectly making a call to action)
+
 >  High effort with high value
 - [X] Further categorising the data
 - [ ] Improve the narrative (too hollow/placeholder); shorting the first few pages text (be more engaging)
