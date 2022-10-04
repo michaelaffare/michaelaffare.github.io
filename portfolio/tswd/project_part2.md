@@ -158,22 +158,19 @@ Given the resources available, basic data science concepts and the learnings fro
  Her grades, talents and previous experiences all point to the fact that this is possible.
  Her CMU studies have progressed steadily and she is now a semester or two away from graduating.
  
-> Callout statistics
+> MISM program's 8 yeasrs (2015-2018) statistics
 <table>
   <tr>
-    <th>MISM program's 8 yeasrs (2015-2018) statistics</th>
+    <th>jobs reported </th>
+    <th>Employers </th>
+    <th>Job locations</th>
+    <th>Job categories </th>
   </tr>
   <tr>
-    <td>jobs reported <div class="flourish-embed" data-src="visualisation/11367262"><script src="https://public.flourish.studio/resources/embed.js"></script></div> </td>
-  </tr>
-  <tr>
-    <td>Employers <div class="flourish-embed" data-src="visualisation/11367350"><script src="https://public.flourish.studio/resources/embed.js"></script></div></td>
-  </tr>
-    <tr>
-    <td>Job locations <div class="flourish-embed" data-src="visualisation/11367359"><script src="https://public.flourish.studio/resources/embed.js"></script></div></td>
-  </tr>
-    <tr>
-    <td>Job categories <div class="flourish-embed" data-src="visualisation/11367364"><script src="https://public.flourish.studio/resources/embed.js"></script></div></td>
+    <td><div class="flourish-embed" data-src="visualisation/11367262"><script src="https://public.flourish.studio/resources/embed.js"></script></div> </td>
+    <td> <div class="flourish-embed" data-src="visualisation/11367350"><script src="https://public.flourish.studio/resources/embed.js"></script></div></td>
+    <td> <div class="flourish-embed" data-src="visualisation/11367359"><script src="https://public.flourish.studio/resources/embed.js"></script></div></td>
+    <td> <div class="flourish-embed" data-src="visualisation/11367364"><script src="https://public.flourish.studio/resources/embed.js"></script></div></td>
   </tr>
 </table>
 
