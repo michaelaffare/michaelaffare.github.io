@@ -417,7 +417,7 @@ Although not everything can be incooperated and this project is "baby-steps" I c
 The principles and iterations from moodboards to sketches and the incooperation of principles that influenced a theme development made me appreciate the very many background decisions that need to be taken to communicate a story through data.
 I am absolutely loving this experience. 
 
-[Home: Telling stories with data Portfolio](readme.md)
-[Back: Project Part 1 - The worth of a CMU MISM degree in the US job market](project_part1.md)
+- [Home: Telling stories with data Portfolio](readme.md)
+- [Back: Project Part 1 - The worth of a CMU MISM degree in the US job market](project_part1.md)
 
 
