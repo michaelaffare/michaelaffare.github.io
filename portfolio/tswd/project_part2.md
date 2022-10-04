@@ -139,7 +139,9 @@ This story is intended for:
 </table>
 
 #### Moodboard: To target the audience above
-1. Colour scheme will follow CMU website: Red, white and black dominant colours
+1. Colour scheme will follow CMU website: Red, white and black dominant colours. Specific colours were found online as (to create a better mental association):
+  - CMU red: #c41230
+  - CMU gray-black: #4d5051
 2. Borrow images from the main CMU site and general style of the CMU website; to create a mental association and some sense of being derived from the official source.
 3. Resorting to fewer words and more visuals; to engage the student audience and employer base. Leveraging the visualistions to communicate the main point.
 
