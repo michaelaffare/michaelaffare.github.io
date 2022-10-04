@@ -1,5 +1,5 @@
-# The worth of a CMU MISM degree in the US job market [Project - Part 2]
-## Visualising the Master of Information Systems Management program's value and demand 
+# The worth of a CMU MISM degree in the US job market 
+## Visualising the Master of Information Systems Management program's value and demand [Project - Part 2]
 
 [Home](readme.md)
 
@@ -144,7 +144,6 @@ This story is intended for:
 3. Resorting to fewer words and more visuals; to engage the student audience and employer base. Leveraging the visualistions to communicate the main point.
 
 
-
 ### Storyboard: 
 
 #### Story arc: 
@@ -155,14 +154,22 @@ This story is intended for:
 Given the resources available, basic data science concepts and the learnings from "Telling stories with data", information is organized from career services resources to answer the questions that the student has concerning the application process and Job market with respect to MISM program.
 
 #### Storyboard & flow:
+The storyboard is previewed on Shorthand (link below)
 
-##### 1: MISM & The MISM student 
- Every year, there are hundreds of brilliant MISM student like Eva, who have travelled from halfway across the world to study at CMU. 
- Her hope, and that of her family paying over $80,000, is that she will hone her skills and become one of the leading talents in the technology and Information Systems industry in the United States. 
- Her grades, talents and previous experiences all point to the fact that this is possible.
- Her CMU studies have progressed steadily and she is now a semester or two away from graduating.
+Key considerations in story are from the inspirations listed above
+
+The outline was:
+
+1 . "The Hope of MISM" ~ CMU MISM Student
+Talk about a MISM student and her prospects
+
+2 . "The job search Hustle"
+States the job search problem.
  
-> MISM program's 8 yeasrs (2015-2018) statistics
+3 . "How jobs are found at CMU"
+States how jobs are typically found in CMU (derict student search and Career services facilitated searches)
+
+4 . Callout statistics for Career Services reported jobs found by CMU students (within the months leading to graduation)
 <table>
   <tr>
     <th>jobs reported </th>
@@ -178,69 +185,52 @@ Given the resources available, basic data science concepts and the learnings fro
   </tr>
 </table>
 
-##### 2: The job search hustle
-The search for jobs often is intense.
-There are several emails, job postings to browse, career fairs, and interviews.
-The resume reviews, cover letters, and alumni events to attend are also many.
-All this alongside the CMU course workload.
+4 .Visualising the statistics from Career Services to make the point of CMU MISM having value
+ - Employment statistics (2015 -2022)
+ - MISM job categories and their popularity
+ - Companies and the job roles they have employed MISM graduates for (2015-2022)
+ - Salaries reported for MISM job offers (2015 - 2022)
+ - Locations that MISM job offers require graduates to work from
 
-When after a month or two there has not be any major job offers or leads, students begin to panic.
-Sometimes even doubting their abilities or limitations.
+ 5 . Conclusion
+ Conclude that MISM has value; based on the stories told by the data through the salaries and demand.
 
-##### 3: The resources and support CMU career services provides
-Thankfully CMU provides helpful resources to guide students through the job appliction process.
-An application called "Handshake" has helpful training and interview prep resources and is the hub for companies seeking out CMU students to employ.
-The Heinz website also has helpful information on previous salaries and employment statistics that students can reference as a guide.
-Thankfully all this information was publicly available on the Heinz Website:  
-<a href="https://www.heinz.cmu.edu/current-students/career-services/employment-information-salary-statistics" target="_blank">heinz.cmu.edu Employment Information Salary Statistics</a> as PDFs organized by program.</a>
+ 6 . Return on investment highlight
+
+ 7 . What Next? (Call to action)
+ - MISM Student: visit career services and focus job search
+ - Employer: Contact career services to be setup in handshake for high value talent
+ - Prospective students/Public: Contact admissions Office
+
+ 8 . Link to visit and contact Heinz College Career Services.
 
 
-!["Sample PDF data"](../../img/project/sampleDataPdf.png)
-
-##### 4: Insights into previous Employment & Salaries trends
-
-1 . How many students apply for MSISM and complete the program?
+> Some visualisations depicting the general theme of the storyboard:
 
 2 . What has been the employment rate of students who graduate from the MISM program?
 <div class="flourish-embed flourish-chart" data-src="visualisation/11305762"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-3 . What are the categories of job roles that are frequently seeking MISM graduates? (Do you have the skills?)
+What are the categories of job roles that are frequently seeking MISM graduates? (Do you have the skills?)
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/11305963"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/11367710"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-<div class="flourish-embed" data-src="visualisation/11291097"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
-4 . Job hunt: What companies should you consider for the roles mentioned?
-<div class="flourish-embed" data-src="visualisation/11291041"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
-5 . Salaries: What is a reasonable salary expectation for an MSISM student?
+Salaries: What is a reasonable salary expectation for an MSISM student?
 <div class="flourish-embed flourish-chart" data-src="visualisation/11296909"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-6 . What locations could you end up in when offered a job? And where are you likely to find alums working?
-<div class="flourish-embed" data-src="visualisation/11291110"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
-7 . Conclusion 1: Summary; the value of a CMU MISM degree
-8 . Conclusion 2: Call to action: See career services, identify your skills and matching roles, and target the companies listed that offer those roles.
 
 
 ##### 5: Call to action
-The call to action would be for MISM students
-1. To be aware and have the mental picture discussed in mind during the job search
-2. Price appropriately looking at trends and averages
-3. Check other job roles within the category of roles and search for those jobs during the job search
-4. Sign-up for career fairs for companies that frequently offer roles of interest.
+Visit Career Services for more information:
+3 audiences are addressed to touch on their different motivations.
 
-To Employers:
-1. Contact career services to find top talent to be able to compete with the top companies 
-
-To career services / Admissions
-1. share with students and public who might benefit from knowing the value of a CMU degree over the years.
+ - MISM Student: visit career services and focus job search
+ - Employer: Contact career services to be setup in handshake for high value talent
+ - Prospective students/Public: Contact admissions Office
 
 
 
-
-### Shorthand storyboard (before user review/critique): 
+### Storyboard preview within Shorthand (before user review/critique): 
 NB: 
 - Intermidiate state shown to users for feedback.  
 - This was kept unchanged to show the Before feedback and After Feedback effect
@@ -274,8 +264,6 @@ NB:
 
 #### Interview script (Question and Intent)
 The interviews contained 7 broad questions as a template that had specific intents listed below:
-
-
 <table>
   <tr>
     <th>Question</th>
@@ -316,7 +304,7 @@ The interviews contained 7 broad questions as a template that had specific inten
 
 #### Interview Results (Question and Intent)
 It was free interaction with the interviewees so other discussions came up whiles using the template as a guide for the review.
-The table below captures the comments and the Things to Note and things ToDo
+The table below captures the comments and the Things to Note and things ToDo.
 
 <table>
   <tr>
@@ -324,7 +312,7 @@ The table below captures the comments and the Things to Note and things ToDo
     <th>Alumni</th>
     <th>MISM Student</th>
     <th>General Public</th>
-     <th>Things to Note and improve</th>
+     <th><b>Things to Note and improve</b></th>
   </tr>
   <tr>
     <td>How do you feel about the topic?</td>
@@ -379,11 +367,12 @@ The table below captures the comments and the Things to Note and things ToDo
 
 
 
-#### Classroom review
+#### Classroom review (Secondary Review)
 After a group discussion of the topic and points
 > What worked?
- - The topic is good
- - The theme brings an association with CMU
+ - The topic is good.
+ - The theme (red,black,white) suggests an association with CMU.
+ - High value visualisations
 > What didn't work?
  - too many data points, makes charts look busy 
  - Not intuitive that the visuals are interactive
@@ -393,6 +382,7 @@ After a group discussion of the topic and points
 > What new inspiration arose?
  - Change one of the two similar tree maps for the jobs and companies visualization for diversity
  - convert the word cloud to an image to replace one of the scrollmation images
+ - Explore more callout statistics and other visualisations except images and charts.
 
 
 #### todo list from class review
@@ -402,21 +392,32 @@ After a group discussion of the topic and points
 >  High effort with high value
 - [ ] Categorise data further
 - [ ] Check colour options
-- [ ] Improve the narrative
+- [ ] Improve the narrative (too hollow/placeholder)
 
 
 ### Shorthand (AFTER user review/critique)
+
 <a href="https://preview.shorthand.com/43RPijMCwDAk7dS2" target="_blank">After user review/research/critique</a> 
 
-
-
-
+Some changes were successfully made to the initial design
+> Low effort with high value
+- [X] Checked for typos
+- [X] Added footnotes to charts that are interactive (so users will know to interact with them)
+- [X] Varied some visualisations that looked too similar
+- [X] Added a closing page that had a link (indirectly making a call to action)
+>  High effort with high value
+- [X] Further categorising the data
+- [ ] Improve the narrative (too hollow/placeholder); shorting the first few pages text (be more engaging)
 
 
 ### Conclusion
-There are several design considerations
+Developing the idea beyond data extraction has matured over the past week.
+progress looks very different from how I envisioned it during part 1; this is largely due to the inspiration found from the many resources provided to guide students on storytelling with data.
+Although not everything can be incooperated and this project is "baby-steps" I can really see the value of thinking about data and storytelling as a craft that can be honed.
+The principles and iterations from moodboards to sketches and the incooperation of principles that influenced a theme development made me appreciate the very many background decisions that need to be taken to communicate a story through data.
+I am absolutely loving this experience. 
 
-[Back](readme.md)
-
+[Home: Telling stories with data Portfolio](readme.md)
+[Back: Project Part 1 - The worth of a CMU MISM degree in the US job market](project_part1.md)
 
 

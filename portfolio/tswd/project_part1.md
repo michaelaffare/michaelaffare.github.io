@@ -220,7 +220,8 @@ Classroom critique gave an edge and offered new insights on what to include and 
 
 I am excited about the project and look forward to the next steps.
 
-[Back](readme.md)
+[Home: Telling stories with data Portfolio](readme.md)
+[Back: Project Part 2 - The worth of a CMU MISM degree in the US job market](project_part2.md)
 
 
 
