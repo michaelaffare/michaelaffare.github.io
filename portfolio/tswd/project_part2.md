@@ -1,8 +1,8 @@
 # The worth of a CMU MISM degree in the US job market 
 ## Visualizing the Master of Information Systems Management program's value and demand [Project - Part 2]
 
-[Home](readme.md)
-<a href="https://preview.shorthand.com/43RPijMCwDAk7dS2" target="_blank">Shorthand Preview - Part II</a> 
+- [Home](readme.md)
+- <a href="https://preview.shorthand.com/43RPijMCwDAk7dS2" target="_blank">Shorthand Preview - Part II</a> 
 
 ### Introduction
 This part of the project focused on how everything comes together.
@@ -214,7 +214,7 @@ States how jobs are typically found in CMU (direct student search and Career ser
 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/11370017"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-Salaries: What is a reasonable salary expectation for an MSISM student?
+3 . Salaries: What is a reasonable salary expectation for an MSISM student?
 <div class="flourish-embed flourish-chart" data-src="visualisation/11296909"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 
