@@ -67,6 +67,11 @@ I worked briefly in Australia as an Application Support Analyst at Freshtrack Sy
 - [x] Shorthand as a publication tool
 - [x] Final presentation, Final project submission, Portfolio cleanup
 
+### Assignments
+
+- [Assignment 2 - Visualising government debt](assignment/assignment2.md)
+- [Assignment 3 and 4 - Critique of CNBC's "Marvel heroes propelled Disney to overtake Sony at the top of the 2021 domestic box office.""](assignment/assignment3and4.md)
+
 ### Projects write-ups
 
 - [Project Part 1 - The worth of a CMU MISM degree in the US job market](project_part1.md)
