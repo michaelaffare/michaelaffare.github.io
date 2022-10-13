@@ -3,7 +3,9 @@
 ## Painting a calming picture for the job-seeking Master of Information Systems Management student. [Project - Part 3]
 
 [Home: Telling stories with data Portfolio](readme.md)
+
 [Back: Project Part 1 - The worth of a CMU MISM degree in the US job market](project_part1.md)
+
 [Back: Project Part 2 - The worth of a CMU MISM degree in the US job market](project_part2.md)
 
 <a href="https://carnegiemellon.shorthandstories.com/the-worth-of-a-cmu-mism-degree-in-the-us-job-market/index.html" target="_blank">Final Shorthand post - Published</a>
