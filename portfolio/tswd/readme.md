@@ -4,17 +4,17 @@
 
 ### About the course
 
-This course shares insights on how to effectively communicate through visualization.
+This course shares insights on how to communicate effectively through visualization.
 It explores frameworks and principles that guide a designer or data scientist to present information in a manner their audiences will appreciate.
-It employs many practical tools and frameworks that improve skills in design, presentation, data extraction and organization and content publication.
-During this course a project is used to put all the learnings in to practice.
+It employs many practical tools and frameworks that improve design, presentation, data extraction, organization, and content publication skills.
+This course uses a project to put all the learnings into practice.
 
 ### <a href="../../index.html#about" target="_blank">About me </a>
 
-Michael Affare is a Master of Information Systems Management graduate student at Carnegie Mellon University.
-I have 4 years work experience as a Solutions Architect at AirtelTigo Telecommunications Company in Ghana 🇬🇭.
+Michael Affare is a Master of Information Systems Management at Carnegie Mellon University.
+I have four years of work experience as a Solutions Architect at AirtelTigo Telecommunications Company in Ghana 🇬🇭.
 I worked briefly in Australia as an Application Support Analyst at Freshtrack Systems and interned at Hubble.sh as a Data Scientist.
-[more from linkedin . . ](https://linkedin.com/in/michaelaffare)
+[more from LinkedIn . . ](https://linkedin.com/in/michaelaffare)
 
 ### [What I wish to learn](blog/what-i-wish-to-learn.md)
 
@@ -22,7 +22,7 @@ I worked briefly in Australia as an Application Support Analyst at Freshtrack Sy
 - [x] Interactive Design 🤩
 - [x] Choosing the right visualization for a given data 🤔
 - [x] Simplification of visualizations
-- [x] Incoperating feedback into design
+- [x] Incorporating feedback into the design
 - [x] Presentation skills
       [read more. . .](blog/what-i-wish-to-learn.md)
 
@@ -42,7 +42,7 @@ I worked briefly in Australia as an Application Support Analyst at Freshtrack Sy
 
 > Week 3
 
-- [x] Introduction to Tableau and Flourish as visualisation tools
+- [x] Introduction to Tableau and Flourish as visualization tools
 - [x] Review BBC Audience style Guide (visualisation)
 - [x] List of other style guides
 
@@ -51,14 +51,14 @@ I worked briefly in Australia as an Application Support Analyst at Freshtrack Sy
 - [x] Citation guide
 - [x] Intermediate Tableau lessons
 - [x] Wireframing, storyboard and mood boards review
-- [x] Part 1 of final project; finding data and the general idea
+- [x] Part 1 of the final project; finding data and the general idea
 
 > Week 5
 
-- [x] Interviewing and feedback gathering techniques/guides
+- [x] Interviewing and feedback-gathering techniques/guides
 - [x] Exploring Canva, rawgraphs.io (other visualization resources)
 - [x] Persona development
-- [x] Part 2 of final project; moodboard, storybaords, audience identification, wireframes and user feedback/review
+- [x] Part 2 of final project; mood board, storyboards, audience identification, wireframes and user feedback/review
 
 > Week 6
 
@@ -67,7 +67,7 @@ I worked briefly in Australia as an Application Support Analyst at Freshtrack Sy
 - [x] Shorthand as a publication tool
 - [x] Final presentation, Final project submission, Portfolio cleanup
 
-### Projects writeu-ups
+### Projects write-ups
 
 - [Project Part 1 - The worth of a CMU MISM degree in the US job market](project_part1.md)
 - [Project Part 2 - The worth of a CMU MISM degree in the US job market](project_part2.md)
