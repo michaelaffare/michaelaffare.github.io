@@ -14,7 +14,7 @@ This course uses a project to put all the learnings into practice.
 Michael Affare is a Master of Information Systems Management at Carnegie Mellon University.
 I have four years of work experience as a Solutions Architect at AirtelTigo Telecommunications Company in Ghana 🇬🇭.
 I worked briefly in Australia as an Application Support Analyst at Freshtrack Systems and interned at Hubble.sh as a Data Scientist.
-[more from LinkedIn . . ](https://linkedin.com/in/michaelaffare)
+<a href="https://linkedin.com/in/michaelaffare" target="_blank">more from LinkedIn . . </a>
 
 ### [What I wish to learn](blog/what-i-wish-to-learn.md)
 
