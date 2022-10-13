@@ -25,13 +25,13 @@ Part III captures how everything comes together for the final product:
 
 ### Final audience review
 
-At the start of Part III, I had identified three primary audience groups, The students, Potential employers and the general public. The part II draft tried to address the needs of all these audiences, resulting in a less focused (flat-toned) message. However, the call to action also felt all over the place.
+At the start of Part III, I had identified three primary audience groups, The students, Potential employers and the general public. The part II draft tried to address the needs of all these audiences, resulting in a less focused (flat-toned) message. The call to action also felt all over the place.
 
 As part of Part II, grading feedback Professor and the TA made two leading suggestions
 
 - [x] Decide on a specific target audience so the message can be more effective.
 - [x] Call to action must be more relevant and precise.
-- [x] What unique value (aside from presenting the data on the CMU website) is the audience expected to get from this?
+- [x] What unique value is the audience expected to get from this (aside presenting the data from the CMU website) ?
 
 Thinking through this grading feedback, I discovered that:
 
@@ -75,7 +75,7 @@ It was interesting how Focusing on an audience led to identifying the exact focu
 
 I changed the voice of the story from a third person to a first-person narrative (since I identify with the audience group): This was a more practical choice.
 Also, some statements changed to be more inclusive and direct because the audience was one group and now allowed for such direct callouts.
-Notwithstanding, that other audience groups could still find what they needed from the article even though it was a more indirect approach, and I find that not much was compromised or lost by focusing on the primary audience.
+Notwithstanding, other audience groups could still find what they needed from the article even though it was a more indirect approach, and I find that not much was compromised or lost by focusing on the primary audience.
 
 - I double-checked my use of colours.
 - I corrected as many typos as possible (I ran the text through Grammarly for more concise wording and spell-checking).
@@ -84,7 +84,7 @@ Notwithstanding, that other audience groups could still find what they needed fr
 1. <b>Copyright checks</b>
    One crucial aspect of publicly publishing content is ensuring that all content that is not original is appropriately cited and that there is permission to use the content.
 
-   My article used many images from Unsplash that are all open source and without a need for copyright.
+   My article used many images from Unsplash that are all open source and without copyright restrictions.
 
 2. <b>Citations:</b>
    I included citations for all data sources at the bottom of the article:
@@ -98,7 +98,7 @@ At this end, it looked and felt more like a professional job.
 I shared the final output with a few people to get feedback.
 The responses were excellent, and most people felt it was ready to be submitted.
 
-There was one technical correction on the phrase "Return on Investment"; I updated this to "breakeven time". Unfortunately, this oversight would have confused people with a strong accounting/finance background who generally do not look good regarding credibility or topic expertise.
+There was one technical correction on the phrase "Return on Investment"; I updated this to "breakeven time". This oversight would have confused people with a strong accounting/finance background; it wouldn't have looked good for my credibility on the topic.
 
 The need for fewer changes and the feedback that the work was ready to submit was satisfying; it seemed like the many iterations were paying off.
 
@@ -111,7 +111,7 @@ Hearing from other students presenting on different topics was also interesting.
 
 My presentation attempted to engage the audience by making it interactive (with questions), personalizing the story and being relateable (as learnt in part II resources).
 
-Feedback from the class presentation (including other resources that capture context for the ". . . US job market").
+I received feedback from the class presentation (to include other resources that provide more context for the ". . . US job market").
 
 ##### Final publication
 
@@ -134,7 +134,7 @@ Also, FEEDBACK became one of the most effective design tools. I improved on soli
 
 Looking back, I would have done three things differently
 
-- Focus on one leading audience group earlier; as things became much clearer after choosing the MISM job-seeking student as the primary audience
+- Focus on one leading audience group earlier; as things became much clearer after choosing the MISM job-seeking student as the primary audience.
 - Identify the main call to action much earlier for the single target audience; ideas began to flow easily when the motivation for the write-up became clearer.
 - Start from the motive, and get the data that supports it from many credible sources (not get the data and build the audience and motivation afterwards). It pays to have a clear objective right from the beginning.
 
@@ -145,10 +145,13 @@ It has been an engaging, rewarding process.
 After refining this skill, I can see many professional opportunities open up.
 I recognize that it is a continuous learning process. Still, I believe with practice practise and more technique, this skill set will grow into a significant professional proficiency from which my future teams and projects will benefit. I look forward to telling more stories with data.
 
-> I would like to say a special thank you to <a href="https://www.linkedin.com/in/chrisgoranson/" target="_blank">Professor Christopher Goranson</a> and <a href="https://www.linkedin.com/in/delaney-sears/" target="_blank">Delaney Sears (TA)</a> for putting together this very practical learning experience for us students. We appreciate the effort to put together the resources and incoperating our feedback into the course delivery.
+> I would like to say a special thank you to <a href="https://www.linkedin.com/in/chrisgoranson/" target="_blank">Professor Christopher Goranson</a> and <a href="https://www.linkedin.com/in/delaney-sears/" target="_blank">Delaney Sears (TA)</a> for putting together this very practical learning experience for us students. We appreciate the meticulous effort you put in preparing the course resources and incoperating our feedback into the course delivery.
 
 Thank you for going on this journey with me.
-Hopefully, I will tell a good story with this data.
+Hopefully, I have told a good story with this data.
+
+<a href="https://carnegiemellon.shorthandstories.com/the-worth-of-a-cmu-mism-degree-in-the-us-job-market/index.html" target="_blank">Final Shorthand post - Published: The worth of a CMU MISM degree in the US job market</a>
 
 - [Home: Telling stories with data Portfolio](readme.md)
 - [Back: Project Part 1 - The worth of a CMU MISM degree in the US job market](project_part1.md)
+- [Back: Project Part 2 - The worth of a CMU MISM degree in the US job market](project_part2.md)
