@@ -143,7 +143,7 @@ Looking back, I would have done three things differently
 In all, I have enjoyed learning this process of Telling Stories with Data.
 It has been an engaging, rewarding process.
 After refining this skill, I can see many professional opportunities open up.
-I recognize that it is a continuous learning process. Still, I believe with practice practise and more technique, this skill set will grow into a significant professional proficiency from which my future teams and projects will benefit. I look forward to telling more stories with data.
+I recognize that it is a continuous learning process. Still, I believe with more practice this skill set will grow into a significant professional proficiency from which my future teams and projects will benefit. I look forward to telling more stories with data.
 
 > I would like to say a special thank you to <a href="https://www.linkedin.com/in/chrisgoranson/" target="_blank">Professor Christopher Goranson</a> and <a href="https://www.linkedin.com/in/delaney-sears/" target="_blank">Delaney Sears (TA)</a> for putting together this very practical learning experience for us students. We appreciate the meticulous effort you put in preparing the course resources and incoperating our feedback into the course delivery.
 
