@@ -115,7 +115,7 @@ I received feedback from the class presentation (to include other resources that
 
 ##### Final publication
 
-I will run the text for the publication through Turnitin to identify any concerns for uncited quotations or similarities to other works to avoid any complications with copyright and plagiarism. However, as all the content was initially created (except the cited Unsplash images), I do not anticipate any challenges with TurnItIn.
+I will run the text for the publication through Turnitin to identify any concerns for uncited quotations or similarities to other works to avoid any complications with copyright and plagiarism. However, as all the content was originally created (except the cited Unsplash images), I do not anticipate any challenges with TurnItIn.
 
 Shorthand also has a feature to publish the draft, giving a final publicly accessible URL under the Carnegie Mellon account.
 
