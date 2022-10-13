@@ -29,9 +29,9 @@ At the start of Part III, I had identified three primary audience groups, The st
 
 As part of Part II, grading feedback Professor and the TA made two leading suggestions
 
-[X] Decide on a specific target audience so the message can be more effective.
-[X] Call to action must be more relevant and precise.
-[X] What unique value (aside from presenting the data on the CMU website) is the audience expected to get from this?
+- [x] Decide on a specific target audience so the message can be more effective.
+- [x] Call to action must be more relevant and precise.
+- [x] What unique value (aside from presenting the data on the CMU website) is the audience expected to get from this?
 
 Thinking through this grading feedback, I discovered that:
 
