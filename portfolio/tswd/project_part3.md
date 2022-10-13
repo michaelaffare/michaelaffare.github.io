@@ -16,7 +16,7 @@ Part III captures how everthing comes together for the final product:
 - Supplementary data sources
 - Final finishing touches
 - Real audience feedback
-- Presentation and final critique
+- Final Presentation and final critique
 - Final publication
 - Retrospection
 - Conclusion
@@ -41,11 +41,11 @@ Once I did that the call to action became much clearer and the core message of t
 
 Because I am a student in a similar situation, I could relate more with the audience and personalise the story to make it more relatable. The subtitle for the article changed from an in-personal subtitle
 
-> Visualizing the Master of Information Systems Management program's value and demand
+> "Visualizing the Master of Information Systems Management program's value and demand."
 
 to
 
-> Painting a calming picture for the job-seeking Master of Information Systems Management student.
+> "Painting a calming picture for the job-seeking Master of Information Systems Management student.""
 
 These may seem like minor changes, but it really gave a face-lift to the entire message and made it more engaging.
 
@@ -75,309 +75,77 @@ The story was editted, from a third person narrative to a first person narrative
 Also some statements for changed to be made more inclusive and direct because the audience was one group and now allowed for such direct callouts.
 Notwithstanding, that other audience groups could still find what they need from the article eventhough it was a more indirect approach and I find that not much was compromised or lost by focusing on the main audience.
 
-Colours were double checked, typos were corrected (text was run through grammarly for more concise wording and a double-check on the spelling).
+- Colours were double checked,
+- typos were corrected (text was run through grammarly for more concise wording and a double-check on the spelling).
+- Labels on the Salary graph were changed from a decimal timeline (which was awkward) to a date timeline which more readers will be familiar with.
 
-#### Moodboard: To target the audience above
+1. <b>Copyright checks</b>
+   One crucial aspect of publishing content publicly is that the need to ensure that all content that are not original are properly sited and that there is permission to use the content.
 
-1. Colour scheme will follow the CMU website: Red, white and black are the dominant colours. Specific colours were found online (to create a better mental association):
+   My article used many images from unsplash that are all opensource and without a need to copyright.
 
-- CMU red: #c41230
-- CMU gray-black: #4d5051
+2. <b>Citations:</b>
+   I included citations for all data sources to the bottom of the article.
+   This can be helpful for people who want to verify some data sources or follow-up with further reading.
 
-2. Borrow images from the leading CMU site and the general style of the CMU website; to create a mental association and some sense of being derived from the official source.
-3. Resorting to fewer words and more visuals; to engage the student audience and employer base. This will leverage the visualizations to communicate the main point.
+Although some of these extra steps may seem cumbersome, they really go a long way to protect the author, increase credibility and generally give the write-up a professional look and feel.
+At the end of this it looked and felt more like a professional job.
 
-### Storyboard:
+#### Real audience feedback
 
-#### Story arc:
+The final output was shared with a few people to get feedback.
+The responses were really good and most people felt it was ready to be submitted.
 
-> This story is "Rags to riches" themed:
+There was one technical correction on the use of the phrase "Return on Investment"; it was updated to "breakeven time".
 
-- Protagonist: A typical international CMU student, intelligent and skilled, worked hard to find a well-paying US job before graduation.
-- Challenge: The hectic job search: Many career fairs, running out of time, need an offer before graduation. Added pressure causes some insecurities to surface, and the workload from school competes for attention.
-- Overcome the challenge:
-  Given the resources available, basic data science concepts and the learnings from "Telling stories with data", information is organized from career services resources to answer the student's questions concerning the application process and the Job market concerning the MISM program.
+The need for fewer changes and the feedback that the work was ready to submit was satisfying; seemed like the many iterations was paying off.
 
-#### Storyboard & Wireframes:
+#### Final Presentation and final critique
 
-The storyboard is previewed on Shorthand
+There was a 1 minute final presentation (elevator pitch) for the topic in class.
+This was an interesting excercise as it allowed students to capture the key points of their presentation within a minute.
+The experience of keeping the presentation concise and on topic was good training.
+Hearing from other students presenting on different topics was also interesting.
 
-Critical considerations in the story are from the inspirations listed above
+My presentation attempted to engage the audience by making it interactive (with questions), personalizing the story and being relateable (as learnt in part II resources).
 
-The outline was:
+A feedback from the class presentation (including other resources that capture context for the ". . . US job market").
 
-1 . "The Hope of MISM" ~ CMU MISM Student
-Talk about an MISM student and her prospects
+##### Final publication
 
-2 . "The job search Hustle."
-States the job search problem.
+The text for the publication will be run through turnItIn to identify any concerns for uncited quotations or similarities to other work; this is to avoid any complications with copyright and plagiarism. As all of the content were originally created (except the cited unsplash images) I do not anticipate any challenges with TurnItIn.
 
-3 . "How jobs are found at CMU."
-States how jobs are typically found in CMU (direct student search and Career services facilitated investigations)
+Shorthand also has a feature to publish the draft. This provides a final publicly accessible URL that is under the Carnegie Mellon account.
 
-4 . Callout statistics for Career Services reported jobs found by CMU students (within the months leading to graduation)
+> <a href="https://carnegiemellon.shorthandstories.com/the-worth-of-a-cmu-mism-degree-in-the-us-job-market/index.html" target="_blank">https://carnegiemellon.shorthandstories.com/the-worth-of-a-cmu-mism-degree-in-the-us-job-market/index.html</a>
 
-5 . Visualizing the statistics from Career Services to make a point of CMU MISM having value
+This final link was tested by a few friends to ensure it returned the expected results.
+It was also viewed from different browsers and a mobile device to be aware of how the page renders from different accounts.
 
-- Employment statistics (2015 -2022)
-- MISM job categories and their popularity
-- Companies and the job roles they have employed MISM graduates for (2015-2022)
-- Salaries reported for MISM job offers (2015 - 2022)
-- Locations that MISM job offers require graduates to work from
+##### Retrospection
 
-6 . Conclusion
-Conclude that MISM has value; based on the stories told by the data through the salaries and demand.
+Looking back on the journey from idea formulation, data collection, storymap and mood boards, to draft arcticles
+I realised that my initial thoughts of how this article would play out is miles apart from the result of the iterative process (in a good way).
+Many major and minor considerations influenced the approach and design of the final product.
 
-7 . Return on investment highlight
+Looking back, I would have done 3 things differently
 
-8 . What is Next? (Call to action)
-
-- MISM Student: visit career services and focus on job search
-- Employer: Contact career services to be set up in handshake for high-value talent
-- Prospective students/Public: Contact the Admissions Office
-
-9 . Link to visit and contact Heinz College Career Services.
-
-##### Wireframes: Some visualizations depicting the general theme of the storyboard:
-
-1 . Callout statistics
-
-<table>
-  <tr>
-    <th>jobs reported </th>
-    <th>Employers </th>
-    <th>Job locations</th>
-    <th>Job categories </th>
-  </tr>
-  <tr>
-    <td><div class="flourish-embed" data-src="visualisation/11367262"><script src="https://public.flourish.studio/resources/embed.js"></script></div> </td>
-    <td> <div class="flourish-embed" data-src="visualisation/11367350"><script src="https://public.flourish.studio/resources/embed.js"></script></div></td>
-    <td> <div class="flourish-embed" data-src="visualisation/11367359"><script src="https://public.flourish.studio/resources/embed.js"></script></div></td>
-    <td> <div class="flourish-embed" data-src="visualisation/11367364"><script src="https://public.flourish.studio/resources/embed.js"></script></div></td>
-  </tr>
-</table>
-
-2 . What has been the employment rate of students who graduate from the MISM program?
-
-<div class="flourish-embed flourish-chart" data-src="visualisation/11305762"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
-<div class="flourish-embed flourish-hierarchy" data-src="visualisation/11370017"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
-3 . Salaries: What is a reasonable salary expectation for an MSISM student?
-
-<div class="flourish-embed flourish-chart" data-src="visualisation/11296909"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
-##### 5: Call to action
-
-Visit Career Services for more information:
-Three audiences are addressed to touch on their different motivations.
-
-- MISM Student: visit career services and focus on job search
-- Employer: Contact career services to be set up in handshake for high-value talent
-- Prospective students/Public: Contact the Admissions Office
-
-### Storyboard preview within Shorthand (before user review/critique):
-
-NB:
-
-- Intermediate state is shown to users for feedback.
-- This was kept unchanged to show the Before feedback and After Feedback effect
-  > <a href="https://preview.shorthand.com/cVWczl9KJEQdnJax" target="_blank">Before user review/research/critique</a>
-
-### User research
-
-#### Approach to interviewee selection and Interview objective
-
-<table>
-  <tr>
-    <th>Interviewee Persona</th>
-    <th>Objective</th>
-  </tr>
-  <tr>
-    <td>CMU MISM student</td>
-    <td>Main target audience, viewpoint on the article will be critical</td>
-  </tr>
-  <tr>
-    <td>CMU Alumni</td>
-    <td>Might have practical questions from the real world and insights on information that might be relevant</td>
-  </tr>
-    <tr>
-    <td>Career Services</td>
-    <td>May have input on some key aspects that students frequently ask about or statistics to extract and display</td>
-  </tr>
-    <tr>
-    <td>Admissions Office</td>
-    <td>Might have an input on what to look for and how to evaluate it</td>
-  </tr>
-</table>
-
-#### Interview script (Question and Intent)
-
-The interviews contained seven broad questions as a template that had specific intents listed below:
-
-<table>
-  <tr>
-    <th>Question</th>
-    <th>Intent</th>
-  </tr>
-  <tr>
-    <td>How do you feel about the topic?</td>
-    <td>Get the overview of the response/perception of the main audience to the topic.</td>
-  </tr>
-  <tr>
-    <td>Is the general information flow clear and smooth?</td>
-    <td>Evaluate the effectiveness of the communication</td>
-  </tr>
-    <tr>
-    <td>What information surprised you (stood out most)?</td>
-    <td>Identify some focus areas in the story to highlight or to check if interest is sustained or escalating long the story</td>
-  </tr>
-    <tr>
-    <td>Do you have any unanswered questions after reading this (any confusion on unaddressed interests)?</td>
-    <td>Discover areas of the story to build on and address interests that have not been accounted for in the story</td>
-  </tr>
-  <tr>
-    <td>What do you think you can do with this information? </td>
-    <td>Identify strong call to actions</td>
-  </tr>
-   <tr>
-    <td>Does the colour scheme and general design work for you (tell me why)?</td>
-    <td>Check if the mood board and theme is working</td>
-  </tr>
-  <tr>
-    <td>What would you do differently?</td>
-    <td>Get new ideas/inspiration</td>
-  </tr>
-</table>
-
-#### Interview Results (Question and Intent)
-
-It was free interaction with the interviewees, so other discussions came up using the template as a guide for the review.
-The table below captures the comments, Things to Note, and things ToDo.
-
-<table>
-  <tr>
-    <th>Question</th>
-    <th>Alumni</th>
-    <th>MISM Student</th>
-    <th>General Public</th>
-     <th><b>Things to Note and improve</b></th>
-  </tr>
-  <tr>
-    <td>How do you feel about the topic?</td>
-    <td>It's a relevant topic; wondering if the data was available already</td>
-    <td>It was interesting</td>
-    <td>Well done; insightful</td>
-    <td>Topic resonates with different audience</td>
-  </tr>
-  <tr>
-    <td>Is the general information flow clear and smooth?</td>
-    <td>The general idea is clear, but it could be better articulated in a concise way</td>
-    <td>Story is relatable and it captured my attention</td>
-    <td>I skipped most of the text; I just spent most of the time playing with the visuals</td>
-    <td>Too many words at the beginning, need to trim it. Visuals work</td>
-  </tr>
-    <tr>
-    <td>What information surprised you (stood out most)?</td>
-    <td>The salaries are rising for new graduates.</td>
-    <td>There are so many job roles and titles. Some top companies don't hire a lot from CMU</td>
-    <td>The program gets people a good salary, and they get to work in top companies</td>
-    <td>Story highlights are the salary and the job/companies visuals; improve that segment and build up to that</td>
-  </tr>
-    <tr>
-    <td>Do you have any unanswered questions after reading this (any confusion on unaddressed interests)?</td>
-    <td>1. Paragraphs are disjoint; was distracting </br> 2. The location background is pixelated. You could use a real map of the US </td>
-    <td>Repeating job titles, these could be aggregated</td>
-    <td> I Wasn't sure what MISM-BIDA and MISM-GLOBAL in the filters meant</td>
-    <td>Clarify abbreviations in text or at the end of the page; a hint that there are different program tracks </br> Use ArcGIS Maps to generate a map</td>
-  </tr>
-  <tr>
-    <td>What do you think you can do with this information? </td>
-    <td>Inform my recruitment team to scout for CMU students. We can afford it at this mean price</td>
-    <td>Ask for more money in interviews</td>
-    <td>Just know; and encourage friends to do this course if they are interested in IT</td>
-    <td>People have different use cases for the insights; hence slightly different call to actions</td>
-  </tr>
-   <tr>
-    <td>Does the colour scheme and general design work for you (tell me why)?</td>
-    <td>Good</td>
-    <td>Nice, has CMU colours</td>
-    <td>Ok, but it can be more professional since it is for a university</td>
-    <td>Theme is good, design can be smoother</td>
-  </tr>
-  <tr>
-    <td>What would you do differently?</td>
-    <td>Better narrative</td>
-    <td>neater graphs (less busy)</td>
-    <td>More professional style</td>
-    <td>Improve overall design</td>
-  </tr>
-</table>
-
-#### Classroom review (Secondary Review)
-
-After a group discussion of the topic and points
-
-> What worked?
-
-- The topic is good.
-- The theme (red, black, white) suggests an association with CMU.
-- High-value visualizations
-
-> What didn't work?
-
-- too many data points make charts look busy
-  It- Not intuitive that the visuals are interactive
-- Callout statistics counting too slow; try to speed it up; no one will wait
-
-> What questions came up?
-
-- Why do filter if it is only about MISM; indicate that there are different tracks of MISM students
-
-> What new inspiration arose?
-
-- Change one of the two similar tree maps for the jobs and companies visualization for diversity
-- convert the word cloud to an image to replace one of the scroll motion images
-- Explore more callout statistics and other visualizations except for images and charts.
-
-#### todo list from class review
-
-> Low effort with high value
-
-- [x] Switch chart type (for diversity)
-- [x] Change word cloud to image
-
-> High effort with high value
-
-- [ ] Categorise data further
-- [ ] Check colour options
-- [ ] Improve the narrative (too hollow/placeholder)
-
-### Shorthand (AFTER user review/critique)
-
-<a href="https://preview.shorthand.com/43RPijMCwDAk7dS2" target="_blank">After user review/research/critique</a>
-
-Some changes were successfully made to the initial design
-
-> Low effort with high value
-
-- [x] Checked for typos
-- [x] Added footnotes to charts that are interactive (so users will know to interact with them)
-- [x] Varied some visualizations that looked too similar
-- [x] Added a closing page that had a link (indirectly making a call to action)
-
-> High effort with high value
-
-- [x] Further categorizing the data
-- [ ] Improve the narrative (too hollow/placeholder); shorting the first few pages of text (be more engaging)
+- Focus on one main audience group earlier; as things became much clearer after choosing the MISM job-seeking student as the primary audience
+- Identify the main call to action much earlier for the single target audience; ideas begun to flow easily when the motivation for the write-up became clearer.
+- Start from the motive, and get the data that supports it from many credible sources (not get the data and build the audience and motivation afterward). It pays to have a clear objective right from the beginning.
 
 ### Conclusion
 
-Developing the idea beyond data extraction has matured over the past week.
-Progress looks very different from how I envisioned it during part 1, primarily due to the inspiration from the many resources provided to guide students on storytelling with data.
-Although not everything can be incorporated, and this project is "baby steps", I can see the value of thinking about data and storytelling as a craft that can be honed.
-The principles and iterations from mood boards to sketches and the incorporation of principles that influenced theme development made me appreciate the many background decisions needed to communicate a story through data.
-I love this experience.
+In all, I have enjoyed learning this process of Telling Stories with Data.
+It has been an engaging, rewarding process.
+I can clearly see many professional opportunities open up to me after refining this skill.
+I recognise that it is a continuous learning process but I believe with practise practise and more practise this skillset will grow into a significant professional proficiency that my teams and projects will benefit from.
+I look forward to telling more stories with data.
+
+> I would like to say a special thank you to <a href="https://www.linkedin.com/in/chrisgoranson/" target="_blank">Professor Christopher Goranson</a> and <a href="https://www.linkedin.com/in/delaney-sears/" target="_blank">Delaney Sears (TA)</a> for putting together this very practical learning experience for us students. We appreciate the effort that went into putting together the resources and incoperating our feedback into the course delivery.
+
+Thank you for going on this journey with me.
+Hopefully I told a good story with this data
 
 - [Home: Telling stories with data Portfolio](readme.md)
 - [Back: Project Part 1 - The worth of a CMU MISM degree in the US job market](project_part1.md)
