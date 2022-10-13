@@ -1,5 +1,10 @@
 # Assignment 1
 
+Went through a detailed process to setup a github repository that is publicly available.
+This website was assignment 1:
+
+<a href="https://michaelaffare.github.io/portfolio/index.html">https://michaelaffare.github.io/portfolio/index.html</a>
+
 [back](../readme.md)
 
 - [Home: Telling stories with data Portfolio](../readme.md)
