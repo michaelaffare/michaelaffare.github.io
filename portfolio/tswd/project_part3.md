@@ -25,7 +25,7 @@ Part III captures how everything comes together for the final product:
 
 ### Final audience review
 
-At the start of Part III, I had identified three primary audience groups, The students, Potential employers and the general public. The part II draft tried to address the needs of all these audiences, resulting in a less focused (flat-toned) message. The call to action also felt all over the place.
+At the start of Part III, I had identified three primary audience groups, the students, potential employers and the general public. The part II draft tried to address the needs of all these audiences, resulting in a less focused (flat-toned) message. The call to action also felt all over the place.
 
 As part of Part II, grading feedback Professor and the TA made two leading suggestions
 
