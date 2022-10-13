@@ -105,7 +105,7 @@ The need for fewer changes and the feedback that the work was ready to submit wa
 #### Final Presentation and final critique
 
 There was a 1-minute final presentation (elevator pitch) for the topic in class:
-This presentation was an exciting exercise as it allowed students to capture the critical points of their presence within a minute.
+This presentation was an exciting exercise as it allowed students to capture the critical points of their story within a minute.
 The experience of keeping the presentation concise and on the topic was good training.
 Hearing from other students presenting on different topics was also interesting.
 
