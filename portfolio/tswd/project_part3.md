@@ -27,9 +27,9 @@ At the start of Part III I had identified 3 main audience groups, The students, 
 
 As part of the Part II grading feedback Professor and the TA made two main suggestions
 
-- [ ] Decide on a specific target audience so the message can be more effective.
-- [ ] Call to action must be more relevant and clear.
-- [ ] What unique value (aside presenting the data on CMU website) is the audience expected to get from this.
+[ ] Decide on a specific target audience so the message can be more effective.
+[ ] Call to action must be more relevant and clear.
+[ ] What unique value (aside presenting the data on CMU website) is the audience expected to get from this.
 
 Thinking through this grading feedback I discovered that:
 
@@ -145,7 +145,7 @@ I look forward to telling more stories with data.
 > I would like to say a special thank you to <a href="https://www.linkedin.com/in/chrisgoranson/" target="_blank">Professor Christopher Goranson</a> and <a href="https://www.linkedin.com/in/delaney-sears/" target="_blank">Delaney Sears (TA)</a> for putting together this very practical learning experience for us students. We appreciate the effort that went into putting together the resources and incoperating our feedback into the course delivery.
 
 Thank you for going on this journey with me.
-Hopefully I told a good story with this data
+Hopefully I told a good story with this data.
 
 - [Home: Telling stories with data Portfolio](readme.md)
 - [Back: Project Part 1 - The worth of a CMU MISM degree in the US job market](project_part1.md)
