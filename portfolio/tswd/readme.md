@@ -21,9 +21,9 @@ I worked briefly in Australia as an Application Support Analyst at Freshtrack Sy
 - [x] Use of colour 😃
 - [x] Interactive Design 🤩
 - [x] Choosing the right visualization for a given data 🤔
-- [x] Simplification of visualizations
-- [x] Incorporating feedback into the design
-- [x] Presentation skills
+- [x] Simplification of visualizations 🧹
+- [x] Incorporating feedback into the design 😯👂🏾
+- [x] Presentation skills 👨🏾‍💼
       [read more. . .](blog/what-i-wish-to-learn.md)
 
 ## <span style="color:#E04343">Portfolio</span> Recent Work
@@ -69,6 +69,7 @@ I worked briefly in Australia as an Application Support Analyst at Freshtrack Sy
 
 ### Assignments
 
+- [Assignment 1 - Setting up an online portfolio](assignment/assignment1.md)
 - [Assignment 2 - Visualising government debt](assignment/assignment2.md)
 - [Assignment 3 and 4 - Critique of CNBC's "Marvel heroes propelled Disney to overtake Sony at the top of the 2021 domestic box office.""](assignment/assignment3and4.md)
 
