@@ -2,6 +2,8 @@
 
 ## By Michael Ambrose Affare (maffare@andrew.cmu.edu)
 
+<a href="https://michaelaffare.github.io/michaelaffare_resume_gen.pdf" target="_blank">Resume here</a>
+
 ### February 8, 2022
 
 ### 1. The worth of a CMU MISM degree in the US job market:
