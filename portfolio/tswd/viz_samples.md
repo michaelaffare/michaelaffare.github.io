@@ -8,7 +8,7 @@
 
 Painting a calming picture for the job-seeking Master of Information Systems Management student.
 
-<a url="https://carnegiemellon.shorthandstories.com/the-worth-of-a-cmu-mism-degree-in-the-us-job-market/index.html" target="_blank">Click here to view</a>
+<a href="https://carnegiemellon.shorthandstories.com/the-worth-of-a-cmu-mism-degree-in-the-us-job-market/index.html" target="_blank">Click here to view</a>
 
 #### Assignment:
 
@@ -21,7 +21,7 @@ The course allowed students to choose topics of personal interest; I chose this 
 
 #### Methodology:
 
-- Extracted data from PDFs provided by <a url="https://www.heinz.cmu.edu/current-students/career-services/employment-information-salary-statistics" target="_blank"> Heinz Career Services</a>
+- Extracted data from PDFs provided by <a href="https://www.heinz.cmu.edu/current-students/career-services/employment-information-salary-statistics" target="_blank"> Heinz Career Services</a>
 - Cleaned the data and generated analytics as derivative data
 - Transformed the processed data into visualisations
 - Tested the idea (got user feedback from students and staff)
@@ -34,13 +34,13 @@ The course allowed students to choose topics of personal interest; I chose this 
 - Microsoft Excel; basic analytics
 - Flourish.studio (visualisation)
 - Shorthand (publishing article)
-  Detailed documentation of the process is under <a url="https://michaelaffare.github.io/portfolio/tswd/" target="_blank">Project Write-ups section</a>
+  Detailed documentation of the process is under <a href="https://michaelaffare.github.io/portfolio/tswd/" target="_blank">Project Write-ups section</a>
   Data visualisation project samples - Michael Affare (maffare@andrew.cmu.edu)
 
 ### 2. Convenience measures for students at Pittsburgh Universities:
 
 Defining GIS metrics for convenience using a 1-mile radius around Pittsburgh Universities as a case study
-<a url="https://arcg.is/15inGX0" target="_blank">Click here to view</a>
+<a href="https://arcg.is/15inGX0" target="_blank">Click here to view</a>
 
 #### Assignment:
 
