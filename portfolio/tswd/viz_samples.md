@@ -39,7 +39,7 @@ The course allowed students to choose topics of personal interest; I chose this 
 
 ### 2. Convenience measures for students at Pittsburgh Universities:
 
-Defining GIS metrics for convenience using a 1-mile radius around Pittsburgh Universities as a case study
+Defining GIS metrics for convenience using a 1-mile radius around Pittsburgh Universities as a case study.
 <a href="https://arcg.is/15inGX0" target="_blank">Click here to view</a>
 
 #### Assignment:
