@@ -57,9 +57,12 @@ Final Project: [Self-selected topic] To use GIS methods to establish metrics for
 - Gathered data from Census.gov, National Centre for Education Statistics, Data Axle etc.
 - Cleaned the data and loaded it into ArcGIS Pro (GIS visualisation software)
 - Perform three major analysis types
-- [x] Buffer analysis (of number of accommodation facilities in a 1-mile radius of universities)
-- [x] Network Analysis (walkability from apartments to universities)
-- [x] Kernel Density Map/ heat map (by calculating the weighted impact of frequently used facilities near universities, e. g. accommodation, food, shopping, health facilities, entertainment, banking)
+
+[x] Buffer analysis (of number of accommodation facilities in a 1-mile radius of universities)
+[x] Network Analysis (walkability from apartments to universities)
+[x] Kernel Density Map/ heat map (by calculating the weighted impact of frequently used facilities near universities, e. g.
+accommodation, food, shopping, health facilities, entertainment, banking)
+
 - Create a story map communicating the findings
 
 #### Tools:
