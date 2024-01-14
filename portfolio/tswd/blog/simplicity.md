@@ -1,8 +1,0 @@
-# Simplicity
-
-
-
-
-
-
-[back](../readme.md)

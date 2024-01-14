@@ -3,569 +3,1393 @@
 
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Website Title -->
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
   <title>Michael Affare</title>
-  <!-- Bootstrap -->
-  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Font-Awesome -->
-  <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <!-- Lightbox -->
-  <link href="assets/lightbox/css/lightbox.css" rel="stylesheet">
-  <!-- Text Rotator-->
-  <link href="assets/textrotator/simpletextrotator.css" rel="stylesheet">
-  <!-- FlexSlider -->
-  <link href="assets/flexslider/flexslider.css" rel="stylesheet">
-  <!-- Theme Style -->
-  <link href="css/style.css" rel="stylesheet">
-  <!-- Animations -->
-  <link href="css/animate.css" rel="stylesheet">
-  <!-- Custom Favicon -->
-  <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <meta name="image" property="og:image" content="assets/img/Linkedin_bg.png">
+
+  <link href="assets/img/icon.png" rel="icon">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/06496a75d5.js" crossorigin="anonymous"></script>
 </head>
 
-<body id="top">
+<body id=" page-top">
 
-  <!-- ****************************** Preloader ************************** -->
-  <div id="preloader"></div>
-
-
-  <!-- ==========================
-        HEADER SECTION 
-        =========================== -->
-  <header id="home">
-    <!-- creative menu -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="menu-wrap">
-          <nav class="menu">
-            <!-- Menu Links -->
-            <div class="icon-list">
-              <a href="index.html#home"><i class="fa fa-fw fa-home"></i><span>Home</span></a>
-              <a href="index.html#about"><i class="fa fa-fw fa-quote-left"></i><span>About me</span></a>
-              <a href="../michaelaffare_resume.pdf" target="_blank"><i
-                  class="fa fa-fw fa-file"></i><span>Resume</span></a>
-              <a href="portfolio/index.html"><i class="fa fa-fw fa-picture-o"></i><span>Portfolio</span></a>
-              <a href="index.html#service"><i class="fa fa-fw fa-globe"></i><span>Skills</span></a>
-              <a href="index.html#blog"><i class="fa fa-fw fa-rss"></i><span>Blog</span></a>
-              <a href="index.html#contact"><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a>
-            </div>
-          </nav>
-        </div>
-        <button class="menu-button" id="open-button"></button><!-- menu button -->
-      </div><!--/row-->
-    </div><!--/container-->
-    <!-- Header Image -->
-    <section class="hero" id="hero">
-      <div class="container">
-        <!-- Slider Button (don't edit!)-->
-        <div class="row">
-          <div class="col-md-12 text-right navicon">
-            <a id="nav-toggle" class="nav_slide_button" href="index.html#"><span></span></a>
-          </div>
-        </div>
-        <!-- HEADER HEADLINE -->
-        <div class="row">
-          <div class="col-md-8 col-md-offset-1 inner">
-            <h1 class="animated fadeInDown">
-              <span style="color:#E04343;">MIC</span>hael<br />
-              <span><span style="color:#FFE800">A</span>ffare</span>
-            </h1><!-- Title -->
-            <h3 class="animated fadeInUp delay-05s"><span class="rotate"
-                style="color:#E04343 !important; font-weight: bold !important; text-shadow: 1px 1px #ffffff !important;">CMU-
-                MISM, Solutions Architect, Data Scientist</span></h3><!-- Text Rotator -->
-          </div>
-        </div>
-        <!-- Learn More Button -->
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3 text-center">
-            <a href="index.html#about" class="scrollto wow fadeInUp delay-5s ">
-              <p
-                style="color:#000000 !important; font-weight: bold !important; text-shadow: 0.5px 0.5px 0.5px 0.5px #ffffff !important;">
-                SEE MORE</p>
-              <p class="scrollto--arrow"><img src="img/scroll-down.png" alt="scroll down arrow"></p>
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+      <!-- <a class="navbar-brand js-scroll" href="">Portfolio</a> -->
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#education">Education</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Experience
             </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#work">Work Experience
+                <a class="dropdown-item" href="#projects">Projects</a>
+                <a class="dropdown-item" href="#apps">Apps</a>
+                <a class="dropdown-item" href="#leadership">Leadership</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#certifications">Certifications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="home" class="intro route bg-image" style="background-image: url(assets/img/bg.png)">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <h1 class="intro-title mb-4">Michael Affare</h1>
+          <p class="intro-subtitle"><span class="text-slider-items">Data Analyst, Solutions
+              Architect - Cloud, Data Engineer</span><strong class="text-slider"></strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <section id="about" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full" style="border-radius: 1rem;">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-sm-3 "></div>
+                    <div class="col-sm-4 col-md-5">
+                      <div class="about-img">
+                        <img src="assets/img/Portfolio_picture.png" class="img-fluid rounded b-shadow-a" alt="">
+                      </div>
+                    </div>
+                    <div class="col-sm-3 "></div>
+                  </div>
+                  <div class="skill-mf">
+                    <p class="title-s">Skills</p>
+                    <ul>
+                      <li><b>Languages:</b> Python, Java, SQL (T-SQL, PL-SQL)</li>
+                      </li>
+                      <li><b>Cloud:</b> AWS <i class="fa-solid fa-certificate"></i> (S3, EC2, RDS, DynamoDB, IAM,
+                        Route53, Glue, Athena)
+                        , Google Cloud (Big
+                        Query,
+                        Cloud Run, SQL, Looker)</li>
+                      <li><b>Analytics:</b> Tableau, NumPy, Pandas, Restful API, Spark, Hadoop, Excel, TensorFlow,
+                        Scikit-learn, Keras, Cypher Query Language</li>
+                      <li><b>General Skills:</b> Linux, ETL, AI Prompt Engineering, Process automation,
+                        Digital
+                        Transformation, Technical Documentation</li>
+                    </ul>
+                    <div class="progress">
+                    </div>
+                    <p class="title-s">Tools</p>
+                    <ul>
+                      <li><b>Databases:</b> Microsoft SQL Server, Oracle 21g <i class="fa-solid fa-certificate"></i>
+                        , MySQL, NoSQL (MongoDB, Redis, Cassandra, Neo4j <i class="fa-solid fa-certificate"></i>
+                        )
+                      <li><b>Visualization:</b> Tableau, Python Libraries</li>
+                      <li><b>Automation:</b> SQL (Procedures, jobs, triggers), Selenium, PowerAutomate, Linux Crontab,
+                        Microsoft Task Scheduler,</li>
+                      <li><b>Mobile app development:</b> Flutter, PowerApps, Android Native (Java)</li>
+                    </ul>
+                    <div class="progress">
+                    </div>
+                    <p class="title-s">Software</p>
+                    <span>Postman, Wireshark, Jira, PyCharm, Jupyter, Android Studio, VS Code, Canva, Microsoft
+                      Office</span>
+                    <span class="pull-right"></span>
+                    <div class="progress">
+                    </div>
+                    <p class="title-s">Domains</p>
+                    <span>Data Engineering/Analytics, Cloud Solutions Architect <i class="fa-solid fa-certificate"></i>,
+                      Database Development/Management</span>
+                    <span class="pull-right"></span>
+                    <div class="progress">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="about-me pt-4 pt-md-0">
+
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        About me
+                      </h5>
+                    </div>
+
+                    <p class="lead">
+                      Hello!
+                      I'm Michael Affare, a Computer Engineer with a Master's degree in Information Systems Management
+                      from Carnegie Mellon University. I am currently leading a Data Analytics team at Great Lakes
+                      Behavioral Research Institute and consult as a Cloud Solutions Architect for the CMU research
+                      team at the Block Center for Technology & Society.
+                    </p>
+                    <p class="lead">
+                      I take pride in having managed large scale distributed technical projects in 3 continents.
+                    <ul>
+                      <li><b>In Africa (Ghana)</b>
+                        I led technical projects in the telecommunications space during the merger of Airtel and Tigo.
+                        I led projects with vendors like Ericsson, Huawei, Meta and managed integrations with banks
+                        (Barclays) and mobile financial services. I also led the AirtelTigo team on the National
+                        Communication Authority committee during the Ghana National Sim Reregistration Exercise that
+                        resulted in the reduction of mobile fraud by 60%.</li>
+                      <li><b>In Australia</b>
+                        I worked with Freshtrack Systems using database development and data analytics to support
+                        stakeholders
+                        in the fresh food supply chain industry (from the farm to the shelves).</li>
+                      <li>
+                        <b>In the United States</b>
+                        I am consulting for the Allegheny County Department of Human Services using data analytics to
+                        drive-driven policy decisions whiles contributing to research on WorkForce Mobility and labour
+                        analytics at CMU.
+                      </li>
+                    </ul>
+                    </p>
+                    <p class="lead">
+                      My passion to be able to support businesses with digital transformation solutions
+                      that are automatable and leverage data analytics solutions to help improve productivity.
+                      I am a continuous learner and passionate about projects of
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- Header Image End -->
-  </header>
-  <!-- ==========================
-        HEADER SECTION END  
-        =========================== -->
 
-
-  <!-- ==========================
-        CUSTOM SPACER
-        =========================== -->
-  <div class="spacer-cta text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <a href="portfolio/index.html" class="outline-btn">Portfolio</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- ==========================
-    CUSTOM SPACER END
-    =========================== -->
-
-
-  <!-- ==========================
-        ABOUT SECTION  
-        =========================== -->
-  <section class="intro text-center section-padding color-bg" id="about">
-    <div class="container">
-      <!-- WELCOME TEXT -->
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2 wp1">
-          <h1 class="arrow"><span>About</span> me</h1><!-- Headline -->
-          <!-- about / welcome text -->
-          <p> <a href="https://www.linkedin.com/in/michaelaffare/" target="_blank">Michael Affare</a> is a Master of
-            Information Systems Management graduate student at Carnegie Mellon University. I have 4 years work
-            experience as a Solutions Architect at AirtelTigo Telecommunications Company. I worked briefly in Australia
-            as an Application Support Analyst at Freshtrack Systems and interned at Hubble.sh as a Data Scientist.</p>
-          <br />
-          <p> As a solutions architect it was critical to use visualisations to simplify business data and use diagrams
-            to communicate the solution being propose. Frequently I found that the perception the business stakeholders
-            get about the solution is influenced by the visualizations that are displayed to them. I improved my
-            presentations however I did not have any formal training on visualisation and design concepts or tools.</p>
-          <br />
-          <p>This is why the course Telling Stories with Data is so relevant to me. I am an aspiring data scientist and
-            the most important part of data science is the ability to effectively communicate insights into data. I look
-            forward to a honing of my presentation skills through effective visualisations.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-
-
-
-  <!-- ==========================
-        PORTFOLIO SECTION
-    =========================== -->
-  <section class="swag text-center" id="portfolio">
-    <div class="container">
-      <!-- Headline -->
-      <div class="row">
-        <h1 class="arrow">
-          <span>Portfolio</span>
-        </h1>
-      </div>
-    </div>
-  </section>
-
-  <!-- ==========================
-        BLOG SECTION 
-        =========================== -->
-  <section class="text-center " id="portfolio">
-    <div class="container">
-      <!-- Headline -->
-      <div class="row">
-        <!-- Blog Slider -->
+    <section id="education" class="portfolio-mf sect-pt4 route">
+      <div class="container">
         <div class="row">
-          <div id="blogSlider">
-            <ul class="slides">
-              <li>
-                <!-- Blog Entry 1 -->
-                <div class="col-md-4 wp4">
-                  <a href="https://linkedin.com/in/michaelaffare" target="_blank">
-                    <div class="overlay-effect effects clearfix">
-                      <div class="img">
-                        <img src="img/blog1.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
-                      </div>
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Education
+              </h3>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="col-md-1">
+          </div>
+
+          <div class="col-md-5">
+            <div class="work-box">
+              <div class="work-img">
+                <img src="assets/img/Work Experience/cmu.png" alt="" class="img-fluid">
+              </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Master of Information Systems Management</h2>
+                    <div class="w-more">
+                      <span class="w-date">2021 - 2023</span>
                     </div>
-                    <br>
-                    <h2>Self Development</h2><!-- Headline -->
-                    <p>A blog on things I am doing to improve my skillsets and personality to be able to effectively add
-                      value to my scope of influence.</p><!-- Description-->
+                  </div>
+                  <!-- <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5">
+            <div class="work-box">
+              <div class="work-img">
+                <img src="assets/img/Education/knust.png" alt="" class="img-fluid">
+              </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Bachelor of Science in Computer Engineering</h2>
+                    <div class="w-more">
+                      <span class="w-date">2012 - 2016</span>
+                    </div>
+                  </div>
+                  <!-- <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-1">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Work Experience
+              </h3>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <a href="https://www.alleghenycountyanalytics.us/topics/education-and-early-childhood/"
+                  target="_blank"><img src="assets/img/Work Experience/greatlakes.jpg" alt="" class="img-fluid"></a>
+              </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-10">
+                    <h2 class="w-title"> Data Analytics Manager</h2>
+                    <div class="w-more">
+                      <span class="w-date">Jun. 2023 - Present</span>
+                    </div>
+                  </div>
+                  <!-- <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <a href="https://www.cmu.edu/block-center/future-of-work/index.html" target="_blank">
+                  <img src="assets/img/Work Experience/blockcenter.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Cloud Engineer, Research Consultant</h2>
+                    <div class="w-more">
+                      <span class="w-date">Jan. 2023 - Present</span>
+                    </div>
+                  </div>
+                  <!-- <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <a href="https://freshtrack.com/" target="_blank"><img src="assets/img/Work Experience/freshtrack.jpg"
+                    alt="" class="img-fluid"></a>
+              </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-10">
+                    <h2 class="w-title">BI, Application Support Analyst</h2>
+                    <div class="w-more">
+                      <span class="w-date">Apr. 2021 - Aug. 2023</span>
+                    </div>
+                  </div>
+                  <!-- <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <a href="https://www.at.com.gh/home" target="_blank"><img src="assets/img/Work Experience/at.jpg" alt=""
+                    class="img-fluid"></a>
+              </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Consumer Solutions Architect, <br> Business Solutions Architect</h2>
+                    <div class="w-more">
+                      <span class="w-date">May. 2017 - Aug. 2022</span>
+                    </div>
+                  </div>
+                  <!-- <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <img src="assets/img/Work Experience/ELC.png" alt="" class="img-fluid">
+              </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Student Consultant, <br> Data Analysis</h2>
+                    <div class="w-more">
+                      <span class="w-date">January 2023 - May 2023</span>
+                    </div>
+                  </div>
+                  <!-- <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <img src="assets/img/Work Experience/yum.jpg" alt="" class="img-fluid">
+              </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Student Consultant, <br> Data Analysis</h2>
+                    <div class="w-more">
+                      <span class="w-date">March 2021 - April 2023</span>
+                    </div>
+                  </div>
+                  <!-- <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <a href="https://api.heinz.cmu.edu/courses_api/course_detail/95-702/" target="_blank"><img
+                    src="assets/img/Work Experience/cmu.png" alt="" class="img-fluid"></a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Graduate Teaching Assistant, <br> Distributed Systems</h2>
+                    <div class="w-more">
+                      <span class="w-date">Jan. 2023 - May. 2023</span>
+                    </div>
+                  </div>
+                  <!-- <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <a href="https://api.heinz.cmu.edu/courses_api/course/syllabus/143373/" target="_blank">
+                  <img src="assets/img/Work Experience/cmu.png" alt="" class="img-fluid"></a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Graduate Teaching Assistant, <br> Telling Stories with Data</h2>
+                    <div class="w-more">
+                      <span class="w-date">Jan. 2023 - Mar. 2023</span>
+                    </div>
+                  </div>
+                  <!-- <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <a href="https://api.heinz.cmu.edu/courses_api/course/syllabus/1108/" target="_blank"> <img
+                    src="assets/img/Work Experience/cmu.png" alt="" class="img-fluid" /> </a>
+              </div>
+
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Graduate Teaching Assistant, <br> Database Management</h2>
+                    <div class="w-more">
+                      <span class="w-date">Aug. 2022 - Dec. 2022</span>
+                    </div>
+                  </div>
+                  <!-- <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <a href="https://www.hubble.sh/" target="_blank"><img src="assets/img/Work Experience/hubble.png" alt=""
+                    class="img-fluid"></a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-10">
+                    <h2 class="w-title"> Intern, Data Science</h2>
+                    <div class="w-more">
+                      <span class="w-date">May. 2022 - July. 2022</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Projects
+              </h3>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <!-- Projects -->
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <div class="work-img">
+                  <img src="assets/img/projects/dhsalleghenycounty.jpg" alt="" class="img-fluid">
+                </div>
+                </a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Allegheny County, Hello Baby PRM</h2>
+                    <div class="w-more">
+                      <span class="w-date">June 2023 - Present</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <div class="work-img">
+                  <img src="assets/img/projects/elc.jpg" alt="" class="img-fluid">
+                </div>
+                </a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Esteé Laude, Web3 Analytics</h2>
+                    <div class="w-more">
+                      <span class="w-date">Jan. 2023 - May. 2023</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <div class="work-img">
+                  <img src="assets/img/projects/ncaghana.jpg" alt="" class="img-fluid">
+                </div>
+                </a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Ghana NCA, National Sim Reregistration</h2>
+                    <div class="w-more">
+                      <span class="w-date">Nov. 2020 - Dec. 2021</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <div class="work-img">
+                  <img src="assets/img/projects/meta.jpg" alt="" class="img-fluid">
+                </div>
+
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Meta, Facebook Loan Service Integration</h2>
+                    <div class="w-more">
+                      <span class="w-date">February 2023</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <div class="work-img">
+                  <img src="assets/img/projects/ericsson.jpg" alt="" class="img-fluid">
+                </div>
+                </a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Ericsson, EMA to EDA migration</h2>
+                    <div class="w-more">
+                      <span class="w-date">January 2023</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <div class="work-img">
+                  <img src="assets/img/projects/airteltigo.jpg" alt="" class="img-fluid">
+                </div>
+                </a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">AirtelTigo, Mobile Number Portability</h2>
+                    <div class="w-more">
+                      <span class="w-date">September 2022</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <div class="work-img">
+                  <img src="assets/img/projects/huawei.jpg" alt="" class="img-fluid">
+                </div>
+
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Huawei, Convergent Billing System</h2>
+                    <div class="w-more">
+                      <span class="w-date">July 2022</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <div class="work-img">
+                  <img src="assets/img/projects/airteltigo.jpg" alt="" class="img-fluid">
+                </div>
+                </a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">AirtelTigo, 55 Company API Integration Projects</h2>
+                    <div class="w-more">
+                      <span class="w-date">March 2022</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <div class="work-img">
+                  <img src="assets/img/projects/airteltigo.jpg" alt="" class="img-fluid">
+                </div>
+                </a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">AirtelTigo, Epin Mobile Financial Services</h2>
+                    <div class="w-more">
+                      <span class="w-date">March 2022</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <div class="work-img">
+                  <img src="assets/img/projects/airteltigo.jpg" alt="" class="img-fluid">
+                </div>
+                </a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">AirtelTigo, SIM Card procurement</h2>
+                    <div class="w-more">
+                      <span class="w-date">February 2022</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <div class="work-img">
+                  <img src="assets/img/projects/airteltigo.jpg" alt="" class="img-fluid">
+                </div>
+                </a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">AirtelTigo, First ESIM deployment in Ghana</h2>
+                    <div class="w-more">
+                      <span class="w-date">January 2022</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <div class="work-img">
+                  <img src="assets/img/projects/blockcenter.jpg" alt="" class="img-fluid">
+                </div>
+                </a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Block Center, Workforce SupplyChain Analytics</h2>
+                    <div class="w-more">
+                      <span class="w-date">January 2022</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <div class="work-img">
+                  <img src="assets/img/projects/yum.jpg" alt="" class="img-fluid">
+                </div>
+                </a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Yum Brands, ESG Social Media Sentiment analysis </h2>
+                    <div class="w-more">
+                      <span class="w-date">October 2021</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </section>
+
+
+    <section id="apps" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Apps
+              </h3>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <a href="http://workforcesupplychains.org/" target="_blank"> <img
+                    src="assets/img/projects/blockcenter.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Workforce Insight Tool (ongoing)</h2>
+                    <div class="w-more">
+                      <span class="w-date">December 2022</span>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <a href="https://www.youtube.com/embed/43bvKZqoAuE?si=xxmarG1QOrikb7Ja"" target=" _blank"><img
+                    src="assets/img/projects/subanagram.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">SubAnagram (ongoing)</h2>
+                    <div class="w-more">
+                      <span class="w-date">November 2022</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <img src="assets/img/projects/web3.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Web3 Analytics Engine (Cryo)</h2>
+                    <div class="w-more">
+                      <span class="w-date">May 2022</span>
+                    </div>
+                  </div>
+                  <!-- <div class="col-sm-4">
+                      <div class="w-like">
+                        <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                      </div>
+                    </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="leadership" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-4"></div>
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h6 class="title-a">
+                Leadership
+              </h6>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <img src="assets/img/Work Experience/cmu.png" alt="" class="img-fluid">
+              </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">VP, Heinz Finance Society, 2022-2023</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Pittsburgh, USA</span>
+                    </div>
+                  </div>
+                  <!-- <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <img src="assets/img/Education/knust.png" alt="" class="img-fluid">
+              </div>
+              </a>
+
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Class President, Computer Eng., 2016</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Kumasi, Ghana</span> / <span class="w-date">KNUST</span>
+                    </div>
+                  </div>
+                  <!-- <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-img">
+                <img src="assets/img/Work Experience/cmu.png" alt="" class="img-fluid">
+              </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">CMU Student Ambassador Program</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Pittsburgh, USA</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="testimonial-mf" class="owl-carousel owl-theme">
+              <div class="testimonial-box">
+                <div class="content-test">
+                  <p class="description lead">
+                    “The heights by great men reached and kept were not attained by sudden flight, but they while their
+                    companions slept, were toiling upward in the night."
+                  </p>
+                  <p class="description lead">
+                    - Henry Wadsworth Longfellow
+                  </p>
+                  <span class="comit"><i class="fa fa-quote-right"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="code" class="blog-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Code
+              </h3>
+              <!-- <p class="subtitle-a">
+                Links:
+              </p> -->
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <!-- <div class="card card-blog">
+              <div class="card-img">
+                <a href="https://github.com/michaelaffare"><img src="assets/img/Extras/Bitmoji.jpg" alt="" class="img-fluid"
+                    style="border-radius: 1rem;"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Github</h6>
+                  </div>
+                </div>
+                <!-- <h3 class="card-title"><a href="https://github.com/ruch798"></a></h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
+                  a pellentesque nec,
+                  egestas non nisi.
+                </p> -->
+            <!-- </div> -->
+            <!-- <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                    <span class="author">Morgan Freeman</span>
                   </a>
                 </div>
-                <!-- Blog Entry 2 -->
-                <div class="col-md-4 wp4 delay-05s">
-                  <div class="overlay-effect effects clearfix">
-                    <div class="img">
-                      <img src="img/blog2.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
-                    </div>
-                  </div>
-                  <br>
-                  <h2>AirtelTigo Projects</h2><!-- Headline -->
-                  <p>Projects done in as a worker at AirtelTigo (Airtel Ghana Limited) Telecommunications Company.</p>
-                  <!-- Description -->
+                <div class="post-date">
+                  <span class="ion-ios-clock-outline"></span> 10 min
                 </div>
-                <!-- Blog Entry 3 -->
-                <div class="col-md-4 wp4 delay-1s">
-                  <a href="portfolio/tswd/" target="_blank">
-                    <div class="overlay-effect effects clearfix">
-                      <div class="img">
-                        <img src="img/blog3.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
-                      </div>
-                    </div>
-                    <br>
-                    <h2 style="color:#E04343 !important;">Telling Stories with Data</h2><!-- Headline -->
-                    <p>94870 C1 - A Masters course explores how to use effective visualizations to communicate a
-                      business story.</p><!-- Description-->
+              </div> -->
+            <!-- </div> -->
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="https://github.com/michaelaffare" target="_blank"><img src="assets/img/Extras/bitmoji.jpg"
+                    alt="" class="img-fluid" style="border-radius: 1rem;"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Github</h6>
+                  </div>
+                </div>
+                <!-- <h3 class="card-title"><a href="https://github.com/ruch798"></a></h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
+                  a pellentesque nec,
+                  egestas non nisi.
+                </p> -->
+              </div>
+              <!-- <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                    <span class="author">Morgan Freeman</span>
                   </a>
                 </div>
-              </li>
-              <li>
-                <!-- Blog Entry 4 -->
-                <div class="col-md-4 wp4">
-                  <div class="overlay-effect effects clearfix">
-                    <div class="img">
-                      <img src="img/blog4.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
-                    </div>
-                  </div>
-                  <br>
-                  <h2>Wink Initiatives projects</h2><!-- Headline -->
-                  <p>Projects that are focused at helping society through the launching of educational and professional
-                    initiatives.</p><!-- Description -->
+                <div class="post-date">
+                  <span class="ion-ios-clock-outline"></span> 10 min
                 </div>
-                <!-- Blog Entry 5 -->
-                <div class="col-md-4 wp4 delay-05s">
-                  <div class="overlay-effect effects clearfix">
-                    <div class="img">
-                      <img src="img/blog5.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
-                    </div>
-                  </div>
-                  <br>
-                  <h2>Volunteer Projects</h2>
-                  <p>Projects I have volunteers to contribute to and support.</p>
-                </div>
-                <!-- Blog Entry 6 -->
-                <div class="col-md-4 wp4 delay-1s">
-                  <div class="overlay-effect effects clearfix">
-                    <div class="img">
-                      <img src="img/blog6.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
-                    </div>
-                  </div>
-                  <br>
-                  <h2>Paid Gigs</h2><!-- Headline -->
-                  <p>Small projects and companies I have worked with over a period.</p><!-- Description -->
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-  </section>
-  <!-- ==========================
-        BLOG SECTION END
-        =========================== -->
-
-
-
-
-  <!-- ==========================
-        SERVICE SECTION 
-        =========================== -->
-  <section class="features text-center section-padding" id="service">
-    <div class="container">
-      <!-- Headline -->
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="arrow">Professional skills</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="services">
-            <!-- Service Box 1 -->
-            <div class="col-md-4 wp2 item">
-              <div class="icon">
-                <i class="fa fa-check-square-o"></i><!-- Icon -->
-              </div>
-              <h2>Project Manager</h2><!-- Title -->
-              <p>Experienced in managing cross-functional IT projects to achieve efficient and timely results
-                considering project contstraints.</p><!-- Description -->
-            </div>
-            <!-- Service Box 2 -->
-            <div class="col-md-4 wp2 item delay-05s">
-              <div class="icon">
-                <i class="fa fa-bar-chart"></i><!-- Icon -->
-              </div>
-              <h2>Data Scientist</h2><!-- Title -->
-              <p>Experienced in collecting and organizing datasets to generate insights and generate business value.</p>
-              <!-- Description -->
-            </div>
-            <!-- Service Box 3 -->
-            <div class="col-md-4 wp2 item delay-1s">
-              <div class="icon">
-                <i class="fa fa-cubes"></i><!-- Icon -->
-              </div>
-              <h2>Solutions Architect</h2><!-- Title -->
-              <p>I have expertise in gathering user requirements and designing technical solutions. These range from
-                automations, to platform design and system upgrades and modifications.</p><!-- Description -->
+              </div> -->
             </div>
           </div>
-          <div class="clearfix"></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-
-  <!-- ==========================
-        BlOG SECTION
-    =========================== -->
-  <section class="swag text-center" id="blog">
-    <div class="container">
-      <!-- Headline -->
-      <div class="row">
-        <h1 class="arrow">
-          <span>Blog</span>
-        </h1>
-      </div>
-    </div>
-  </section>
-
-  <div class="container-fluid">
-    <!-- About 1 -->
-    <div class="row color-bg">
-      <div class="col-md-6 nopadding features-intro-img">
-        <div class="about-image" style="background-image:url(img/about1.png)"></div><!-- about image 1 -->
-      </div>
-      <div class="col-md-6 about-text">
-        <h6>Solutions Design</h6><!-- headline-->
-        <p>Much of the work I did as a Solution Architect was to organize information and design a solution that can be
-          communicated to technical people for implmenetation and business people (for usage).</p>
-        <br><!-- About Text 1 -->
-        <a href="portfolio/tswd/blog/solution-design.md" class="weight-outline-btn">Read
-          more</a><!-- read more button  -->
-      </div>
-    </div>
-    <!-- About 2 -->
-    <div class="row">
-      <div class="col-md-6 about-text">
-        <h6>Presentation and Documentation</h6><!-- Headline -->
-        <p>Much of the work relied on good presentation and documentation; business stakeholders did not care the
-          algorithm we used or the complexity we surmounted; they just wanted to see how it works and what value it
-          brings. Presentation therefore was crucial.</p><br><!-- About Text 2 -->
-        <a href="portfolio/tswd/blog/presentation-and-documentation.md" class="weight-outline-btn">Read more</a>
-        <!-- read more button  -->
-      </div>
-      <div class="col-md-6 nopadding features-intro-img">
-        <div class="about-image" style="background-image:url(img/about2.png)"></div><!-- about image 2 -->
-      </div>
-    </div>
-    <!-- About 3 -->
-    <div class="row color-bg">
-      <div class="col-md-6 nopadding features-intro-img">
-        <div class="about-image" style="background-image:url(img/about3.png)"></div><!-- about image 3 -->
-      </div>
-      <div class="col-md-6 about-text">
-        <h6>Simplicity</h6><!-- Headline-->
-        <p>Everyone in industry values simplicity; over the years I grew to value keeping things simple as it made
-          everyone's work easier, Service oriented architecture and modular approach to handling problems was adopted
-          more and more.</p><br><!-- About Text 3 -->
-        <a href="portfolio/tswd/blog/simplicity.md" class="weight-outline-btn">Read more</a><!-- read more button  -->
-      </div>
-    </div>
-  </div>
-  <!-- ==========================
-        ABOUT SECTION END
-        =========================== -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- ==========================
-        CONTACT SECTION
-        =========================== -->
-  <section class="text-center section-padding contact-wrap" id="contact">
-    <!-- To Top Button -->
-    <a href="index.html#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
-    <div class="container">
-      <!-- Headline -->
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="arrow">Contact <span>Michael Affare</span></h1>
-        </div>
-      </div>
-      <div class="row contact-details">
-        <!-- Adress Box -->
-        <div class="col-md-4">
-          <div class="dark-box box-hover">
-            <h2><i class="fa fa-map-marker"></i><span>Address</span></h2>
-            <p>5000 Forbes Avenue
-              Pittsburgh, PA 15213</p>
-          </div>
-        </div>
-        <!-- Phone Number Box -->
-        <div class="col-md-4">
-          <div class="dark-box box-hover">
-            <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
-            <p><a href="tel:+1 412 983 3254">+1 412 983 3254</a></p>
-          </div>
-        </div>
-        <!-- E-Mail Box -->
-        <div class="col-md-4">
-          <div class="dark-box box-hover">
-            <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
-            <p><a href="mailto:maffare@andrew.cmu.edu">maffare@andrew.cmu.edu</a></p>
+          <div class="col-md-4">
+            <!-- <div class="card card-blog">
+              <div class="card-img">
+                <a href="http://www.ijirset.com/upload/2020/june/115_4_Source.PDF"><img
+                    src="assets/img/Extras/ijirset.jpg" alt="" class="img-fluid" style="border-radius: 1rem;"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Publication</h6>
+                  </div>
+                </div>
+                <!-- <h3 class="card-title"><a href="https://github.com/ruch798"></a></h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
+                  a pellentesque nec,
+                  egestas non nisi.
+                </p> -->
+            <!-- </div> -->
+            <!-- <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="ion-ios-clock-outline"></span> 10 min
+                </div>
+              </div> -->
+            <!-- </div>  -->
           </div>
         </div>
       </div>
-      <div class="row">
-        <!-- Google Maps (Change your Settings below) 
-			  <div class="col-md-6">
-			    <div id="googlemaps"></div>
-			  </div>
-      -->
+    </section>
 
-        <!-- Contact Form 
-			  <div class="col-md-6 contact">
-			     <form role="form">
-				            <-- Name --
-                            <div class="row">
-                                <div class="col-md-6">
-								    <-- E-Mail --
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Your name">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-								    <-- Phone Number --
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Email address">
-                                    </div>
-                                </div>
-                            </div>
-							<-- Message Area --
-                   
-							<-- Subtmit Button --
-                            <button type="submit" class="btn btn-send">
-                                Send message
-                            </button>
-                        </form>
+    <section id="certifications" class="services-mf pt-5 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Certifications
+              </h3>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="work-img">
+                <a href="https://www.credly.com/badges/8d1d2fe8-c7e5-4687-931d-5f27d3db9675/public_url"
+                  target="_blank"><img src="assets/img/Certi/awssolutionsarchitectassociate.jpg" alt=""
+                    class="img-fluid"></a>
+              </div>
+              <div class="work-content">
+                <h2 class="w-title">AWS Solutions Architect Associate</h2>
+                <p class="w-ctegory">
+                  Issued October 2023
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="work-img">
+                <a href="https://www.credly.com/badges/930570b6-9d9c-48f3-9cc5-c958939df96d/public_url"
+                  target="_blank"><img src="assets/img/Certi/awscloudpractitioner.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="work-content">
+                <h2 class="w-title">AWS Cloud Practitioner</h2>
+                <p class="w-ctegory">
+                  Issued October 2023
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="work-img">
+                <a href="https://graphacademy.neo4j.com/c/fe16d0e3-ba8a-4ffc-9289-f33fccd3841e/" target="_blank"><img
+                    src="assets/img/Certi/Neo4jcertifiedprofessional.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="work-content">
+                <h2 class="w-title">Neo4j Certified Professional</h2>
+                <p class="w-ctegory">
+                  Issued April 2023
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="work-img">
+                <a href="https://drive.google.com/file/d/1shsafTeIMjwSm4RW2nwdJdCSd51X-FUh/view" target="_blank"><img
+                    src="assets/img/Certi/itil.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="work-content">
+                <h2 class="w-title">ITIL Foundation, IT Service Management</h2>
+                <p class="w-ctegory">
+                  Issued September 2019
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="work-img">
+                <a href="https://coursera.org/share/5e1491a501a96a59070a6d7098c309fc" target="_blank"><img
+                    src="assets/img/Certi/universityofmichigan.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="work-content">
+                <h2 class="w-title">Python 3 Programming Specialization</h2>
+                <p class="w-ctegory">
+                  Issued August 2020
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="work-img">
+                <a href="https://www.coursera.org/account/accomplishments/verify/PWA7MPMADWGM" target="_blank"><img
+                    src="assets/img/Certi/ibm.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="work-content">
+                <h2 class="w-title">Databases & SQL for Data Science</h2>
+                <p class="w-ctegory">
+                  Issued December 2020
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="work-img">
+                <img src="assets/img/Certi/deeplearning.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <h2 class="w-title">ChatGPT Prompt Engineering for Developers</h2>
+                <p class="w-ctegory">
+                  Issued April 2023
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="work-img">
+                <a href="assets/img/Certi/universityofedinburgh.pdf" target="_blank"><img
+                    src="assets/img/Certi/universityofedinburgh.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="work-content">
+                <h2 class="w-title">Critial Thinking in Global Challenges,<br> University of Edinburgh</h2>
+                <p class="w-ctegory">
+                  Issued April 2013
+                </p>
+              </div>
+            </div>
+          </div>
 
-			  </div> -->
-      </div>
-      <br>
-      <!-- Social Buttons - use font-awesome, past in what you want -->
-      <div class="row">
-        <div class="col-md-12">
-          <ul class="social-buttons">
-            <li><a href="https://twitter.com/michaelaaffare" class="social-btn" target="_blank"><i
-                  class="fa fa-twitter"></i></a></li>
-            <li><a href="https://www.facebook.com/ambroseaffare/" class="social-btn" target="_blank"><i
-                  class="fa fa-facebook"></i></a></li>
-            <li><a href="https://www.instagram.com/michaelaffare/" class="social-btn" target="_blank"><i
-                  class="fa fa-instagram"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/michaelaffare/" class="social-btn" target="_blank"><i
-                  class="fa fa-linkedin"></i></a></li>
-          </ul>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="work-img">
+                <a href="https://www.coursera.org/account/accomplishments/verify/NLN9ZMKXHBJR" target="_blank"><img
+                    src="assets/img/Certi/google.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="work-content">
+                <h2 class="w-title">IT Automation with Python Professional Certificate</h2>
+                <p class="w-ctegory">
+                  Issued August 2020
+                </p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
-    </div>
-  </section>
-  <!-- ==========================
-        CONTACT SECTION END
-        =========================== -->
+    </section>
 
-
-
-  <!-- ==========================
-        FOOTER SECTION
-        =========================== -->
-  <footer>
-    <div class="container">
+    <section id="gallery" class="portfolio-mf sect-pt4 route">
       <div class="row">
-        <div class="col-md-12 text-center">
-          <p>All Rights Reserved. &copy; 2015 <a href="http://www.themewagon.com" target="_blank">ThemeWagon</a>
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Gallery
+            </h3>
+            <div class="line-mf"></div>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
-  <!-- ==========================
-        FOOTER SECTION END
-        =========================== -->
+      <div class="container">
+        <div class="row">
+          <div class="wrapper">
+            <div class="one">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/x96KYS4rrL0?si=uPK71ZWoIaCvRvXo"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen style="border-radius: 25px;"></iframe>
+            </div>
+            <div class="two">
+              <img width="560" src="assets/img/Gallery/ta.jpg" width="560" style="border-radius: 25px;">
+            </div>
+            <div class="three">
+              <img src="assets/img/Gallery/atproject.jpg" width="560" style="border-radius: 25px;">
+            </div>
+            <div class="four">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/p0IW-sy5Pe0?si=MeMbByr565hIEjj1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen style="border-radius: 25px;"></iframe>
+            </div>
+            <div class="five">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/43bvKZqoAuE?si=xxmarG1QOrikb7Ja"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen style="border-radius: 25px;"></iframe>
 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <!-- jQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <!-- SmoothScroll -->
-  <script type="text/javascript" src="assets/smoothscroll/smoothscroll.js"></script>
-  <!-- Bootstrap -->
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <!-- Waypoints -->
-  <script src="js/waypoints.min.js"></script>
-  <!-- classie.js -->
-  <script src="js/classie.js"></script>
-  <!-- FlexSlider -->
-  <script src="assets/flexslider/jquery.flexslider.js"></script>
-  <!-- Modernizr -->
-  <script src="js/modernizr.js"></script>
-  <!-- Text Rotator -->
-  <script src="assets/textrotator/jquery.simple-text-rotator.js"></script>
-  <!-- Lightbox.js -->
-  <script src="assets/lightbox/js/lightbox.min.js"></script>
-  <!-- Google Maps -->
-  <script type="text/javascript"
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeKBBPJTG3v5w3cNPAgM6ZsJiPyL1mP_o&amp;sensor=false"></script>
-  <!-- Theme JavaScript Core -->
-  <script src="js/main.js"></script>
-  <script src="js/script.js"></script>
+    <section class=" paralax-mf footer-paralax bg-image sect-mt4 route"
+      style="background-image: url(assets/img/overlay-bg.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-mf">
+              <div id="contact" class="box-shadow-full" style="border-radius: 1rem;">
+                <div class="row">
 
-  <!-- GOOGLE MAPS DATA -->
-  <script type="text/javascript">
-    // When the window has finished loading create our google map below
-    google.maps.event.addDomListener(window, 'load', init);
+                </div>
+                <div class="col-md-6">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h5 class="title-left">
+                      Contact
+                    </h5>
+                  </div>
+                  <div class="more-info">
+                    <ul class="list-ico">
+                      <li><span class="ion-email"></span> aaffare@gmail.com</li>
+                    </ul>
+                  </div>
+                  <div class="socials">
+                    <ul>
+                      <li><a href="https://www.linkedin.com/in/michaelaffare/" target="_blank"><span
+                            class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                      <li><a href="https://twitter.com/michaelaffare" target="_blank"><span class="ico-circle"><i
+                              class="ion-social-twitter"></i></span></a></li>
+                      <li><a href="https://github.com/michaelaffare" target="_blank"><span class="ico-circle"><i
+                              class="ion-social-github"></i></span></a></li>
+                      <!-- <li><a href="https://www.kaggle.com/ruchi798"><span class="ico-circle"><i
+                              class="fab fa-kaggle"></i></span></a></li> -->
+                      <li><a href="https://www.youtube.com/@michaelaffare" target="_blank"><span class="ico-circle"><i
+                              class="fa fa-youtube-play"></i></span></a></li>
+                      <li><a href="https://michaelaffare.medium.com/" target="_blank"><span class="ico-circle"><img
+                              class="img-fluid w-60" src="assets/img/Footer/medium.png"></img></span></a></li>
+                      <!-- <li><a href="https://datascience.hp.com/us/en/our-ambassadors/ruchi-bhatia.html"><span
+                            class="ico-circle"><img class="img-fluid w-60"
+                              src="assets/img/Footer/zhp.png"></img></span></a></li> -->
+                      <!-- <li><a href="https://wandb.ai/ruchi798"><span class="ico-circle"><img class="img-fluid w-60"
+                              src="assets/img/Footer/w&b.png"></img></span></a></li> -->
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
 
-    function init() {
-      // Basic options for a simple Google Map
-      // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-      var mapOptions = {
-        // How zoomed in you want the map to start at (always required)
-        zoom: 15,
+  </main>
 
-        scrollwheel: false,
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
 
-        // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(40.68961985411178, -74.01618003845215), // New York 
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/jquery.counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="https://kit.fontawesome.com/577eb74294.js" crossorigin="anonymous"></script>
 
-        // How you would like to style the map. 
-        // This is where you would paste any style found on Snazzy Maps.
-        styles: [{ featureType: 'water', stylers: [{ color: '#F2F2F2' }, { visibility: 'on' }] }, { featureType: 'landscape', stylers: [{ color: '#FFFFFF' }] }, { featureType: 'road', stylers: [{ saturation: -100 }, { lightness: 45 }] }, { featureType: 'road.highway', stylers: [{ visibility: 'simplified' }] }, { featureType: 'road.arterial', elementType: 'labels.icon', stylers: [{ visibility: 'off' }] }, { featureType: 'administrative', elementType: 'labels.text.fill', stylers: [{ color: '#ADADAD' }] }, { featureType: 'transit', stylers: [{ visibility: 'off' }] }, { featureType: 'poi', stylers: [{ visibility: 'off' }] }]
-      };
-
-      // Get the HTML DOM element that will contain your map 
-      // We are using a div with id="map" seen below in the <body>
-      var mapElement = document.getElementById('googlemaps');
-
-      // Create the Google Map using out element and options defined above
-      var map = new google.maps.Map(mapElement, mapOptions);
-    }
-
-  </script>
-
-  <!-- TEXT ROTATOR SETTINGS -->
-  <script type="text/javascript">
-    $(".rotate").textrotator({
-      animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
-      separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
-      speed: 2000 // How many milliseconds until the next word show.
-    });
-  </script>
+  <script src="assets/js/main.js"></script>
 
 </body>
 
