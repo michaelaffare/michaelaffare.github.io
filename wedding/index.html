@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Michael Affare</title>
+  <title>Michael & Emily Wedding Timeline</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
   <meta name="image" property="og:image" content="../assets/img/Linkedin_bg.png">
@@ -15,16 +15,122 @@
   <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="../assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="../assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="../assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="../assets/vendor/owl.carousel/../assets/owl.carousel.min.css" rel="stylesheet">
   <link href="../assets/vendor/venobox/venobox.css" rel="stylesheet">
 
   <link href="../assets/css/style.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/06496a75d5.js" crossorigin="anonymous"></script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4774453216197450"
     crossorigin="anonymous"></script>
-  <script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
 
-  <meta name="google-adsense-account" content="ca-pub-4774453216197450">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f5;
+      padding: 2rem;
+    }
+
+    .timeline {
+      position: relative;
+      max-width: 800px;
+      margin: auto;
+      padding: 40px 0;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      width: 4px;
+      background-color: #3366ff;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 0;
+    }
+
+    .timeline-entry {
+      position: relative;
+      width: 50%;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      margin-bottom: 40px;
+    }
+
+    .timeline-entry::before {
+      content: '';
+      position: absolute;
+      top: 20px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #3366ff;
+      border: 4px solid white;
+      z-index: 1;
+    }
+
+    .timeline-entry.left {
+      left: 0;
+    }
+
+    .timeline-entry.left::before {
+      right: -10px;
+    }
+
+    .timeline-entry.right {
+      left: 50%;
+    }
+
+    .timeline-entry.right::before {
+      left: -10px;
+    }
+
+    .timeline-time {
+      font-size: 14px;
+      color: #3366ff;
+      font-weight: bold;
+    }
+
+    .timeline-title {
+      font-size: 18px;
+      color: #3366ff;
+      font-weight: bold;
+      margin-top: 5px;
+    }
+
+    .timeline-description {
+      margin: 10px 0;
+    }
+
+    .responsible-person {
+      font-style: italic;
+      color: #888;
+      font-size: 14px;
+    }
+
+    .timeline-image {
+      width: 100%;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .timeline-entry {
+        width: 100%;
+        left: 0 !important;
+      }
+
+      .timeline-entry::before {
+        left: -10px !important;
+        right: auto !important;
+      }
+    }
+  </style>
+
+
 </head>
 
 <body id=" page-top">
@@ -41,7 +147,7 @@
       <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#about">About</a>
+            <a class="nav-link js-scroll" href="#timeline">Timeline</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#education">Education</a>
@@ -82,14 +188,14 @@
     </div>
   </nav>
 
-  <div id="home" class="intro route bg-image" style="background-image: url(assets/img/bg.png)">
+  <div id="home" class="intro route bg-image" style="background-image: url(../assets/img/bg.png)">
     <div class="overlay-itro"></div>
     <div class="intro-content display-table">
       <div class="table-cell">
         <div class="container">
-          <h1 class="intro-title mb-4">Michael Affare</h1>
-          <p class="intro-subtitle"><span class="text-slider-items">Business Intelligence Engineer, Solutions
-              Architect - Cloud, Data Analyst</span><strong class="text-slider"></strong></p>
+          <h1 class="intro-title mb-4">Michael and Emily </h1>
+          <p class="intro-subtitle"><span class="text-slider-items">04.27.2025, Carmel-Indiana,
+              Celebration</span><strong class="text-slider"></strong></p>
         </div>
       </div>
     </div>
@@ -97,121 +203,226 @@
 
   <main id="main">
 
-    <div class="commonninja_component pid-7fcce95e-2f94-4375-b13a-a9ebb6b82b0e"></div>
-
-
-    <section id="about" class="about-mf sect-pt4 route">
+    <section id="timeline" class="about-mf sect-pt4 route">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="box-shadow-full" style="border-radius: 1rem;">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class="col-sm-3 "></div>
-                    <div class="col-sm-4 col-md-5">
-                      <div class="about-img">
-                        <img src="assets/img/Portfolio_picture.png" class="img-fluid rounded b-shadow-a" alt="">
-                      </div>
-                    </div>
-                    <div class="col-sm-3 "></div>
-                  </div>
-                  <div class="skill-mf">
-                    <p class="title-s">Skills</p>
-                    <ul>
-                      <li><b>Languages:</b> Python, Java, SQL (T-SQL, PL-SQL)</li>
-                      </li>
-                      <li><b>Cloud:</b> AWS <i class="fa-solid fa-certificate"></i> (S3, EC2, RDS, DynamoDB, IAM,
-                        Route53, Glue, Athena)
-                        , Google Cloud (Big
-                        Query,
-                        Cloud Run, SQL, Looker)</li>
-                      <li><b>Analytics:</b> Tableau, NumPy, Pandas, Restful API, Spark, Hadoop, Excel, TensorFlow,
-                        Scikit-learn, Keras, Cypher Query Language</li>
-                      <li><b>General Skills:</b> Linux, ETL, AI Prompt Engineering, Process automation,
-                        Digital
-                        Transformation, Technical Documentation</li>
-                    </ul>
-                    <div class="progress">
-                    </div>
-                    <p class="title-s">Tools</p>
-                    <ul>
-                      <li><b>Databases:</b> Microsoft SQL Server, Oracle 21g <i class="fa-solid fa-certificate"></i>
-                        , MySQL, NoSQL (MongoDB, Redis, Cassandra, Neo4j <i class="fa-solid fa-certificate"></i>
-                        )
-                      <li><b>Visualization:</b> Tableau, Python Libraries</li>
-                      <li><b>Automation:</b> SQL (Procedures, jobs, triggers), Selenium, PowerAutomate, Linux Crontab,
-                        Microsoft Task Scheduler,</li>
-                      <li><b>Mobile app development:</b> Flutter, PowerApps, Android Native (Java)</li>
-                    </ul>
-                    <div class="progress">
-                    </div>
-                    <p class="title-s">Software</p>
-                    <span>Postman, Wireshark, Jira, PyCharm, Jupyter, Android Studio, VS Code, Canva, Microsoft
-                      Office</span>
-                    <span class="pull-right"></span>
-                    <div class="progress">
-                    </div>
-                    <p class="title-s">Domains</p>
-                    <span>Data Engineering/Analytics, Cloud Solutions Architect <i class="fa-solid fa-certificate"></i>,
-                      Database Development/Management</span>
-                    <span class="pull-right"></span>
-                    <div class="progress">
-                    </div>
-                  </div>
+
+        <div class="title-box text-center">
+          <h3 class="title-a">
+            Timeline
+          </h3>
+          <div class="line-mf"></div>
+
+          <div class="row">
+
+
+
+
+            <div class="timeline">
+              <div class="timeline-entry left">
+                <div class="timeline-time">1:30 PM</div>
+                <div class="timeline-title">Vendor Arrival</div>
+                <div class="timeline-description">
+                  All vendors arrive and setup.
+                  <ul>
+                    <li>Florist</li>
+                    <li>Photographer, DJ</li>
+                  </ul>
                 </div>
-                <div class="col-md-6">
-                  <div class="about-me pt-4 pt-md-0">
-
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        About me
-                      </h5>
-                    </div>
-
-                    <p class="lead">
-                      Hello!
-                      I'm Michael Affare, a Computer Engineer with a Master's degree in Information Systems Management
-                      from Carnegie Mellon University. I am currently leading a Data Analytics team at Great Lakes
-                      Behavioral Research Institute and consulting as a Cloud Solutions Architect for the CMU research
-                      team at the Block Center for Technology & Society.
-                    </p>
-                    <p class="lead">
-                      I take pride in having managed large scale distributed technical projects on 3 continents.
-                    <ul>
-                      <li><b>In Africa (Ghana)</b>
-                        I led technical projects in the telecommunications space during the merger of Airtel and Tigo.
-                        I led projects with vendors like Ericsson, Huawei, Meta and managed integrations with banks
-                        (Barclays) and mobile financial services. I also led the AirtelTigo team on the National
-                        Communication Authority committee during the Ghana National Sim Reregistration Exercise that
-                        resulted in the reduction of mobile fraud by 60%.</li>
-                      <li><b>In Australia</b>
-                        I worked with Freshtrack Systems using database development and data analytics to support
-                        stakeholders
-                        in the fresh food supply chain industry (from the farm to the shelves).</li>
-                      <li>
-                        <b>In the United States</b>
-                        I am consulting for the Allegheny County Department of Human Services using data analytics to
-                        drive data-driven policy decisions whiles contributing to research on WorkForce Mobility and
-                        labour
-                        analytics at CMU.
-                      </li>
-                    </ul>
-                    </p>
-                    <p class="lead">
-                      My passion is to support businesses with digital transformation solutions
-                      that are automatable and leverage data analytics solutions to help improve productivity.
-                      I am a continuous learner and passionate about technical projects that improve optimization and
-                      data-driven decision-making.
-
-                    </p>
-                  </div>
-                </div>
+                <div class="responsible-person">Responsible: Vendors</div>
               </div>
+
+              <div class="timeline-entry right">
+                <div class="timeline-time">2:00 PM</div>
+                <div class="timeline-title">First Look Photos</div>
+                <div class="timeline-description">
+                  <ul>
+                    <li>First look photos in Traditional clothing</li>
+                    <li>First look photos in White Dress</li>
+                  </ul>
+                </div>
+                <div class="responsible-person">Responsible: Photographer</div>
+              </div>
+
+              <div class="timeline-entry left">
+                <div class="timeline-time">3:30 PM</div>
+                <div class="timeline-title">Guest Arrivals & Prep Photos</div>
+                <div class="timeline-description">
+                  <ul>
+                    <li>Guests arrive in the venue</li>
+                    <li>Guests seated in Chapel</li>
+                    <li>Hosts get people programs and guide to seats</li>
+                    <li>Michael ~ take Traditional cloths to car</li>
+                  </ul>
+                </div>
+                <div class="responsible-person">Responsible: Hosts, Michael</div>
+              </div>
+
+              <div class="timeline-entry right">
+                <div class="timeline-time">4:00 PM</div>
+                <div class="timeline-title">Ceremony Starts</div>
+                <div class="timeline-description">
+                  <ul>
+                    <li>Michael and Jeremy enter</li>
+                    <li>Processional - Judith Singing</li>
+                  </ul>
+                </div>
+                <div class="responsible-person">Responsible: Michael, Jeremy, Judith</div>
+              </div>
+
+              <div class="timeline-entry left">
+                <div class="timeline-time">5:00 PM</div>
+                <div class="timeline-title">Cocktail Hour & Family Photos</div>
+                <div class="timeline-description">
+                  <ul>
+                    <li>DJ Gust ~ Start music [Reference playlist 1]</li>
+                    <li>Friends with couple - Michaels, then Emily’s</li>
+                    <li>Family with couple - Michaels, then Emily’s</li>
+                    <li>Individual with family</li>
+                  </ul>
+                </div>
+                <div class="responsible-person">Responsible: DJ Gust, Photographer</div>
+              </div>
+
+              <div class="timeline-entry right">
+                <div class="timeline-time">5:45 PM</div>
+                <div class="timeline-title">Guests Seated for Reception</div>
+                <div class="timeline-description">
+                  <ul>
+                    <li>All guests seated</li>
+                    <li>MC (Michael Byers) ~ Announces for every to be seated</li>
+                  </ul>
+                </div>
+                <div class="responsible-person">Responsible: Michael Byers</div>
+              </div>
+
+              <div class="timeline-entry left">
+                <div class="timeline-time">6:00 PM</div>
+                <div class="timeline-title">Bridal Party & Family Announced In</div>
+                <div class="timeline-description">
+                  <ul>
+                    <li>Same party that processed will dance to their seats</li>
+                    <li>Couple announced in last | DJ [Reference entrance playlist #2]</li>
+                    <li>MC (Michael Byers) ~ Announces for everyone to be seated</li>
+                  </ul>
+                </div>
+                <div class="responsible-person">Responsible: DJ, Michael Byers</div>
+              </div>
+
+              <div class="timeline-entry right">
+                <div class="timeline-time">6:10 PM</div>
+                <div class="timeline-title">Cake Cutting</div>
+                <div class="timeline-description">
+                  <ul>
+                    <li>Cut cake</li>
+                    <li>DJ instrumental [Audio]</li>
+                  </ul>
+                </div>
+                <div class="responsible-person">Responsible: Couple, DJ</div>
+              </div>
+
+              <div class="timeline-entry left">
+                <div class="timeline-time">6:15 PM</div>
+                <div class="timeline-title">First Dance</div>
+                <div class="timeline-description">
+                  <ul>
+                    <li>Couple’s first dance</li>
+                    <li>Short song | dance [ DJ reference first dance song ]</li>
+                  </ul>
+                </div>
+                <div class="responsible-person">Responsible: Couple, DJ</div>
+              </div>
+
+              <div class="timeline-entry right">
+                <div class="timeline-time">6:20 PM</div>
+                <div class="timeline-title">Welcome & Blessing</div>
+                <div class="timeline-description">
+                  <ul>
+                    <li>Kimberley Thomas (bride’s mum) - Welcome</li>
+                    <li>Marlena grabs food for couple</li>
+                  </ul>
+                </div>
+                <div class="responsible-person">Responsible: Kimberley Thomas, Marlena</div>
+              </div>
+
+              <div class="timeline-entry left">
+                <div class="timeline-time">6:30 PM</div>
+                <div class="timeline-title">Serve Time - Dinner Buffet</div>
+                <div class="timeline-description">
+                  <ul>
+                    <li>First tables (15 & 4) [Refer to seating chart]</li>
+                    <li>Michael Byers announce tables order for food</li>
+                  </ul>
+                </div>
+                <div class="responsible-person">Responsible: Michael Byers</div>
+              </div>
+
+              <div class="timeline-entry right">
+                <div class="timeline-time">7:00 PM</div>
+                <div class="timeline-title">Bride & Groom Change Outfits</div>
+                <div class="timeline-description">
+                  <ul>
+                    <li>Change in Chapel if available.</li>
+                  </ul>
+                </div>
+                <div class="responsible-person">Responsible: Couple</div>
+              </div>
+
+              <div class="timeline-entry left">
+                <div class="timeline-time">7:15 PM</div>
+                <div class="timeline-title">Speeches & Traditional | Cake Serve Time</div>
+                <div class="timeline-description">
+                  <ul>
+                    <li>Michael explain dress, gift & Ghanaian culture | Samuel</li>
+                    <li>Present gifts to Mummy, Mark Allen & Marlena</li>
+                    <li>Each accepts with toast | Cake is served during this time</li>
+                  </ul>
+                </div>
+                <div class="responsible-person">Responsible: Michael, Samuel</div>
+              </div>
+
+              <div class="timeline-entry right">
+                <div class="timeline-time">7:40 PM</div>
+                <div class="timeline-title">Guests Join in Dancing</div>
+                <div class="timeline-description">
+                  <ul>
+                    <li>Open floor - everyone dance</li>
+                    <li>DJ Gust [Play songs reference open dance playlist]</li>
+                    <li>More candid pictures</li>
+                  </ul>
+                </div>
+                <div class="responsible-person">Responsible: DJ Gust, Photographer</div>
+              </div>
+
+              <div class="timeline-entry left">
+                <div class="timeline-time">10:00 PM</div>
+                <div class="timeline-title">Bar Closes & Event Ends</div>
+                <div class="timeline-description">
+                  <ul>
+                    <li>Bar closes</li>
+                    <li>People depart</li>
+                    <li>Tear down begins for all vendors [can begin earlier at 9pm]</li>
+                  </ul>
+                </div>
+                <div class="responsible-person">Responsible: Vendors</div>
+              </div>
+
+              <div class="timeline-entry right">
+                <div class="timeline-time">11:00 PM</div>
+                <div class="timeline-title">Teardown Complete</div>
+                <div class="timeline-description">
+                  <ul>
+                    <li>Same party that processed will dance to their seats</li>
+                    <li>Couple announced in last</li>
+                  </ul>
+                </div>
+                <div class="responsible-person">Responsible: Processional Team</div>
+              </div>
+
             </div>
+
+
           </div>
         </div>
-      </div>
     </section>
 
     <section id="education" class="portfolio-mf sect-pt4 route">
@@ -234,7 +445,7 @@
           <div class="col-md-5">
             <div class="work-box">
               <div class="work-img">
-                <img src="assets/img/Work Experience/cmu.png" alt="" class="img-fluid">
+                <img src="../assets/img/Work Experience/cmu.png" alt="" class="img-fluid">
               </div>
               </a>
               <div class="work-content">
@@ -258,7 +469,7 @@
           <div class="col-md-5">
             <div class="work-box">
               <div class="work-img">
-                <img src="assets/img/Education/knust.png" alt="" class="img-fluid">
+                <img src="../assets/img/Education/knust.png" alt="" class="img-fluid">
               </div>
               </a>
               <div class="work-content">
@@ -297,7 +508,7 @@
             <div class="work-box">
               <div class="work-img">
                 <a href="https://www.alleghenycountyanalytics.us/topics/education-and-early-childhood/"
-                  target="_blank"><img src="assets/img/Work Experience/greatlakes.jpg" alt="" class="img-fluid"></a>
+                  target="_blank"><img src="../assets/img/Work Experience/greatlakes.jpg" alt="" class="img-fluid"></a>
               </div>
               </a>
               <div class="work-content">
@@ -322,7 +533,7 @@
             <div class="work-box">
               <div class="work-img">
                 <a href="https://www.cmu.edu/block-center/future-of-work/index.html" target="_blank">
-                  <img src="assets/img/Work Experience/blockcenter.jpg" alt="" class="img-fluid">
+                  <img src="../assets/img/Work Experience/blockcenter.jpg" alt="" class="img-fluid">
                 </a>
               </div>
               </a>
@@ -347,8 +558,8 @@
           <div class="col-md-4">
             <div class="work-box">
               <div class="work-img">
-                <a href="https://freshtrack.com/" target="_blank"><img src="assets/img/Work Experience/freshtrack.jpg"
-                    alt="" class="img-fluid"></a>
+                <a href="https://freshtrack.com/" target="_blank"><img
+                    src="../assets/img/Work Experience/freshtrack.jpg" alt="" class="img-fluid"></a>
               </div>
               </a>
               <div class="work-content">
@@ -372,14 +583,15 @@
           <div class="col-md-4">
             <div class="work-box">
               <div class="work-img">
-                <a href="https://www.at.com.gh/home" target="_blank"><img src="assets/img/Work Experience/at.jpg" alt=""
-                    class="img-fluid"></a>
+                <a href="https://www.at.com.gh/home" target="_blank"><img src="../assets/img/Work Experience/at.jpg"
+                    alt="" class="img-fluid"></a>
               </div>
               </a>
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-12">
-                    <h2 class="w-title">Consumer Solutions Architect, <br> Business Solutions Architect</h2>
+                    <h2 class="w-title">Consumer Solutions Architect, <br> Business Solutions
+                      Architect</h2>
                     <div class="w-more">
                       <span class="w-date">May. 2017 - Aug. 2022</span>
                     </div>
@@ -397,7 +609,7 @@
           <div class="col-md-4">
             <div class="work-box">
               <div class="work-img">
-                <img src="assets/img/Work Experience/ELC.png" alt="" class="img-fluid">
+                <img src="../assets/img/Work Experience/ELC.png" alt="" class="img-fluid">
               </div>
               </a>
               <div class="work-content">
@@ -421,7 +633,7 @@
           <div class="col-md-4">
             <div class="work-box">
               <div class="work-img">
-                <img src="assets/img/Work Experience/yum.jpg" alt="" class="img-fluid">
+                <img src="../assets/img/Work Experience/yum.jpg" alt="" class="img-fluid">
               </div>
               </a>
               <div class="work-content">
@@ -447,7 +659,7 @@
             <div class="work-box">
               <div class="work-img">
                 <a href="https://api.heinz.cmu.edu/courses_api/course_detail/95-702/" target="_blank"><img
-                    src="assets/img/Work Experience/cmu.png" alt="" class="img-fluid"></a>
+                    src="../assets/img/Work Experience/cmu.png" alt="" class="img-fluid"></a>
               </div>
               <div class="work-content">
                 <div class="row">
@@ -471,13 +683,14 @@
           <div class="col-md-4">
             <div class="work-box">
               <div class="work-img">
-                <a href="https://www.hubble.sh/" target="_blank"><img src="assets/img/Work Experience/hubble.png" alt=""
-                    class="img-fluid"></a>
+                <a href="https://www.hubble.sh/" target="_blank"><img src="../assets/img/Work Experience/hubble.png"
+                    alt="" class="img-fluid"></a>
               </div>
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-10">
-                    <h2 class="w-title"> Student Consultant, 3D Modeling <br> Intern, Data Science</h2>
+                    <h2 class="w-title"> Student Consultant, 3D Modeling <br> Intern, Data Science
+                    </h2>
                     <br>
                     <div class="w-more">
                       <span class="w-date">May. 2022 - July. 2022</span>
@@ -512,7 +725,7 @@
             <div class="work-box">
               <div class="work-img">
                 <div class="work-img">
-                  <img src="assets/img/projects/dhsalleghenycounty.jpg" alt="" class="img-fluid">
+                  <img src="../assets/img/projects/dhsalleghenycounty.jpg" alt="" class="img-fluid">
                 </div>
                 </a>
               </div>
@@ -533,7 +746,7 @@
             <div class="work-box">
               <div class="work-img">
                 <div class="work-img">
-                  <img src="assets/img/projects/elc.jpg" alt="" class="img-fluid">
+                  <img src="../assets/img/projects/elc.jpg" alt="" class="img-fluid">
                 </div>
                 </a>
               </div>
@@ -554,7 +767,7 @@
             <div class="work-box">
               <div class="work-img">
                 <div class="work-img">
-                  <img src="assets/img/projects/ncaghana.jpg" alt="" class="img-fluid">
+                  <img src="../assets/img/projects/ncaghana.jpg" alt="" class="img-fluid">
                 </div>
                 </a>
               </div>
@@ -575,7 +788,7 @@
             <div class="work-box">
               <div class="work-img">
                 <div class="work-img">
-                  <img src="assets/img/projects/meta.jpg" alt="" class="img-fluid">
+                  <img src="../assets/img/projects/meta.jpg" alt="" class="img-fluid">
                 </div>
 
               </div>
@@ -596,7 +809,7 @@
             <div class="work-box">
               <div class="work-img">
                 <div class="work-img">
-                  <img src="assets/img/projects/ericsson.jpg" alt="" class="img-fluid">
+                  <img src="../assets/img/projects/ericsson.jpg" alt="" class="img-fluid">
                 </div>
                 </a>
               </div>
@@ -617,7 +830,7 @@
             <div class="work-box">
               <div class="work-img">
                 <div class="work-img">
-                  <img src="assets/img/projects/airteltigo.jpg" alt="" class="img-fluid">
+                  <img src="../assets/img/projects/airteltigo.jpg" alt="" class="img-fluid">
                 </div>
                 </a>
               </div>
@@ -638,7 +851,7 @@
             <div class="work-box">
               <div class="work-img">
                 <div class="work-img">
-                  <img src="assets/img/projects/huawei.jpg" alt="" class="img-fluid">
+                  <img src="../assets/img/projects/huawei.jpg" alt="" class="img-fluid">
                 </div>
 
               </div>
@@ -659,7 +872,7 @@
             <div class="work-box">
               <div class="work-img">
                 <div class="work-img">
-                  <img src="assets/img/projects/airteltigo.jpg" alt="" class="img-fluid">
+                  <img src="../assets/img/projects/airteltigo.jpg" alt="" class="img-fluid">
                 </div>
                 </a>
               </div>
@@ -680,7 +893,7 @@
             <div class="work-box">
               <div class="work-img">
                 <div class="work-img">
-                  <img src="assets/img/projects/airteltigo.jpg" alt="" class="img-fluid">
+                  <img src="../assets/img/projects/airteltigo.jpg" alt="" class="img-fluid">
                 </div>
                 </a>
               </div>
@@ -701,7 +914,7 @@
             <div class="work-box">
               <div class="work-img">
                 <div class="work-img">
-                  <img src="assets/img/projects/airteltigo.jpg" alt="" class="img-fluid">
+                  <img src="../assets/img/projects/airteltigo.jpg" alt="" class="img-fluid">
                 </div>
                 </a>
               </div>
@@ -722,7 +935,7 @@
             <div class="work-box">
               <div class="work-img">
                 <div class="work-img">
-                  <img src="assets/img/projects/airteltigo.jpg" alt="" class="img-fluid">
+                  <img src="../assets/img/projects/airteltigo.jpg" alt="" class="img-fluid">
                 </div>
                 </a>
               </div>
@@ -743,7 +956,7 @@
             <div class="work-box">
               <div class="work-img">
                 <div class="work-img">
-                  <img src="assets/img/projects/blockcenter.jpg" alt="" class="img-fluid">
+                  <img src="../assets/img/projects/blockcenter.jpg" alt="" class="img-fluid">
                 </div>
                 </a>
               </div>
@@ -764,7 +977,7 @@
             <div class="work-box">
               <div class="work-img">
                 <div class="work-img">
-                  <img src="assets/img/projects/yum.jpg" alt="" class="img-fluid">
+                  <img src="../assets/img/projects/yum.jpg" alt="" class="img-fluid">
                 </div>
                 </a>
               </div>
@@ -806,7 +1019,7 @@
             <div class="work-box">
               <div class="work-img">
                 <a href="http://workforcesupplychains.org/" target="_blank"> <img
-                    src="assets/img/projects/blockcenter.jpg" alt="" class="img-fluid">
+                    src="../assets/img/projects/blockcenter.jpg" alt="" class="img-fluid">
                 </a>
               </div>
               <div class="work-content">
@@ -827,7 +1040,7 @@
             <div class="work-box">
               <div class="work-img">
                 <a href="https://www.youtube.com/embed/43bvKZqoAuE?si=xxmarG1QOrikb7Ja"" target=" _blank"><img
-                    src="assets/img/projects/subanagram.jpg" alt="" class="img-fluid">
+                    src="../assets/img/projects/subanagram.jpg" alt="" class="img-fluid">
                 </a>
               </div>
               <div class="work-content">
@@ -846,7 +1059,7 @@
           <div class="col-md-4">
             <div class="work-box">
               <div class="work-img">
-                <img src="assets/img/projects/web3.jpg" alt="" class="img-fluid">
+                <img src="../assets/img/projects/web3.jpg" alt="" class="img-fluid">
               </div>
               <div class="work-content">
                 <div class="row">
@@ -871,7 +1084,7 @@
             <div class="work-box">
               <div class="work-img">
                 <a href="https://docs.raptoreum.com/raptoreum-docs/getting-started/what-is-raptoreum/"
-                  target=" _blank"><img src="assets/img/projects/raptoreum.jpg" alt="" class="img-fluid">
+                  target=" _blank"><img src="../assets/img/projects/raptoreum.jpg" alt="" class="img-fluid">
                 </a>
               </div>
               <div class="work-content">
@@ -917,7 +1130,7 @@
           <div class="col-md-4">
             <div class="work-box">
               <div class="work-img">
-                <img src="assets/img/Work Experience/cmu.png" alt="" class="img-fluid">
+                <img src="../assets/img/Work Experience/cmu.png" alt="" class="img-fluid">
               </div>
               </a>
               <div class="work-content">
@@ -941,7 +1154,7 @@
           <div class="col-md-4">
             <div class="work-box">
               <div class="work-img">
-                <img src="assets/img/Education/knust.png" alt="" class="img-fluid">
+                <img src="../assets/img/Education/knust.png" alt="" class="img-fluid">
               </div>
               </a>
 
@@ -965,7 +1178,7 @@
           <div class="col-md-4">
             <div class="work-box">
               <div class="work-img">
-                <img src="assets/img/Work Experience/cmu.png" alt="" class="img-fluid">
+                <img src="../assets/img/Work Experience/cmu.png" alt="" class="img-fluid">
               </div>
               </a>
               <div class="work-content">
@@ -986,7 +1199,7 @@
       </div>
     </section>
 
-    <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
+    <div class="testimonials paralax-mf bg-image" style="background-image: url(../assets/img/overlay-bg.jpg)">
       <div class="overlay-mf"></div>
       <div class="container">
         <div class="row">
@@ -995,7 +1208,8 @@
               <div class="testimonial-box">
                 <div class="content-test">
                   <p class="description lead">
-                    “The heights by great men reached and kept were not attained by sudden flight, but they while their
+                    “The heights by great men reached and kept were not attained by sudden flight,
+                    but they while their
                     companions slept, were toiling upward in the night."
                   </p>
                   <p class="description lead">
@@ -1032,7 +1246,7 @@
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="https://github.com/michaelaffare" target="_blank"><img src="assets/img/Extras/bitmoji.jpg"
+                <a href="https://github.com/michaelaffare" target="_blank"><img src="../assets/img/Extras/bitmoji.jpg"
                     alt="" class="img-fluid" style="border-radius: 1rem;"></a>
               </div>
               <div class="card-body">
@@ -1070,7 +1284,7 @@
             <div class="service-box">
               <div class="work-img">
                 <a href="https://www.credly.com/badges/df40be27-9776-4a48-afce-36969f34f0b7/public_url"
-                  target="_blank"><img src="assets/img/Certi/comptiasecurityplus.png" alt="" class="img-fluid"></a>
+                  target="_blank"><img src="../assets/img/Certi/comptiasecurityplus.png" alt="" class="img-fluid"></a>
               </div>
               <div class="work-content">
                 <h2 class="w-title">CompTIA Security+</h2>
@@ -1085,7 +1299,7 @@
             <div class="service-box">
               <div class="work-img">
                 <a href="https://www.credly.com/badges/9757bb5b-50c6-470e-9f8f-93c008450c2f/public_url"
-                  target="_blank"><img src="assets/img/Certi/ccisc2.png" alt="" class="img-fluid"></a>
+                  target="_blank"><img src="../assets/img/Certi/ccisc2.png" alt="" class="img-fluid"></a>
               </div>
               <div class="work-content">
                 <h2 class="w-title">ISC2 - Certified in Cybersecurity</h2>
@@ -1102,7 +1316,7 @@
             <div class="service-box">
               <div class="work-img">
                 <a href="https://www.credly.com/badges/8d1d2fe8-c7e5-4687-931d-5f27d3db9675/public_url"
-                  target="_blank"><img src="assets/img/Certi/awssolutionsarchitectassociate.jpg" alt=""
+                  target="_blank"><img src="../assets/img/Certi/awssolutionsarchitectassociate.jpg" alt=""
                     class="img-fluid"></a>
               </div>
               <div class="work-content">
@@ -1117,7 +1331,7 @@
             <div class="service-box">
               <div class="work-img">
                 <a href="https://www.credly.com/badges/930570b6-9d9c-48f3-9cc5-c958939df96d/public_url"
-                  target="_blank"><img src="assets/img/Certi/awscloudpractitioner.jpg" alt="" class="img-fluid"></a>
+                  target="_blank"><img src="../assets/img/Certi/awscloudpractitioner.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="work-content">
                 <h2 class="w-title">AWS Cloud Practitioner</h2>
@@ -1131,7 +1345,7 @@
             <div class="service-box">
               <div class="work-img">
                 <a href="https://graphacademy.neo4j.com/c/fe16d0e3-ba8a-4ffc-9289-f33fccd3841e/" target="_blank"><img
-                    src="assets/img/Certi/Neo4jcertifiedprofessional.jpg" alt="" class="img-fluid"></a>
+                    src="../assets/img/Certi/Neo4jcertifiedprofessional.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="work-content">
                 <h2 class="w-title">Neo4j Certified Professional</h2>
@@ -1145,7 +1359,7 @@
             <div class="service-box">
               <div class="work-img">
                 <a href="https://drive.google.com/file/d/1shsafTeIMjwSm4RW2nwdJdCSd51X-FUh/view" target="_blank"><img
-                    src="assets/img/Certi/itil.jpg" alt="" class="img-fluid"></a>
+                    src="../assets/img/Certi/itil.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="work-content">
                 <h2 class="w-title">ITIL Foundation, IT Service Management</h2>
@@ -1159,7 +1373,7 @@
             <div class="service-box">
               <div class="work-img">
                 <a href="https://coursera.org/share/5e1491a501a96a59070a6d7098c309fc" target="_blank"><img
-                    src="assets/img/Certi/universityofmichigan.jpg" alt="" class="img-fluid"></a>
+                    src="../assets/img/Certi/universityofmichigan.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="work-content">
                 <h2 class="w-title">Python 3 Programming Specialization</h2>
@@ -1173,7 +1387,7 @@
             <div class="service-box">
               <div class="work-img">
                 <a href="https://www.coursera.org/account/accomplishments/verify/PWA7MPMADWGM" target="_blank"><img
-                    src="assets/img/Certi/ibm.jpg" alt="" class="img-fluid"></a>
+                    src="../assets/img/Certi/ibm.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="work-content">
                 <h2 class="w-title">Databases & SQL for Data Science</h2>
@@ -1186,7 +1400,7 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="work-img">
-                <img src="assets/img/Certi/deeplearning.jpg" alt="" class="img-fluid">
+                <img src="../assets/img/Certi/deeplearning.jpg" alt="" class="img-fluid">
               </div>
               <div class="work-content">
                 <h2 class="w-title">ChatGPT Prompt Engineering for Developers</h2>
@@ -1199,11 +1413,12 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="work-img">
-                <a href="assets/img/Certi/universityofedinburgh.pdf" target="_blank"><img
-                    src="assets/img/Certi/universityofedinburgh.jpg" alt="" class="img-fluid"></a>
+                <a href="../assets/img/Certi/universityofedinburgh.pdf" target="_blank"><img
+                    src="../assets/img/Certi/universityofedinburgh.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="work-content">
-                <h2 class="w-title">Critial Thinking in Global Challenges,<br> University of Edinburgh</h2>
+                <h2 class="w-title">Critial Thinking in Global Challenges,<br> University of Edinburgh
+                </h2>
                 <p class="w-ctegory">
                   Issued April 2013
                 </p>
@@ -1215,7 +1430,7 @@
             <div class="service-box">
               <div class="work-img">
                 <a href="https://www.coursera.org/account/accomplishments/verify/NLN9ZMKXHBJR" target="_blank"><img
-                    src="assets/img/Certi/google.jpg" alt="" class="img-fluid"></a>
+                    src="../assets/img/Certi/google.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="work-content">
                 <h2 class="w-title">IT Automation with Python Professional Certificate</h2>
@@ -1251,10 +1466,10 @@
                 allowfullscreen style="border-radius: 25px;"></iframe>
             </div>
             <div class="two">
-              <img width="560" src="assets/img/Gallery/ta.jpg" width="560" style="border-radius: 25px;">
+              <img width="560" src="../assets/img/Gallery/ta.jpg" width="560" style="border-radius: 25px;">
             </div>
             <div class="three">
-              <img src="assets/img/Gallery/atproject.jpg" width="560" style="border-radius: 25px;">
+              <img src="../assets/img/Gallery/atproject.jpg" width="560" style="border-radius: 25px;">
             </div>
             <div class="four">
               <iframe width="560" height="315" src="https://www.youtube.com/embed/p0IW-sy5Pe0?si=MeMbByr565hIEjj1"
@@ -1275,7 +1490,7 @@
     </section>
 
     <section class=" paralax-mf footer-paralax bg-image sect-mt4 route"
-      style="background-image: url(assets/img/overlay-bg.jpg)">
+      style="background-image: url(../assets/img/overlay-bg.jpg)">
       <div class="overlay-mf"></div>
       <div class="container">
         <div class="row">
@@ -1303,13 +1518,16 @@
                       <li><a href="https://www.linkedin.com/in/michaelaffare/" target="_blank"><span
                             class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
                       <li><a href="https://twitter.com/michaelaffare" target="_blank"><span class="ico-circle"><i
-                              class="ion-social-twitter"></i></span></a></li>
+                              class="ion-social-twitter"></i></span></a>
+                      </li>
                       <li><a href="https://github.com/michaelaffare" target="_blank"><span class="ico-circle"><i
-                              class="ion-social-github"></i></span></a></li>
+                              class="ion-social-github"></i></span></a>
+                      </li>
                       <li><a href="https://www.youtube.com/@michaelaffare" target="_blank"><span class="ico-circle"><i
-                              class="fa fa-youtube-play"></i></span></a></li>
+                              class="fa fa-youtube-play"></i></span></a>
+                      </li>
                       <li><a href="https://michaelaffare.medium.com/" target="_blank"><span class="ico-circle"><img
-                              class="img-fluid w-60" src="assets/img/Footer/medium.png"></img></span></a></li>
+                              class="img-fluid w-60" src="../assets/img/Footer/medium.png"></img></span></a></li>
 
                     </ul>
                   </div>
@@ -1327,18 +1545,18 @@
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <div id="preloader"></div>
 
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/jquery.counterup.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="../assets/vendor/jquery/jquery.min.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+  <script src="../assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="../assets/vendor/counterup/jquery.counterup.min.js"></script>
+  <script src="../assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="../assets/vendor/typed.js/typed.min.js"></script>
+  <script src="../assets/vendor/venobox/venobox.min.js"></script>
   <script src="https://kit.fontawesome.com/577eb74294.js" crossorigin="anonymous"></script>
 
-  <script src="assets/js/main.js"></script>
+  <script src="../assets/js/main.js"></script>
 
 </body>
 
