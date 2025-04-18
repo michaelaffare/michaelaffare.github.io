@@ -129,6 +129,78 @@
         right: auto !important;
       }
     }
+
+    /* Horizontal Timeline Styles */
+    .horizontal-timeline {
+      position: relative;
+      overflow-x: auto;
+      white-space: nowrap;
+      padding: 20px 0;
+      background: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .timeline-wrapper {
+      display: flex;
+      gap: 20px;
+      padding: 10px;
+    }
+
+    .timeline-item {
+      display: inline-block;
+      min-width: 250px;
+      max-width: 300px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .timeline-item:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .timeline-content {
+      position: relative;
+    }
+
+    .timeline-title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #3366ff;
+      margin-bottom: 10px;
+    }
+
+    .timeline-content ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: left;
+    }
+
+    .timeline-content ul li {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 5px;
+    }
+
+    .horizontal-timeline::-webkit-scrollbar {
+      height: 8px;
+    }
+
+    .horizontal-timeline::-webkit-scrollbar-thumb {
+      background: #3366ff;
+      border-radius: 10px;
+    }
+
+    .horizontal-timeline::-webkit-scrollbar-track {
+      background: #e0e0e0;
+      border-radius: 10px;
+    }
   </style>
 
 
@@ -192,297 +264,277 @@
 
           <div class="line-mf"></div>
           <div class="row">
-            <div id="tables" class="timeline">
-
-              <div class="timeline-entry left">
-                <div class="timeline-title">Table 0</div>
-                <div class="timeline-description">
-                  <ul>
-                    <li>Michael Affare</li>
-                    <li>Emily Affare</li>
-                  </ul>
+            <div id="tables" class="horizontal-timeline">
+              <div class="timeline-wrapper">
+                <div class="timeline-item">
+                  <div class="timeline-content">
+                    <h4 class="timeline-title">Table 0</h4>
+                    <ul>
+                      <li>Michael Affare</li>
+                      <li>Emily Affare</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-content">
+                    <h4 class="timeline-title">Table 1</h4>
+                    <ul>
+                      <li>Corner Scisciani</li>
+                      <li>Bekah Scisciani</li>
+                      <li>Lainey Scisciani</li>
+                      <li>Lewie Scisciani</li>
+                      <li>Emma Zanker</li>
+                      <li>Open</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-content">
+                    <h4 class="timeline-title">Table 2</h4>
+                    <ul>
+                      <li>John Zanker</li>
+                      <li>Kristen Zanker</li>
+                      <li>Lauren Berger</li>
+                      <li>Nate Berger</li>
+                      <li>Natalie Berger</li>
+                      <li>Leanna Berger</li>
+                      <li>Melody Berger</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-content">
+                    <h4 class="timeline-title">Table 3</h4>
+                    <ul>
+                      <li>Samuel Affare</li>
+                      <li>Nancy Affare | Sophia Affare</li>
+                      <li>Jaydon Affare</li>
+                      <li>Daniel Hammond</li>
+                      <li>Nana Hammond</li>
+                      <li>Brendan Affare</li>
+                      <li>Anthony Twum-Barimah</li>
+                      <li>Kalvin Acheampong</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-content">
+                    <h4 class="timeline-title">Table 4</h4>
+                    <ul>
+                      <li>Margaret Lawerteh</li>
+                      <li>Florence Ofori</li>
+                      <li>Jemima Watkins</li>
+                      <li>Yahaya Lukman</li>
+                      <li>Dorcas Antwi</li>
+                      <li>Doris Acheampong</li>
+                      <li>Esther Darkwah</li>
+                      <li>Eric Darkwah</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-content">
+                    <h4 class="timeline-title">Table 5</h4>
+                    <ul>
+                      <li>Andrea Anderson</li>
+                      <li>Matt Anderson</li>
+                      <li>Maddie Welton</li>
+                      <li>Tim Welton</li>
+                      <li>Wendy Theissen</li>
+                      <li>Brent Theissen</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-content">
+                    <h4 class="timeline-title">Table 6</h4>
+                    <ul>
+                      <li>Rohith Gudipudi</li>
+                      <li>Elaine Price</li>
+                      <li>Erin Price</li>
+                      <li>Jeremy Caskey</li>
+                      <li>Adina Caskey</li>
+                      <li>Micah Caskey</li>
+                      <li>Julie Faieta</li>
+                      <li>Daniel Gonzalez</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-content">
+                    <h4 class="timeline-title">Table 7</h4>
+                    <ul>
+                      <li>Judith Anane</li>
+                      <li>Chanel Moore</li>
+                      <li>Kaaliyah King</li>
+                      <li>Victor Ewere</li>
+                      <li>Verissa Owusu</li>
+                      <li>Francis Anim</li>
+                      <li>Stephanie Watkins</li>
+                      <li>Sophia Watkins</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-content">
+                    <h4 class="timeline-title">Table 8</h4>
+                    <ul>
+                      <li>Lisa Kreig</li>
+                      <li>Duncan MacDiarmid</li>
+                      <li>Shivam Patel</li>
+                      <li>Gautam Naik</li>
+                      <li>Yirun Wang</li>
+                      <li>Josh Thompson</li>
+                      <li>Yuchen Wu</li>
+                      <li>Gary (Zihao Zhu)</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-content">
+                    <h4 class="timeline-title">Table 9</h4>
+                    <ul>
+                      <li>Nakia Price</li>
+                      <li>Tonya Price</li>
+                      <li>Amaya Price</li>
+                      <li>Sydney Price</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-content">
+                    <h4 class="timeline-title">Table 10</h4>
+                    <ul>
+                      <li>Donella Locke</li>
+                      <li>James Tatum</li>
+                      <li>Shakoya Crenshaw</li>
+                      <li>Steve Locke</li>
+                      <li>Dominique McGordon</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-content">
+                    <h4 class="timeline-title">Table 11</h4>
+                    <ul>
+                      <li>Rodney Thomas</li>
+                      <li>Penny Thomas</li>
+                      <li>Rodney Thomas II</li>
+                      <li>Ryan Thomas</li>
+                      <li>Enaho Atamenwan</li>
+                      <li>Bryan Thomas</li>
+                      <li>Sonya Thomas</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-content">
+                    <h4 class="timeline-title">Table 12</h4>
+                    <ul>
+                      <li>Jovi Thomas Williams</li>
+                      <li>James Williams</li>
+                      <li>Fallon Morgan</li>
+                      <li>Sarah Thomas</li>
+                      <li>Open</li>
+                      <li>Open</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-content">
+                    <h4 class="timeline-title">Table 13</h4>
+                    <ul>
+                      <li>Sylvester Thomas</li>
+                      <li>Karen</li>
+                      <li>Kyle Harris</li>
+                      <li>Michael Harris</li>
+                      <li>Carol Howard</li>
+                      <li>Corey Howard</li>
+                      <li>Camille Thomas</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-content">
+                    <h4 class="timeline-title">Table 14</h4>
+                    <ul>
+                      <li>Maria Price</li>
+                      <li>Charles Price</li>
+                      <li>Charlie Price II</li>
+                      <li>Tracey Price</li>
+                      <li>Thomas Price</li>
+                      <li>Jeffrey Price</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-content">
+                    <h4 class="timeline-title">Table 15</h4>
+                    <ul>
+                      <li>Kimberly Thomas</li>
+                      <li>Marlena Byers</li>
+                      <li>Michael Byers</li>
+                      <li>Mark Allen Thomas</li>
+                      <li>Jenell Thomas</li>
+                      <li>Jaelynn Thomas</li>
+                      <li>Jenae Thomas</li>
+                      <li>Markus Thomas</li>
+                      <li>Tyrell Thomas</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-content">
+                    <h4 class="timeline-title">Table 16</h4>
+                    <ul>
+                      <li>Ronald Hall</li>
+                      <li>Martha Ferguson</li>
+                      <li>Victor Morrisey</li>
+                      <li>Theresa Morrisey</li>
+                      <li>Cheryl Sanders</li>
+                      <li>Carl Sanders</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-content">
+                    <h4 class="timeline-title">Table 17</h4>
+                    <ul>
+                      <li>Kilynn Trammell</li>
+                      <li>Kilynn Trammell's Guest</li>
+                      <li>Anyae Lane</li>
+                      <li>Byancah Lane</li>
+                      <li>Tyler Wright</li>
+                      <li>Ana Wright</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-content">
+                    <h4 class="timeline-title">Table 18</h4>
+                    <ul>
+                      <li>Kia Thatch</li>
+                      <li>Arlie Lemkuler</li>
+                      <li>Brittany Gage</li>
+                      <li>Brandon Trammell</li>
+                      <li>Jessica Trammell</li>
+                      <li>Kamille Haley</li>
+                      <li>Immanuel Haley</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-content">
+                    <h4 class="timeline-title">Table 19</h4>
+                    <ul>
+                      <li>Aubrey Thornsbury</li>
+                      <li>Brandon Thornshbury</li>
+                      <li>DJ Gustave</li>
+                      <li>Donna Lennox</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-
-              <div class="timeline-entry right">
-                <div class="timeline-title">Table 1</div>
-                <div class="timeline-description">
-                  <ul>
-                    <li>Corner Scisciani</li>
-                    <li>Bekah Scisciani</li>
-                    <li>Lainey Scisciani</li>
-                    <li>Lewie Scisciani</li>
-                    <li>Emma Zanker</li>
-                    <li>Danny Bird</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="timeline-entry left">
-                <div class="timeline-title">Table 2</div>
-                <div class="timeline-description">
-                  <ul>
-                    <li>John Zanker</li>
-                    <li>Kristen Zanker</li>
-                    <li>Lauren Berger</li>
-                    <li>Nate Berger</li>
-                    <li>Natalie Berger</li>
-                    <li>Leanna Berger</li>
-                    <li>Melody Berger</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="timeline-entry right">
-                <div class="timeline-title">Table 3</div>
-                <div class="timeline-description">
-                  <ul>
-                    <li>Samuel Affare</li>
-                    <li>Nancy Affare | Sophia Affare</li>
-                    <li>Jaydon Affare</li>
-                    <li>Daniel Hammond</li>
-                    <li>Nana Hammond</li>
-                    <li>Brendan Affare</li>
-                    <li>Anthony Twum-Barimah</li>
-                    <li>Kalvin Acheampong</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="timeline-entry left">
-                <div class="timeline-title">Table 4</div>
-                <div class="timeline-description">
-                  <ul>
-                    <li>Margeret Lawerteh</li>
-                    <li>Florence Ofori</li>
-                    <li>Jemima Watkins</li>
-                    <li>Yahaya Lukman</li>
-                    <li>Dorcas Antwi</li>
-                    <li>Doris Acheampong</li>
-                    <li>Esther Darkwah</li>
-                    <li>Eric Darkwah</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="timeline-entry right">
-                <div class="timeline-title">Table 5</div>
-                <div class="timeline-description">
-                  <ul>
-                    <li>Andrea Anderson</li>
-                    <li>Matt Anderson</li>
-                    <li>Maddie Welton</li>
-                    <li>Tim Welton</li>
-                    <li>Wendy Theissen</li>
-                    <li>Brent Theissen</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="timeline-entry left">
-                <div class="timeline-title">Table 6</div>
-                <div class="timeline-description">
-                  <ul>
-                    <li>Rohith Gudipudi</li>
-                    <li>Elaine Price</li>
-                    <li>Erin Price</li>
-                    <li>Jeremy Caskey</li>
-                    <li>Adina Caskey</li>
-                    <li>Micah Caskey</li>
-                    <li>Julie Faieta</li>
-                    <li>Daniel Gonzalez</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="timeline-entry right">
-                <div class="timeline-title">Table 7</div>
-                <div class="timeline-description">
-                  <ul>
-                    <li>Judith Anane</li>
-                    <li>Chanel Moore</li>
-                    <li>Kaaliyah King</li>
-                    <li>Victor Ewere</li>
-                    <li>Verissa Owusu</li>
-                    <li>Francis Anim</li>
-                    <li>Stephanie Watkins</li>
-                    <li>Sophia Watkins</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="timeline-entry left">
-                <div class="timeline-title">Table 8</div>
-                <div class="timeline-description">
-                  <ul>
-                    <li>Shivam Patel</li>
-                    <li>Gautam Naik</li>
-                    <li>Yirun Wang</li>
-                    <li>Josh Thompson</li>
-                    <li>Yuchen Wu</li>
-                    <li>Gary (Zihao Zhu)</li>
-                    <li>Lisa Kreig</li>
-                    <li>Duncan MacDiarmid</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="timeline-entry right">
-                <div class="timeline-title">Table 9</div>
-                <div class="timeline-description">
-                  <ul>
-                    <li>Nakia Price</li>
-                    <li>Tonya Price</li>
-                    <li>Nakia Price</li>
-                    <li>Amaya Price</li>
-                    <li>Sydney Price</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="timeline-entry left">
-                <div class="timeline-title">Table 10</div>
-                <div class="timeline-description">
-                  <ul>
-                    <li>Donella Locke</li>
-                    <li>James Tatum</li>
-                    <li>Shakoya Crenshaw</li>
-                    <li>Steve Locke</li>
-                    <li>Dominique McGordon</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="timeline-entry right">
-                <div class="timeline-title">Table 11</div>
-                <div class="timeline-description">
-                  <ul>
-                    <li>Rodney Thomas</li>
-                    <li>Penny Thomas</li>
-                    <li>Rodney Thomas II</li>
-                    <li>Ryan Thomas</li>
-                    <li>Enaho Atamenwan</li>
-                    <li>Bryan Thomas</li>
-                    <li>Sonya Thomas</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="timeline-entry left">
-                <div class="timeline-title">Table 12</div>
-                <div class="timeline-description">
-                  <ul>
-                    <li>Jovi Thomas Williams</li>
-                    <li>James Williams</li>
-                    <li>Fallon Morgan</li>
-                    <li>Sarah Thomas</li>
-                    <li>Open</li>
-                    <li>Open</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="timeline-entry right">
-                <div class="timeline-title">Table 13</div>
-                <div class="timeline-description">
-                  <ul>
-                    <li>Sylvester Thomas</li>
-                    <li>Karen</li>
-                    <li>Kyle Harris</li>
-                    <li>Michael Harris</li>
-                    <li>Carol Howard</li>
-                    <li>Corey Howard</li>
-                    <li>Camille Thomas</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="timeline-entry left">
-                <div class="timeline-title">Table 14</div>
-                <div class="timeline-description">
-                  <ul>
-                    <li>Maria Price</li>
-                    <li>Charles Price</li>
-                    <li>Charlie Price II</li>
-                    <li>Tracey Price</li>
-                    <li>Thomas Price</li>
-                    <li>Jeffrey Price</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="timeline-entry right">
-                <div class="timeline-title">Table 15</div>
-                <div class="timeline-description">
-                  <ul>
-                    <li>Kimberly Thomas</li>
-                    <li>Marlena Byers</li>
-                    <li>Michael Byers</li>
-                    <li>Mark Allen Thomas</li>
-                    <li>Jenell Thomas</li>
-                    <li>Jaelynn Thomas</li>
-                    <li>Jenae Thomas</li>
-                    <li>Markus Thomas</li>
-                    <li>Tyrell Thomas</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="timeline-entry left">
-                <div class="timeline-title">Table 16</div>
-                <div class="timeline-description">
-                  <ul>
-                    <li>Ronald Hall</li>
-                    <li>Martha Ferguson</li>
-                    <li>Victor Morrisey</li>
-                    <li>Theresa Morrisey</li>
-                    <li>Cheryl Sanders</li>
-                    <li>Carl Sanders</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="timeline-entry right">
-                <div class="timeline-title">Table 17</div>
-                <div class="timeline-description">
-                  <ul>
-                    <li>Kilynn Trammell</li>
-                    <li>Kilynn Trammell's Guest</li>
-                    <li>Anyae Lane</li>
-                    <li>Byancah Lane</li>
-                    <li>Open</li>
-                    <li>Open</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="timeline-entry left">
-                <div class="timeline-title">Table 18</div>
-                <div class="timeline-description">
-                  <ul>
-                    <li>Kia Thatch</li>
-                    <li>Arlie Lemkuler</li>
-                    <li>Brittany Gage</li>
-                    <li>Brandon Trammell</li>
-                    <li>Jessica Trammell</li>
-                    <li>Kamille Haley</li>
-                    <li>Immanuel Haley</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="timeline-entry right">
-                <div class="timeline-title">Table 19</div>
-                <div class="timeline-description">
-                  <ul>
-                    <li>Aubrey Thornsbury</li>
-                    <li>Brandon Thornshbury</li>
-                    <li>DJ Gustave</li>
-                    <li>Donna Lennox</li>
-                  </ul>
-                </div>
-              </div>
-
             </div>
           </div>
         </div>
@@ -536,7 +588,7 @@
         </div>
 
         <div class="col-md-4" id="ghanatraditionalwedding">
-          <a target="_blank" href="#">
+          <a target="_blank" href="ghana.html">
             <div class="work-box">
               <div class="work-img">
                 <div class="work-img">
