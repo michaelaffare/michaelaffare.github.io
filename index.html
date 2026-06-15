@@ -2,1334 +2,2769 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Michael Affare: AI / Technical Product Manager (Data &amp; Analytics)</title>
+  <meta name="description"
+    content="Michael Affare is an AI and Technical Product Manager specializing in data and analytics products for regulated, high-stakes environments. Carnegie Mellon. AWS-certified. Based in Pittsburgh, PA." />
+  <meta name="keywords"
+    content="AI Product Manager, Technical Product Manager, Data Product Manager, analytics, machine learning, predictive analytics, healthcare data, public sector analytics, HIPAA, AWS, LLM, RAG, Carnegie Mellon, Pittsburgh" />
+  <meta property="og:title" content="Michael Affare: AI / Technical Product Manager" />
+  <meta property="og:description" content="I build data and AI products people rely on in high-stakes environments." />
+  <meta property="og:image" content="assets/img/Portfolio_picture.png" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <style>
+    /* ===== RESET ===== */
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-  <title>Michael Affare</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-  <meta name="image" property="og:image" content="assets/img/Linkedin_bg.png">
+    html {
+      scroll-behavior: smooth;
+    }
 
-  <link href="assets/img/icon.png" rel="icon">
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f5f5;
+      color: #4e4e4e;
+      font-size: 16px;
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    }
 
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    img {
+      max-width: 100%;
+      display: block;
+    }
 
-  <link href="assets/css/style.css" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/06496a75d5.js" crossorigin="anonymous"></script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4774453216197450"
-    crossorigin="anonymous"></script>
-  <meta name="google-adsense-account" content="ca-pub-4774453216197450">
+    a {
+      color: #1e1e1e;
+      text-decoration: none;
+      transition: color .4s ease;
+    }
+
+    a:hover {
+      color: #0078ff;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    /* ===== VARIABLES ===== */
+    :root {
+      --blue: #0078ff;
+      --blue-light: #cde1f8;
+      --dark: #1e1e1e;
+      --text: #4e4e4e;
+      --bg: #f5f5f5;
+      --white: #ffffff;
+      --shadow: 0 1px 1px 0 rgba(0, 0, 0, .06), 0 2px 5px 0 rgba(0, 0, 0, .12);
+      --shadow-hover: 0 6px 24px rgba(0, 120, 255, .12);
+      --radius: .75rem;
+      --transition: all .4s ease;
+    }
+
+    /* ===== LAYOUT ===== */
+    .container {
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    section {
+      padding: 80px 0;
+    }
+
+    .section-alt {
+      background-color: var(--white);
+    }
+
+    /* ===== SECTION TITLE STYLE (matches old site's .title-a / .line-mf) ===== */
+    .section-title-wrap {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--dark);
+      letter-spacing: .02em;
+      margin-bottom: 12px;
+    }
+
+    .section-title span {
+      color: var(--blue);
+    }
+
+    .title-line {
+      width: 40px;
+      height: 5px;
+      background-color: var(--blue);
+      margin: 0 auto;
+    }
+
+    .section-subtitle {
+      color: var(--text);
+      margin-top: 16px;
+      font-size: 15px;
+    }
+
+    /* Left-aligned variant */
+    .section-title-left {
+      margin-bottom: 40px;
+    }
+
+    .section-title-left .section-title {
+      text-align: left;
+    }
+
+    .section-title-left .title-line {
+      margin: 0;
+    }
+
+    /* ===== FADE-UP ===== */
+    .fade-up {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity .5s ease, transform .5s ease;
+    }
+
+    .fade-up.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ===== NAV ===== */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      background: rgba(255, 255, 255, .96);
+      backdrop-filter: blur(8px);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, .07);
+      transition: var(--transition);
+    }
+
+    .nav-inner {
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 0 24px;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-logo {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--dark);
+    }
+
+    .nav-logo span {
+      color: var(--blue);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .nav-links a {
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      color: var(--text);
+      padding: 6px 12px;
+      border-radius: 4px;
+      position: relative;
+      transition: color .3s;
+    }
+
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 12px;
+      width: 0;
+      height: 2px;
+      background: var(--blue);
+      transition: width .3s;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: var(--blue);
+    }
+
+    .nav-links a.active::after,
+    .nav-links a:hover::after {
+      width: calc(100% - 24px);
+    }
+
+    .nav-cta {
+      background: var(--blue) !important;
+      color: #fff !important;
+      border-radius: 4px;
+      padding: 8px 16px !important;
+    }
+
+    .nav-cta::after {
+      display: none !important;
+    }
+
+    .nav-cta:hover {
+      background: #0062d3 !important;
+      color: #fff !important;
+    }
+
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+    }
+
+    .hamburger span {
+      width: 22px;
+      height: 2px;
+      background: var(--dark);
+    }
+
+    .mobile-menu {
+      display: none;
+      flex-direction: column;
+      background: var(--white);
+      position: fixed;
+      top: 64px;
+      left: 0;
+      right: 0;
+      z-index: 999;
+      border-bottom: 2px solid var(--blue-light);
+      padding: 12px 0;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, .08);
+    }
+
+    .mobile-menu.open {
+      display: flex;
+    }
+
+    .mobile-menu a {
+      padding: 12px 24px;
+      font-weight: 600;
+      font-size: 15px;
+      color: var(--dark);
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    .mobile-menu a:hover {
+      color: var(--blue);
+      background: #f8fbff;
+    }
+
+    /* ===== HERO ===== */
+    #home {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #0a1628 0%, #0d1f3c 50%, #0a1628 100%);
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0;
+    }
+
+    .hero-bg-img {
+      position: absolute;
+      inset: 0;
+      background-image: url('assets/img/bg.png');
+      background-size: cover;
+      background-position: center;
+      opacity: .15;
+    }
+
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(10, 20, 40, 0.6);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 120px 24px 60px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .hero-text {
+      max-width: 680px;
+    }
+
+    .hero-eyebrow {
+      display: inline-block;
+      background: rgba(0, 120, 255, .2);
+      border: 1px solid rgba(0, 120, 255, .4);
+      color: #7ab8ff;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      padding: 5px 14px;
+      border-radius: 4px;
+      margin-bottom: 20px;
+    }
+
+    .hero-name {
+      font-size: clamp(36px, 6vw, 64px);
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1.08;
+      letter-spacing: -.02em;
+      margin-bottom: 18px;
+    }
+
+    .hero-name span {
+      color: #7ab8ff;
+    }
+
+    .hero-tagline {
+      font-size: clamp(16px, 2vw, 20px);
+      color: rgba(255, 255, 255, .85);
+      line-height: 1.6;
+      margin-bottom: 12px;
+      font-weight: 300;
+    }
+
+    .hero-sub {
+      font-size: 15px;
+      color: rgba(255, 255, 255, .55);
+      line-height: 1.7;
+      margin-bottom: 36px;
+    }
+
+    .hero-ctas {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 26px;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+      border: 2px solid transparent;
+      text-align: center;
+    }
+
+    .btn-primary {
+      background: var(--blue);
+      color: #fff;
+      border-color: var(--blue);
+    }
+
+    .btn-primary:hover {
+      background: #0062d3;
+      border-color: #0062d3;
+      color: #fff;
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: #fff;
+      border-color: rgba(255, 255, 255, .4);
+    }
+
+    .btn-outline:hover {
+      border-color: #fff;
+      color: #fff;
+    }
+
+    .hero-photo {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid rgba(0, 120, 255, .5);
+      box-shadow: 0 0 0 8px rgba(0, 120, 255, .1), 0 20px 60px rgba(0, 0, 0, .4);
+    }
+
+    /* Stats band inside hero */
+    .stat-band {
+      position: relative;
+      z-index: 1;
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 0 24px 60px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: rgba(255, 255, 255, .06);
+      border-top: 1px solid rgba(255, 255, 255, .08);
+    }
+
+    .stat-item {
+      padding: 28px 32px;
+      background: rgba(255, 255, 255, .04);
+    }
+
+    .stat-number {
+      font-size: clamp(24px, 3.5vw, 38px);
+      font-weight: 800;
+      color: #7ab8ff;
+      line-height: 1;
+      margin-bottom: 6px;
+      letter-spacing: -.02em;
+    }
+
+    .stat-label {
+      font-size: 13px;
+      color: rgba(255, 255, 255, .5);
+    }
+
+    /* ===== ABOUT ===== */
+    #about {
+      background: var(--white);
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: start;
+    }
+
+    .about-story h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--dark);
+      margin-bottom: 20px;
+      position: relative;
+      padding-bottom: 14px;
+    }
+
+    .about-story h2::before {
+      content: '';
+      position: absolute;
+      height: 3px;
+      background: var(--blue);
+      width: 60px;
+      bottom: 0;
+      left: 0;
+    }
+
+    .about-story p {
+      color: var(--text);
+      font-size: 15px;
+      line-height: 1.8;
+      margin-bottom: 16px;
+    }
+
+    .about-story strong {
+      color: var(--dark);
+      font-weight: 600;
+    }
+
+    .about-sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+
+    .card {
+      background: var(--white);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 28px;
+      transition: box-shadow .4s;
+    }
+
+    .card:hover {
+      box-shadow: var(--shadow-hover);
+    }
+
+    .card-label {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      color: var(--blue);
+      margin-bottom: 18px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .card-label::before {
+      content: '';
+      width: 20px;
+      height: 2px;
+      background: var(--blue);
+      flex-shrink: 0;
+    }
+
+    .edu-item {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      padding: 14px 0;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    .edu-item:first-of-type {
+      padding-top: 0;
+    }
+
+    .edu-item:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .edu-logo {
+      width: 44px;
+      height: 44px;
+      object-fit: contain;
+      border-radius: 6px;
+      background: #f3f4f6;
+      padding: 4px;
+      flex-shrink: 0;
+    }
+
+    .edu-info h4 {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--dark);
+      margin-bottom: 3px;
+    }
+
+    .edu-info p {
+      font-size: 12px;
+      color: var(--text);
+      margin: 0;
+    }
+
+    .edu-info .edu-note {
+      font-size: 11px;
+      color: var(--blue);
+      margin-top: 3px;
+      font-weight: 500;
+    }
+
+    .leadership-list li {
+      display: flex;
+      gap: 10px;
+      font-size: 14px;
+      color: var(--text);
+      padding: 8px 0;
+      border-bottom: 1px solid #f0f0f0;
+      align-items: flex-start;
+    }
+
+    .leadership-list li:last-child {
+      border-bottom: none;
+    }
+
+    .leadership-list li::before {
+      content: '›';
+      color: var(--blue);
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    /* ===== SKILLS ===== */
+    #skills {
+      background: var(--bg);
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .skill-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 28px;
+      transition: box-shadow .4s, transform .3s;
+    }
+
+    .skill-card:hover {
+      box-shadow: var(--shadow-hover);
+      transform: translateY(-3px);
+    }
+
+    .skill-icon {
+      width: 48px;
+      height: 48px;
+      background: var(--blue-light);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 16px;
+    }
+
+    .skill-icon svg {
+      width: 22px;
+      height: 22px;
+      stroke: var(--blue);
+      fill: none;
+      stroke-width: 1.8;
+    }
+
+    .skill-card h4 {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--dark);
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: .03em;
+    }
+
+    .skill-card p {
+      font-size: 13px;
+      color: var(--text);
+      line-height: 1.6;
+      margin-bottom: 14px;
+    }
+
+    .skill-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .skill-tag {
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--blue);
+      background: var(--blue-light);
+      padding: 3px 9px;
+      border-radius: 12px;
+    }
+
+    /* ===== PORTFOLIO ===== */
+    #portfolio {
+      background: var(--white);
+    }
+
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 48px;
+    }
+
+    .case-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      transition: box-shadow .4s, transform .3s;
+      cursor: pointer;
+    }
+
+    .case-card:hover {
+      box-shadow: var(--shadow-hover);
+      transform: translateY(-3px);
+    }
+
+    .case-img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      transition: transform .5s;
+    }
+
+    .case-card:hover .case-img {
+      transform: scale(1.04);
+    }
+
+    .case-img-wrap {
+      overflow: hidden;
+    }
+
+    .case-body {
+      padding: 22px;
+    }
+
+    .case-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 12px;
+    }
+
+    .case-tag {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: var(--blue);
+      background: var(--blue-light);
+      padding: 3px 9px;
+      border-radius: 12px;
+    }
+
+    .case-body h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--dark);
+      line-height: 1.4;
+      margin-bottom: 10px;
+    }
+
+    .case-body>p {
+      font-size: 13px;
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    .case-outcome {
+      margin-top: 14px;
+      padding: 12px 16px;
+      background: #f0f6ff;
+      border-left: 3px solid var(--blue);
+      border-radius: 0 6px 6px 0;
+      font-size: 13px;
+      color: var(--text);
+    }
+
+    .outcome-metric {
+      font-size: 26px;
+      font-weight: 800;
+      color: var(--blue);
+      display: block;
+      line-height: 1.2;
+      letter-spacing: -.02em;
+    }
+
+    .toggle-btn {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 14px;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--blue);
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      cursor: pointer;
+      background: none;
+      border: none;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .toggle-btn svg {
+      width: 14px;
+      height: 14px;
+      stroke: var(--blue);
+      fill: none;
+      stroke-width: 2;
+      transition: transform .3s;
+    }
+
+    .case-card.open .toggle-btn svg {
+      transform: rotate(180deg);
+    }
+
+    .case-expanded {
+      display: none;
+      padding: 0 22px 22px;
+      border-top: 1px solid #f0f0f0;
+    }
+
+    .case-card.open .case-expanded {
+      display: block;
+    }
+
+    .case-expanded-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-top: 14px;
+    }
+
+    .expand-block h5 {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      color: var(--blue);
+      margin-bottom: 6px;
+    }
+
+    .expand-block p {
+      font-size: 13px;
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .case-skills-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-top: 12px;
+    }
+
+    .case-skill-tag {
+      font-size: 11px;
+      background: #f0f0f0;
+      color: var(--text);
+      padding: 3px 8px;
+      border-radius: 10px;
+    }
+
+    /* Apps */
+    .apps-label {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--dark);
+      margin-bottom: 20px;
+    }
+
+    .apps-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .app-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 20px;
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      transition: box-shadow .4s;
+    }
+
+    .app-card:hover {
+      box-shadow: var(--shadow-hover);
+    }
+
+    .app-img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 8px;
+      flex-shrink: 0;
+    }
+
+    .app-info h4 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--dark);
+      margin-bottom: 5px;
+    }
+
+    .app-info p {
+      font-size: 13px;
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .app-link {
+      display: inline-block;
+      margin-top: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--blue);
+    }
+
+    .app-link:hover {
+      text-decoration: underline;
+    }
+
+    /* ===== EXPERIENCE ===== */
+    #experience {
+      background: var(--bg);
+    }
+
+    .exp-list {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .exp-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 28px;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 20px;
+      transition: box-shadow .4s;
+    }
+
+    .exp-card:hover {
+      box-shadow: var(--shadow-hover);
+    }
+
+    .exp-logo {
+      width: 56px;
+      height: 56px;
+      object-fit: contain;
+      border-radius: 8px;
+      background: #f3f4f6;
+      padding: 6px;
+      flex-shrink: 0;
+    }
+
+    .exp-content h3 {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--dark);
+      margin-bottom: 4px;
+    }
+
+    .exp-meta {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 14px;
+    }
+
+    .exp-company {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--blue);
+    }
+
+    .exp-sep {
+      color: #ccc;
+    }
+
+    .exp-date,
+    .exp-location {
+      font-size: 13px;
+      color: var(--text);
+    }
+
+    .exp-bullets {
+      padding-left: 0;
+    }
+
+    .exp-bullets li {
+      font-size: 14px;
+      color: var(--text);
+      line-height: 1.7;
+      padding: 5px 0 5px 18px;
+      position: relative;
+      border-bottom: 1px solid #f5f5f5;
+    }
+
+    .exp-bullets li:last-child {
+      border-bottom: none;
+    }
+
+    .exp-bullets li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 14px;
+      width: 8px;
+      height: 2px;
+      background: var(--blue);
+    }
+
+    .exp-bullets li strong {
+      color: var(--dark);
+      font-weight: 600;
+    }
+
+    .exp-note {
+      margin-top: 24px;
+      padding: 16px 20px;
+      background: #f0f6ff;
+      border-left: 4px solid var(--blue);
+      border-radius: 0 6px 6px 0;
+      font-size: 14px;
+      color: var(--text);
+    }
+
+    .exp-note a {
+      color: var(--blue);
+    }
+
+    .exp-note a:hover {
+      text-decoration: underline;
+    }
+
+    /* ===== CERTIFICATIONS ===== */
+    #certifications {
+      background: var(--white);
+    }
+
+    .cert-group {
+      margin-bottom: 40px;
+    }
+
+    .cert-group-label {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      color: var(--blue);
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--blue-light);
+    }
+
+    .cert-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+
+    .cert-card {
+      background: var(--white);
+      border: 1px solid #e8e8e8;
+      border-radius: var(--radius);
+      padding: 18px;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      transition: var(--transition);
+    }
+
+    .cert-card:hover {
+      border-color: var(--blue);
+      box-shadow: var(--shadow-hover);
+    }
+
+    .cert-logo {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+      border-radius: 6px;
+      background: #f3f4f6;
+      padding: 4px;
+      flex-shrink: 0;
+    }
+
+    .cert-info {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .cert-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--dark);
+      line-height: 1.4;
+      margin-bottom: 3px;
+    }
+
+    .cert-issuer {
+      font-size: 11px;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+
+    .cert-date {
+      font-size: 11px;
+      color: #999;
+    }
+
+    .cert-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--blue);
+      margin-top: 5px;
+    }
+
+    .cert-link:hover {
+      text-decoration: underline;
+    }
+
+    .cert-verified {
+      text-align: center;
+      margin-top: 28px;
+      font-size: 14px;
+      color: var(--text);
+    }
+
+    .cert-verified a {
+      color: var(--blue);
+    }
+
+    .cert-verified a:hover {
+      text-decoration: underline;
+    }
+
+    /* ===== COMMUNITY ===== */
+    #community {
+      background: var(--bg);
+    }
+
+    .community-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+
+    .media-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      transition: box-shadow .4s;
+    }
+
+    .media-card:hover {
+      box-shadow: var(--shadow-hover);
+    }
+
+    .media-card img {
+      width: 100%;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+      display: block;
+    }
+
+    .media-caption {
+      padding: 14px 16px;
+      font-size: 13px;
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    .yt-thumb {
+      position: relative;
+      display: block;
+      aspect-ratio: 16/9;
+      overflow: hidden;
+    }
+
+    .yt-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform .4s ease;
+    }
+
+    .yt-thumb:hover img {
+      transform: scale(1.04);
+    }
+
+    .yt-play {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0, 0, 0, .25);
+      transition: background .3s;
+    }
+
+    .yt-thumb:hover .yt-play {
+      background: rgba(0, 0, 0, .4);
+    }
+
+    .yt-play svg {
+      width: 56px;
+      height: 56px;
+      filter: drop-shadow(0 2px 8px rgba(0, 0, 0, .5));
+    }
+
+    .yt-label {
+      position: absolute;
+      bottom: 10px;
+      right: 12px;
+      font-size: 11px;
+      font-weight: 600;
+      color: #fff;
+      background: rgba(0, 0, 0, .6);
+      padding: 3px 8px;
+      border-radius: 4px;
+      letter-spacing: .04em;
+    }
+
+    /* ===== BEYOND WORK ===== */
+    #beyond {
+      background: var(--white);
+    }
+
+    .beyond-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .beyond-card {
+      background: var(--white);
+      border: 1px solid #e8e8e8;
+      border-radius: var(--radius);
+      padding: 24px;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      transition: var(--transition);
+    }
+
+    .beyond-card:hover {
+      border-color: var(--blue);
+      box-shadow: var(--shadow-hover);
+    }
+
+    .beyond-icon {
+      width: 44px;
+      height: 44px;
+      flex-shrink: 0;
+      background: var(--blue-light);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .beyond-icon svg {
+      width: 20px;
+      height: 20px;
+      stroke: var(--blue);
+      fill: none;
+      stroke-width: 1.8;
+    }
+
+    .beyond-body {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .beyond-body h4 {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--dark);
+      margin-bottom: 6px;
+    }
+
+    .beyond-body p {
+      font-size: 13px;
+      color: var(--text);
+      line-height: 1.65;
+      margin-bottom: 0;
+    }
+
+    .beyond-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      margin-top: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--blue);
+    }
+
+    .beyond-link:hover {
+      text-decoration: underline;
+    }
+
+    .beyond-link svg {
+      width: 12px;
+      height: 12px;
+      stroke: var(--blue);
+      fill: none;
+      stroke-width: 2;
+    }
+
+    @media (max-width: 768px) {
+      .beyond-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ===== CONTACT ===== */
+    #contact {
+      background: var(--white);
+    }
+
+    .contact-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: start;
+    }
+
+    .contact-left h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--dark);
+      margin-bottom: 8px;
+    }
+
+    .contact-left p {
+      font-size: 15px;
+      color: var(--text);
+      line-height: 1.8;
+      margin-bottom: 28px;
+    }
+
+    .contact-links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .contact-link {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 14px;
+      color: var(--text);
+      transition: color .3s;
+    }
+
+    .contact-link:hover {
+      color: var(--blue);
+    }
+
+    .contact-icon {
+      width: 36px;
+      height: 36px;
+      background: var(--blue-light);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: background .3s;
+    }
+
+    .contact-link:hover .contact-icon {
+      background: var(--blue);
+    }
+
+    .contact-link:hover .contact-icon svg {
+      stroke: #fff;
+    }
+
+    .contact-icon svg {
+      width: 16px;
+      height: 16px;
+      fill: none;
+      stroke: var(--blue);
+      stroke-width: 1.8;
+      transition: stroke .3s;
+    }
+
+    .contact-right {
+      background: var(--white);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 32px;
+    }
+
+    .contact-right h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--dark);
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 18px;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      border: 1px solid #e0e0e0;
+      border-radius: 4px;
+      padding: 11px 14px;
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      color: var(--dark);
+      outline: none;
+      transition: border-color .3s;
+      background: #fafafa;
+      resize: none;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+      border-color: var(--blue);
+      background: #fff;
+    }
+
+    .form-group textarea {
+      height: 110px;
+    }
+
+    .btn-full {
+      width: 100%;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      background: var(--dark);
+      padding: 28px 24px;
+      text-align: center;
+    }
+
+    .footer-inner {
+      max-width: 1160px;
+      margin: 0 auto;
+    }
+
+    .footer-name {
+      font-weight: 700;
+      font-size: 16px;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+
+    .footer-name span {
+      color: #7ab8ff;
+    }
+
+    .footer-copy {
+      font-size: 12px;
+      color: rgba(255, 255, 255, .4);
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 1024px) {
+      .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .cert-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      section {
+        padding: 64px 0;
+      }
+
+      .nav-links {
+        display: none;
+      }
+
+      .hamburger {
+        display: flex;
+      }
+
+      .hero-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 100px 24px 32px;
+        gap: 36px;
+      }
+
+      .hero-photo {
+        width: 140px;
+        height: 140px;
+        margin: 0 auto;
+        order: -1;
+      }
+
+      .hero-ctas {
+        justify-content: center;
+      }
+
+      .stat-band {
+        grid-template-columns: 1fr;
+      }
+
+      .about-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .skills-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .portfolio-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .apps-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .exp-card {
+        grid-template-columns: 1fr;
+      }
+
+      .exp-logo {
+        display: none;
+      }
+
+      .cert-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .community-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .contact-inner {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .case-expanded-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero-name {
+        font-size: 32px;
+      }
+
+      .hero-photo {
+        width: 120px;
+        height: 120px;
+      }
+    }
+  </style>
 </head>
 
-<body id=" page-top">
+<body>
 
-  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
-    <div class="container">
-      <!-- <a class="navbar-brand js-scroll" href="">Portfolio</a> -->
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
-        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#education">Education</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Experience
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#work">Work Experience
-                <a class="dropdown-item" href="#projects">Projects</a>
-                <a class="dropdown-item" href="#leadership">Leadership</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">Projects</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-              <a class="dropdown-item" href="#projects">Projects</a>
-              <a class="dropdown-item" href="#apps">Apps</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#certifications">Certifications</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#gallery">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#contact">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="resume.pdf" target="_blank">Resume</a>
-          </li>
-        </ul>
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="main-nav">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">Michael <span>Affare</span></a>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#community" class="nav-link">Community</a></li>
+        <li><a href="#beyond" class="nav-link">Beyond Work</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger" role="button" aria-label="Menu" tabindex="0">
+        <span></span><span></span><span></span>
       </div>
     </div>
   </nav>
-
-  <div id="home" class="intro route bg-image" style="background-image: url(assets/img/bg.png)">
-    <div class="overlay-itro"></div>
-    <div class="intro-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <h1 class="intro-title mb-4">Michael Affare</h1>
-          <p class="intro-subtitle"><span class="text-slider-items">Business Intelligence Engineer, Solutions
-              Architect - Cloud, Data Analyst</span><strong class="text-slider"></strong></p>
-        </div>
-      </div>
-    </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#experience">Experience</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#community">Community</a>
+    <a href="#beyond">Beyond Work</a>
+    <a href="#contact">Contact</a>
   </div>
 
-  <main id="main">
+  <!-- ===== HERO ===== -->
+  <section id="home">
+    <div class="hero-bg-img"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-text fade-up">
+        <div class="hero-eyebrow">AI / Technical Product Manager</div>
+        <h1 class="hero-name">Michael <span>Affare</span></h1>
+        <p class="hero-tagline">I build data and AI products that people rely on in high-stakes environments.</p>
+        <p class="hero-sub">8 years shipping analytics and AI products across telecom, public health, and cloud.
+          Carnegie Mellon. AWS-certified. I operate where being wrong is expensive.</p>
+        <div class="hero-ctas">
+          <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+          <a href="resume.pdf" class="btn btn-outline" target="_blank" rel="noopener">Download Resume</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+      <img src="assets/img/Portfolio_picture.png" alt="Michael Affare" class="hero-photo fade-up" />
+    </div>
+    <div class="stat-band">
+      <div class="stat-item fade-up">
+        <div class="stat-number">$170M+</div>
+        <div class="stat-label">Annual program decisions powered by analytics I led</div>
+      </div>
+      <div class="stat-item fade-up">
+        <div class="stat-number">8 yrs</div>
+        <div class="stat-label">Building data &amp; AI products across 3 continents</div>
+      </div>
+      <div class="stat-item fade-up">
+        <div class="stat-number">8</div>
+        <div class="stat-label">Professional certifications: AWS, Google, CompTIA, ISC2</div>
+      </div>
+    </div>
+  </section>
 
-    <section id="about" class="about-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="box-shadow-full" style="border-radius: 1rem;">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class="col-sm-3 "></div>
-                    <div class="col-sm-4 col-md-5">
-                      <div class="about-img">
-                        <img src="assets/img/Portfolio_picture.png" class="img-fluid rounded b-shadow-a" alt="">
-                      </div>
-                    </div>
-                    <div class="col-sm-3 "></div>
-                  </div>
-                  <div class="skill-mf">
-                    <p class="title-s">Skills</p>
-                    <ul>
-                      <li><b>Languages:</b> Python, SQL, Java</li>
-                      <li><b>BI & Visualisation:</b> Tableau, Power BI, Looker, Report Development, IT Automation</li>
-                      <li><b>Databases:</b> Oracle, Microsoft SQL Server, PostgreSQL, MongoDB, Redis, Neo4j, Cassandra,
-                        Data Lake, Data Governance</li>
-                      <li><b>Cloud:</b> AWS (Glue, S3, EC2, Redshift, Snowflake, Athena), Azure, Databricks, Google
-                        Cloud Platform (GCP)</li>
-                      <li><b>Data Processing:</b> ETL, Data Warehouse, Data Modeling, CI/CD, Spark, Airflow, Generative
-                        AI Prompt Engineering, MCP, RAG, Excel</li>
-                      <li><b>Other:</b> Linux, Process Automation, Technical Documentation, Product & Project Management
-                      </li>
-                    </ul>
-                    <div class="progress"></div>
-                    <p class="title-s">Tools & Software</p>
-                    <span>Git/GitHub, Jira/Asana, Postman, Wireshark, PyCharm, Jupyter, VS Code, Tableau, Power BI,
-                      Looker, Excel</span>
-                    <div class="progress"></div>
-                    <p class="title-s">Domains</p>
-                    <span>Data & Analytics, Cloud Architecture, Performance Reporting, Process Improvement, Security &
-                      Governance</span>
-                    <div class="progress"></div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="about-me pt-4 pt-md-0">
-
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        About me
-                      </h5>
-                    </div>
-
-                    <p class="lead">
-                      I bring 8 years of experience as a data professional and cloud solutions architect, enabling
-                      digital transformation with modern cloud and AI technologies delivered to industry and security
-                      standards. I design secure, scalable analytics systems that unlock actionable insights and improve
-                      decision‑making, performance reporting, and process efficiency.
-                    </p>
-                    <p class="lead">
-                      I’ve led end‑to‑end data and product initiatives across telecommunications, public sector, supply
-                      chain, and research—partnering with cross‑functional teams to turn messy data into practical,
-                      high‑impact solutions. Known as a collaborative, growth‑minded teammate, I learn quickly, plan
-                      carefully, and focus on measurable outcomes.
-                    </p>
-                    <p class="lead">
-                      Recent highlights include: modernizing analytics operations supporting $170M+ in annual program
-                      decisions, automating multi‑partner ETL pipelines, launching self‑service BI environments with
-                      role‑based access, and advancing data governance and predictive risk modeling to improve outreach
-                      and engagement.
-                    </p>
-                  </div>
-                </div>
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section-alt">
+    <div class="container">
+      <div class="section-title-wrap fade-up">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="title-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-story fade-up">
+          <h2>Built for high-stakes, regulated environments.</h2>
+          <p>I build data and AI products that people actually use, in environments where being wrong has real
+            consequences.</p>
+          <p>My path started in Accra, Ghana, where I spent five years as a solutions architect in telecom, designing
+            systems for fraud detection, KYC compliance, and millions of subscribers. That work taught me something that
+            most data professionals never fully learn: reliability and consequence are design inputs, not afterthoughts.
+            A provisioning error at scale isn't a bug; it's a regulatory incident.</p>
+          <p>I then earned my Master's at Carnegie Mellon (Highest Distinction, 2023), where I was awarded the
+            <strong>ISM Most Outstanding Teaching Assistant</strong>, teaching Distributed Systems, Database Management,
+            and Data Visualization while consulting with Estée Lauder, Yum Brands, and building a public workforce
+            analytics tool with the Block Center for Technology &amp; Society.
+          </p>
+          <p>Today I lead the analytics and AI product work behind <strong>$170M+ in annual public-program
+              decisions</strong> in Allegheny County. I own everything from the data infrastructure to the
+            predictive-risk models to the self-service platforms that program staff actually use day to day, and I
+            govern it all under HIPAA and FERPA.</p>
+          <p>My work sits at the intersection of three things most teams keep siloed: <strong>deep technical
+              build</strong> (ETL, data warehousing, cloud, ML), <strong>product ownership</strong> (scoping,
+            prioritization, adoption), and <strong>regulated-domain judgment</strong> (the ability to operate
+            responsibly with data that affects real lives).</p>
+          <p>I'm currently targeting <strong>AI / Technical Product Manager</strong> roles in health, public sector, and
+            fintech, places where that combination is rare and valuable.</p>
+        </div>
+        <div class="about-sidebar fade-up">
+          <div class="card">
+            <div class="card-label">Education</div>
+            <div class="edu-item">
+              <img src="assets/img/Work Experience/cmu.png" alt="Carnegie Mellon University" class="edu-logo" />
+              <div class="edu-info">
+                <h4>M.S. Information Systems Management</h4>
+                <p>Carnegie Mellon University &middot; 2021–2023</p>
+                <p class="edu-note">Highest Distinction &middot; 2023 ISM Most Outstanding TA</p>
               </div>
             </div>
+            <div class="edu-item">
+              <img src="assets/img/Education/knust.png" alt="KNUST" class="edu-logo" />
+              <div class="edu-info">
+                <h4>B.S. Computer Engineering</h4>
+                <p>Kwame Nkrumah University of Science and Technology &middot; 2012–2016</p>
+                <p class="edu-note">Kumasi, Ghana</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-label">Leadership</div>
+            <ul class="leadership-list">
+              <li>VP, Heinz Finance Society, Carnegie Mellon University, 2022–2023</li>
+              <li>Class President, Computer Engineering Dept., KNUST, 2016</li>
+              <li>CMU Student Ambassador Program</li>
+            </ul>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="education" class="portfolio-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Education
-              </h3>
-              <div class="line-mf"></div>
-            </div>
+  <!-- ===== SKILLS ===== -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-title-wrap fade-up">
+        <h2 class="section-title">Professional <span>Skills</span></h2>
+        <div class="title-line"></div>
+        <p class="section-subtitle">Five capability groups, from product strategy to security governance.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card fade-up">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+            </svg>
+          </div>
+          <h4>Product &amp; Delivery</h4>
+          <p>Scoping, roadmapping, stakeholder alignment, and the unglamorous work of making data products actually get
+            used.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Discovery</span><span class="skill-tag">Roadmapping</span><span
+              class="skill-tag">KPI Definition</span><span class="skill-tag">Agile</span><span
+              class="skill-tag">Asana</span><span class="skill-tag">Cross-functional Delivery</span><span
+              class="skill-tag">Technical Docs</span>
           </div>
         </div>
-        <div class="row">
-
-          <div class="col-md-1">
+        <div class="skill-card fade-up">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="3" />
+              <path
+                d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83" />
+            </svg>
           </div>
-
-          <div class="col-md-5">
-            <div class="work-box">
-              <div class="work-img">
-                <img src="assets/img/Work Experience/cmu.png" alt="" class="img-fluid">
-              </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">Master of Information Systems Management</h2>
-                    <div class="w-more">
-                      <span class="w-date">2021 - 2023</span>
-                    </div>
-                  </div>
-                  <!-- <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div> -->
-                </div>
-              </div>
-            </div>
+          <h4>AI / Machine Learning</h4>
+          <p>Production AI operations, LLM application design, and responsible deployment in regulated environments.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Predictive Risk Models</span><span class="skill-tag">LLM Design</span><span
+              class="skill-tag">RAG</span><span class="skill-tag">Prompt Engineering</span><span
+              class="skill-tag">MCP</span><span class="skill-tag">AI Governance</span>
           </div>
-
-          <div class="col-md-5">
-            <div class="work-box">
-              <div class="work-img">
-                <img src="assets/img/Education/knust.png" alt="" class="img-fluid">
-              </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">Bachelor of Science in Computer Engineering</h2>
-                    <div class="w-more">
-                      <span class="w-date">2012 - 2016</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        </div>
+        <div class="skill-card fade-up">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24">
+              <ellipse cx="12" cy="5" rx="9" ry="3" />
+              <path d="M3 5v14a9 3 0 0018 0V5M3 12a9 3 0 0018 0" />
+            </svg>
           </div>
-
-          <div class="col-md-1">
+          <h4>Data Engineering &amp; Cloud</h4>
+          <p>End-to-end pipeline build, cloud infrastructure, and the foundations that make analytics products durable.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span><span class="skill-tag">SQL</span><span
+              class="skill-tag">ETL</span><span class="skill-tag">Data Modeling</span><span
+              class="skill-tag">AWS</span><span class="skill-tag">Snowflake</span><span
+              class="skill-tag">Databricks</span><span class="skill-tag">Airflow</span><span
+              class="skill-tag">Spark</span><span class="skill-tag">GCP</span><span class="skill-tag">Azure</span>
+          </div>
+        </div>
+        <div class="skill-card fade-up">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24">
+              <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+            </svg>
+          </div>
+          <h4>Analytics &amp; BI</h4>
+          <p>Self-service platform design, statistical analysis, and data storytelling for non-technical
+            decision-makers.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Tableau</span><span class="skill-tag">Power BI</span><span
+              class="skill-tag">Looker</span><span class="skill-tag">Self-Service BI</span><span
+              class="skill-tag">Statistical Analysis</span><span class="skill-tag">Data Storytelling</span>
+          </div>
+        </div>
+        <div class="skill-card fade-up">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+          </div>
+          <h4>Governance &amp; Security</h4>
+          <p>HIPAA/FERPA compliance, RBAC design, and security analytics for orgs where data mistakes have real
+            consequences.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">HIPAA</span><span class="skill-tag">FERPA</span><span
+              class="skill-tag">RBAC</span><span class="skill-tag">Data Governance</span><span
+              class="skill-tag">CySA+</span><span class="skill-tag">Security+</span><span class="skill-tag">ISC2</span>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="work" class="portfolio-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Work Experience
-              </h3>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <a href="https://www.alleghenycountyanalytics.us/topics/education-and-early-childhood/"
-                  target="_blank"><img src="assets/img/Work Experience/greatlakes.jpg" alt="" class="img-fluid"></a>
-              </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-10">
-                    <h2 class="w-title"> Data Analytics Manager</h2>
-                    <div class="w-more">
-                      <span class="w-date">Jun. 2023 - Present</span>
-                    </div>
-                  </div>
-                  <!-- <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div> -->
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <a href="https://www.cmu.edu/block-center/future-of-work/index.html" target="_blank">
-                  <img src="assets/img/Work Experience/blockcenter.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">Cloud Engineer, Research Consultant</h2>
-                    <div class="w-more">
-                      <span class="w-date">Jan. 2023 - Present</span>
-                    </div>
-                  </div>
-                  <!-- <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div> -->
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <a href="https://freshtrack.com/" target="_blank"><img src="assets/img/Work Experience/freshtrack.jpg"
-                    alt="" class="img-fluid"></a>
-              </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-10">
-                    <h2 class="w-title">Application Support Analyst (Part-time)</h2>
-                    <div class="w-more">
-                      <span class="w-date">Apr. 2022 - Aug. 2022</span>
-                    </div>
-                  </div>
-                  <!-- <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div> -->
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <a href="https://www.at.com.gh/home" target="_blank"><img src="assets/img/Work Experience/at.jpg" alt=""
-                    class="img-fluid"></a>
-              </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">Senior Consumer Solutions Architect</h2>
-                    <div class="w-more">
-                      <span class="w-date">May. 2017 - Aug. 2022</span>
-                    </div>
-                  </div>
-                  <!-- <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div> -->
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <img src="assets/img/Work Experience/ELC.png" alt="" class="img-fluid">
-              </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">Student Consultant, <br> Data Analysis</h2>
-                    <div class="w-more">
-                      <span class="w-date">January 2023 - May 2023</span>
-                    </div>
-                  </div>
-                  <!-- <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div> -->
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <img src="assets/img/Work Experience/yum.jpg" alt="" class="img-fluid">
-              </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">Student Consultant, <br> Data Analysis</h2>
-                    <div class="w-more">
-                      <span class="w-date">March 2021 - April 2023</span>
-                    </div>
-                  </div>
-                  <!-- <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div> -->
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <a href="https://api.heinz.cmu.edu/courses_api/course_detail/95-702/" target="_blank"><img
-                    src="assets/img/Work Experience/cmu.png" alt="" class="img-fluid"></a>
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">Graduate Teaching Assistant,</h2>
-                    <div class="w-more">
-                      <span> <a href="https://api.heinz.cmu.edu/courses_api/course_detail/95-702/"
-                          target="_blank">Distributed Systems</a>, <a
-                          href="https://api.heinz.cmu.edu/courses_api/course/syllabus/1108/" target="_blank">Database
-                          Management</a>
-                        , <a href="https://api.heinz.cmu.edu/courses_api/course/syllabus/143373/"
-                          target="_blank">Stories with Data</a> </span> <br>
-                      <span class="w-date">Jan. 2023 - May. 2023</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <a href="https://www.hubble.sh/" target="_blank"><img src="assets/img/Work Experience/hubble.png" alt=""
-                    class="img-fluid"></a>
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-10">
-                    <h2 class="w-title"> Student Consultant, 3D Modeling <br> Intern, Data Science</h2>
-                    <br>
-                    <div class="w-more">
-                      <span class="w-date">May. 2022 - July. 2022</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
+  <!-- ===== PORTFOLIO ===== -->
+  <section id="portfolio" class="section-alt">
+    <div class="container">
+      <div class="section-title-wrap fade-up">
+        <h2 class="section-title">Portfolio</h2>
+        <div class="title-line"></div>
+        <p class="section-subtitle">8 case studies across AI, data products, and platform builds. Click any card to
+          expand.</p>
       </div>
-    </section>
+      <div class="portfolio-grid">
 
-    <section id="projects" class="portfolio-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Projects
-              </h3>
-              <div class="line-mf"></div>
+        <!-- Case 1 -->
+        <div class="case-card">
+          <div class="case-img-wrap">
+            <img src="assets/img/projects/dhsalleghenycounty.jpg" alt="Predictive Risk Model Operations"
+              class="case-img" />
+          </div>
+          <div class="case-body">
+            <div class="case-tags"><span class="case-tag">AI / ML</span><span class="case-tag">Governance</span></div>
+            <h3>Predictive Risk-Model Operations: AI in Production for Child Welfare Screening</h3>
+            <p>A live predictive-risk model used in high-stakes child-welfare screening decisions required continuous
+              monitoring, evaluation, and responsible iteration.</p>
+            <div class="case-outcome"><span class="outcome-metric">Production AI</span>Sustained a trustworthy AI system
+              in a highly regulated, high-scrutiny environment.</div>
+            <button class="toggle-btn" aria-expanded="false">View full case <svg viewBox="0 0 24 24">
+                <polyline points="6 9 12 15 18 9" />
+              </svg></button>
+          </div>
+          <div class="case-expanded">
+            <div class="case-expanded-grid">
+              <div class="expand-block">
+                <h5>My Role</h5>
+                <p>Product owner for end-to-end model operations; primary liaison between data scientists, program
+                  leadership, and compliance stakeholders.</p>
+              </div>
+              <div class="expand-block">
+                <h5>What I Built</h5>
+                <p>Monitoring workflows and score-quality audit processes; evaluation protocols that made model behavior
+                  legible to non-technical decision-makers; governance documentation aligned to regulatory scrutiny.</p>
+              </div>
+            </div>
+            <div class="case-skills-row">
+              <span class="case-skill-tag">ML Governance</span><span class="case-skill-tag">Model Evaluation</span><span
+                class="case-skill-tag">Stakeholder Translation</span><span class="case-skill-tag">HIPAA-aware
+                Analytics</span><span class="case-skill-tag">Responsible AI</span>
             </div>
           </div>
         </div>
 
-        <div class="row">
-
-          <!-- Projects -->
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <div class="work-img">
-                  <img src="assets/img/projects/dhsalleghenycounty.jpg" alt="" class="img-fluid">
-                </div>
-                </a>
+        <!-- Case 2 -->
+        <div class="case-card">
+          <div class="case-img-wrap">
+            <img src="assets/img/projects/dhsalleghenycounty.jpg" alt="Hello Baby" class="case-img" />
+          </div>
+          <div class="case-body">
+            <div class="case-tags"><span class="case-tag">AI / ML</span><span class="case-tag">Product</span><span
+                class="case-tag">Impact</span></div>
+            <h3>Hello Baby: Predictive Family Engagement Platform</h3>
+            <p>Outreach teams needed to identify and engage highest-priority families earlier and more effectively,
+              using predictive signals, without overstepping ethical and privacy limits.</p>
+            <div class="case-outcome"><span class="outcome-metric">40%</span>Increase in engagement of high-priority
+              families over two years.</div>
+            <button class="toggle-btn" aria-expanded="false">View full case <svg viewBox="0 0 24 24">
+                <polyline points="6 9 12 15 18 9" />
+              </svg></button>
+          </div>
+          <div class="case-expanded">
+            <div class="case-expanded-grid">
+              <div class="expand-block">
+                <h5>My Role</h5>
+                <p>Led analytics and AI operations behind the program; partnered with outreach leadership on targeting
+                  strategy and iterative refinement.</p>
               </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">Allegheny County, Hello Baby PRM</h2>
-                    <div class="w-more">
-                      <span class="w-date">June 2023 - Present</span>
-                    </div>
-                  </div>
-                </div>
+              <div class="expand-block">
+                <h5>What I Built</h5>
+                <p>Data and modeling operations pipeline feeding the outreach program; a feedback loop between field
+                  results and model refinement.</p>
               </div>
             </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <div class="work-img">
-                  <img src="assets/img/projects/elc.jpg" alt="" class="img-fluid">
-                </div>
-                </a>
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">Esteé Laude, Web3 Analytics</h2>
-                    <div class="w-more">
-                      <span class="w-date">Jan. 2023 - May. 2023</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <div class="work-img">
-                  <img src="assets/img/projects/ncaghana.jpg" alt="" class="img-fluid">
-                </div>
-                </a>
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">Ghana NCA, National Sim Reregistration</h2>
-                    <div class="w-more">
-                      <span class="w-date">Nov. 2020 - Dec. 2021</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <div class="work-img">
-                  <img src="assets/img/projects/meta.jpg" alt="" class="img-fluid">
-                </div>
-
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">Meta, Facebook Loan Service Integration</h2>
-                    <div class="w-more">
-                      <span class="w-date">February 2023</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <div class="work-img">
-                  <img src="assets/img/projects/ericsson.jpg" alt="" class="img-fluid">
-                </div>
-                </a>
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">Ericsson, EMA to EDA migration</h2>
-                    <div class="w-more">
-                      <span class="w-date">January 2023</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <div class="work-img">
-                  <img src="assets/img/projects/airteltigo.jpg" alt="" class="img-fluid">
-                </div>
-                </a>
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">AirtelTigo, Mobile Number Portability</h2>
-                    <div class="w-more">
-                      <span class="w-date">September 2022</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <div class="work-img">
-                  <img src="assets/img/projects/huawei.jpg" alt="" class="img-fluid">
-                </div>
-
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">Huawei, Convergent Billing System</h2>
-                    <div class="w-more">
-                      <span class="w-date">July 2022</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <div class="work-img">
-                  <img src="assets/img/projects/airteltigo.jpg" alt="" class="img-fluid">
-                </div>
-                </a>
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">AirtelTigo, API Integration Projects</h2>
-                    <div class="w-more">
-                      <span class="w-date">March 2022</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <div class="work-img">
-                  <img src="assets/img/projects/airteltigo.jpg" alt="" class="img-fluid">
-                </div>
-                </a>
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">AirtelTigo, Epin Mobile Financial Services</h2>
-                    <div class="w-more">
-                      <span class="w-date">March 2022</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <div class="work-img">
-                  <img src="assets/img/projects/airteltigo.jpg" alt="" class="img-fluid">
-                </div>
-                </a>
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">AirtelTigo, SIM Card procurement</h2>
-                    <div class="w-more">
-                      <span class="w-date">February 2022</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <div class="work-img">
-                  <img src="assets/img/projects/airteltigo.jpg" alt="" class="img-fluid">
-                </div>
-                </a>
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">AirtelTigo, First ESIM deployment in Ghana</h2>
-                    <div class="w-more">
-                      <span class="w-date">January 2022</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <div class="work-img">
-                  <img src="assets/img/projects/blockcenter.jpg" alt="" class="img-fluid">
-                </div>
-                </a>
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">Block Center, Workforce SupplyChain Analytics</h2>
-                    <div class="w-more">
-                      <span class="w-date">January 2022</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <div class="work-img">
-                  <img src="assets/img/projects/yum.jpg" alt="" class="img-fluid">
-                </div>
-                </a>
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">Yum Brands, ESG Social Media Sentiment analysis </h2>
-                    <div class="w-more">
-                      <span class="w-date">October 2021</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-        </div>
-      </div>
-
-    </section>
-
-
-    <section id="apps" class="portfolio-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Apps
-              </h3>
-              <div class="line-mf"></div>
+            <div class="case-skills-row">
+              <span class="case-skill-tag">Predictive Modeling Ops</span><span class="case-skill-tag">Family-Services
+                Analytics</span><span class="case-skill-tag">Iterative Product Refinement</span><span
+                class="case-skill-tag">Ethics-aware AI</span>
             </div>
           </div>
         </div>
-        <div class="row">
 
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <a href="http://workforcesupplychains.org/" target="_blank"> <img
-                    src="assets/img/projects/blockcenter.jpg" alt="" class="img-fluid">
-                </a>
+        <!-- Case 3 -->
+        <div class="case-card">
+          <div class="case-img-wrap">
+            <img src="assets/img/projects/dhsalleghenycounty.jpg" alt="Provider Connect" class="case-img" />
+          </div>
+          <div class="case-body">
+            <div class="case-tags"><span class="case-tag">Data Product</span><span class="case-tag">Platform</span>
+            </div>
+            <h3>Provider Connect: Self-Service Analytics Hub for 50+ Partners</h3>
+            <p>A small analytics team was consuming itself answering ad-hoc requests from 50+ partner organizations.
+              Nothing was reusable. Nothing scaled.</p>
+            <div class="case-outcome"><span class="outcome-metric">35%</span>Reduction in ad-hoc ticket volume. Team
+              shifted to reusable, governed data products.</div>
+            <button class="toggle-btn" aria-expanded="false">View full case <svg viewBox="0 0 24 24">
+                <polyline points="6 9 12 15 18 9" />
+              </svg></button>
+          </div>
+          <div class="case-expanded">
+            <div class="case-expanded-grid">
+              <div class="expand-block">
+                <h5>My Role</h5>
+                <p>Product owner for the self-service platform, from discovery and architecture to launch and adoption
+                  strategy.</p>
               </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">Workforce Insight Tool (ongoing)</h2>
-                    <div class="w-more">
-                      <span class="w-date">December 2022</span>
-                    </div>
-                  </div>
-
-                </div>
+              <div class="expand-block">
+                <h5>What I Built</h5>
+                <p>A self-service hub with curated data marts, RBAC, and a targeted enablement program so non-technical
+                  users could answer their own questions.</p>
               </div>
             </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <a href="https://www.youtube.com/embed/43bvKZqoAuE?si=xxmarG1QOrikb7Ja"" target=" _blank"><img
-                    src="assets/img/projects/subanagram.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">SubAnagram (ongoing)</h2>
-                    <div class="w-more">
-                      <span class="w-date">November 2022</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div class="case-skills-row">
+              <span class="case-skill-tag">Data Product Strategy</span><span class="case-skill-tag">RBAC</span><span
+                class="case-skill-tag">Platform Adoption</span><span class="case-skill-tag">Self-Service BI</span>
             </div>
           </div>
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <img src="assets/img/projects/web3.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">Web3 Analytics Engine (Cryo)</h2>
-                    <div class="w-more">
-                      <span class="w-date">May 2022</span>
-                    </div>
-                  </div>
-                  <!-- <div class="col-sm-4">
-                      <div class="w-like">
-                        <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
-                      </div>
-                    </div> -->
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <a href="https://docs.raptoreum.com/raptoreum-docs/getting-started/what-is-raptoreum/"
-                  target=" _blank"><img src="assets/img/projects/raptoreum.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">Raptoreum - Private Smartnode Operator (live)</h2>
-                    <div class="w-more">
-                      <span class="w-date">November 2021</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
         </div>
 
-
-
-
-
-
-      </div>
-    </section>
-
-    <section id="leadership" class="portfolio-mf sect-pt4 route">
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-md-4"></div>
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h6 class="title-a">
-                Leadership
-              </h6>
-              <div class="line-mf"></div>
-            </div>
+        <!-- Case 4 -->
+        <div class="case-card">
+          <div class="case-img-wrap">
+            <img src="assets/img/projects/dhsalleghenycounty.jpg" alt="AI Documentation Pilot" class="case-img" />
           </div>
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <img src="assets/img/Work Experience/cmu.png" alt="" class="img-fluid">
+          <div class="case-body">
+            <div class="case-tags"><span class="case-tag">AI Product Evaluation</span></div>
+            <h3>AI Documentation-Tool Pilot: From Demo to Evidence-Based Decision</h3>
+            <p>Could an AI-assisted documentation tool meaningfully reduce frontline staff burden, without compromising
+              data quality, workflow, or privacy? Leadership needed a real answer, not a vendor demo.</p>
+            <div class="case-outcome"><span class="outcome-metric">Evidence-based</span>Go/no-go recommendation
+              delivered; model for evaluating future AI tools in regulated environments.</div>
+            <button class="toggle-btn" aria-expanded="false">View full case <svg viewBox="0 0 24 24">
+                <polyline points="6 9 12 15 18 9" />
+              </svg></button>
+          </div>
+          <div class="case-expanded">
+            <div class="case-expanded-grid">
+              <div class="expand-block">
+                <h5>My Role</h5>
+                <p>Led the pilot evaluation as a product decision: defined evaluation criteria, ran structured testing,
+                  produced the recommendation.</p>
               </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">VP, Heinz Finance Society, 2022-2023</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Pittsburgh, USA</span>
-                    </div>
-                  </div>
-                  <!-- <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div> -->
-                </div>
+              <div class="expand-block">
+                <h5>What I Built</h5>
+                <p>A structured evaluation framework covering accuracy, privacy risk, workflow integration, and adoption
+                  likelihood; a clear go/no-go recommendation grounded in real user signal.</p>
               </div>
             </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <img src="assets/img/Education/knust.png" alt="" class="img-fluid">
-              </div>
-              </a>
-
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">Class President, Computer Eng., 2016</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Kumasi, Ghana</span> / <span class="w-date">KNUST</span>
-                    </div>
-                  </div>
-                  <!-- <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div> -->
-                </div>
-              </div>
+            <div class="case-skills-row">
+              <span class="case-skill-tag">AI Product Evaluation</span><span class="case-skill-tag">Vendor
+                Assessment</span><span class="case-skill-tag">Privacy-aware Piloting</span><span
+                class="case-skill-tag">Regulated-environment Judgment</span>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <div class="work-img">
-                <img src="assets/img/Work Experience/cmu.png" alt="" class="img-fluid">
-              </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h2 class="w-title">CMU Student Ambassador Program</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Pittsburgh, USA</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
         </div>
-      </div>
-    </section>
 
-    <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div id="testimonial-mf" class="owl-carousel owl-theme">
-              <div class="testimonial-box">
-                <div class="content-test">
-                  <p class="description lead">
-                    “The heights by great men reached and kept were not attained by sudden flight, but they while their
-                    companions slept, were toiling upward in the night."
-                  </p>
-                  <p class="description lead">
-                    - Henry Wadsworth Longfellow
-                  </p>
-                  <span class="comit"><i class="fa fa-quote-right"></i></span>
-                </div>
+        <!-- Case 5 -->
+        <div class="case-card">
+          <div class="case-img-wrap">
+            <img src="assets/img/projects/dhsalleghenycounty.jpg" alt="Platform Migration" class="case-img" />
+          </div>
+          <div class="case-body">
+            <div class="case-tags"><span class="case-tag">Migration</span><span class="case-tag">Data Product</span>
+            </div>
+            <h3>Legacy Platform Replacement: Own Your Reporting Layer</h3>
+            <p>Critical operational reports depended on a costly third-party platform. The organization had no control
+              over its own reporting logic or data.</p>
+            <div class="case-outcome"><span class="outcome-metric">Full ownership</span>Eliminated vendor dependency for
+              core operational reporting.</div>
+            <button class="toggle-btn" aria-expanded="false">View full case <svg viewBox="0 0 24 24">
+                <polyline points="6 9 12 15 18 9" />
+              </svg></button>
+          </div>
+          <div class="case-expanded">
+            <div class="case-expanded-grid">
+              <div class="expand-block">
+                <h5>My Role</h5>
+                <p>Led the transition product, replacing every vendor dashboard with owned, improved internal
+                  equivalents.</p>
               </div>
+              <div class="expand-block">
+                <h5>What I Built</h5>
+                <p>Internal Tableau dashboards improving on legacy vendor reports; data-warehouse event-table modeling
+                  and metadata infrastructure.</p>
+              </div>
+            </div>
+            <div class="case-skills-row">
+              <span class="case-skill-tag">Vendor Replacement Strategy</span><span class="case-skill-tag">DW
+                Modeling</span><span class="case-skill-tag">Dashboard Design</span><span class="case-skill-tag">Platform
+                Migration</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case 6 -->
+        <div class="case-card">
+          <div class="case-img-wrap">
+            <img src="assets/img/projects/ncaghana.jpg" alt="KYC Fraud Automation" class="case-img" />
+          </div>
+          <div class="case-body">
+            <div class="case-tags"><span class="case-tag">Integration</span><span class="case-tag">Risk</span><span
+                class="case-tag">Product Build</span></div>
+            <h3>KYC &amp; Fraud Automation: National Identity API Integration</h3>
+            <p>A major telecom's SIM-provisioning process had unacceptably high error rates and mobile fraud, leaving it
+              exposed to regulatory risk and weak identity verification.</p>
+            <div class="case-outcome"><span class="outcome-metric">80%</span>Reduction in SIM-provisioning errors. 60%
+              reduction in mobile fraud. PII quality to 98%.</div>
+            <button class="toggle-btn" aria-expanded="false">View full case <svg viewBox="0 0 24 24">
+                <polyline points="6 9 12 15 18 9" />
+              </svg></button>
+          </div>
+          <div class="case-expanded">
+            <div class="case-expanded-grid">
+              <div class="expand-block">
+                <h5>My Role</h5>
+                <p>Solutions architect and product builder for the identity-verification integration.</p>
+              </div>
+              <div class="expand-block">
+                <h5>What I Built</h5>
+                <p>Real-time API integration between the telecom's provisioning system and the national identity
+                  authority; automated KYC checks and fraud-detection controls.</p>
+              </div>
+            </div>
+            <div class="case-skills-row">
+              <span class="case-skill-tag">API Integration</span><span class="case-skill-tag">Fraud &amp;
+                Risk</span><span class="case-skill-tag">Identity Verification</span><span
+                class="case-skill-tag">Regulatory Compliance</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case 7 -->
+        <div class="case-card">
+          <div class="case-img-wrap">
+            <img src="assets/img/projects/airteltigo.jpg" alt="Distribution Management System" class="case-img" />
+          </div>
+          <div class="case-body">
+            <div class="case-tags"><span class="case-tag">Product Build</span><span class="case-tag">Cost Savings</span>
+            </div>
+            <h3>Distribution Management System: Replace a Vendor, Own the Product</h3>
+            <p>A telecom relied on expensive licensed software for distribution management and supply-chain
+              reconciliation. The vendor relationship was costly and the system didn't fit operational needs.</p>
+            <div class="case-outcome"><span class="outcome-metric">$150K</span>Saved. Faster reconciliation. Full
+              control of the product roadmap.</div>
+            <button class="toggle-btn" aria-expanded="false">View full case <svg viewBox="0 0 24 24">
+                <polyline points="6 9 12 15 18 9" />
+              </svg></button>
+          </div>
+          <div class="case-expanded">
+            <div class="case-expanded-grid">
+              <div class="expand-block">
+                <h5>My Role</h5>
+                <p>Architect and product builder with end-to-end ownership from build decision to deployment.</p>
+              </div>
+              <div class="expand-block">
+                <h5>What I Built</h5>
+                <p>A custom in-house web/mobile Distribution Management System tailored to operational workflows,
+                  replacing the vendor solution.</p>
+              </div>
+            </div>
+            <div class="case-skills-row">
+              <span class="case-skill-tag">End-to-end Product Build</span><span class="case-skill-tag">Web/Mobile
+                Systems</span><span class="case-skill-tag">Supply-Chain Logic</span><span
+                class="case-skill-tag">Build-vs-Buy</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case 8 -->
+        <div class="case-card">
+          <div class="case-img-wrap">
+            <img src="assets/img/projects/blockcenter.jpg" alt="Workforce Supply Chain Analytics" class="case-img" />
+          </div>
+          <div class="case-body">
+            <div class="case-tags"><span class="case-tag">Research</span><span class="case-tag">Analytics</span><span
+                class="case-tag">Public Sector</span></div>
+            <h3>Workforce Supply Chain Analytics: Public Research Tool</h3>
+            <p>Workforce pipeline data across industries and regions was fragmented and inaccessible to researchers,
+              policymakers, and the public.</p>
+            <div class="case-outcome"><span class="outcome-metric">Live</span>Deployed, publicly accessible workforce
+              analytics tool. <a href="http://workforcesupplychains.org/" target="_blank" rel="noopener"
+                style="color:var(--blue);">View it →</a></div>
+            <button class="toggle-btn" aria-expanded="false">View full case <svg viewBox="0 0 24 24">
+                <polyline points="6 9 12 15 18 9" />
+              </svg></button>
+          </div>
+          <div class="case-expanded">
+            <div class="case-expanded-grid">
+              <div class="expand-block">
+                <h5>My Role</h5>
+                <p>Cloud engineer and analytics contributor; built the data layer feeding the public-facing tool.</p>
+              </div>
+              <div class="expand-block">
+                <h5>What I Built</h5>
+                <p>Cloud data infrastructure and analytics pipelines powering the Workforce Insight Tool, a live public
+                  research platform.</p>
+              </div>
+            </div>
+            <div class="case-skills-row">
+              <span class="case-skill-tag">Cloud Data Engineering</span><span class="case-skill-tag">Public-Sector
+                Analytics</span><span class="case-skill-tag">Research Product Build</span><span
+                class="case-skill-tag">AWS</span>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /portfolio-grid -->
+
+      <!-- Apps -->
+      <div class="fade-up">
+        <div class="apps-label">Apps &amp; Side Projects</div>
+        <div class="apps-grid">
+          <div class="app-card">
+            <img src="assets/img/projects/subanagram.jpg" alt="SubAnagram" class="app-img" />
+            <div class="app-info">
+              <h4>SubAnagram</h4>
+              <p>An anagram-puzzle web app, a personal project demonstrating product design and build end to end.</p>
+              <a href="https://www.youtube.com/watch?v=43bvKZqoAuE" class="app-link" target="_blank"
+                rel="noopener">Watch demo ↗</a>
+            </div>
+          </div>
+          <div class="app-card">
+            <img src="assets/img/projects/web3.jpg" alt="Web3 Analytics Engine" class="app-img" />
+            <div class="app-info">
+              <h4>Web3 Analytics Engine (Cryo)</h4>
+              <p>Analytics tooling for Web3 data. Exploration of on-chain data engineering and blockchain analytics
+                pipelines.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </section>
 
-    <section id="code" class="blog-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Code
-              </h3>
-              <!-- <p class="subtitle-a">
-                Links:
-              </p> -->
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-
-          </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <a href="https://github.com/michaelaffare" target="_blank"><img src="assets/img/Extras/bitmoji.jpg"
-                    alt="" class="img-fluid" style="border-radius: 1rem;"></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category">Github</h6>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-
-          </div>
-        </div>
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-title-wrap fade-up">
+        <h2 class="section-title">Work <span>Experience</span></h2>
+        <div class="title-line"></div>
       </div>
-    </section>
+      <div class="exp-list">
 
-    <section id="certifications" class="services-mf pt-5 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Certifications
-              </h3>
-              <div class="line-mf"></div>
+        <div class="exp-card fade-up">
+          <img src="assets/img/Work Experience/greatlakes.jpg" alt="Great Lakes Behavioral Research Institute"
+            class="exp-logo" />
+          <div class="exp-content">
+            <h3>Data Analytics Manager</h3>
+            <div class="exp-meta">
+              <span class="exp-company">Great Lakes Behavioral Research Institute</span>
+              <span class="exp-sep">·</span>
+              <span class="exp-date">Jun 2023 – Present</span>
+              <span class="exp-sep">·</span>
+              <span class="exp-location">Pittsburgh, PA</span>
             </div>
+            <ul class="exp-bullets">
+              <li>Own the analytics &amp; AI product portfolio supporting <strong>$170M+</strong> in annual
+                public-program decisions.</li>
+              <li>Launched Provider Connect, a self-service data platform with curated data marts and RBAC, cutting
+                ad-hoc request volume <strong>35%</strong> and shifted the team from reactive tickets to reusable
+                products.</li>
+              <li>Lead operations and monitoring of predictive-risk models for family-engagement programs, driving
+                <strong>40% increase</strong> in engagement of high-priority families over two years.
+              </li>
+              <li>Piloted and evaluated AI/LLM tools for team workflows; introduced GitHub, Asana, and documentation
+                practice that raised delivery velocity.</li>
+              <li>Automated ETL for 50+ partner organizations; onboarded 20+ new data partners and improved reporting
+                reliability across the network.</li>
+              <li>Drive HIPAA and FERPA compliance across all data systems and partner integrations.</li>
+            </ul>
           </div>
         </div>
-        <div class="row">
 
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="work-img">
-                <img src="assets/img/Certi/google.jpg" alt="Google Advanced Data Analytics" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <h2 class="w-title">Advanced Data Analytics Professional (Google)</h2>
-                <p class="w-ctegory">Issued Aug 2025</p>
-              </div>
+        <div class="exp-card fade-up">
+          <img src="assets/img/Work Experience/at.jpg" alt="Airtel Ghana AirtelTigo" class="exp-logo" />
+          <div class="exp-content">
+            <h3>Senior Consumer Solutions Architect</h3>
+            <div class="exp-meta">
+              <span class="exp-company">Airtel Ghana (AirtelTigo)</span>
+              <span class="exp-sep">·</span>
+              <span class="exp-date">May 2017 – Aug 2022</span>
+              <span class="exp-sep">·</span>
+              <span class="exp-location">Accra, Ghana</span>
             </div>
+            <ul class="exp-bullets">
+              <li>Built an in-house Distribution Management System that replaced licensed vendor software and saved
+                <strong>$150K</strong>.
+              </li>
+              <li>Integrated national-ID KYC verification into the provisioning flow, cutting SIM errors
+                <strong>80%</strong> and mobile fraud <strong>60%</strong>.
+              </li>
+              <li>Drove <strong>5% month-over-month</strong> revenue growth through digital product launches with
+                marketing, finance, and network teams.</li>
+              <li>Delivered full post-merger core-systems integration for all subscribers in 8 months, unifying
+                platforms, migrating subscribers, and aligning C-level and technical stakeholders.</li>
+              <li>Boosted mobile-loan uptake <strong>400%</strong> via Facebook-integrated VAS API product features.
+              </li>
+            </ul>
           </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="work-img">
-                <img src="assets/img/Certi/google.jpg" alt="Google Business Intelligence" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <h2 class="w-title">Business Intelligence Professional (Google)</h2>
-                <p class="w-ctegory">Issued Jul 2025</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="work-img">
-                <img src="assets/img/Certi/comptiasecurityplus.png" alt="CompTIA CySA+" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <h2 class="w-title">CompTIA CySA+</h2>
-                <p class="w-ctegory">Issued Apr 2025</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="work-img">
-                <a href="https://www.credly.com/badges/df40be27-9776-4a48-afce-36969f34f0b7/public_url"
-                  target="_blank"><img src="assets/img/Certi/comptiasecurityplus.png" alt="CompTIA Security+"
-                    class="img-fluid"></a>
-              </div>
-              <div class="work-content">
-                <h2 class="w-title">CompTIA Security+</h2>
-                <p class="w-ctegory">Issued May 2024</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="work-img">
-                <a href="https://www.credly.com/badges/9757bb5b-50c6-470e-9f8f-93c008450c2f/public_url"
-                  target="_blank"><img src="assets/img/Certi/ccisc2.png" alt="" class="img-fluid"></a>
-              </div>
-              <div class="work-content">
-                <h2 class="w-title">ISC2 - Certified in Cybersecurity</h2>
-                <p class="w-ctegory">
-                  Issued May 2024
-                </p>
-              </div>
-            </div>
-          </div>
-
-
-
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="work-img">
-                <a href="https://www.credly.com/badges/8d1d2fe8-c7e5-4687-931d-5f27d3db9675/public_url"
-                  target="_blank"><img src="assets/img/Certi/awssolutionsarchitectassociate.jpg" alt=""
-                    class="img-fluid"></a>
-              </div>
-              <div class="work-content">
-                <h2 class="w-title">AWS Solutions Architect Associate</h2>
-                <p class="w-ctegory">
-                  Issued October 2023
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="work-img">
-                <a href="https://www.credly.com/badges/930570b6-9d9c-48f3-9cc5-c958939df96d/public_url"
-                  target="_blank"><img src="assets/img/Certi/awscloudpractitioner.jpg" alt="AWS Cloud Practitioner"
-                    class="img-fluid"></a>
-              </div>
-              <div class="work-content">
-                <h2 class="w-title">AWS Cloud Practitioner</h2>
-                <p class="w-ctegory">Issued Sep 2023</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="work-img">
-                <a href="https://graphacademy.neo4j.com/c/fe16d0e3-ba8a-4ffc-9289-f33fccd3841e/" target="_blank"><img
-                    src="assets/img/Certi/Neo4jcertifiedprofessional.jpg" alt="" class="img-fluid"></a>
-              </div>
-              <div class="work-content">
-                <h2 class="w-title">Neo4j Certified Professional</h2>
-                <p class="w-ctegory">
-                  Issued April 2023
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="work-img">
-                <a href="https://drive.google.com/file/d/1shsafTeIMjwSm4RW2nwdJdCSd51X-FUh/view" target="_blank"><img
-                    src="assets/img/Certi/itil.jpg" alt="" class="img-fluid"></a>
-              </div>
-              <div class="work-content">
-                <h2 class="w-title">ITIL Foundation, IT Service Management</h2>
-                <p class="w-ctegory">
-                  Issued September 2019
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="work-img">
-                <a href="https://coursera.org/share/5e1491a501a96a59070a6d7098c309fc" target="_blank"><img
-                    src="assets/img/Certi/universityofmichigan.jpg" alt="" class="img-fluid"></a>
-              </div>
-              <div class="work-content">
-                <h2 class="w-title">Python 3 Programming Specialization</h2>
-                <p class="w-ctegory">
-                  Issued August 2020
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="work-img">
-                <a href="https://www.coursera.org/account/accomplishments/verify/PWA7MPMADWGM" target="_blank"><img
-                    src="assets/img/Certi/ibm.jpg" alt="" class="img-fluid"></a>
-              </div>
-              <div class="work-content">
-                <h2 class="w-title">Databases & SQL for Data Science</h2>
-                <p class="w-ctegory">
-                  Issued December 2020
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="work-img">
-                <img src="assets/img/Certi/deeplearning.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <h2 class="w-title">ChatGPT Prompt Engineering for Developers</h2>
-                <p class="w-ctegory">
-                  Issued April 2023
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="work-img">
-                <a href="assets/img/Certi/universityofedinburgh.pdf" target="_blank"><img
-                    src="assets/img/Certi/universityofedinburgh.jpg" alt="" class="img-fluid"></a>
-              </div>
-              <div class="work-content">
-                <h2 class="w-title">Critial Thinking in Global Challenges,<br> University of Edinburgh</h2>
-                <p class="w-ctegory">
-                  Issued April 2013
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="work-img">
-                <a href="https://www.coursera.org/account/accomplishments/verify/NLN9ZMKXHBJR" target="_blank"><img
-                    src="assets/img/Certi/google.jpg" alt="" class="img-fluid"></a>
-              </div>
-              <div class="work-content">
-                <h2 class="w-title">IT Automation with Python Professional Certificate</h2>
-                <p class="w-ctegory">
-                  Issued August 2020
-                </p>
-              </div>
-            </div>
-          </div>
-
         </div>
+
+        <div class="exp-card fade-up">
+          <img src="assets/img/Work Experience/blockcenter.jpg" alt="CMU Block Center" class="exp-logo" />
+          <div class="exp-content">
+            <h3>Cloud Engineer &amp; Research Consultant</h3>
+            <div class="exp-meta">
+              <span class="exp-company">CMU Block Center for Technology &amp; Society</span>
+              <span class="exp-sep">·</span>
+              <span class="exp-date">Jan 2023 – Aug 2023</span>
+              <span class="exp-sep">·</span>
+              <span class="exp-location">Pittsburgh, PA</span>
+            </div>
+            <ul class="exp-bullets">
+              <li>Built cloud data infrastructure and analytics pipelines for the Workforce Insight Tool, a live
+                public-facing research platform.</li>
+              <li>Contributed to research on future-of-work and workforce supply chains; collaborated with researchers
+                and policymakers.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="exp-card fade-up">
+          <img src="assets/img/Work Experience/freshtrack.jpg" alt="FreshTrack Systems" class="exp-logo" />
+          <div class="exp-content">
+            <h3>Application Support Analyst <span
+                style="font-weight:400;font-size:13px;color:var(--text);">(Part-time)</span></h3>
+            <div class="exp-meta">
+              <span class="exp-company">FreshTrack Systems</span>
+              <span class="exp-sep">·</span>
+              <span class="exp-date">Apr 2022 – Aug 2022</span>
+              <span class="exp-sep">·</span>
+              <span class="exp-location">Boonah, Australia</span>
+            </div>
+            <ul class="exp-bullets">
+              <li>Delivered supply-chain traceability software features; maintained <strong>99.8% uptime</strong> via
+                T-SQL optimization and back-end automation.</li>
+              <li>Built Bold BI dashboards for supply-chain visibility.</li>
+            </ul>
+          </div>
+        </div>
+
       </div>
-    </section>
-
-    <section id="gallery" class="portfolio-mf sect-pt4 route">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Gallery
-            </h3>
-            <div class="line-mf"></div>
-          </div>
-        </div>
+      <div class="exp-note fade-up" style="margin-top:24px;">
+        Earlier roles: Carnegie Mellon Graduate Teaching Assistant, Student Consultant (Estée Lauder, Yum Brands), and
+        3D Modeling Intern (Hubble.sh) are surfaced in the <a href="#about">About section</a> and Portfolio. Full
+        history on <a href="https://www.linkedin.com/in/michaelaffare/" target="_blank" rel="noopener">LinkedIn</a>.
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="wrapper">
-            <div class="one">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/x96KYS4rrL0?si=uPK71ZWoIaCvRvXo"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen style="border-radius: 25px;"></iframe>
-            </div>
-            <div class="two">
-              <img width="560" src="assets/img/Gallery/ta.jpg" width="560" style="border-radius: 25px;">
-            </div>
-            <div class="three">
-              <img src="assets/img/Gallery/atproject.jpg" width="560" style="border-radius: 25px;">
-            </div>
-            <div class="four">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/p0IW-sy5Pe0?si=MeMbByr565hIEjj1"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen style="border-radius: 25px;"></iframe>
-            </div>
-            <div class="five">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/43bvKZqoAuE?si=xxmarG1QOrikb7Ja"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen style="border-radius: 25px;"></iframe>
+    </div>
+  </section>
 
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section id="certifications" class="section-alt">
+    <div class="container">
+      <div class="section-title-wrap fade-up">
+        <h2 class="section-title">Certifications</h2>
+        <div class="title-line"></div>
+        <p class="section-subtitle">14 credentials across AI, cloud, security, and engineering.</p>
+      </div>
+
+      <div class="cert-group fade-up">
+        <div class="cert-group-label">Data &amp; AI</div>
+        <div class="cert-grid">
+          <div class="cert-card">
+            <img src="assets/img/Certi/google.jpg" alt="Google" class="cert-logo" />
+            <div class="cert-info">
+              <div class="cert-name">Advanced Data Analytics Professional</div>
+              <div class="cert-issuer">Google</div>
+              <div class="cert-date">Aug 2025</div>
+            </div>
+          </div>
+          <div class="cert-card">
+            <img src="assets/img/Certi/google.jpg" alt="Google" class="cert-logo" />
+            <div class="cert-info">
+              <div class="cert-name">Business Intelligence Professional</div>
+              <div class="cert-issuer">Google</div>
+              <div class="cert-date">Jul 2025</div>
+            </div>
+          </div>
+          <div class="cert-card">
+            <img src="assets/img/Certi/deeplearning.jpg" alt="DeepLearning.AI" class="cert-logo" />
+            <div class="cert-info">
+              <div class="cert-name">ChatGPT Prompt Engineering for Developers</div>
+              <div class="cert-issuer">DeepLearning.AI</div>
+              <div class="cert-date">Apr 2023</div>
             </div>
           </div>
         </div>
       </div>
-    </section>
 
-    <section class=" paralax-mf footer-paralax bg-image sect-mt4 route"
-      style="background-image: url(assets/img/overlay-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="contact-mf">
-              <div id="contact" class="box-shadow-full" style="border-radius: 1rem;">
-                <div class="row">
-
-                </div>
-                <div class="col-md-6">
-                  <div class="title-box-2 pt-4 pt-md-0">
-                    <h5 class="title-left">
-                      Contact
-                    </h5>
-                  </div>
-                  <div class="more-info">
-                    <ul class="list-ico">
-                      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aaffare@gmail.com" target="_blank">
-                        <li><span class="ion-email"></span>aaffare@gmail.com</li>
-                      </a>
-                      <li><span class="ion-ios-telephone"></span>+1 412 983 3254</li>
-                    </ul>
-                  </div>
-                  <div class="socials">
-                    <ul>
-                      <li><a href="https://www.linkedin.com/in/michaelaffare/" target="_blank"><span
-                            class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
-                      <li><a href="https://twitter.com/michaelaffare" target="_blank"><span class="ico-circle"><i
-                              class="ion-social-twitter"></i></span></a></li>
-                      <li><a href="https://github.com/michaelaffare" target="_blank"><span class="ico-circle"><i
-                              class="ion-social-github"></i></span></a></li>
-                      <li><a href="https://www.youtube.com/@michaelaffare" target="_blank"><span class="ico-circle"><i
-                              class="fa fa-youtube-play"></i></span></a></li>
-                      <li><a href="https://michaelaffare.medium.com/" target="_blank"><span class="ico-circle"><img
-                              class="img-fluid w-60" src="assets/img/Footer/medium.png"></img></span></a></li>
-
-                    </ul>
-                  </div>
-                </div>
-              </div>
+      <div class="cert-group fade-up">
+        <div class="cert-group-label">Cloud &amp; Infrastructure</div>
+        <div class="cert-grid">
+          <div class="cert-card">
+            <img src="assets/img/Certi/awssolutionsarchitectassociate.jpg" alt="AWS" class="cert-logo" />
+            <div class="cert-info">
+              <div class="cert-name">AWS Solutions Architect – Associate</div>
+              <div class="cert-issuer">Amazon Web Services</div>
+              <div class="cert-date">Oct 2023</div><a
+                href="https://www.credly.com/badges/8d1d2fe8-c7e5-4687-931d-5f27d3db9675/public_url" class="cert-link"
+                target="_blank" rel="noopener">Verify ↗</a>
+            </div>
+          </div>
+          <div class="cert-card">
+            <img src="assets/img/Certi/awscloudpractitioner.jpg" alt="AWS" class="cert-logo" />
+            <div class="cert-info">
+              <div class="cert-name">AWS Cloud Practitioner</div>
+              <div class="cert-issuer">Amazon Web Services</div>
+              <div class="cert-date">Sep 2023</div><a
+                href="https://www.credly.com/badges/930570b6-9d9c-48f3-9cc5-c958939df96d/public_url" class="cert-link"
+                target="_blank" rel="noopener">Verify ↗</a>
             </div>
           </div>
         </div>
       </div>
+
+      <div class="cert-group fade-up">
+        <div class="cert-group-label">Security &amp; Governance</div>
+        <div class="cert-grid">
+          <div class="cert-card">
+            <img src="assets/img/Certi/comptiasecurityplus.png" alt="CompTIA" class="cert-logo" />
+            <div class="cert-info">
+              <div class="cert-name">CompTIA Security Analytics Professional (CySA+)</div>
+              <div class="cert-issuer">CompTIA</div>
+              <div class="cert-date">Apr 2025</div>
+            </div>
+          </div>
+          <div class="cert-card">
+            <img src="assets/img/Certi/comptiasecurityplus.png" alt="CompTIA" class="cert-logo" />
+            <div class="cert-info">
+              <div class="cert-name">CompTIA Security+</div>
+              <div class="cert-issuer">CompTIA</div>
+              <div class="cert-date">May 2024</div><a
+                href="https://www.credly.com/badges/df40be27-9776-4a48-afce-36969f34f0b7/public_url" class="cert-link"
+                target="_blank" rel="noopener">Verify ↗</a>
+            </div>
+          </div>
+          <div class="cert-card">
+            <img src="assets/img/Certi/ccisc2.png" alt="ISC2" class="cert-logo" />
+            <div class="cert-info">
+              <div class="cert-name">ISC2 Certified in Cybersecurity</div>
+              <div class="cert-issuer">ISC2</div>
+              <div class="cert-date">May 2024</div><a
+                href="https://www.credly.com/badges/9757bb5b-50c6-470e-9f8f-93c008450c2f/public_url" class="cert-link"
+                target="_blank" rel="noopener">Verify ↗</a>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
 
-  </main>
+      <div class="cert-group fade-up">
+        <div class="cert-group-label">Databases &amp; Engineering</div>
+        <div class="cert-grid">
+          <div class="cert-card">
+            <img src="assets/img/Certi/Neo4jcertifiedprofessional.jpg" alt="Neo4j" class="cert-logo" />
+            <div class="cert-info">
+              <div class="cert-name">Neo4j Certified Professional</div>
+              <div class="cert-issuer">Neo4j</div>
+              <div class="cert-date">Apr 2023</div><a
+                href="https://graphacademy.neo4j.com/c/fe16d0e3-ba8a-4ffc-9289-f33fccd3841e/" class="cert-link"
+                target="_blank" rel="noopener">Verify ↗</a>
+            </div>
+          </div>
+          <div class="cert-card">
+            <img src="assets/img/Certi/ibm.jpg" alt="IBM" class="cert-logo" />
+            <div class="cert-info">
+              <div class="cert-name">Databases &amp; SQL for Data Science</div>
+              <div class="cert-issuer">IBM</div>
+              <div class="cert-date">Dec 2020</div><a
+                href="https://www.coursera.org/account/accomplishments/verify/PWA7MPMADWGM" class="cert-link"
+                target="_blank" rel="noopener">Verify ↗</a>
+            </div>
+          </div>
+          <div class="cert-card">
+            <img src="assets/img/Certi/universityofmichigan.jpg" alt="University of Michigan" class="cert-logo" />
+            <div class="cert-info">
+              <div class="cert-name">Python 3 Programming Specialization</div>
+              <div class="cert-issuer">University of Michigan</div>
+              <div class="cert-date">Aug 2020</div><a href="https://coursera.org/share/5e1491a501a96a59070a6d7098c309fc"
+                class="cert-link" target="_blank" rel="noopener">Verify ↗</a>
+            </div>
+          </div>
+          <div class="cert-card">
+            <img src="assets/img/Certi/google.jpg" alt="Google" class="cert-logo" />
+            <div class="cert-info">
+              <div class="cert-name">IT Automation with Python</div>
+              <div class="cert-issuer">Google</div>
+              <div class="cert-date">Aug 2020</div><a
+                href="https://www.coursera.org/account/accomplishments/verify/NLN9ZMKXHBJR" class="cert-link"
+                target="_blank" rel="noopener">Verify ↗</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <div id="preloader"></div>
+      <div class="cert-group fade-up">
+        <div class="cert-group-label">Management &amp; Leadership</div>
+        <div class="cert-grid">
+          <div class="cert-card">
+            <img src="assets/img/Certi/itil.jpg" alt="ITIL" class="cert-logo" />
+            <div class="cert-info">
+              <div class="cert-name">ITIL Foundation: IT Service Management</div>
+              <div class="cert-issuer">AXELOS</div>
+              <div class="cert-date">Sep 2019</div><a
+                href="https://drive.google.com/file/d/1shsafTeIMjwSm4RW2nwdJdCSd51X-FUh/view" class="cert-link"
+                target="_blank" rel="noopener">View ↗</a>
+            </div>
+          </div>
+          <div class="cert-card">
+            <img src="assets/img/Certi/universityofedinburgh.jpg" alt="University of Edinburgh" class="cert-logo" />
+            <div class="cert-info">
+              <div class="cert-name">Critical Thinking in Global Challenges</div>
+              <div class="cert-issuer">University of Edinburgh</div>
+              <div class="cert-date">Apr 2013</div><a href="assets/img/Certi/universityofedinburgh.pdf"
+                class="cert-link" target="_blank" rel="noopener">View ↗</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/jquery.counterup.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="https://kit.fontawesome.com/577eb74294.js" crossorigin="anonymous"></script>
+      <p class="cert-verified fade-up">All major credentials verified on <a
+          href="https://www.linkedin.com/in/michaelaffare/" target="_blank" rel="noopener">LinkedIn →</a></p>
+    </div>
+  </section>
 
-  <script src="assets/js/main.js"></script>
+  <!-- ===== COMMUNITY ===== -->
+  <section id="community">
+    <div class="container">
+      <div class="section-title-wrap fade-up">
+        <h2 class="section-title">Community</h2>
+        <div class="title-line"></div>
+        <p class="section-subtitle">Selected talks, teaching, and project moments.</p>
+      </div>
+      <div class="community-grid">
+        <div class="media-card fade-up">
+          <a href="https://www.youtube.com/watch?v=x96KYS4rrL0" class="yt-thumb" target="_blank" rel="noopener">
+            <img src="https://img.youtube.com/vi/x96KYS4rrL0/hqdefault.jpg" alt="Talk footage" />
+            <div class="yt-play">
+              <svg viewBox="0 0 68 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="68" height="48" rx="10" fill="#FF0000" />
+                <polygon points="26,14 52,24 26,34" fill="#fff" />
+              </svg>
+            </div>
+            <span class="yt-label">Watch on YouTube</span>
+          </a>
+          <div class="media-caption">Professional talk footage</div>
+        </div>
+        <div class="media-card fade-up">
+          <img src="assets/img/Gallery/ta.jpg" alt="Teaching at Carnegie Mellon" loading="lazy" />
+          <div class="media-caption">Teaching Distributed Systems &amp; Database Management, Carnegie Mellon, Awarded
+            2023 Most Outstanding TA</div>
+        </div>
+        <div class="media-card fade-up">
+          <img src="assets/img/Gallery/atproject.jpg" alt="Airtel project Accra" loading="lazy" />
+          <div class="media-caption">Delivering the post-merger systems integration project, Accra, Ghana</div>
+        </div>
+        <div class="media-card fade-up">
+          <a href="https://www.youtube.com/watch?v=p0IW-sy5Pe0" class="yt-thumb" target="_blank" rel="noopener">
+            <img src="https://img.youtube.com/vi/p0IW-sy5Pe0/hqdefault.jpg" alt="Presentation footage" />
+            <div class="yt-play">
+              <svg viewBox="0 0 68 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="68" height="48" rx="10" fill="#FF0000" />
+                <polygon points="26,14 52,24 26,34" fill="#fff" />
+              </svg>
+            </div>
+            <span class="yt-label">Watch on YouTube</span>
+          </a>
+          <div class="media-caption">Presentation &amp; demo footage</div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- ===== BEYOND WORK ===== -->
+  <section id="beyond">
+    <div class="container">
+      <div class="section-title-wrap fade-up">
+        <h2 class="section-title">Beyond <span>Work</span></h2>
+        <div class="title-line"></div>
+        <p class="section-subtitle">The things that make me human: faith, family, service, and the life I'm building
+          outside of a job title.</p>
+      </div>
+      <div class="beyond-grid">
+
+        <!-- Family -->
+        <div class="beyond-card fade-up">
+          <div class="beyond-icon">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
+            </svg>
+          </div>
+          <div class="beyond-body">
+            <h4>Husband &amp; Family Man</h4>
+            <p>Married to Emily, my best friend and life partner. I'm genuinely grateful for her. She makes me better.
+              Learning every day to show up as a devoted husband and to build a family worth coming home to.</p>
+            <a href="wedding/index.html" class="beyond-link" target="_blank" rel="noopener">Our story <svg
+                viewBox="0 0 24 24">
+                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" />
+              </svg></a>
+          </div>
+        </div>
+
+        <!-- Reading -->
+        <div class="beyond-card fade-up">
+          <div class="beyond-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M4 19.5A2.5 2.5 0 016.5 17H20M4 19.5A2.5 2.5 0 014 17V5a1 1 0 011-1h14a1 1 0 011 1v12" />
+            </svg>
+          </div>
+          <div class="beyond-body">
+            <h4>Reader</h4>
+            <p>Books are how I think slowly and deliberately. I gravitate toward theology, biography, history, and ideas
+              that don't fit neatly into a category. Find what I'm reading, what's on deck, and what I've loved on my
+              Goodreads profile.</p>
+            <a href="https://www.goodreads.com/user/show/42846852-michael-affare" class="beyond-link" target="_blank"
+              rel="noopener">Goodreads profile <svg viewBox="0 0 24 24">
+                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" />
+              </svg></a>
+          </div>
+        </div>
+
+        <!-- Church / Community Group -->
+        <div class="beyond-card fade-up">
+          <div class="beyond-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" />
+            </svg>
+          </div>
+          <div class="beyond-body">
+            <h4>Community Group Leader, Redeeming Grace Church</h4>
+            <p>Since July 2025, I've led a home-based community group of about 15 members: a weekly dinner and
+              structured Bible study. It's one of my most meaningful commitments: building real community, one table at
+              a time.</p>
+            <a href="https://www.redeeminggracepittsburgh.com/" class="beyond-link" target="_blank"
+              rel="noopener">Redeeming Grace Pittsburgh <svg viewBox="0 0 24 24">
+                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" />
+              </svg></a>
+          </div>
+        </div>
+
+        <!-- Nursing Home Ministry -->
+        <div class="beyond-card fade-up">
+          <div class="beyond-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+              <polyline points="9 22 9 12 15 12 15 22" />
+            </svg>
+          </div>
+          <div class="beyond-body">
+            <h4>Nursing Home Ministry</h4>
+            <p>I volunteer with a ministry that visits nursing home residents, singing hymns together and simply
+              spending time with them. A grounding reminder that presence and joy matter as much as competence.</p>
+          </div>
+        </div>
+
+        <!-- Pro-Bono Consulting -->
+        <div class="beyond-card fade-up">
+          <div class="beyond-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+              <path d="M6 12v5c3 3 9 3 12 0v-5" />
+            </svg>
+          </div>
+          <div class="beyond-body">
+            <h4>Pro-Bono Graduate Studies Consultation</h4>
+            <p>I offer free guidance to prospective international students navigating U.S. graduate school applications
+              Drawing on my own experience as a first-generation international student at Carnegie Mellon. If you know
+              someone who could use it, send them my way.</p>
+          </div>
+        </div>
+
+        <!-- Evangelism Training -->
+        <div class="beyond-card fade-up">
+          <div class="beyond-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+          </div>
+          <div class="beyond-body">
+            <h4>Christian Evangelism Training</h4>
+            <p>Completing a formal certificate in Christian evangelism through Dallas Theological Seminary, equipping
+              me to share the Gospel clearly, thoughtfully, and with genuine care for people.</p>
+            <a href="https://courses.dts.edu/certificates/qe2qtyvwgs" class="beyond-link" target="_blank"
+              rel="noopener">View certificate <svg viewBox="0 0 24 24">
+                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" />
+              </svg></a>
+          </div>
+        </div>
+
+        <!-- Biblical Counseling -->
+        <div class="beyond-card fade-up">
+          <div class="beyond-icon">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 8v4l3 3" />
+            </svg>
+          </div>
+          <div class="beyond-body">
+            <h4>Biblical Counseling: Learner Member, ACBC</h4>
+            <p>Working toward certification with the Association of Certified Biblical Counselors. I believe wise,
+              Scripture-grounded counsel is one of the most practical ways to love and serve people in real pain.</p>
+            <a href="https://biblicalcounseling.com/" class="beyond-link" target="_blank" rel="noopener">About ACBC <svg
+                viewBox="0 0 24 24">
+                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" />
+              </svg></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section-alt">
+    <div class="container">
+      <div class="section-title-wrap fade-up">
+        <h2 class="section-title">Contact <span>Michael Affare</span></h2>
+        <div class="title-line"></div>
+      </div>
+      <div class="contact-inner">
+        <div class="contact-left fade-up">
+          <h2>Let's build something.</h2>
+          <p>I'm open to AI / Technical Product Manager and senior Data Product roles in health, public sector, and
+            fintech, and select consulting engagements.</p>
+          <div class="contact-links">
+            <a href="mailto:aaffare@gmail.com" class="contact-link">
+              <span class="contact-icon"><svg viewBox="0 0 24 24">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg></span>
+              aaffare@gmail.com
+            </a>
+            <a href="tel:+14129833254" class="contact-link">
+              <span class="contact-icon"><svg viewBox="0 0 24 24">
+                  <path
+                    d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.4 9.8 19.79 19.79 0 01.31 1.18 2 2 0 012.3 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
+                </svg></span>
+              +1 412 983 3254
+            </a>
+            <a href="https://www.linkedin.com/in/michaelaffare/" class="contact-link" target="_blank" rel="noopener">
+              <span class="contact-icon"><svg viewBox="0 0 24 24">
+                  <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" />
+                  <circle cx="4" cy="4" r="2" />
+                </svg></span>
+              linkedin.com/in/michaelaffare
+            </a>
+            <a href="https://github.com/michaelaffare" class="contact-link" target="_blank" rel="noopener">
+              <span class="contact-icon"><svg viewBox="0 0 24 24">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+                </svg></span>
+              github.com/michaelaffare
+            </a>
+            <a href="https://twitter.com/michaelaffare" class="contact-link" target="_blank" rel="noopener">
+              <span class="contact-icon"><svg viewBox="0 0 24 24">
+                  <path
+                    d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
+                </svg></span>
+              @michaelaffare
+            </a>
+            <a href="https://www.youtube.com/@michaelaffare" class="contact-link" target="_blank" rel="noopener">
+              <span class="contact-icon"><svg viewBox="0 0 24 24">
+                  <path
+                    d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58 2.78 2.78 0 001.95 1.95C5.12 20 12 20 12 20s6.88 0 8.59-.47a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58z" />
+                  <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" style="fill:#cde1f8" />
+                </svg></span>
+              youtube.com/@michaelaffare
+            </a>
+            <a href="https://michaelaffare.medium.com/" class="contact-link" target="_blank" rel="noopener">
+              <span class="contact-icon"><svg viewBox="0 0 24 24">
+                  <path
+                    d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zm7.42 0c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z" />
+                </svg></span>
+              michaelaffare.medium.com
+            </a>
+          </div>
+        </div>
+        <div class="contact-right fade-up">
+          <h3>Send a message</h3>
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="cf-name">Name</label>
+              <input type="text" id="cf-name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="cf-email">Email</label>
+              <input type="email" id="cf-email" name="email" placeholder="you@company.com" required />
+            </div>
+            <div class="form-group">
+              <label for="cf-message">Message</label>
+              <textarea id="cf-message" name="message" placeholder="What are you working on?" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="cf-submit">Send Message</button>
+            <p id="cf-confirm" style="display:none;margin-top:12px;font-size:13px;color:#2e7d32;font-weight:600;">A new
+              tab should have opened with your message pre-filled. If nothing opened, email me directly at <a
+                href="mailto:aaffare@gmail.com" style="color:var(--blue);">aaffare@gmail.com</a>.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-name">Michael <span>Affare</span></div>
+      <p class="footer-copy">AI / Technical Product Manager &middot; Pittsburgh, PA &middot; &copy; 2025</p>
+    </div>
+  </footer>
+
+  <!-- ===== JAVASCRIPT ===== -->
+  <script>
+    // Hamburger
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+    hamburger.addEventListener('click', () => mobileMenu.classList.toggle('open'));
+    mobileMenu.querySelectorAll('a').forEach(l => l.addEventListener('click', () => mobileMenu.classList.remove('open')));
+
+    // Fade-up
+    const fadeObserver = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); fadeObserver.unobserve(e.target); } });
+    }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
+    document.querySelectorAll('.fade-up').forEach(el => fadeObserver.observe(el));
+
+    // Active nav
+    const navLinks = document.querySelectorAll('.nav-link');
+    const navObserver = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          navLinks.forEach(l => l.classList.remove('active'));
+          const a = document.querySelector('.nav-link[href="#' + e.target.id + '"]');
+          if (a) a.classList.add('active');
+        }
+      });
+    }, { threshold: 0.3 });
+    document.querySelectorAll('section[id]').forEach(s => navObserver.observe(s));
+
+    // Case card expand
+    document.querySelectorAll('.case-card').forEach(card => {
+      const btn = card.querySelector('.toggle-btn');
+      if (!btn) return;
+      btn.addEventListener('click', e => {
+        e.stopPropagation();
+        const isOpen = card.classList.contains('open');
+        document.querySelectorAll('.case-card.open').forEach(c => {
+          c.classList.remove('open');
+          const b = c.querySelector('.toggle-btn');
+          if (b) b.childNodes[0].textContent = 'View full case ';
+        });
+        if (!isOpen) { card.classList.add('open'); btn.childNodes[0].textContent = 'Collapse '; }
+      });
+    });
+
+    // Contact form
+    document.getElementById('contact-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      const name = document.getElementById('cf-name').value.trim();
+      const email = document.getElementById('cf-email').value.trim();
+      const msg = document.getElementById('cf-message').value.trim();
+      if (!name || !email || !msg) return;
+      const subject = encodeURIComponent('Message from ' + name);
+      const body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + msg);
+      window.open('mailto:aaffare@gmail.com?subject=' + subject + '&body=' + body, '_blank');
+      document.getElementById('cf-confirm').style.display = 'block';
+    });
+  </script>
 </body>
 
 </html>
