@@ -1655,15 +1655,15 @@
             analytics tool with the Block Center for Technology &amp; Society.
           </p>
           <p>Today I lead the analytics and AI product work behind <strong>$170M+ in annual public-program
-              decisions</strong> in Allegheny County. I own everything from the data infrastructure to the
-            predictive-risk models to the self-service platforms that program staff actually use day to day, and I
-            govern it all under HIPAA and FERPA.</p>
+              decisions</strong> in Allegheny County. I lead work related to data analytics and the
+            operationalization of two major predictive-risk models, including the self-service platforms program staff
+            use day to day, and I govern it all under HIPAA and FERPA.</p>
           <p>My work sits at the intersection of three things most teams keep siloed: <strong>deep technical
               build</strong> (ETL, data warehousing, cloud, ML), <strong>product ownership</strong> (scoping,
             prioritization, adoption), and <strong>regulated-domain judgment</strong> (the ability to operate
             responsibly with data that affects real lives).</p>
-          <p>I'm currently targeting <strong>AI / Technical Product Manager</strong> roles in health, public sector, and
-            fintech, places where that combination is rare and valuable.</p>
+          <p>I'm currently targeting <strong>AI / Technical Product Manager</strong> roles in organizations where this
+            combination is uniquely valuable. (e.g. Tech, Fintech, Health, Public Sector)</p>
         </div>
         <div class="about-sidebar fade-up">
           <div class="card">
@@ -1688,6 +1688,10 @@
           <div class="card">
             <div class="card-label">Leadership</div>
             <ul class="leadership-list">
+
+              <li>Data Analytics Team Lead: Managed 6-person team across analytics and AI initiatives</li>
+              <li>Intern Program Manager: Supervised 5+ interns across analytics and engineering</li>
+              <li>Organizational Change Lead: Led adoption of GitHub, Asana, Copilot, and MagicNotes</li>
               <li>VP, Heinz Finance Society, Carnegie Mellon University, 2022–2023</li>
               <li>Class President, Computer Engineering Dept., KNUST, 2016</li>
               <li>CMU Student Ambassador Program</li>
@@ -2105,25 +2109,20 @@
 
       </div><!-- /portfolio-grid -->
 
-      <!-- Apps -->
+      <!-- Implementation Highlight -->
       <div class="fade-up">
-        <div class="apps-label">Apps &amp; Side Projects</div>
-        <div class="apps-grid">
+        <div class="apps-label">Implementation Highlight</div>
+        <div class="apps-grid" style="grid-template-columns: 1fr;">
           <div class="app-card">
-            <img src="assets/img/projects/subanagram.jpg" alt="SubAnagram" class="app-img" />
+            <img src="assets/img/projects/airteltigo.jpg" alt="AirtelTigo biometric SIM registration" class="app-img" />
             <div class="app-info">
-              <h4>SubAnagram</h4>
-              <p>An anagram-puzzle web app, a personal project demonstrating product design and build end to end.</p>
-              <a href="https://www.youtube.com/watch?v=43bvKZqoAuE" class="app-link" target="_blank"
-                rel="noopener">Watch demo ↗</a>
-            </div>
-          </div>
-          <div class="app-card">
-            <img src="assets/img/projects/web3.jpg" alt="Web3 Analytics Engine" class="app-img" />
-            <div class="app-info">
-              <h4>Web3 Analytics Engine (Cryo)</h4>
-              <p>Analytics tooling for Web3 data. Exploration of on-chain data engineering and blockchain analytics
-                pipelines.</p>
+              <h4>Ghana Biometric SIM Card Registration Process: AirtelTigo Implementation</h4>
+              <p>Helped implement a secure biometric SIM registration process that strengthened identity verification,
+                reduced AML and mobile-fraud exposure by 60%, and improved CRM data quality by linking subscriber
+                records
+                to verified personally identifiable information.</p>
+              <a href="https://www.at.com.gh/learn-more/sim-re-registration-on-at" class="app-link" target="_blank"
+                rel="noopener">View AirtelTigo registration details ↗</a>
             </div>
           </div>
         </div>
@@ -2492,8 +2491,8 @@
             <h4>Husband &amp; Family Man</h4>
             <p>Married to Emily, my best friend and life partner. I'm genuinely grateful for her. She makes me better.
               Learning every day to show up as a devoted husband and to build a family worth coming home to.</p>
-            <a href="wedding/index.html" class="beyond-link" target="_blank" rel="noopener">Our story <svg
-                viewBox="0 0 24 24">
+            <a href="https://www.zola.com/wedding/affareeverafter/photo" class="beyond-link" target="_blank"
+              rel="noopener">Our story <svg viewBox="0 0 24 24">
                 <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" />
               </svg></a>
           </div>
@@ -2692,9 +2691,9 @@
               <textarea id="cf-message" name="message" placeholder="What are you working on?" required></textarea>
             </div>
             <button type="submit" class="btn btn-primary btn-full" id="cf-submit">Send Message</button>
-            <p id="cf-confirm" style="display:none;margin-top:12px;font-size:13px;color:#2e7d32;font-weight:600;">A new
-              tab should have opened with your message pre-filled. If nothing opened, email me directly at <a
-                href="mailto:aaffare@gmail.com" style="color:var(--blue);">aaffare@gmail.com</a>.</p>
+            <p id="cf-confirm" style="display:none;margin-top:12px;font-size:13px;color:#2e7d32;font-weight:600;">Gmail
+              should have opened with your message pre-filled. If Gmail did not open, <a id="cf-mailto-fallback"
+                href="mailto:aaffare@gmail.com" style="color:var(--blue);">open your default email app instead</a>.</p>
           </form>
         </div>
       </div>
@@ -2761,7 +2760,14 @@
       if (!name || !email || !msg) return;
       const subject = encodeURIComponent('Message from ' + name);
       const body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + msg);
-      window.open('mailto:aaffare@gmail.com?subject=' + subject + '&body=' + body, '_blank');
+      const gmailUrl = 'https://mail.google.com/mail/?view=cm&fs=1&to=aaffare%40gmail.com&su=' + subject + '&body=' + body;
+      const mailtoUrl = 'mailto:aaffare@gmail.com?subject=' + subject + '&body=' + body;
+      const fallbackLink = document.getElementById('cf-mailto-fallback');
+      fallbackLink.href = mailtoUrl;
+      const gmailWindow = window.open(gmailUrl, '_blank');
+      if (!gmailWindow) {
+        window.open(mailtoUrl, '_blank');
+      }
       document.getElementById('cf-confirm').style.display = 'block';
     });
   </script>
