@@ -723,8 +723,7 @@
       background: var(--ash);
     }
 
-    .call-view img,
-    .call-view canvas {
+    .call-view img {
       position: absolute;
       inset: 0;
       width: 100%;
@@ -732,14 +731,6 @@
       object-fit: cover;
       object-position: 53% 50%;
       pointer-events: none;
-    }
-
-    .call-view canvas {
-      display: none;
-    }
-
-    .call.live .call-view canvas {
-      display: block;
     }
 
     .call-live,
@@ -2630,7 +2621,6 @@
                 <div class="call-view">
                   <img id="call-photo" src="assets/img/Portfolio_picture.png" alt="Portrait of Michael Affare" width="868"
                     height="857" />
-                  <canvas id="call-canvas" aria-hidden="true"></canvas>
                   <span class="call-live" aria-hidden="true"><i></i><b id="call-time">0:00</b></span>
                   <span class="call-name" aria-hidden="true">Michael Affare</span>
                   <span class="call-fx" id="call-fx" aria-hidden="true"></span>
@@ -4342,22 +4332,16 @@
       })();
 
       /* ====================================================================
-         VIDEO CALL TILE: the real portrait, animated, in a floating tile.
-         A small WebGL shader bends the photograph around known points on the
-         face: the eyes follow the pointer (lids included), the head turns,
-         nods and tilts, the brows and mouth corners move, and the mouth opens
-         along the lip line when it "talks". Without WebGL the photo stays put.
-         The tile rests in the hero, moves to the corner on scroll, and can be
-         dragged anywhere (double-click sends it back). Whatever the pointer is
-         over, it explains in a caption inside the tile, as on a call.
+         VIDEO CALL TILE: the portrait in a floating tile, as on a video call.
+         The picture itself is static. The tile rests in the hero, moves to the
+         corner on scroll, and can be dragged anywhere (double-click sends it
+         back). Whatever the pointer is over, it explains in a caption inside
+         the tile, with the odd emoji reaction.
          ================================================================== */
       (function () {
         var call = $('#call');
         var home = $('#stage');
         if (!call || !home) return;
-        var view = $('.call-view', call);
-        var photo = $('#call-photo');
-        var canvas = $('#call-canvas');
         var cap = $('#call-cap');
         var fx = $('#call-fx');
         var timeEl = $('#call-time');
@@ -4368,126 +4352,17 @@
         document.body.appendChild(call);
         call.classList.add('floating');
 
-        /* ------------------------------------------------------ the shader */
-        var gl = null, uni = {};
-        var VERT = 'attribute vec2 a;varying vec2 v;void main(){v=vec2(a.x*.5+.5,.5-a.y*.5);gl_Position=vec4(a,0.,1.);}';
-        var FRAG = [
-          'precision mediump float;',
-          'varying vec2 v;uniform sampler2D t;uniform float ax;',
-          'uniform vec2 head;uniform vec2 look;uniform vec2 blink;uniform vec2 brow;',
-          'uniform float smile;uniform float open;uniform float tilt;uniform float breath;uniform float lean;',
-          /* feature positions in the photo, as fractions of its width and height */
-          'const vec2 EL=vec2(.4585,.3046);const vec2 ER=vec2(.6164,.3162);',
-          'const vec2 BL=vec2(.4516,.259);const vec2 BR=vec2(.6336,.268);',
-          'const vec2 ML=vec2(.4574,.475);const vec2 MR=vec2(.6014,.478);',
-          'const vec2 FC=vec2(.532,.385);',
-          'float g(vec2 d,vec2 s){d/=s;return exp(-dot(d,d));}',
-          'void main(){',
-          '  vec2 p=vec2(.532+(v.x-.5)*ax,v.y);',
-          '  p=FC+(p-FC)/(1.08+lean*.05);',
-          '  float hm=g(p-vec2(.53,.34),vec2(.25,.33));',
-          '  vec2 pv=vec2(.53,.66);float a=tilt*hm;float c=cos(a),s=sin(a);',
-          '  p=pv+mat2(c,-s,s,c)*(p-pv);',
-          '  vec2 D=vec2(0.);',
-          /* head turn: nearer parts of the face travel further than the outline */
-          '  float depth=g(p-FC,vec2(.17,.23))+.45*g(p-vec2(.538,.40),vec2(.07,.09));',
-          '  D+=head*depth*vec2(.034,.026)+head*hm*vec2(.007,.006);',
-          '  D.y+=breath*.0025*(1.-hm*.4);',
-          '  D+=look*vec2(.012,.008)*(g(p-EL,vec2(.020,.013))+g(p-ER,vec2(.020,.013)));',
-          '  D.y+=.016*(blink.x*g(p-(EL+vec2(0.,-.004)),vec2(.036,.011))+blink.y*g(p-(ER+vec2(0.,-.004)),vec2(.036,.011)));',
-          '  D.y-=.006*(blink.x*g(p-(EL+vec2(0.,.014)),vec2(.036,.009))+blink.y*g(p-(ER+vec2(0.,.014)),vec2(.036,.009)));',
-          '  D.y-=.013*(brow.x*g(p-BL,vec2(.065,.022))+brow.y*g(p-BR,vec2(.065,.022)));',
-          '  D+=smile*vec2(-.011,-.013)*g(p-ML,vec2(.040,.038));',
-          '  D+=smile*vec2(.011,-.013)*g(p-MR,vec2(.040,.038));',
-          '  D.y-=smile*.004*(g(p-(EL+vec2(0.,.03)),vec2(.05,.02))+g(p-(ER+vec2(0.,.03)),vec2(.05,.02)));',
-          '  vec2 q=p-D;',
-          /* mouth: part the lips along the lip line; the jaw follows the lower lip down */
-          '  float tx=(q.x-.5294)/.064;float m=max(0.,1.-tx*tx);',
-          '  float gap=open*.026*pow(m,.75);',
-          '  float ly=.4757+.0052*m;',
-          '  float d=q.y-ly;float up=gap*.2;float dn=gap*.8;',
-          '  if(d>dn){q.y-=dn*exp(-(d-dn)/.085);}',
-          '  else if(d<-up){q.y+=up*exp((d+up)/.03);}',
-          '  vec3 col=texture2D(t,clamp(q,0.,1.)).rgb;',
-          '  if(gap>.0004){',
-          '    float inside=smoothstep(-up-.0012,-up+.0012,d)*(1.-smoothstep(dn-.0016,dn+.0016,d));',
-          '    vec3 dark=mix(vec3(.13,.04,.04),vec3(.36,.13,.13),smoothstep(dn*.35,dn,d));',
-          '    float th=min(gap*.5,.0105);',
-          '    float teeth=(1.-smoothstep(-up+th-.0012,-up+th+.0012,d))*smoothstep(.12,.5,m);',
-          '    vec3 tooth=vec3(.90,.87,.82)*(.72+.28*m);',
-          '    col=mix(col,mix(dark,tooth,teeth),inside);',
-          '  }',
-          '  gl_FragColor=vec4(col,1.);',
-          '}'
-        ].join('\n');
-
-        function initGL() {
-          try {
-            gl = canvas.getContext('webgl', { premultipliedAlpha: false });
-            if (!gl) return false;
-            var prog = gl.createProgram();
-            [[gl.VERTEX_SHADER, VERT], [gl.FRAGMENT_SHADER, FRAG]].forEach(function (s) {
-              var sh = gl.createShader(s[0]);
-              gl.shaderSource(sh, s[1]);
-              gl.compileShader(sh);
-              if (!gl.getShaderParameter(sh, gl.COMPILE_STATUS)) throw new Error(gl.getShaderInfoLog(sh));
-              gl.attachShader(prog, sh);
-            });
-            gl.linkProgram(prog);
-            gl.useProgram(prog);
-            gl.bindBuffer(gl.ARRAY_BUFFER, gl.createBuffer());
-            gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 1, -1, -1, 1, 1, 1]), gl.STATIC_DRAW);
-            var loc = gl.getAttribLocation(prog, 'a');
-            gl.enableVertexAttribArray(loc);
-            gl.vertexAttribPointer(loc, 2, gl.FLOAT, false, 0, 0);
-            gl.bindTexture(gl.TEXTURE_2D, gl.createTexture());
-            gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGB, gl.RGB, gl.UNSIGNED_BYTE, photo);
-            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
-            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
-            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
-            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
-            ['ax', 'head', 'look', 'blink', 'brow', 'smile', 'open', 'tilt', 'breath', 'lean'].forEach(function (n) { uni[n] = gl.getUniformLocation(prog, n); });
-            gl.uniform1f(uni.ax, (4 / 5) / (photo.naturalWidth / photo.naturalHeight));
-            call.classList.add('live');
-            return true;
-          } catch (e) { gl = null; return false; }
-        }
-        function sizeCanvas() {
-          var w = Math.round(Math.min(Math.max(view.clientWidth, TALK_W) * Math.min(window.devicePixelRatio || 1, 2), 640));
-          if (w && canvas.width !== w) { canvas.width = w; canvas.height = Math.round(w * 1.25); }
-          if (gl) gl.viewport(0, 0, canvas.width, canvas.height);
-        }
-
-        /* ------------------------------------------------------ expressions
-           smile: mouth corners; open: lips apart; bl/br: brows; tilt: radians; lean: toward the camera */
-        var FACES = {
-          rest: { smile: 0.15, open: 0, bl: 0, br: 0, tilt: 0, lean: 0 },
-          talk: { smile: 0.3, open: 0, bl: 0.25, br: 0.25, tilt: 0, lean: 0.3 },
-          happy: { smile: 1, open: 0.28, bl: 0.35, br: 0.35, tilt: 0, lean: 0.4 },
-          wow: { smile: 0, open: 0.85, bl: 1, br: 1, tilt: 0, lean: 0.8 },
-          think: { smile: -0.3, open: 0, bl: 1, br: -0.3, tilt: 0.06, lean: 0 },
-          wink: { smile: 0.85, open: 0.12, bl: 0.3, br: -0.2, tilt: -0.045, lean: 0.3 }
-        };
         var EMOJI = { wave: '👋', thumb: '👍', point: '👇', party: '🎉', idea: '💡' };
-        var cur = { smile: 0.15, open: 0, bl: 0, br: 0, tilt: 0, lean: 0, lx: 0, ly: 0, hx: 0, hy: 0, blinkL: 0, blinkR: 0 };
-        var face = FACES.rest;
-        var winkUntil = 0, talkFrom = 0, talkUntil = 0;
-        var gesture = null;                 /* { kind: 'nod' | 'shake', t0 } */
-        var blinkUntil = 0, nextBlink = 1800;
-        var pointer = null, focusEl = null;
-        var lastInput = performance.now(), lastFrame = 0;
-        var faceTimer = 0, capTimer = 0;
+        var lastInput = performance.now();
+        var capTimer = 0;
         var said = {};
         var holdUntil = 0;                  /* hover hints wait while an important line is up */
 
         function speak(text) {
-          var now = performance.now();
           clearTimeout(capTimer);
           cap.textContent = text;
           call.classList.add('talking');
           if (width < TALK_W) apply(false);
-          talkFrom = now;
-          talkUntil = now + clamp(text.length * 48, 1300, 4600);
           capTimer = setTimeout(function () { call.classList.remove('talking'); if (width < TALK_W) apply(false); }, clamp(1800 + text.length * 58, 3000, 8000));
         }
         function emote(kind) {
@@ -4496,7 +4371,8 @@
           void fx.offsetWidth;
           fx.classList.add('go');
         }
-        /* keyed reactions fire once, or again only after `every` ms */
+        /* A reaction is a caption and, optionally, an emoji. Keyed reactions fire once,
+           or again only after `every` ms. */
         function react(r, key, every) {
           if (call.classList.contains('dismissed')) return false;
           if (r.soft && performance.now() < holdUntil) return false;
@@ -4506,96 +4382,10 @@
             if (said[key] && (!every || now - said[key] < every)) return false;
             said[key] = now;
           }
-          var f = r.face || (r.say ? 'talk' : '');
-          if (f) {
-            clearTimeout(faceTimer);
-            face = FACES[f];
-            if (f === 'wink') winkUntil = performance.now() + 420;
-            faceTimer = setTimeout(function () { face = FACES.rest; }, r.ms || (r.say ? clamp(r.say.length * 48, 1600, 4600) : 2200));
-          }
-          if (r.nod) gesture = { kind: r.nod === true ? 'nod' : r.nod, t0: performance.now() };
           if (r.fx) emote(r.fx);
           if (r.say) speak(r.say);
-          start();
           return true;
         }
-
-        function frame(now) {
-          var dt = Math.min(now - (lastFrame || now), 60);
-          lastFrame = now;
-          function ease(k, to, tau) { cur[k] += (to - cur[k]) * (1 - Math.exp(-dt / tau)); }
-
-          var r = call.getBoundingClientRect();
-          var cx = r.left + r.width / 2, cy = r.top + r.height * 0.38;
-          var tx, ty, target = null;
-          if (focusEl) {
-            var fr = focusEl.getBoundingClientRect();
-            target = { x: fr.left + fr.width / 2, y: fr.top + fr.height / 2 };
-          } else if (pointer && now - lastInput < 6000) {
-            target = pointer;
-          }
-          if (target) {
-            tx = clamp((target.x - cx) / (window.innerWidth * 0.4), -1, 1);
-            ty = clamp((target.y - cy) / (window.innerHeight * 0.4), -1, 1);
-          } else {
-            tx = Math.sin(now / 2300) * 0.4;
-            ty = Math.sin(now / 3100) * 0.2;
-          }
-          /* the eyes get there first; the head follows more slowly, and never quite holds still */
-          ease('lx', tx, 70); ease('ly', ty, 70);
-          var hx = tx * 0.85 + Math.sin(now / 1900) * 0.05 + Math.sin(now / 730) * 0.02;
-          var hy = ty * 0.85 + Math.sin(now / 2600) * 0.04;
-          if (gesture) {
-            var gt = (now - gesture.t0) / 1000;
-            var env = Math.max(0, 1 - gt / 1.1);
-            if (gesture.kind === 'nod') hy += Math.sin(gt * 11) * 0.6 * env;
-            else hx += Math.sin(gt * 13) * 0.55 * env;
-            if (gt > 1.1) gesture = null;
-          }
-          ease('hx', hx, 190); ease('hy', hy, 190);
-
-          ['smile', 'bl', 'br', 'tilt', 'lean'].forEach(function (k) { ease(k, face[k], 170); });
-
-          /* talking: syllable-like openings, easing in and out with the caption */
-          var talk = 0;
-          if (now < talkUntil) {
-            var edge = Math.min(1, (now - talkFrom) / 180, (talkUntil - now) / 220);
-            var syl = Math.max(0, Math.sin(now / 88 + Math.sin(now / 290) * 1.8));
-            talk = edge * syl * (0.3 + 0.25 * (Math.sin(now / 171) * 0.5 + 0.5));
-          }
-          ease('open', Math.min(1, face.open + talk), 55);
-
-          if (now > nextBlink) { blinkUntil = now + 120; nextBlink = now + 2200 + Math.random() * 3800; }
-          var blink = now < blinkUntil ? 1 : 0;
-          var lidDown = Math.max(0, cur.ly) * 0.38;      /* upper lids lower when looking down */
-          ease('blinkL', Math.max(blink, now < winkUntil ? 1 : 0, lidDown), 38);
-          ease('blinkR', Math.max(blink, lidDown), 38);
-
-          gl.uniform2f(uni.head, cur.hx, cur.hy);
-          gl.uniform2f(uni.look, cur.lx, cur.ly);
-          gl.uniform2f(uni.blink, cur.blinkL, cur.blinkR);
-          gl.uniform2f(uni.brow, cur.bl, cur.br);
-          gl.uniform1f(uni.smile, cur.smile);
-          gl.uniform1f(uni.open, cur.open);
-          gl.uniform1f(uni.tilt, cur.tilt + cur.hx * 0.025);
-          gl.uniform1f(uni.lean, cur.lean);
-          gl.uniform1f(uni.breath, Math.sin(now / 1500));
-          gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
-        }
-        var raf = 0;
-        function loop(now) { frame(now); raf = requestAnimationFrame(loop); }
-        function start() {
-          if (raf || !gl || reduced || document.hidden || call.classList.contains('dismissed')) return;
-          lastFrame = 0;
-          raf = requestAnimationFrame(loop);
-        }
-        function stop() { cancelAnimationFrame(raf); raf = 0; }
-        document.addEventListener('visibilitychange', function () { document.hidden ? stop() : start(); });
-        function boot() {
-          sizeCanvas();
-          if (initGL()) { sizeCanvas(); frame(performance.now()); start(); }
-        }
-        if (photo.complete && photo.naturalWidth) boot(); else photo.addEventListener('load', boot);
 
         /* ----------------------------------------------- placing and dragging
            mode 'auto': in the hero while it is on screen, else the corner.
@@ -4642,7 +4432,6 @@
             pos.y = vh - width * 1.25 - (vw > 768 ? 24 : 12);
           }
           apply(was === where && atHome);   /* follow the hero exactly while resting in it */
-          if (was !== where) setTimeout(sizeCanvas, 700);
         }
         var placing = false;
         function queuePlace() { if (!placing) { placing = true; requestAnimationFrame(function () { placing = false; place(); }); } }
@@ -4679,26 +4468,25 @@
           if (!drag || e.pointerId !== drag.id) return;
           drag = null;
           call.classList.remove('dragging');
-          if (moved) { sizeCanvas(); react({ face: 'happy', nod: true, say: 'Good spot. I can still see everything from here.' }, 'dragged', 20000); }
+          if (moved) { react({ say: 'Good spot. I can still see everything from here.' }, 'dragged', 20000); }
         }
         call.addEventListener('pointerup', endDrag);
         call.addEventListener('pointercancel', endDrag);
         call.addEventListener('click', function (e) {
           if (moved || e.target.closest('button')) return;
-          react({ face: 'wink', fx: 'wave', say: 'Hello! Drag me wherever I\'m not in the way. Double-click sends me back.' }, 'click-self', 1500);
+          react({ fx: 'wave', say: 'Hello! Drag me wherever I\'m not in the way. Double-click sends me back.' }, 'click-self', 1500);
         });
         call.addEventListener('dblclick', function () { mode = 'auto'; where = ''; place(); });
 
         $('#call-close').addEventListener('click', function () {
           call.classList.add('dismissed');
           back.hidden = false;
-          stop();
         });
         back.addEventListener('click', function () {
           call.classList.remove('dismissed');
           back.hidden = true;
           place();
-          react({ face: 'happy', fx: 'wave', say: 'Back again. Where were we?' });
+          react({ fx: 'wave', say: 'Back again. Where were we?' });
         });
 
         /* ------------------------------------------------------------ hints
@@ -4718,18 +4506,18 @@
         var HINTS = [
           ['[data-tip]', function (el) { return el.getAttribute('data-tip'); }],
           ['.lens-opt', function (el) { return 'Choose this and I\'ll show you my ' + LENSES[el.dataset.lens].topicIn + ' experience. You can switch back any time.'; }],
-          ['#settings-toggle, .lens-chip', 'Tell me what you\'re looking for here, and I\'ll show the experience that fits.', { face: 'think' }],
+          ['#settings-toggle, .lens-chip', 'Tell me what you\'re looking for here, and I\'ll show the experience that fits.'],
           ['#settings a[data-resume]', 'This downloads the résumé that goes with the view you\'ve picked.', { fx: 'thumb' }],
           ['#settings', 'Pick the line that sounds most like what you need. The whole page changes to match.'],
           ['#theme-toggle', 'That switches between light and dark. Use whichever is easier on your eyes.'],
           ['.wordmark', 'That takes you back to the top of the page.'],
           ['#hamburger', 'That opens the menu.'],
           ['#nav-links a, .drawer a[href^="#"]', navHint],
-          ['a[data-resume]', 'Click to download my résumé as a PDF. It matches the view you\'ve picked.', { face: 'happy', fx: 'thumb' }],
-          ['.hero-ctas a[href="#portfolio"]', 'Click this to jump straight to my case studies.', { face: 'happy', fx: 'point' }],
+          ['a[data-resume]', 'Click to download my résumé as a PDF. It matches the view you\'ve picked.', { fx: 'thumb' }],
+          ['.hero-ctas a[href="#portfolio"]', 'Click this to jump straight to my case studies.', { fx: 'point' }],
           ['a[href*="linkedin.com"]', 'That\'s my LinkedIn, with the full history. It opens in a new tab.'],
-          ['a[href*="github.com/michaelaffare"]', 'That\'s my GitHub. Most repositories are private, but the profile is open.', { face: 'think' }],
-          ['.status', 'I\'m open to new work. If that\'s why you\'re here, the contact form is at the bottom.', { face: 'happy' }],
+          ['a[href*="github.com/michaelaffare"]', 'That\'s my GitHub. Most repositories are private, but the profile is open.'],
+          ['.status', 'I\'m open to new work. If that\'s why you\'re here, the contact form is at the bottom.'],
           ['#hero-line, .hero-name, .hero-sub', 'That\'s my one-line pitch. It changes with what you tell me you\'re looking for.'],
           ['.scroll-cue', 'Scroll down. I\'ll come along and explain as we go.'],
           ['.stat', 'One of the results I\'d lead with. The case studies further down explain how it happened.'],
@@ -4738,52 +4526,52 @@
           ['.edu', 'Where I studied: a master\'s at Carnegie Mellon and a computer engineering degree in Ghana.'],
           ['.lead-list', 'Leadership I\'ve taken on, at work and as a student.'],
           ['#skills .tab', 'Click this group to see the tools I use and the projects that prove it.'],
-          ['a[data-case]', 'Click that and I\'ll open the full case study for you.', { face: 'happy', fx: 'point' }],
+          ['a[data-case]', 'Click that and I\'ll open the full case study for you.', { fx: 'point' }],
           ['.tag', 'A tool or method I\'ve used on real work, not just read about.'],
           ['#skills .panel', 'These are the tools for this skill. The links at the bottom open matching case studies.'],
           ['#cases .filter', 'Click to show only the case studies on this theme.'],
           ['.carousel .next', 'Next one. You can also swipe, or use the arrow keys.'],
           ['.carousel .prev', 'Back one.'],
           ['.carousel .dot', 'Each dot is one item. Click to jump straight to it.'],
-          ['.case-card .metric, .case-card .metric-label', 'The result comes first. The rest of the card explains how I got there.', { face: 'happy' }],
+          ['.case-card .metric, .case-card .metric-label', 'The result comes first. The rest of the card explains how I got there.'],
           ['.case-how', 'This side is my part: what I was responsible for and what I actually built.'],
           ['.case-card', 'One project: the result, the problem, then my part in it. Use the arrows to move on.'],
           ['#experience .tab', 'Click a role to see what I did there.'],
-          ['.wins, .win', 'The headline numbers from this role.', { face: 'happy' }],
+          ['.wins, .win', 'The headline numbers from this role.'],
           ['#experience .panel', 'What I did in this role, worded for what you\'re looking for. The links open related case studies.'],
           ['#projects .filter', 'Click a theme to see what those projects were for and what I learned.'],
-          ['.site-list a', 'A site I designed and built. Click to open it in a new tab.', { face: 'happy' }],
-          ['#projects .related a', 'That\'s public, so you can go and look at it.', { face: 'happy' }],
-          ['.proj-side', 'This is what that group of projects taught me, in my own words.', { face: 'think' }],
+          ['.site-list a', 'A site I designed and built. Click to open it in a new tab.'],
+          ['#projects .related a', 'That\'s public, so you can go and look at it.'],
+          ['.proj-side', 'This is what that group of projects taught me, in my own words.'],
           ['.proj', 'The goal of these projects. Private ones are described rather than linked.'],
           ['#certifications .filter', 'Click to see my certifications in this area.'],
           ['.cert a', 'That opens the issuer\'s page, so you can verify it yourself.'],
           ['.cert', 'One certification. Where there\'s a Verify link, it goes to the issuer.'],
           ['.slide.media', 'A talk, or a photo from teaching. The videos open on YouTube.'],
-          ['.personal', 'A little of life outside work.', { face: 'happy' }],
+          ['.personal', 'A little of life outside work.'],
           ['#copy-email', 'Click to copy my email address, then paste it wherever you write.', { fx: 'thumb' }],
-          ['a[href^="mailto:"]', 'Click to open your email app with my address filled in.', { face: 'happy', fx: 'wave' }],
+          ['a[href^="mailto:"]', 'Click to open your email app with my address filled in.', { fx: 'wave' }],
           ['.socials a', 'Another place to find me. It opens in a new tab.'],
           ['#contact-form button', 'This opens Gmail with your message filled in, ready to send.'],
           ['#contact-form .field', 'Tell me who you are and what you need. A couple of lines is plenty.'],
-          ['.hero-ctas a[href="#contact"], a[href="#contact"]', 'That takes you to the contact form. I\'d like to hear from you.', { face: 'happy', fx: 'wave' }],
+          ['.hero-ctas a[href="#contact"], a[href="#contact"]', 'That takes you to the contact form. I\'d like to hear from you.', { fx: 'wave' }],
           ['footer a', 'That takes you back to the top.']
         ];
         var SECTIONS = {
           home: { say: 'This is the short version of me. Scroll on, or use the gear to tell me what you\'re looking for.' },
-          impact: { say: 'Four results I\'d lead with. Each has a case study further down.', face: 'happy' },
+          impact: { say: 'Four results I\'d lead with. Each has a case study further down.' },
           about: { say: 'This is how I work and where I\'ve been. Skim it, then head to the work.' },
-          skills: { say: 'My skills, in groups. Click a group to see the tools and the projects behind it.', face: 'think' },
-          portfolio: { say: 'These are my case studies. Use the arrows or swipe, and filter by theme.', face: 'happy', fx: 'point' },
+          skills: { say: 'My skills, in groups. Click a group to see the tools and the projects behind it.' },
+          portfolio: { say: 'These are my case studies. Use the arrows or swipe, and filter by theme.', fx: 'point' },
           experience: { say: 'My roles, newest first. Click one to see what I did there.' },
-          projects: { say: 'Things I build on my own time. Click a theme for the goal and what I learned.', face: 'happy', fx: 'idea' },
-          certifications: { say: 'My certifications, by area. Click an area, and use Verify to check one.', face: 'wink' },
-          community: { say: 'Talks, teaching and life outside work. The videos open on YouTube.', face: 'happy' },
-          contact: { say: 'Want to talk? Email me, or write a message right here.', face: 'happy', fx: 'wave' }
+          projects: { say: 'Things I build on my own time. Click a theme for the goal and what I learned.', fx: 'idea' },
+          certifications: { say: 'My certifications, by area. Click an area, and use Verify to check one.' },
+          community: { say: 'Talks, teaching and life outside work. The videos open on YouTube.' },
+          contact: { say: 'Want to talk? Email me, or write a message right here.', fx: 'wave' }
         };
         function sectionHint(id) {
           var s = SECTIONS[id];
-          if (s) react({ say: s.say, face: s.face, fx: s.fx, soft: true }, 'sec-' + id, 30000);
+          if (s) react({ say: s.say, fx: s.fx, soft: true }, 'sec-' + id, 30000);
         }
         var hintEl = null, hintTimer = 0;
         document.addEventListener('pointerover', function (e) {
@@ -4816,14 +4604,9 @@
         });
 
         /* ---------------------------------------------------------- inputs */
-        window.addEventListener('pointermove', function (e) {
-          pointer = { x: e.clientX, y: e.clientY };
-          lastInput = performance.now();
-        }, { passive: true });
-        window.addEventListener('pointerdown', function (e) {
-          pointer = { x: e.clientX, y: e.clientY };
-          lastInput = performance.now();
-        }, { passive: true });
+        ['pointermove', 'pointerdown', 'keydown'].forEach(function (type) {
+          window.addEventListener(type, function () { lastInput = performance.now(); }, { passive: true });
+        });
         /* touch screens have no pointer to follow, so talk about the section in view */
         if (!fine && 'IntersectionObserver' in window) {
           var seen = new IntersectionObserver(function (entries) {
@@ -4832,28 +4615,27 @@
           $$('main > section[id]').forEach(function (s) { seen.observe(s); });
         }
         document.addEventListener('focusin', function (e) {
-          focusEl = e.target.matches && e.target.matches('#contact-form input, #contact-form textarea') ? e.target : null;
-          if (focusEl) react({ face: 'happy', nod: true, say: 'Go ahead, I\'m listening. Take your time.' }, 'form', 60000);
+          if (e.target.matches && e.target.matches('#contact-form input, #contact-form textarea')) {
+            react({ say: 'Go ahead, I\'m listening. Take your time.' }, 'form', 60000);
+          }
         });
-        document.addEventListener('focusout', function () { focusEl = null; });
 
         document.addEventListener('lenschange', function (e) {
-          react({ face: 'wow', ms: 800 });
-          setTimeout(function () { react({ face: 'happy', nod: true, fx: 'thumb', say: 'Done. Here\'s my ' + e.detail + ' experience. Have a look around.', hold: 4500 }); }, 800);
+          react({ fx: 'thumb', say: 'Done. Here\'s my ' + e.detail + ' experience. Have a look around.', hold: 4500 });
         });
         $('#theme-toggle').addEventListener('click', function () {
           var dark = root.getAttribute('data-theme') === 'dark';
-          react({ face: dark ? 'think' : 'happy', say: dark ? 'Lights off. Easier on the eyes at night.' : 'Lights back on.' });
+          react({ say: dark ? 'Lights off. Easier on the eyes at night.' : 'Lights back on.' });
         });
         $('#copy-email').addEventListener('click', function () {
-          react({ face: 'happy', nod: true, fx: 'thumb', say: 'Copied. Paste it into your email and say hello.', hold: 3500 });
+          react({ fx: 'thumb', say: 'Copied. Paste it into your email and say hello.', hold: 3500 });
         });
         $('#contact-form').addEventListener('submit', function () {
-          react({ face: 'happy', nod: true, fx: 'party', say: 'Thank you! Send it from Gmail and I\'ll reply soon.', hold: 4500 });
+          react({ fx: 'party', say: 'Thank you! Send it from Gmail and I\'ll reply soon.', hold: 4500 });
         });
         setInterval(function () {
           if (!document.hidden && performance.now() - lastInput > 30000) {
-            react({ face: 'think', say: fine ? 'Still there? No rush. Move the pointer over anything and I\'ll explain it.' : 'Still there? No rush. Tap anything and I\'ll explain it.' }, 'idle', 90000);
+            react({ say: fine ? 'Still there? No rush. Move the pointer over anything and I\'ll explain it.' : 'Still there? No rush. Tap anything and I\'ll explain it.' }, 'idle', 90000);
           }
         }, 5000);
 
@@ -4864,7 +4646,7 @@
         }, 1000);
 
         setTimeout(function () {
-          react({ face: 'happy', fx: 'wave', say: 'Hi, I\'m Michael. Thanks for stopping by.', hold: 3200 });
+          react({ fx: 'wave', say: 'Hi, I\'m Michael. Thanks for stopping by.', hold: 3200 });
         }, 1100);
         setTimeout(function () {
           react({ say: fine ? 'Point at anything on the page and I\'ll tell you what it is and what to do with it.' : 'Tap anything on the page and I\'ll tell you what it is and what to do with it.' }, 'intro');
